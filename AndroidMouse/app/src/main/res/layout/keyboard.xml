@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:isScrollContainer="true"
+    android:scrollbars="horizontal|vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/keyboardrelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:id="@+id/textScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/sendText"
+            android:layout_toStartOf="@+id/sendText"
+
+            />
+
+        <Button
+            android:id="@+id/sendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="keyboardFunction"
+            android:text="Send"
+            android:layout_alignLeft="@+id/enter"
+            android:layout_alignStart="@+id/enter"
+            android:layout_alignTop="@+id/textScreen"
+            android:layout_above="@+id/enter" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="keyboardFunction"
+            android:text="Up"
+            android:layout_below="@+id/print_screen"
+            android:layout_toLeftOf="@+id/down"
+            android:layout_toStartOf="@+id/down" />
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="keyboardFunction"
+            android:text="Left"
+            android:layout_below="@+id/left"
+            android:layout_alignRight="@+id/alt"
+            android:layout_alignEnd="@+id/alt" />
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_toRightOf="@+id/right"
+            android:onClick="keyboardFunction"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/up"
+            android:layout_toEndOf="@+id/up"
+            android:layout_toRightOf="@+id/up"
+            android:onClick="keyboardFunction"
+            android:text="Down" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl"
+            android:id="@+id/control"
+            android:checked="false"
+            android:layout_below="@+id/textScreen"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alt"
+            android:id="@+id/alt"
+            android:checked="false"
+            android:layout_below="@+id/textScreen"
+            android:layout_toRightOf="@+id/control"
+            android:layout_toEndOf="@+id/control" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shift"
+            android:id="@+id/shift"
+            android:checked="false"
+            android:layout_below="@+id/textScreen"
+            android:layout_toRightOf="@+id/alt"
+            android:layout_toEndOf="@+id/alt" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esc"
+            android:id="@+id/esc"
+            android:onClick="keyboardFunction"
+            android:layout_below="@+id/tab"
+            android:layout_toRightOf="@+id/delete"
+            android:layout_toEndOf="@+id/delete" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:onClick="keyboardFunction"
+            android:id="@+id/enter"
+            android:layout_below="@+id/textScreen"
+            android:layout_toRightOf="@+id/tab"
+            android:layout_toEndOf="@+id/tab" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide"
+            android:onClick="keyboardFunction"
+            android:id="@+id/show_more_button"
+            android:layout_below="@+id/more_spinner"
+            android:layout_toRightOf="@+id/tab"
+            android:layout_toEndOf="@+id/tab" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/f_key"
+            android:entries="@array/f_array"
+            android:spinnerMode="dropdown"
+
+            android:gravity="center"
+            android:layout_below="@+id/right"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/left"
+            android:layout_toStartOf="@+id/left" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPACE"
+            android:onClick="keyboardFunction"
+            android:id="@+id/space"
+            android:layout_alignTop="@+id/delete"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="keyboardFunction"
+            android:text="PRT SCR"
+            android:id="@+id/print_screen"
+            android:layout_below="@+id/space"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAB"
+            android:onClick="keyboardFunction"
+            android:id="@+id/tab"
+            android:layout_below="@+id/textScreen"
+            android:layout_toRightOf="@+id/shift"
+            android:layout_toEndOf="@+id/shift" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:onClick="keyboardFunction"
+            android:id="@+id/delete"
+            android:layout_alignTop="@+id/esc"
+            android:layout_toRightOf="@+id/space"
+            android:layout_toEndOf="@+id/space" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/more_spinner"
+            android:entries="@array/more"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:layout_below="@+id/f_key"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/f_key"
+            android:layout_alignEnd="@+id/f_key" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="keyboardFunction"
+            android:text="BACKSPACE"
+            android:id="@+id/backspace"
+            android:layout_below="@+id/esc"
+            android:layout_toRightOf="@+id/print_screen"
+            android:layout_toEndOf="@+id/print_screen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Keyboard"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/down"
+            android:layout_toStartOf="@+id/down" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

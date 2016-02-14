@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Remote Desktop</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mouse"></string>
+
+
+    <string name="action_left">Bluetooth</string>
+    <string name="action_right">IP Connection</string>
+    <string name="action_center">Auto WLAN Connection</string>
+
+
+    <string name="zoom">ZOOM</string>
+    <string-array name="zoome_values">
+        <item>ZOOM: 00%</item>
+        <item>ZOOM: 10%</item>
+        <item>ZOOM: 20%</item>
+        <item>ZOOM: 30%</item>
+        <item>ZOOM: 40%</item>
+        <item>ZOOM: 50%</item>
+        <item>ZOOM: 60%</item>
+        <item>ZOOM: 70%</item>
+        <item>ZOOM: 80%</item>
+    </string-array>
+
+    <string-array name="f_array">
+        <item>F1-F12</item>
+        <item>F1</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4</item>
+        <item>F5</item>
+        <item>F6</item>
+        <item>F7</item>
+        <item>F8</item>
+        <item>F9</item>
+        <item>F10</item>
+        <item>F11</item>
+        <item>F12</item>
+
+    </string-array>
+    <string-array name="more">
+        <item>Shortcuts</item>
+        <item>MINIMIZE</item>
+        <item>CRL+Z</item>
+        <item>VOL. ++</item>
+        <item>VOL. --</item>
+
+    </string-array>
+
+    <string-array name="directory_keyboard">
+        <item>UP</item>
+        <item>DOWN</item>
+        <item>RIGHT</item>
+        <item>LEFT</item>
+        <item>W</item>
+        <item>S</item>
+        <item>X</item>
+        <item>A</item>
+        <item>D</item>
+        <item>Z</item>
+        <item>C</item>
+        <item>Q</item>
+        <item>E</item>
+    </string-array>
+
+
+    <string-array name="Pause_keyboard">
+        <item>ESC</item>
+        <item>SPACE</item>
+        <item>ENTER</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4</item>
+        <item>F5</item>
+        <item>F6</item>
+        <item>F7</item>
+        <item>F8</item>
+        <item>F9</item>
+        <item>F10</item>
+        <item>F11</item>
+        <item>F12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+        <item>W</item>
+        <item>Q</item>
+        <item>E</item>
+        <item>A</item>
+        <item>R</item>
+        <item>T</item>
+        <item>Y</item>
+        <item>U</item>
+        <item>I</item>
+        <item>O</item>
+        <item>P</item>
+        <item>A</item>
+        <item>S</item>
+        <item>D</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>Z</item>
+        <item>X</item>
+        <item>C</item>
+        <item>V</item>
+        <item>B</item>
+        <item>N</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="button_keyboard">
+        <item>SPACE</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+        <item>W</item>
+        <item>Q</item>
+        <item>E</item>
+        <item>A</item>
+        <item>R</item>
+        <item>T</item>
+        <item>Y</item>
+        <item>U</item>
+        <item>I</item>
+        <item>O</item>
+        <item>P</item>
+        <item>A</item>
+        <item>S</item>
+        <item>D</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>Z</item>
+        <item>X</item>
+        <item>C</item>
+        <item>V</item>
+        <item>B</item>
+        <item>N</item>
+        <item>M</item>
+
+
+    </string-array>
+
+
+</resources>

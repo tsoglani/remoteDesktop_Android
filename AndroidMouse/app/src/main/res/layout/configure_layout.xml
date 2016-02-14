@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/configure_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/transparent_white_percent_95">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/upbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/upbutton_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/up_spinner"
+                    android:background="@drawable/up"
+                    android:gravity="center" />
+
+                <Spinner
+                    android:id="@+id/up_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/directory_keyboard"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/downbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/upbutton_relative"
+                android:layout_below="@id/upbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/downbutton_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/down_spinner"
+                    android:background="@drawable/down"
+                    android:gravity="center" />
+
+                <Spinner
+                    android:id="@+id/down_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/directory_keyboard"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rightbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/downbutton_relative"
+                android:layout_below="@id/downbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/rightbutton_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/right_spinner"
+                    android:background="@drawable/right"
+                    android:gravity="center" />
+
+                <Spinner
+                    android:id="@+id/right_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/directory_keyboard"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/leftbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/rightbutton_relative"
+                android:layout_below="@id/rightbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/leftbutton_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/left_spinner"
+                    android:background="@drawable/left"
+                    android:gravity="center" />
+
+                <Spinner
+                    android:id="@+id/left_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/directory_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pausebutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/leftbutton_relative"
+                android:layout_below="@id/leftbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/pausebutton_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Pause"
+                    android:textSize="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <Spinner
+                    android:id="@+id/pause_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/Pause_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/redbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pausebutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/red_button_spinner"
+                    android:background="@color/red" />
+
+                <Spinner
+                    android:id="@+id/red_button_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/button_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bluebutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/redbutton_relative"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/redbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp">
+
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/blue_button_spinner"
+                    android:background="@color/RoyalBlue" />
+
+                <Spinner
+                    android:id="@+id/blue_button_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/button_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/yellowbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/bluebutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/yellow_button_spinner"
+                    android:background="@color/RubberDuckyYellow" />
+
+                <Spinner
+                    android:id="@+id/yellow_button_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/button_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/greenbutton_relative"
+                android:layout_width="220dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/yellowbutton_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="80dp"
+                    android:layout_toLeftOf="@+id/green_button_spinner"
+                    android:background="@color/green" />
+
+                <Spinner
+                    android:id="@+id/green_button_spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="100dp"
+                    android:entries="@array/button_keyboard"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
