@@ -9,6 +9,14 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.wearable.MessageApi;
+import com.google.android.gms.wearable.Node;
+import com.google.android.gms.wearable.NodeApi;
+import com.google.android.gms.wearable.Wearable;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.DataInputStream;
@@ -23,6 +31,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.List;
 
 /**
  * Created by tsoglani on 20/7/2015.
@@ -33,15 +42,22 @@ public class InternetConnection extends Service {
     static Socket returnSocket = null;
     public static String lastIP;
 
+    boolean isFromMobile;
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
+    public int onStartCommand(final Intent intent, int flags, int startId) {
+        try {
+            isFromMobile = intent.getBooleanExtra("isFromMobile", false);
+        }catch (Exception e){
+            isFromMobile=true;
+        }
+        returnSocket = null;
 
         new Thread() {
             @Override
             public void run() {
                 try {
-                    returnSocket = null;
+
 
                     sendToAllIpInNetwork();
                     if (!found) {
@@ -72,7 +88,7 @@ public class InternetConnection extends Service {
         }.start();
 
 
-        return Service.START_NOT_STICKY;
+        return Service.START_STICKY;
     }
 
     @Override
@@ -85,7 +101,6 @@ public class InternetConnection extends Service {
     public boolean sendToAllIpInNetwork() throws UnknownHostException, IOException {
         found = false;
         ArrayList<String> ipList = getLocal();
-
 
         for (String ip : ipList) {
 
@@ -115,17 +130,27 @@ public class InternetConnection extends Service {
                                 MouseUIActivity.ps.println("LOCAL_IP");
                                 MainActivity.typeOfConntection = "LOCAL_IP";
                                 MouseUIActivity.bf = new DataInputStream(returnSocket.getInputStream());
-                                Intent intent = new Intent(InternetConnection.this, MouseUIActivity.class);
-                                intent.putExtra("Type", "WLAN");
-                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                startActivity(intent);
+
+                                    Intent intent = new Intent(InternetConnection.this, MouseUIActivity.class);
+                                if(isFromMobile){
+                                    intent.putExtra("Type", "WLAN");
+                                }else{
+                                    intent.putExtra("Type", "Wear");
+                                }
+
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    startActivity(intent);
+                                sendMessage("/main","Search OK".getBytes());
                                 Log.e("success   ", checkIp);
+//                                Toast.makeText(InternetConnection.this, "Connected ", Toast.LENGTH_SHORT).show();
                                 lastIP = checkIp;
                                 Handler handler = new Handler(Looper.getMainLooper());
                                 handler.post(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Toast.makeText(getApplicationContext(), s.getInetAddress().toString(), Toast.LENGTH_LONG).show();
+                                        if(s!=null&&s.getInetAddress()!=null)
+                                        Toast.makeText(getApplicationContext(),"connected to "+s.getInetAddress().toString(), Toast.LENGTH_LONG).show();
 
                                     }
                                 });
@@ -187,6 +212,55 @@ public class InternetConnection extends Service {
         }
         return found;
     }
+
+
+    public void createConnection() {
+        client = new GoogleApiClient.Builder(this)
+                .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
+                    @Override
+                    public void onConnectionFailed(ConnectionResult result) {
+//                        toast("Connection Faild");
+
+                    }
+                })
+                .addApi(Wearable.API)
+                .build();
+
+        client.connect();
+
+    }
+
+    private GoogleApiClient client;
+
+    private void sendMessage(final String message, final byte[] payload) {
+        if (client == null) {
+            createConnection();
+        }
+        Wearable.NodeApi.getConnectedNodes(client).setResultCallback(new ResultCallback<NodeApi.GetConnectedNodesResult>() {
+            @Override
+            public void onResult(NodeApi.GetConnectedNodesResult getConnectedNodesResult) {
+                List<Node> nodes = getConnectedNodesResult.getNodes();
+                for (Node node : nodes) {
+
+
+                    Wearable.MessageApi.sendMessage(client, node.getId(), message, payload).setResultCallback(new ResultCallback<MessageApi.SendMessageResult>() {
+                        @Override
+                        public void onResult(MessageApi.SendMessageResult sendMessageResult) {
+                            if (sendMessageResult.getStatus().isSuccess()) {
+
+                            }else{
+                                client=null;
+                            }
+
+                        }
+                    });
+                }
+
+            }
+        });
+    }
+
+
 
     private static ArrayList<String> getLocal() throws SocketException {
         Enumeration e = NetworkInterface.getNetworkInterfaces();

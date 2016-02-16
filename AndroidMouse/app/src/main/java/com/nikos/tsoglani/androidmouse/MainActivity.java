@@ -28,6 +28,7 @@ import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 
 import java.io.DataInputStream;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.InetSocketAddress;
 import java.net.Socket;
@@ -48,6 +49,15 @@ public class MainActivity extends ActionBarActivity {
         Fabric.with(this, new Crashlytics());
         setContentView(com.nikos.tsoglani.androidmouse.R.layout.activity_main);
         getWindow().setBackgroundDrawable(null);
+        typeOfConntection=null;
+        if(InternetConnection.returnSocket!=null){
+            try {
+                InternetConnection.returnSocket.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            InternetConnection.returnSocket = null;
+        }
 
         final ExpandableMenuOverlay menuOverlay = (ExpandableMenuOverlay) findViewById(R.id.button_menu);
 
@@ -214,7 +224,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void connectFunction(View v) {
         Intent intent = new Intent(this, InternetConnection.class);
-
+        intent.putExtra("isFromMobile", true);
         startService(intent);
 
     }

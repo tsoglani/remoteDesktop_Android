@@ -1,1 +1,1 @@
-include ':app', ':MaterialShowcaseView_lib'
+include ':app', ':MaterialShowcaseView_lib', ':wear'

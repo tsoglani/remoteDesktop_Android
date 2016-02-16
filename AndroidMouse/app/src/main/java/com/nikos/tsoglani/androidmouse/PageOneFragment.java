@@ -135,6 +135,10 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                 return true;
             }
         });
+
+        if( MouseUIActivity.ps==null){
+            return;
+        }
         boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, false);
         MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
         MouseUIActivity.ps.flush();
@@ -235,8 +239,13 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         sb.setOnProgressChangeListener(new DiscreteSeekBar.OnProgressChangeListener() {
             @Override
             public void onProgressChanged(DiscreteSeekBar discreteSeekBar, int i, boolean b) {
-                if (MouseUIActivity.ps != null)
-                    MouseUIActivity.ps.println("ZOOM:" + discreteSeekBar.getProgress());
+                if (MouseUIActivity.ps != null){
+                    MouseUIActivity.ps.println("ZOOM:" + discreteSeekBar.getProgress());}
+                else{
+                    Intent intent= new Intent(getContext(),MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
                 TextView zoomView = (TextView) getActivity().findViewById(R.id.zoom_text);
                 zoomValue = discreteSeekBar.getProgress();
                 zoomView.setText("ZOOM: " + zoomValue + "%");

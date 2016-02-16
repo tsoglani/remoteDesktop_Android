@@ -44,6 +44,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.wearable.Asset;
+import com.google.android.gms.wearable.DataMap;
+import com.google.android.gms.wearable.PutDataMapRequest;
+import com.google.android.gms.wearable.PutDataRequest;
+import com.google.android.gms.wearable.Wearable;
 import com.mingle.sweetpick.CustomDelegate;
 import com.mingle.sweetpick.SweetSheet;
 
@@ -51,6 +58,7 @@ import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -58,6 +66,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Hashtable;
 
 import io.codetail.animation.ViewAnimationUtils;
@@ -77,6 +86,7 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
     public static DataInputStream bf;
     // private ActionBar bar;
     ///<used for images>
+    private GoogleApiClient client;
     Bitmap bitmapimage;
     private AsyncTask<Void, Void, Void> asTask;
     int width = -1, height = -1;
@@ -96,7 +106,7 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
     private static int qualityPad, qualityCam;
     public static final String is_zoom_radio_on_String = "isZoomRadioUsed";
     public static final String isReverseString = "isReverseScrollingUsed", show_computer_mouse_seperateString = "show_computer_mouse_seperate";
-    private static String type;
+     static String type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,26 +115,29 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
         setContentView(com.nikos.tsoglani.androidmouse.R.layout.activity_mouse);
         //  bar = getSupportActionBar();
 //        mKeyboard = null;
-        String type2 = getIntent().getStringExtra("Type");
-        if (type2 != null)
-            type = type2;
+        type= getIntent().getStringExtra("Type");
+
         stopService(new Intent(this, InternetConnection.class));
-        if (type == null) {
+        if (type != null) {
             try {
+                Toast.makeText(MouseUIActivity.this,type, Toast.LENGTH_SHORT).show();
                 if (type.equalsIgnoreCase("bluetooth")) {
                     ps.println("bluetooth");
                     receivedImageX = 200;
                     receivedImageY = 200;
                     sleepingTime = 1300;
-                } else if (type.equalsIgnoreCase("Internet")) {
+                } else if (type.equals("Internet")) {
                     receivedImageX = 580;
                     receivedImageY = 580;
                     sleepingTime = 1000;
-                } else if (type.equalsIgnoreCase("WLAN")) {
+                } else if (type.equals("WLAN")) {
                     receivedImageX = 900;
                     receivedImageY = 900;
                     sleepingTime = 400;
-
+                } else if (type.equals("Wear")) {
+                    receivedImageX = 900;
+                    receivedImageY = 900;
+                    sleepingTime = 2000;
 
                 }
             } catch (Exception e) {
@@ -175,7 +188,13 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
 
                         int qualityPad2 = qualityCam, qualityCam2 = qualityCam;
                         qualityCam = getSavedInt(MouseUIActivity.this, "qualityCam", qualityCam2);
+
                         qualityPad = getSavedInt(MouseUIActivity.this, "qualityPad", qualityPad2);
+                        if (!type.equals("Wear")){
+                            qualityPad=80;
+                        }
+
+
                         MouseUIActivity.ps.println("QualityCam:" + qualityCam);
                         MouseUIActivity.ps.println("QualityPad:" + qualityPad);
 
@@ -199,7 +218,7 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                         pd.dismiss();
                 } catch (Exception e) {
                 }
-
+                 if (!type.equals("Wear"))
                 receivedImageX = getSavedInt(MouseUIActivity.this, "Resolution", receivedImageX);
                 if (receivedImageX > maxResolution) {
                     receivedImageX = maxResolution;
@@ -302,6 +321,18 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
         InternetConnection.returnSocket = null;
         ps = null;
         MouseUIActivity.bf = null;
+
+if(type.equals("Wear")){
+    Bitmap.Config conf = Bitmap.Config.ARGB_8888;
+    Bitmap bmp = Bitmap.createBitmap(100, 100, conf);
+        Asset asset = createAssetFromBitmap(bmp);
+        PutDataMapRequest request = PutDataMapRequest.create("/close");
+        DataMap map = request.getDataMap();
+        map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+        map.putAsset("profileImage", asset);
+    if(client!=null)
+        Wearable.DataApi.putDataItem(client, request.asPutDataRequest());}
+
     }
 
     private void firstTime() {
@@ -563,6 +594,8 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
         super.onStop();
         if (drawerLayout != null)
             drawerLayout.closeDrawers();
+
+
     }
 
 
@@ -806,6 +839,9 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                         }
                         synchronized (lock) {
                             if (ps == null) {
+                                Intent intent = new Intent(MouseUIActivity.this, MainActivity.class);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                startActivity(intent);
                                 return null;
                             }
 
@@ -838,9 +874,55 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
 
                                                     try {
                                                         bitmapimage.prepareToDraw();
-                                                        iv.setImageBitmap(bitmapimage);
+
+                                                        if (type.equalsIgnoreCase("Wear")) {
+//                                                                Asset asset = createAssetFromBitmap(bitmapimage);
+//                                                                PutDataRequest request = PutDataRequest.create("/image");
+//                                                                request.putAsset("profileImage", asset);
+//                                                                Wearable.DataApi.putDataItem(mGoogleApiClient, request);
+                                                            if (client == null) {
+                                                                createGoogleApiConnection();
+                                                            }
+                                                            if (client != null) {
+
+//                                                                    PutDataMapRequest request = PutDataMapRequest.create("/image");
+//                                                                    Asset asset = createAssetFromBitmap(bitmap);
+//                                                                    request.putAsset("profileImage", asset);
+//                                                                    DataMap dataMap = request.getDataMap();
+//                                                                    dataMap.putLong("timestamp", System.currentTimeMillis());
+//                                                                    PutDataRequest dataRequest = request.asPutDataRequest();
+//                                                                    Wearable.DataApi.putDataItem(mGoogleApiClient, dataRequest);
+//
+
+
+
+
+                                                                Asset asset = createAssetFromBitmap(bitmapimage);
+                                                                PutDataMapRequest request = PutDataMapRequest.create("/image");
+                                                                DataMap map = request.getDataMap();
+                                                                map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+                                                                map.putAsset("profileImage", asset);
+                                                                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());
+
+
+                                                            }
+                                                        }
+
+                                                        if (iv != null) {
+                                                            iv.setImageBitmap(bitmapimage);
+
+
+                                                        } else {
+                                                            try {
+                                                                getSupportFragmentManager().beginTransaction()
+                                                                        .replace(R.id.content_frame, new PageOneFragment())
+                                                                        .commit();
+                                                            } catch (Exception e) {
+
+                                                            }
+                                                        }
                                                     } catch (final Exception e) {
-                                                        e.printStackTrace();
+
                                                         e.printStackTrace();
                                                     }
                                                 }
@@ -949,6 +1031,48 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
 //        thread.start();
     }
 
+    private static Asset createAssetFromBitmap(Bitmap bitmap) {
+        final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
+        return Asset.createFromBytes(byteStream.toByteArray());
+    }
+
+    public void createGoogleApiConnection() {
+        client = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
+                    @Override
+                    public void onConnected(Bundle bundle) {
+
+                    }
+
+                    @Override
+                    public void onConnectionSuspended(int i) {
+
+                    }
+                })
+                .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
+                    @Override
+                    public void onConnectionFailed(ConnectionResult result) {
+
+                        Toast.makeText(MouseUIActivity.this, "Connection Faild", Toast.LENGTH_SHORT).show();
+                        client = null;
+                    }
+                })
+                .addApi(Wearable.API)
+                .build();
+
+        client.connect();
+
+    }
+
+
+    private void startAgainActivity() {
+
+        Intent intent = new Intent(MouseUIActivity.this, MouseUIActivity.class);
+        intent.putExtra("Type", type);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
 
     static boolean isReceivingImages = true;
     private PageThreeFragment p3f = null;
@@ -1471,10 +1595,10 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                 });
 //                PageOneFragment.zoomValue = getSavedInt(this, "zoomValue", 0);
                 isReceivingImages = true;
+                startReceivingImages(MouseUIActivity.this, true);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.content_frame, new PageOneFragment())
                         .commit();
-                startReceivingImages(MouseUIActivity.this, true);
 
 
             } catch (Exception e) {
