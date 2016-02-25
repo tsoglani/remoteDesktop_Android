@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.nikos.tsoglani.androidmouse.MouseUIActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X_Axis(Width)"
+        android:id="@+id/textView"
+        android:textColor="@color/abc_search_url_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abc_search_url_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Y_Axis (Height)"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/abc_search_url_text"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Z_Axis (Width)"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/rightclick"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/x_axis"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/y_axis"
+        android:layout_below="@+id/x_axis"
+        android:layout_alignLeft="@+id/x_axis"
+        android:layout_alignStart="@+id/x_axis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/z_axis"
+        android:layout_below="@+id/y_axis"
+        android:layout_alignLeft="@+id/y_axis"
+        android:layout_alignStart="@+id/y_axis" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Right Click"
+        android:id="@+id/rightclick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/z_axis"
+        android:onClick="rightClickFunction"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:onClick="leftClickFunction"
+        android:layout_height="wrap_content"
+        android:text="Left Click"
+        android:id="@+id/leftclick"
+        android:layout_alignTop="@+id/rightclick"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

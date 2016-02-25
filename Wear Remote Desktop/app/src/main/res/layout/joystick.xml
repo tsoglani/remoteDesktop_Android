@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bdc3c7"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:id="@+id/game_control_joystick"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/joystic_circle">
+
+                <Button
+                    android:id="@+id/up"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/left"
+                    android:layout_toEndOf="@+id/left"
+                    android:layout_toRightOf="@+id/left"
+                    android:background="@drawable/right" />
+
+                <Button
+                    android:id="@+id/down"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/left"
+                    android:layout_toLeftOf="@+id/left"
+                    android:layout_toStartOf="@+id/left"
+                    android:background="@drawable/left" />
+
+
+                <Button
+                    android:id="@+id/left"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_alignLeft="@+id/right"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/right"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/up" />
+
+                <Button
+                    android:id="@+id/right"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/down"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/down" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <Button
+
+            android:id="@+id/pause_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pauseJoystickFunction"
+            android:rotation="90"
+            android:text="Pause" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/key_buttons"
+        android:layout_width="246dp"
+        android:layout_height="246dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/joystic_circle">
+
+        <Button
+            android:id="@+id/game_button_red"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/game_button_green"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/circle_drawable_red"
+            android:rotation="90"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/game_button_green"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/game_button_red"
+            android:layout_toRightOf="@+id/game_button_red"
+            android:background="@drawable/circle_drawable_green"
+            android:clickable="true"
+            android:rotation="90"
+            android:text="Y"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/game_button_yellow"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_below="@+id/game_button_red"
+            android:layout_toEndOf="@+id/game_button_red"
+            android:layout_toRightOf="@+id/game_button_red"
+            android:background="@drawable/circle_drawable_yellow"
+            android:clickable="true"
+            android:rotation="90"
+            android:text="O"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/game_button_blue"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_below="@+id/game_button_green"
+            android:layout_toEndOf="@+id/game_button_green"
+            android:layout_toRightOf="@+id/game_button_green"
+            android:background="@drawable/circle_drawable_blue"
+            android:clickable="true"
+            android:rotation="90"
+            android:text="Z"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/configure_RelativeLayout_in_joystic"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/transparent_white_percent_95"
+        android:visibility="invisible">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/configure_layout_in_joystic"
+                    layout="@layout/configure_layout"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/side"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/configure_layout_in_joystic"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/red"
+                    android:onClick="hide_configue_button_function"
+                    android:text="Close" />
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/configure_layout_in_joystic"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/GreenYellow"
+                    android:onClick="save_configue_button_function"
+                    android:text="Save" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

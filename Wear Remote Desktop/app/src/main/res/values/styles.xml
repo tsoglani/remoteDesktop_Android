@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+    <!--<style name="keyboard_1_style">-->
+        <!--<item name="android:keyBackground">@drawable/ic_launcher2</item>-->
+        <!--<item name="android:keyTextColor">#24B2E7</item>-->
+        <!--<item name="android:background">@android:color/white</item>-->
+        <!--<item name="android:keyPreviewLayout">@layout/activity_mouse</item>-->
+    <!--</style>-->
+
+    <style name="floating_action_button">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat">
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+    </style>
+
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/White</item>
+    </style>
+
+</resources>
