@@ -22,7 +22,7 @@ android {
         applicationId "com.gaitan.tsoglan.wear.androidmouse"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 4
+        versionCode 5
         versionName "1.4"
     }
     buildTypes {

@@ -24,6 +24,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.Asset;
+import com.google.android.gms.wearable.Channel;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
@@ -33,20 +34,22 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
+import com.google.android.gms.wearable.WearableListenerService;
 
+import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MouseView extends Activity implements
-        DataApi.DataListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
-    private FrameLayout frameLayout;
+public class MouseView extends Activity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+    static FrameLayout frameLayout;
     private BoxInsetLayout mainFrameLayout;
     private View coursor;
     private Point startPoint, coursorStartPoint;
     private Button back;
-
+    static MouseView mouseView;
     private int Width, Height;
     private long startEvent, finishEvent;
     boolean isRound;
@@ -61,6 +64,7 @@ public class MouseView extends Activity implements
 
             @Override
             public WindowInsets onApplyWindowInsets(View view, WindowInsets windowInsets) {
+                mouseView=MouseView.this;
                 //////////////////////////////////////////////////
                 // IMPORTANT - the following line is required
                 stub.onApplyWindowInsets(windowInsets);
@@ -78,8 +82,8 @@ public class MouseView extends Activity implements
                 coursor = findViewById(R.id.coursor);
                 frameLayout = (FrameLayout) findViewById(R.id.mouseView);
                 mainFrameLayout = (BoxInsetLayout) findViewById(R.id.mainMouseView);
-                Width = (int) (getWindowManager().getDefaultDisplay().getWidth() * 2);
-                Height = (int) (getWindowManager().getDefaultDisplay().getHeight() * 2);
+                Width = (int) (getWindowManager().getDefaultDisplay().getWidth() * 2.2);
+                Height = (int) (getWindowManager().getDefaultDisplay().getHeight() * 2.2);
                 BoxInsetLayout.LayoutParams params = new BoxInsetLayout.LayoutParams(Width, Height);
                 coursor.setX(mainFrameLayout.getWidth() / 2);
                 coursor.setY(mainFrameLayout.getHeight() / 2);
@@ -216,7 +220,7 @@ public class MouseView extends Activity implements
     }
 
 
-    private GoogleApiClient dataClient;
+    static GoogleApiClient dataClient;
 
     private GoogleApiClient messageClient;
 
@@ -296,15 +300,12 @@ public class MouseView extends Activity implements
     }
 
 
-    @Override
-    public void onConnectionSuspended(int i) {
 
-    }
 
 
     private void closeDataConnection() {
         if (dataClient != null) {
-            Wearable.DataApi.removeListener(dataClient, this);
+//            Wearable.DataApi.removeListener(dataClient, this);
             dataClient.disconnect();
             dataClient = null;
         }
@@ -344,9 +345,13 @@ public class MouseView extends Activity implements
 
         closeMessageConnection();
     }
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
 
     @Override
-    protected void onDestroy() {
+    public void onDestroy() {
         super.onDestroy();
         closeDataConnection();
         new Thread() {
@@ -371,105 +376,105 @@ public class MouseView extends Activity implements
             dataClient = null;
             createDataConnection();
         }
-        if (dataClient != null)
-            Wearable.DataApi.addListener(dataClient, this);
+//        if (dataClient != null)
+//            Wearable.DataApi.addListener(dataClient, this);
 
     }
 
     AsyncTask<Void, Void, Void> async;
 
-    @Override
-    public void onDataChanged(DataEventBuffer dataEventBuffer) {
+//    @Override
+//    public void onDataChanged(DataEventBuffer dataEventBuffer) {
+//
+//
+//        for (final DataEvent event : dataEventBuffer) {
+//            if (event.getType() == DataEvent.TYPE_CHANGED &&
+//                    event.getDataItem().getUri().getPath().equals("/image")) {
+//                if (async != null) {
+//                    continue;
+//                }
+//                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+//                final Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
+//                async = new AsyncTask<Void, Void, Void>() {
+//                    Bitmap bitmap;
+//                    BitmapDrawable ob;
+//
+//                    @Override
+//                    protected Void doInBackground(Void... params) {
+//                        try {
+//                            bitmap = loadBitmapFromAsset(profileAsset);
+//                            ob = new BitmapDrawable(getResources(), bitmap);
+//
+////                        Wearable.DataApi.deleteDataItems(dataClient, getUriForDataItem());
+////                        dataClient.disconnect();
+//
+//                        } catch (Exception e) {
+//                            Intent intent = new Intent(MouseView.this, MainActivity.class);
+//                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                            startActivity(intent);
+//                        }
+//                        return null;
+//                    }
+//
+//                    @Override
+//                    protected void onPostExecute(Void aVoid) {
+//                        super.onPostExecute(aVoid);
+//                        if (ob != null) {
+//                            frameLayout.setBackground(ob);
+//
+////                            dataClient.disconnect();
+////                            dataClient=null;
+//                        }
+//
+//
+//                    }
+//                };
+//                async.execute();
+////                Bitmap bitmap = loadBitmapFromAsset(profileAsset);
+//
+//
+//                // Do something with the bitmap
+//            } else if (event.getType() == DataEvent.TYPE_CHANGED &&
+//                    event.getDataItem().getUri().getPath().equals("/close")) {
+//                Intent intent = new Intent(this, MainActivity.class);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(intent);
+//            }
+//        }
+//        dataEventBuffer.release();
+//
+//    }
+//
+//    private int TIMEOUT_MS = 10000;
 
-
-        for (final DataEvent event : dataEventBuffer) {
-            if (event.getType() == DataEvent.TYPE_CHANGED &&
-                    event.getDataItem().getUri().getPath().equals("/image")) {
-                if (async != null) {
-                    continue;
-                }
-                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                final Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                async = new AsyncTask<Void, Void, Void>() {
-                    Bitmap bitmap;
-                    BitmapDrawable ob;
-
-                    @Override
-                    protected Void doInBackground(Void... params) {
-                        try {
-                            bitmap = loadBitmapFromAsset(profileAsset);
-                            ob = new BitmapDrawable(getResources(), bitmap);
-
-//                        Wearable.DataApi.deleteDataItems(dataClient, getUriForDataItem());
-//                        dataClient.disconnect();
-
-                        } catch (Exception e) {
-                            Intent intent = new Intent(MouseView.this, MainActivity.class);
-                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            startActivity(intent);
-                        }
-                        return null;
-                    }
-
-                    @Override
-                    protected void onPostExecute(Void aVoid) {
-                        super.onPostExecute(aVoid);
-                        if (ob != null) {
-                            frameLayout.setBackground(ob);
-
-//                            dataClient.disconnect();
-//                            dataClient=null;
-                        }
-
-
-                    }
-                };
-                async.execute();
-//                Bitmap bitmap = loadBitmapFromAsset(profileAsset);
-
-
-                // Do something with the bitmap
-            } else if (event.getType() == DataEvent.TYPE_CHANGED &&
-                    event.getDataItem().getUri().getPath().equals("/close")) {
-                Intent intent = new Intent(this, MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-            }
-        }
-        dataEventBuffer.release();
-
-    }
-
-    private int TIMEOUT_MS = 10000;
-
-    public Bitmap loadBitmapFromAsset(Asset asset) {
-
-        if (asset == null) {
-            throw new IllegalArgumentException("Asset must be non-null");
-        }
-
-        ConnectionResult result = dataClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
-        if (!result.isSuccess()) {
-            return null;
-        }
-        // convert asset into a file descriptor and block until it's ready
-        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                dataClient, asset).await().getInputStream();
-        Wearable.DataApi.removeListener(dataClient, MouseView.this);
-        dataClient.disconnect();
-        dataClient = null;
-        async = null;
-        createDataConnection();
-
-        if (assetInputStream == null) {
-            Log.w("request uknown", "Requested an unknown Asset.");
-            return null;
-        }
-        // decode the stream into a bitmap
-        return BitmapFactory.decodeStream(assetInputStream);
-    }
+//    public Bitmap loadBitmapFromAsset(Asset asset) {
+//
+//        if (asset == null) {
+//            throw new IllegalArgumentException("Asset must be non-null");
+//        }
+//
+//        ConnectionResult result = dataClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
+//        if (!result.isSuccess()) {
+//            return null;
+//        }
+//        // convert asset into a file descriptor and block until it's ready
+//        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
+//                dataClient, asset).await().getInputStream();
+//        Wearable.DataApi.removeListener(dataClient, MouseView.this);
+//        dataClient.disconnect();
+//        dataClient = null;
+//        async = null;
+//        createDataConnection();
+//
+//        if (assetInputStream == null) {
+//            Log.w("request uknown", "Requested an unknown Asset.");
+//            return null;
+//        }
+//        // decode the stream into a bitmap
+//        return BitmapFactory.decodeStream(assetInputStream);
+//    }
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
