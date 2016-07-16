@@ -941,7 +941,7 @@ if(type.equals("Wear")){
                                             }
                                         });
                                     }
-                                } catch (Exception e) {
+                                } catch (ArrayIndexOutOfBoundsException e) {
                                     e.printStackTrace();
 
                                     throw new NullPointerException();
@@ -983,11 +983,11 @@ if(type.equals("Wear")){
                                 });
 
                                 continue;
-//                            } catch (NullPointerException e) {
-//                                e.printStackTrace();
-//                                isReceivingImages = false;
-//                                closeAll();
-//                                goToHomeScreen();
+                            } catch (NullPointerException e) {
+                                e.printStackTrace();
+                                isReceivingImages = false;
+                                closeAll();
+                                goToHomeScreen();
                             }
                             catch (Exception e) {
                                 e.printStackTrace();
