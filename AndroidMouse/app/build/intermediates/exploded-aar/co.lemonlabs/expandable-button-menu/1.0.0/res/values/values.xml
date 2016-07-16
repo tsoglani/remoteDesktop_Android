@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/balysv/AndroidStudioProjects/ExpandableButtonMenu/library/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ExpandableMenuOverlay">
+
+        <!-- DIALOG OVERLAY -->
+        <attr name="adjustViewSize" format="boolean" />
+        <attr name="dimAmount" format="float" />
+
+        <!-- MENU BUTTON SIZE -->
+        <attr name="mainButtonSize" format="float" />
+        <attr name="otherButtonSize" format="float" />
+        <attr name="distanceY" format="float" />
+        <attr name="distanceX" format="float" />
+        <attr name="bottomPad" format="float" />
+
+        <!-- MENU BUTTON RESOURCES -->
+        <attr name="closeButtonSrc" format="integer" />
+        <attr name="leftButtonSrc" format="integer" />
+        <attr name="leftButtonText" format="integer" />
+        <attr name="midButtonSrc" format="integer" />
+        <attr name="midButtonText" format="integer" />
+        <attr name="rightButtonSrc" format="integer" />
+        <attr name="rightButtonText" format="integer" />
+    </declare-styleable>
+    <!-- From: file:/Users/balysv/AndroidStudioProjects/ExpandableButtonMenu/library/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="dip">3dp</dimen>
+    <!-- From: file:/Users/balysv/AndroidStudioProjects/ExpandableButtonMenu/library/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="empty"></string>
+
+</resources>

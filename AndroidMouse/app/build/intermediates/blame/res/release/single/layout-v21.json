@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/release/layout-v21/dismiss_overlay.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/release/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.0/res/layout-v21/place_autocomplete_fragment.xml"
+    }
+]

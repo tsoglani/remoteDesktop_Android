@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/options_view"
+    android:layout_width="match_parent"
+    android:layout_height="440dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always">
+
+        <RelativeLayout
+            android:id="@+id/relative_for_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Settings"
+                android:textSize="30dp"
+                android:textColor="@color/Purple_Amethyst"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/quallity"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                app:dsb_max="100"
+                app:dsb_min="1"></org.adw.library.widgets.discreteseekbar.DiscreteSeekBar>
+
+            <TextView
+                android:id="@+id/quantity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quallity"
+                android:layout_centerHorizontal="true"
+                android:text="Quality"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/resolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/quantity_text"
+                app:dsb_max="3000"
+                android:layout_marginTop="10dp"
+                app:dsb_min="200"></org.adw.library.widgets.discreteseekbar.DiscreteSeekBar>
+
+            <TextView
+                android:id="@+id/resolution_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/resolution"
+                android:layout_centerHorizontal="true"
+                android:text="Resolution"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/time_delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_max="3000"
+                app:dsb_min="10"
+                android:layout_below="@+id/resolution_text"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentStart="true"></org.adw.library.widgets.discreteseekbar.DiscreteSeekBar>
+
+
+            <TextView
+                android:id="@+id/mouse_speed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mouse_speed_delay"
+                android:layout_centerHorizontal="true"
+                android:text="Mouse Speed"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/mouse_speed_delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/delat_time_text"
+                android:layout_marginTop="10dp"
+                app:dsb_max="50"
+                app:dsb_min="1"></org.adw.library.widgets.discreteseekbar.DiscreteSeekBar>
+
+
+            <TextView
+                android:id="@+id/delat_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/time_delay"
+                android:layout_centerHorizontal="true"
+                android:text="Time Delay  (ms)"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mouse_speed_text"
+                android:layout_marginTop="10dp"
+                android:background="@color/DarkGray" />
+
+            <CheckBox
+                android:id="@+id/reverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_marginLeft="20dp"
+                android:text="reverse"
+                android:layout_alignTop="@+id/myRadioGroup"
+                android:layout_toRightOf="@+id/myRadioGroup"
+                android:layout_toEndOf="@+id/myRadioGroup" />
+
+            <RadioGroup
+                android:id="@+id/myRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/scroll_radio"
+                android:orientation="vertical"
+                android:text="New RadioButton"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <RadioButton
+                    android:id="@+id/scroll_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="scroll" />
+
+                <RadioButton
+                    android:id="@+id/zoom_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="zoom" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Two Fingers Option"
+                android:textColor="@color/Purple_Amethyst"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Computer mouse seperate"
+                android:id="@+id/show_computer_mouse_seperate"
+                android:layout_below="@+id/myRadioGroup"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:checked="false" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClose"
+        android:text="Close"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

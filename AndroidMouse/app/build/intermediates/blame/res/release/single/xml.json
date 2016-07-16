@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/release/xml/android_wear_micro_apk.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/generated/res/microapk/release/xml/android_wear_micro_apk.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/release/xml/hexkbd.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/xml/hexkbd.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/release/xml/popup.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/xml/popup.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/build/sweetsheet/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="indicator_normal">#fff0f0f0</color>
+    <color name="indicator_select">#969696</color>
+    <color name="slider_color">#ff969696</color>
+    <color name="slider_color_normal">#ffa6a6a6</color>
+    <color name="theme_gray">#F5F5F5</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="FreeGrowUpParentRelativeLayout"><attr format="dimension|reference" name="offset"/></declare-styleable>
+    <!-- From: file:/build/sweetsheet/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="arc_max_height">50dp</dimen>
+    <dimen name="indicator_height">2dp</dimen>
+    <dimen name="indicator_padding">2dp</dimen>
+    <dimen name="indicator_width">12dp</dimen>
+    <dimen name="sheet_height">290dp</dimen>
+</resources>

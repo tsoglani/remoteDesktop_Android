@@ -671,75 +671,75 @@ if(type.equals("Wear")){
         }
 
 
-        if (!previousTab.equalsIgnoreCase("MousePad")) {
-            View rl = findViewById(R.id.zoom_onoff);
-            rl.setVisibility(View.VISIBLE);
-            View mouse_buttons_visibility = findViewById(R.id.mouse_buttons_visibility);
-            mouse_buttons_visibility.setVisibility(View.VISIBLE);
-            View bar_visibility_show = findViewById(R.id.bar_visibility_show);
-            bar_visibility_show.setVisibility(View.VISIBLE);
-            final ProgressDialog progress = ProgressDialog.show(MouseUIActivity.this, "Please wait ...", "", true);
-            new AsyncTask<Void, Void, Void>() {
-
-                @Override
-                protected void onPreExecute() {
-                    isReceivingImages = false;
-                    progress.setCancelable(false);
-                    progress.show();
-                    super.onPreExecute();
-                }
-
-                @Override
-                protected Void doInBackground(Void... params) {
-                    if (previousTab.equalsIgnoreCase("Send") || previousTab.equalsIgnoreCase("Spy Camera")) {
-
-                        closeAndCreateAgaiConnection();
-                        Toast.makeText(getApplicationContext(), previousTab, Toast.LENGTH_LONG).show();
-                    } else if (mf != null) {
-                        closeAndCreateAgaiConnection();
-                        mf.setIsPlaying(false);
-                        mf = null;
-                    }
-
-                    return null;
-                }
-
-                @Override
-                protected void onPostExecute(Void aVoid) {
-                    super.onPostExecute(aVoid);
-                    try {
-                        runOnUiThread(new Thread() {
-                            @Override
-                            public void run() {
-
-                                menu.findItem(R.id.help).setVisible(true);
-                                menu.findItem(R.id.settings).setVisible(true);
-                                menu.findItem(R.id.configure).setVisible(false);
-//                                menu.findItem(R.id.keyboard).setVisible(true);
-                                final TextView keyboard = (TextView) findViewById(R.id.keyboard);
-                                keyboard.setVisibility(View.VISIBLE);
-
-                            }
-                        });
-                        isReceivingImages = true;
-                        getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.content_frame, new PageOneFragment())
-                                .commit();
-                        startReceivingImages(MouseUIActivity.this, true);
-
-
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    progress.dismiss();
-
-                }
-            }.execute();
-
-            previousTab = "MousePad";
-            Toast.makeText(getApplicationContext(), "Press back to Exit", Toast.LENGTH_SHORT).show();
-            return;
-        }
+//        if (!previousTab.equalsIgnoreCase("MousePad")) {
+//            View rl = findViewById(R.id.zoom_onoff);
+//            rl.setVisibility(View.VISIBLE);
+//            View mouse_buttons_visibility = findViewById(R.id.mouse_buttons_visibility);
+//            mouse_buttons_visibility.setVisibility(View.VISIBLE);
+//            View bar_visibility_show = findViewById(R.id.bar_visibility_show);
+//            bar_visibility_show.setVisibility(View.VISIBLE);
+//            final ProgressDialog progress = ProgressDialog.show(MouseUIActivity.this, "Please wait ...", "", true);
+//            new AsyncTask<Void, Void, Void>() {
+//
+//                @Override
+//                protected void onPreExecute() {
+//                    isReceivingImages = false;
+//                    progress.setCancelable(false);
+//                    progress.show();
+//                    super.onPreExecute();
+//                }
+//
+//                @Override
+//                protected Void doInBackground(Void... params) {
+//                    if (previousTab.equalsIgnoreCase("Send") || previousTab.equalsIgnoreCase("Spy Camera")) {
+//                        isReceivingImages = true;
+//
+//                        closeAndCreateAgaiConnection();
+//                        Toast.makeText(getApplicationContext(), previousTab, Toast.LENGTH_LONG).show();
+//                    } else if (mf != null) {
+//                        closeAndCreateAgaiConnection();
+//                        mf.setIsPlaying(false);
+//                        mf = null;
+//                    }
+//
+//                    return null;
+//                }
+//
+//                @Override
+//                protected void onPostExecute(Void aVoid) {
+//                    super.onPostExecute(aVoid);
+//                    try {
+//                        runOnUiThread(new Thread() {
+//                            @Override
+//                            public void run() {
+//
+//                                menu.findItem(R.id.help).setVisible(true);
+//                                menu.findItem(R.id.settings).setVisible(true);
+//                                menu.findItem(R.id.configure).setVisible(false);
+////                                menu.findItem(R.id.keyboard).setVisible(true);
+//                                final TextView keyboard = (TextView) findViewById(R.id.keyboard);
+//                                keyboard.setVisibility(View.VISIBLE);
+//
+//                            }
+//                        });
+//                        getSupportFragmentManager().beginTransaction()
+//                                .replace(R.id.content_frame, new PageOneFragment())
+//                                .commit();
+//                        startReceivingImages(MouseUIActivity.this, true);
+//
+//
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                    progress.dismiss();
+//
+//                }
+//            }.execute();
+//
+//            previousTab = "MousePad";
+//            Toast.makeText(getApplicationContext(), "Press back to Exit", Toast.LENGTH_SHORT).show();
+//            return;
+//        }
 
         isReceivingImages = false;
         super.onBackPressed();
@@ -983,12 +983,13 @@ if(type.equals("Wear")){
                                 });
 
                                 continue;
-                            } catch (NullPointerException e) {
-                                e.printStackTrace();
-                                isReceivingImages = false;
-                                closeAll();
-                                goToHomeScreen();
-                            } catch (Exception e) {
+//                            } catch (NullPointerException e) {
+//                                e.printStackTrace();
+//                                isReceivingImages = false;
+//                                closeAll();
+//                                goToHomeScreen();
+                            }
+                            catch (Exception e) {
                                 e.printStackTrace();
 
                             } catch (OutOfMemoryError error) {

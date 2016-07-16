@@ -1,0 +1,4 @@
+int id content_box 0x7f030000
+int id tv_content 0x7f030001
+int id tv_dismiss 0x7f030002
+int layout showcase_content 0x7f020000

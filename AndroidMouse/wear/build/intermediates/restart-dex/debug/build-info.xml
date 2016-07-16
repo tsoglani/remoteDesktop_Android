@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="280dpi"
+    format="7"
+    timestamp="17393364495674"
+    token="-5503301654278743115" >
+
+    <task
+        name="javac"
+        duration="392" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="285" />
+    <task
+        name="verifier"
+        duration="16" />
+
+    <artifact
+        location="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/outputs/apk/wear-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="17393364495674" >
+        <artifact
+            location="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/outputs/apk/wear-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
