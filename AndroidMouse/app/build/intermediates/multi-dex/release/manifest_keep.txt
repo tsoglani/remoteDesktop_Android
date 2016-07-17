@@ -1,3 +1,7 @@
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
 -keep class com.nikos.tsoglani.androidmouse.MainActivity { <init>(); }
 -keep class com.darsh.multipleimageselect.activities.AlbumSelectActivity { <init>(); }
 -keep class com.nikos.tsoglani.androidmouse.MouseUIActivity { <init>(); }

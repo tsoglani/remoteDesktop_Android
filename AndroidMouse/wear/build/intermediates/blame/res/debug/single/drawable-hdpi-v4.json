@@ -53,7 +53,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame_pressed.9.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame_pressed.9.png"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable-hdpi-v4/card_frame_pressed.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_cancel.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_cancel.png"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable-hdpi-v4/ic_full_cancel.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_pause.png",
@@ -285,7 +285,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame.9.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame.9.png"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable-hdpi-v4/card_frame.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -405,7 +405,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_sad.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_sad.png"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable-hdpi-v4/ic_full_sad.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",

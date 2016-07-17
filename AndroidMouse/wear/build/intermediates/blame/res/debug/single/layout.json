@@ -1,7 +1,7 @@
 [
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/alert_dialog_wearable.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/alert_dialog_wearable.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/alert_dialog_wearable.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
@@ -9,7 +9,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/action_drawer_item_view.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/action_drawer_item_view.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/action_drawer_item_view.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -42,6 +42,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/navigation_drawer_view.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/navigation_drawer_view.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
@@ -85,7 +89,11 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/error_layout.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/error_layout.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/error_layout.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/action_drawer_peek_view.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/action_drawer_peek_view.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -101,7 +109,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/navigation_drawer_item_view.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/navigation_drawer_item_view.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/navigation_drawer_item_view.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -173,7 +181,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/wearable_drawer_view.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/wearable_drawer_view.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/wearable_drawer_view.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -209,7 +217,7 @@
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/overlay_confirmation.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/overlay_confirmation.xml"
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout/overlay_confirmation.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout/activity_main.xml",

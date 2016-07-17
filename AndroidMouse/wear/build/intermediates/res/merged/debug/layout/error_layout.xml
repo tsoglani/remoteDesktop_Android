@@ -25,4 +25,4 @@
         android:textAppearance="@style/TextAppearance.Wearable.Medium"
         android:textColor="@color/primary_text_dark" />
 
-</LinearLayout><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/ub-wear-euro/vendor/unbundled_google/libs/wearable/wearable-support/lib/src/main/res/layout/error_layout.xml -->
+</LinearLayout><!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/layout/error_layout.xml -->

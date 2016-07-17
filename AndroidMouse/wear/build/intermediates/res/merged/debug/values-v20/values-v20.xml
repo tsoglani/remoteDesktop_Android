@@ -37,6 +37,21 @@
         <item name="dotShadowDx">1px</item>
         <item name="dotShadowDy">1px</item>
     </style>
+    <style name="PageIndicatorViewStyle">
+        <item name="pageIndicatorDotSpacing">7.8dp</item>
+        <item name="pageIndicatorDotRadius">2.1dp</item>
+        <item name="pageIndicatorDotRadiusSelected">3.1dp</item>
+        <item name="pageIndicatorDotColor">@color/white</item>
+        <item name="pageIndicatorDotColorSelected">@color/white</item>
+        <item name="pageIndicatorDotFadeOutDelay">1000</item>
+        <item name="pageIndicatorDotFadeOutDuration">250</item>
+        <item name="pageIndicatorDotFadeInDuration">100</item>
+        <item name="pageIndicatorDotFadeWhenIdle">true</item>
+        <item name="pageIndicatorDotShadowColor">#66000000</item>
+        <item name="pageIndicatorDotShadowRadius">2px</item>
+        <item name="pageIndicatorDotShadowDx">1px</item>
+        <item name="pageIndicatorDotShadowDy">1px</item>
+    </style>
     <style name="TextAppearance.Wearable.Large" parent="android:TextAppearance.Medium">
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/primary_text_light</item>

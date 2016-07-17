@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wearableApp package="com.gaitan.tsoglan.androidmouse">
+<wearableApp package="remote.tsoglan.desktop">
     <versionCode>1</versionCode>
     <versionName>1.0</versionName>
     <rawPathResId>android_wear_micro_apk</rawPathResId>

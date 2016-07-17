@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gaitan.tsoglan.androidmouse"
+    package="remote.tsoglan.desktop"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,16 +17,17 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.gaitan.tsoglan.androidmouse.permission.C2D_MESSAGE"
+        android:name="remote.tsoglan.desktop.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.gaitan.tsoglan.androidmouse.permission.C2D_MESSAGE" />
+    <uses-permission android:name="remote.tsoglan.desktop.permission.C2D_MESSAGE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher2"
         android:label="@string/app_name"
@@ -142,7 +143,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.gaitan.tsoglan.androidmouse" />
+                <category android:name="remote.tsoglan.desktop" />
             </intent-filter>
         </receiver>
         <!--
@@ -166,7 +167,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.gaitan.tsoglan.androidmouse.firebaseinitprovider"
+            android:authorities="remote.tsoglan.desktop.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -209,7 +210,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.gaitan.tsoglan.androidmouse" />
+                <data android:scheme="tagmanager.c.remote.tsoglan.desktop" />
 
                 <action android:name="android.intent.action.VIEW" />
 

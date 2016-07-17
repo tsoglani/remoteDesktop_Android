@@ -26,4 +26,4 @@
             android:interpolator="@interpolator/generic_confirmation_animation_interpolator_0" />
     </set>
 </set>
-<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/ub-wear-euro/vendor/unbundled_google/libs/wearable/wearable-support/lib/src/main/res/anim-v21/generic_confirmation_generic_confirmation_animation.xml -->
+<!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/anim-v21/generic_confirmation_generic_confirmation_animation.xml -->

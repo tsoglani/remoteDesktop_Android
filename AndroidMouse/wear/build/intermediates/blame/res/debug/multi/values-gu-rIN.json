@@ -334,13 +334,13 @@
                     "endOffset": 1931
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/values-gu-rIN/values-gu-rIN.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/values-gu-rIN/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 259,
+                        "startOffset": 262,
                         "endColumn": 91,
-                        "endOffset": 346
+                        "endOffset": 349
                     }
                 }
             },

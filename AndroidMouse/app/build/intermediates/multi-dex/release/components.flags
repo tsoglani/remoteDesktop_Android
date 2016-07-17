@@ -13,6 +13,11 @@
 -printconfiguration /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/multi-dex/release/components.flags
 
 
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
 -keep class com.nikos.tsoglani.androidmouse.MainActivity {
     <init>();
 }

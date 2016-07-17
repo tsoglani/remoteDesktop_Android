@@ -6311,8 +6311,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AVLoadingIndicatorView_indicator com.gaitan.tsoglan.androidmouse:indicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AVLoadingIndicatorView_indicator_color com.gaitan.tsoglan.androidmouse:indicator_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #AVLoadingIndicatorView_indicator remote.tsoglan.desktop:indicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AVLoadingIndicatorView_indicator_color remote.tsoglan.desktop:indicator_color}</code></td><td></td></tr>
            </table>
            @see #AVLoadingIndicatorView_indicator
            @see #AVLoadingIndicatorView_indicator_color
@@ -6321,7 +6321,7 @@ containing a value of this type.
             0x7f01000c, 0x7f01000d
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#indicator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indicator}
           attribute's value can be found in the {@link #AVLoadingIndicatorView} array.
 
 
@@ -6360,11 +6360,11 @@ containing a value of this type.
 <tr><td><code>BallGridBeat</code></td><td>26</td><td></td></tr>
 <tr><td><code>SemiCircleSpin</code></td><td>27</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:indicator
+          @attr name remote.tsoglan.desktop:indicator
         */
         public static final int AVLoadingIndicatorView_indicator = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#indicator_color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indicator_color}
           attribute's value can be found in the {@link #AVLoadingIndicatorView} array.
 
 
@@ -6375,7 +6375,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:indicator_color
+          @attr name remote.tsoglan.desktop:indicator_color
         */
         public static final int AVLoadingIndicatorView_indicator_color = 1;
         /** Attributes that can be used with a ActionBar.
@@ -6384,35 +6384,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.gaitan.tsoglan.androidmouse:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.gaitan.tsoglan.androidmouse:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.gaitan.tsoglan.androidmouse:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.gaitan.tsoglan.androidmouse:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.gaitan.tsoglan.androidmouse:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.gaitan.tsoglan.androidmouse:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.gaitan.tsoglan.androidmouse:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.gaitan.tsoglan.androidmouse:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.gaitan.tsoglan.androidmouse:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.gaitan.tsoglan.androidmouse:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.gaitan.tsoglan.androidmouse:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.gaitan.tsoglan.androidmouse:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.gaitan.tsoglan.androidmouse:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.gaitan.tsoglan.androidmouse:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.gaitan.tsoglan.androidmouse:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.gaitan.tsoglan.androidmouse:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.gaitan.tsoglan.androidmouse:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.gaitan.tsoglan.androidmouse:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.gaitan.tsoglan.androidmouse:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.gaitan.tsoglan.androidmouse:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.gaitan.tsoglan.androidmouse:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.gaitan.tsoglan.androidmouse:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.gaitan.tsoglan.androidmouse:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.gaitan.tsoglan.androidmouse:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.gaitan.tsoglan.androidmouse:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.gaitan.tsoglan.androidmouse:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.gaitan.tsoglan.androidmouse:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.gaitan.tsoglan.androidmouse:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.gaitan.tsoglan.androidmouse:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background remote.tsoglan.desktop:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit remote.tsoglan.desktop:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked remote.tsoglan.desktop:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd remote.tsoglan.desktop:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions remote.tsoglan.desktop:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft remote.tsoglan.desktop:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight remote.tsoglan.desktop:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart remote.tsoglan.desktop:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation remote.tsoglan.desktop:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout remote.tsoglan.desktop:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions remote.tsoglan.desktop:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider remote.tsoglan.desktop:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height remote.tsoglan.desktop:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll remote.tsoglan.desktop:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator remote.tsoglan.desktop:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout remote.tsoglan.desktop:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon remote.tsoglan.desktop:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle remote.tsoglan.desktop:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding remote.tsoglan.desktop:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo remote.tsoglan.desktop:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode remote.tsoglan.desktop:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding remote.tsoglan.desktop:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle remote.tsoglan.desktop:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle remote.tsoglan.desktop:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle remote.tsoglan.desktop:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle remote.tsoglan.desktop:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -6455,17 +6455,17 @@ containing a value of this type.
             0x7f01006e
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#background}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:background
+          @attr name remote.tsoglan.desktop:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6473,11 +6473,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundSplit
+          @attr name remote.tsoglan.desktop:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6485,11 +6485,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundStacked
+          @attr name remote.tsoglan.desktop:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6501,11 +6501,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetEnd
+          @attr name remote.tsoglan.desktop:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6517,11 +6517,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetEndWithActions
+          @attr name remote.tsoglan.desktop:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6533,11 +6533,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetLeft
+          @attr name remote.tsoglan.desktop:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6549,11 +6549,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetRight
+          @attr name remote.tsoglan.desktop:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6565,11 +6565,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetStart
+          @attr name remote.tsoglan.desktop:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6581,21 +6581,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetStartWithNavigation
+          @attr name remote.tsoglan.desktop:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:customNavigationLayout
+          @attr name remote.tsoglan.desktop:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6613,21 +6613,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:displayOptions
+          @attr name remote.tsoglan.desktop:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#divider}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:divider
+          @attr name remote.tsoglan.desktop:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6639,11 +6639,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:elevation
+          @attr name remote.tsoglan.desktop:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#height}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6655,11 +6655,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:height
+          @attr name remote.tsoglan.desktop:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6669,51 +6669,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:hideOnContentScroll
+          @attr name remote.tsoglan.desktop:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:homeAsUpIndicator
+          @attr name remote.tsoglan.desktop:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:homeLayout
+          @attr name remote.tsoglan.desktop:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#icon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:icon
+          @attr name remote.tsoglan.desktop:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:indeterminateProgressStyle
+          @attr name remote.tsoglan.desktop:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6725,21 +6725,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:itemPadding
+          @attr name remote.tsoglan.desktop:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#logo}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:logo
+          @attr name remote.tsoglan.desktop:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6753,21 +6753,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:navigationMode
+          @attr name remote.tsoglan.desktop:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:popupTheme
+          @attr name remote.tsoglan.desktop:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6779,21 +6779,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:progressBarPadding
+          @attr name remote.tsoglan.desktop:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:progressBarStyle
+          @attr name remote.tsoglan.desktop:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6803,21 +6803,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:subtitle
+          @attr name remote.tsoglan.desktop:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:subtitleTextStyle
+          @attr name remote.tsoglan.desktop:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#title}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6827,17 +6827,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:title
+          @attr name remote.tsoglan.desktop:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:titleTextStyle
+          @attr name remote.tsoglan.desktop:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -6874,8 +6874,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #ActionLabel_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionLabel_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionLabel_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionLabel_maxTextSize com.gaitan.tsoglan.androidmouse:maxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionLabel_minTextSize com.gaitan.tsoglan.androidmouse:minTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_maxTextSize remote.tsoglan.desktop:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_minTextSize remote.tsoglan.desktop:minTextSize}</code></td><td></td></tr>
            </table>
            @see #ActionLabel_android_fontFamily
            @see #ActionLabel_android_gravity
@@ -6949,7 +6949,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionLabel_android_typeface = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maxTextSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxTextSize}
           attribute's value can be found in the {@link #ActionLabel} array.
 
 
@@ -6961,11 +6961,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:maxTextSize
+          @attr name remote.tsoglan.desktop:maxTextSize
         */
         public static final int ActionLabel_maxTextSize = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#minTextSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#minTextSize}
           attribute's value can be found in the {@link #ActionLabel} array.
 
 
@@ -6977,7 +6977,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:minTextSize
+          @attr name remote.tsoglan.desktop:minTextSize
         */
         public static final int ActionLabel_minTextSize = 9;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -7010,12 +7010,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.gaitan.tsoglan.androidmouse:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.gaitan.tsoglan.androidmouse:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.gaitan.tsoglan.androidmouse:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.gaitan.tsoglan.androidmouse:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.gaitan.tsoglan.androidmouse:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.gaitan.tsoglan.androidmouse:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background remote.tsoglan.desktop:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit remote.tsoglan.desktop:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout remote.tsoglan.desktop:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height remote.tsoglan.desktop:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle remote.tsoglan.desktop:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle remote.tsoglan.desktop:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -7029,17 +7029,17 @@ containing a value of this type.
             0x7f010018, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#background}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:background
+          @attr name remote.tsoglan.desktop:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -7047,21 +7047,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundSplit
+          @attr name remote.tsoglan.desktop:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:closeItemLayout
+          @attr name remote.tsoglan.desktop:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#height}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -7073,27 +7073,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:height
+          @attr name remote.tsoglan.desktop:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:subtitleTextStyle
+          @attr name remote.tsoglan.desktop:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:titleTextStyle
+          @attr name remote.tsoglan.desktop:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActionPage.
@@ -7115,11 +7115,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #ActionPage_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionPage_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionPage_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_buttonRippleColor com.gaitan.tsoglan.androidmouse:buttonRippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_imageScaleMode com.gaitan.tsoglan.androidmouse:imageScaleMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_maxTextSize com.gaitan.tsoglan.androidmouse:maxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_minTextSize com.gaitan.tsoglan.androidmouse:minTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_pressedButtonTranslationZ com.gaitan.tsoglan.androidmouse:pressedButtonTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_buttonRippleColor remote.tsoglan.desktop:buttonRippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_imageScaleMode remote.tsoglan.desktop:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_maxTextSize remote.tsoglan.desktop:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_minTextSize remote.tsoglan.desktop:minTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_pressedButtonTranslationZ remote.tsoglan.desktop:pressedButtonTranslationZ}</code></td><td></td></tr>
            </table>
            @see #ActionPage_android_color
            @see #ActionPage_android_elevation
@@ -7226,7 +7226,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionPage_android_typeface = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonRippleColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonRippleColor}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -7234,11 +7234,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonRippleColor
+          @attr name remote.tsoglan.desktop:buttonRippleColor
         */
         public static final int ActionPage_buttonRippleColor = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#imageScaleMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageScaleMode}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -7251,11 +7251,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>fit</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:imageScaleMode
+          @attr name remote.tsoglan.desktop:imageScaleMode
         */
         public static final int ActionPage_imageScaleMode = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maxTextSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxTextSize}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -7267,11 +7267,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:maxTextSize
+          @attr name remote.tsoglan.desktop:maxTextSize
         */
         public static final int ActionPage_maxTextSize = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#minTextSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#minTextSize}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -7283,11 +7283,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:minTextSize
+          @attr name remote.tsoglan.desktop:minTextSize
         */
         public static final int ActionPage_minTextSize = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#pressedButtonTranslationZ}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedButtonTranslationZ}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -7299,7 +7299,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:pressedButtonTranslationZ
+          @attr name remote.tsoglan.desktop:pressedButtonTranslationZ
         */
         public static final int ActionPage_pressedButtonTranslationZ = 17;
         /** Attributes that can be used with a ActivityChooserView.
@@ -7308,8 +7308,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.gaitan.tsoglan.androidmouse:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.gaitan.tsoglan.androidmouse:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable remote.tsoglan.desktop:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount remote.tsoglan.desktop:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -7318,17 +7318,17 @@ containing a value of this type.
             0x7f01002b, 0x7f01002c
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:expandActivityOverflowButtonDrawable
+          @attr name remote.tsoglan.desktop:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -7338,7 +7338,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:initialActivityCount
+          @attr name remote.tsoglan.desktop:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -7347,9 +7347,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.gaitan.tsoglan.androidmouse:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.gaitan.tsoglan.androidmouse:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.gaitan.tsoglan.androidmouse:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize remote.tsoglan.desktop:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes remote.tsoglan.desktop:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId remote.tsoglan.desktop:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -7359,7 +7359,7 @@ containing a value of this type.
             0x7f01002d, 0x7f01002e, 0x7f01002f
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#adSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -7369,11 +7369,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:adSize
+          @attr name remote.tsoglan.desktop:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -7383,11 +7383,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:adSizes
+          @attr name remote.tsoglan.desktop:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -7397,7 +7397,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:adUnitId
+          @attr name remote.tsoglan.desktop:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
@@ -7407,11 +7407,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.gaitan.tsoglan.androidmouse:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.gaitan.tsoglan.androidmouse:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.gaitan.tsoglan.androidmouse:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.gaitan.tsoglan.androidmouse:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.gaitan.tsoglan.androidmouse:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout remote.tsoglan.desktop:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout remote.tsoglan.desktop:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout remote.tsoglan.desktop:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout remote.tsoglan.desktop:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout remote.tsoglan.desktop:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -7431,53 +7431,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonPanelSideLayout
+          @attr name remote.tsoglan.desktop:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listItemLayout
+          @attr name remote.tsoglan.desktop:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listLayout
+          @attr name remote.tsoglan.desktop:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:multiChoiceItemLayout
+          @attr name remote.tsoglan.desktop:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:singleChoiceItemLayout
+          @attr name remote.tsoglan.desktop:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -7487,8 +7487,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.gaitan.tsoglan.androidmouse:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.gaitan.tsoglan.androidmouse:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded remote.tsoglan.desktop:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -7504,7 +7504,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -7516,11 +7516,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:elevation
+          @attr name remote.tsoglan.desktop:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expanded}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -7530,7 +7530,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expanded
+          @attr name remote.tsoglan.desktop:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -7539,8 +7539,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.gaitan.tsoglan.androidmouse:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.gaitan.tsoglan.androidmouse:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed remote.tsoglan.desktop:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible remote.tsoglan.desktop:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -7549,7 +7549,7 @@ containing a value of this type.
             0x7f010036, 0x7f010037
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -7559,11 +7559,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:state_collapsed
+          @attr name remote.tsoglan.desktop:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -7573,7 +7573,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:state_collapsible
+          @attr name remote.tsoglan.desktop:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -7582,8 +7582,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.gaitan.tsoglan.androidmouse:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.gaitan.tsoglan.androidmouse:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags remote.tsoglan.desktop:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator remote.tsoglan.desktop:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -7592,7 +7592,7 @@ containing a value of this type.
             0x7f010038, 0x7f010039
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -7608,17 +7608,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:layout_scrollFlags
+          @attr name remote.tsoglan.desktop:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:layout_scrollInterpolator
+          @attr name remote.tsoglan.desktop:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -7628,7 +7628,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.gaitan.tsoglan.androidmouse:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat remote.tsoglan.desktop:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -7643,13 +7643,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:srcCompat
+          @attr name remote.tsoglan.desktop:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -7659,9 +7659,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.gaitan.tsoglan.androidmouse:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.gaitan.tsoglan.androidmouse:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.gaitan.tsoglan.androidmouse:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark remote.tsoglan.desktop:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint remote.tsoglan.desktop:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode remote.tsoglan.desktop:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -7678,17 +7678,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:tickMark
+          @attr name remote.tsoglan.desktop:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -7699,11 +7699,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tickMarkTint
+          @attr name remote.tsoglan.desktop:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -7720,7 +7720,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:tickMarkTintMode
+          @attr name remote.tsoglan.desktop:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextView.
@@ -7730,7 +7730,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.gaitan.tsoglan.androidmouse:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps remote.tsoglan.desktop:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -7745,14 +7745,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAllCaps
+          @attr name remote.tsoglan.desktop:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -7761,121 +7761,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.gaitan.tsoglan.androidmouse:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.gaitan.tsoglan.androidmouse:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.gaitan.tsoglan.androidmouse:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.gaitan.tsoglan.androidmouse:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.gaitan.tsoglan.androidmouse:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.gaitan.tsoglan.androidmouse:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.gaitan.tsoglan.androidmouse:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.gaitan.tsoglan.androidmouse:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.gaitan.tsoglan.androidmouse:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.gaitan.tsoglan.androidmouse:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.gaitan.tsoglan.androidmouse:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.gaitan.tsoglan.androidmouse:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.gaitan.tsoglan.androidmouse:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.gaitan.tsoglan.androidmouse:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.gaitan.tsoglan.androidmouse:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.gaitan.tsoglan.androidmouse:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.gaitan.tsoglan.androidmouse:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.gaitan.tsoglan.androidmouse:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.gaitan.tsoglan.androidmouse:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.gaitan.tsoglan.androidmouse:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.gaitan.tsoglan.androidmouse:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.gaitan.tsoglan.androidmouse:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.gaitan.tsoglan.androidmouse:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.gaitan.tsoglan.androidmouse:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.gaitan.tsoglan.androidmouse:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.gaitan.tsoglan.androidmouse:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.gaitan.tsoglan.androidmouse:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.gaitan.tsoglan.androidmouse:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.gaitan.tsoglan.androidmouse:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.gaitan.tsoglan.androidmouse:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.gaitan.tsoglan.androidmouse:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.gaitan.tsoglan.androidmouse:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.gaitan.tsoglan.androidmouse:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.gaitan.tsoglan.androidmouse:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.gaitan.tsoglan.androidmouse:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider remote.tsoglan.desktop:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground remote.tsoglan.desktop:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme remote.tsoglan.desktop:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize remote.tsoglan.desktop:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle remote.tsoglan.desktop:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle remote.tsoglan.desktop:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle remote.tsoglan.desktop:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle remote.tsoglan.desktop:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle remote.tsoglan.desktop:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme remote.tsoglan.desktop:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme remote.tsoglan.desktop:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle remote.tsoglan.desktop:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle remote.tsoglan.desktop:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance remote.tsoglan.desktop:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor remote.tsoglan.desktop:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground remote.tsoglan.desktop:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle remote.tsoglan.desktop:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable remote.tsoglan.desktop:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable remote.tsoglan.desktop:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable remote.tsoglan.desktop:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable remote.tsoglan.desktop:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable remote.tsoglan.desktop:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle remote.tsoglan.desktop:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable remote.tsoglan.desktop:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable remote.tsoglan.desktop:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground remote.tsoglan.desktop:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle remote.tsoglan.desktop:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable remote.tsoglan.desktop:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle remote.tsoglan.desktop:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle remote.tsoglan.desktop:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle remote.tsoglan.desktop:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle remote.tsoglan.desktop:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons remote.tsoglan.desktop:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle remote.tsoglan.desktop:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme remote.tsoglan.desktop:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.gaitan.tsoglan.androidmouse:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.gaitan.tsoglan.androidmouse:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.gaitan.tsoglan.androidmouse:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.gaitan.tsoglan.androidmouse:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.gaitan.tsoglan.androidmouse:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.gaitan.tsoglan.androidmouse:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.gaitan.tsoglan.androidmouse:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.gaitan.tsoglan.androidmouse:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.gaitan.tsoglan.androidmouse:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.gaitan.tsoglan.androidmouse:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.gaitan.tsoglan.androidmouse:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.gaitan.tsoglan.androidmouse:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.gaitan.tsoglan.androidmouse:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.gaitan.tsoglan.androidmouse:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.gaitan.tsoglan.androidmouse:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.gaitan.tsoglan.androidmouse:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.gaitan.tsoglan.androidmouse:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.gaitan.tsoglan.androidmouse:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.gaitan.tsoglan.androidmouse:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.gaitan.tsoglan.androidmouse:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.gaitan.tsoglan.androidmouse:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.gaitan.tsoglan.androidmouse:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.gaitan.tsoglan.androidmouse:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.gaitan.tsoglan.androidmouse:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.gaitan.tsoglan.androidmouse:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.gaitan.tsoglan.androidmouse:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.gaitan.tsoglan.androidmouse:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.gaitan.tsoglan.androidmouse:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.gaitan.tsoglan.androidmouse:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.gaitan.tsoglan.androidmouse:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.gaitan.tsoglan.androidmouse:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.gaitan.tsoglan.androidmouse:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.gaitan.tsoglan.androidmouse:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.gaitan.tsoglan.androidmouse:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.gaitan.tsoglan.androidmouse:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.gaitan.tsoglan.androidmouse:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.gaitan.tsoglan.androidmouse:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.gaitan.tsoglan.androidmouse:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.gaitan.tsoglan.androidmouse:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.gaitan.tsoglan.androidmouse:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.gaitan.tsoglan.androidmouse:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.gaitan.tsoglan.androidmouse:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.gaitan.tsoglan.androidmouse:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.gaitan.tsoglan.androidmouse:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.gaitan.tsoglan.androidmouse:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.gaitan.tsoglan.androidmouse:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.gaitan.tsoglan.androidmouse:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.gaitan.tsoglan.androidmouse:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.gaitan.tsoglan.androidmouse:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.gaitan.tsoglan.androidmouse:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.gaitan.tsoglan.androidmouse:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.gaitan.tsoglan.androidmouse:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.gaitan.tsoglan.androidmouse:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.gaitan.tsoglan.androidmouse:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.gaitan.tsoglan.androidmouse:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.gaitan.tsoglan.androidmouse:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.gaitan.tsoglan.androidmouse:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.gaitan.tsoglan.androidmouse:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.gaitan.tsoglan.androidmouse:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.gaitan.tsoglan.androidmouse:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.gaitan.tsoglan.androidmouse:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.gaitan.tsoglan.androidmouse:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.gaitan.tsoglan.androidmouse:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.gaitan.tsoglan.androidmouse:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.gaitan.tsoglan.androidmouse:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.gaitan.tsoglan.androidmouse:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.gaitan.tsoglan.androidmouse:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.gaitan.tsoglan.androidmouse:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.gaitan.tsoglan.androidmouse:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.gaitan.tsoglan.androidmouse:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.gaitan.tsoglan.androidmouse:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.gaitan.tsoglan.androidmouse:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.gaitan.tsoglan.androidmouse:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.gaitan.tsoglan.androidmouse:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.gaitan.tsoglan.androidmouse:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.gaitan.tsoglan.androidmouse:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.gaitan.tsoglan.androidmouse:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.gaitan.tsoglan.androidmouse:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle remote.tsoglan.desktop:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle remote.tsoglan.desktop:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle remote.tsoglan.desktop:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle remote.tsoglan.desktop:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle remote.tsoglan.desktop:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle remote.tsoglan.desktop:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle remote.tsoglan.desktop:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle remote.tsoglan.desktop:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall remote.tsoglan.desktop:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle remote.tsoglan.desktop:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle remote.tsoglan.desktop:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent remote.tsoglan.desktop:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating remote.tsoglan.desktop:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal remote.tsoglan.desktop:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated remote.tsoglan.desktop:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight remote.tsoglan.desktop:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal remote.tsoglan.desktop:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary remote.tsoglan.desktop:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark remote.tsoglan.desktop:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal remote.tsoglan.desktop:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground remote.tsoglan.desktop:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding remote.tsoglan.desktop:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme remote.tsoglan.desktop:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal remote.tsoglan.desktop:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical remote.tsoglan.desktop:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle remote.tsoglan.desktop:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight remote.tsoglan.desktop:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground remote.tsoglan.desktop:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor remote.tsoglan.desktop:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle remote.tsoglan.desktop:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator remote.tsoglan.desktop:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle remote.tsoglan.desktop:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator remote.tsoglan.desktop:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog remote.tsoglan.desktop:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle remote.tsoglan.desktop:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle remote.tsoglan.desktop:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight remote.tsoglan.desktop:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge remote.tsoglan.desktop:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall remote.tsoglan.desktop:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft remote.tsoglan.desktop:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight remote.tsoglan.desktop:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground remote.tsoglan.desktop:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme remote.tsoglan.desktop:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth remote.tsoglan.desktop:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle remote.tsoglan.desktop:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle remote.tsoglan.desktop:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle remote.tsoglan.desktop:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle remote.tsoglan.desktop:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator remote.tsoglan.desktop:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall remote.tsoglan.desktop:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle remote.tsoglan.desktop:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle remote.tsoglan.desktop:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground remote.tsoglan.desktop:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless remote.tsoglan.desktop:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle remote.tsoglan.desktop:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle remote.tsoglan.desktop:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle remote.tsoglan.desktop:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu remote.tsoglan.desktop:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem remote.tsoglan.desktop:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall remote.tsoglan.desktop:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader remote.tsoglan.desktop:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle remote.tsoglan.desktop:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle remote.tsoglan.desktop:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu remote.tsoglan.desktop:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem remote.tsoglan.desktop:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl remote.tsoglan.desktop:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle remote.tsoglan.desktop:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle remote.tsoglan.desktop:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar remote.tsoglan.desktop:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay remote.tsoglan.desktop:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay remote.tsoglan.desktop:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor remote.tsoglan.desktop:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor remote.tsoglan.desktop:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor remote.tsoglan.desktop:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor remote.tsoglan.desktop:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor remote.tsoglan.desktop:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor remote.tsoglan.desktop:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle remote.tsoglan.desktop:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -8025,37 +8025,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ad, 0x7f0100ae, 0x7f0100af
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarDivider
+          @attr name remote.tsoglan.desktop:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarItemBackground
+          @attr name remote.tsoglan.desktop:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarPopupTheme
+          @attr name remote.tsoglan.desktop:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8075,111 +8075,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarSize
+          @attr name remote.tsoglan.desktop:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarSplitStyle
+          @attr name remote.tsoglan.desktop:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarStyle
+          @attr name remote.tsoglan.desktop:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarTabBarStyle
+          @attr name remote.tsoglan.desktop:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarTabStyle
+          @attr name remote.tsoglan.desktop:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarTabTextStyle
+          @attr name remote.tsoglan.desktop:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarTheme
+          @attr name remote.tsoglan.desktop:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionBarWidgetTheme
+          @attr name remote.tsoglan.desktop:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionButtonStyle
+          @attr name remote.tsoglan.desktop:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionDropDownStyle
+          @attr name remote.tsoglan.desktop:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionMenuTextAppearance
+          @attr name remote.tsoglan.desktop:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8187,181 +8187,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionMenuTextColor
+          @attr name remote.tsoglan.desktop:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeBackground
+          @attr name remote.tsoglan.desktop:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeCloseButtonStyle
+          @attr name remote.tsoglan.desktop:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeCloseDrawable
+          @attr name remote.tsoglan.desktop:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeCopyDrawable
+          @attr name remote.tsoglan.desktop:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeCutDrawable
+          @attr name remote.tsoglan.desktop:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeFindDrawable
+          @attr name remote.tsoglan.desktop:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModePasteDrawable
+          @attr name remote.tsoglan.desktop:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModePopupWindowStyle
+          @attr name remote.tsoglan.desktop:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeSelectAllDrawable
+          @attr name remote.tsoglan.desktop:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeShareDrawable
+          @attr name remote.tsoglan.desktop:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeSplitBackground
+          @attr name remote.tsoglan.desktop:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeStyle
+          @attr name remote.tsoglan.desktop:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionModeWebSearchDrawable
+          @attr name remote.tsoglan.desktop:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionOverflowButtonStyle
+          @attr name remote.tsoglan.desktop:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionOverflowMenuStyle
+          @attr name remote.tsoglan.desktop:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:activityChooserViewStyle
+          @attr name remote.tsoglan.desktop:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:alertDialogButtonGroupStyle
+          @attr name remote.tsoglan.desktop:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8371,27 +8371,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:alertDialogCenterButtons
+          @attr name remote.tsoglan.desktop:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:alertDialogStyle
+          @attr name remote.tsoglan.desktop:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:alertDialogTheme
+          @attr name remote.tsoglan.desktop:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -8407,117 +8407,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:autoCompleteTextViewStyle
+          @attr name remote.tsoglan.desktop:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:borderlessButtonStyle
+          @attr name remote.tsoglan.desktop:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonBarButtonStyle
+          @attr name remote.tsoglan.desktop:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonBarNegativeButtonStyle
+          @attr name remote.tsoglan.desktop:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonBarNeutralButtonStyle
+          @attr name remote.tsoglan.desktop:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonBarPositiveButtonStyle
+          @attr name remote.tsoglan.desktop:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonBarStyle
+          @attr name remote.tsoglan.desktop:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonStyle
+          @attr name remote.tsoglan.desktop:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonStyleSmall
+          @attr name remote.tsoglan.desktop:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:checkboxStyle
+          @attr name remote.tsoglan.desktop:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:checkedTextViewStyle
+          @attr name remote.tsoglan.desktop:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8528,11 +8528,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorAccent
+          @attr name remote.tsoglan.desktop:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8543,11 +8543,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorBackgroundFloating
+          @attr name remote.tsoglan.desktop:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8558,11 +8558,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorButtonNormal
+          @attr name remote.tsoglan.desktop:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8573,11 +8573,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorControlActivated
+          @attr name remote.tsoglan.desktop:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8588,11 +8588,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorControlHighlight
+          @attr name remote.tsoglan.desktop:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8603,11 +8603,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorControlNormal
+          @attr name remote.tsoglan.desktop:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8618,11 +8618,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorPrimary
+          @attr name remote.tsoglan.desktop:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8633,11 +8633,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorPrimaryDark
+          @attr name remote.tsoglan.desktop:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8648,21 +8648,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:colorSwitchThumbNormal
+          @attr name remote.tsoglan.desktop:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:controlBackground
+          @attr name remote.tsoglan.desktop:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8674,51 +8674,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dialogPreferredPadding
+          @attr name remote.tsoglan.desktop:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dialogTheme
+          @attr name remote.tsoglan.desktop:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dividerHorizontal
+          @attr name remote.tsoglan.desktop:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dividerVertical
+          @attr name remote.tsoglan.desktop:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dropDownListViewStyle
+          @attr name remote.tsoglan.desktop:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8730,21 +8730,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dropdownListPreferredItemHeight
+          @attr name remote.tsoglan.desktop:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:editTextBackground
+          @attr name remote.tsoglan.desktop:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8752,81 +8752,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:editTextColor
+          @attr name remote.tsoglan.desktop:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:editTextStyle
+          @attr name remote.tsoglan.desktop:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:homeAsUpIndicator
+          @attr name remote.tsoglan.desktop:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:imageButtonStyle
+          @attr name remote.tsoglan.desktop:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listChoiceBackgroundIndicator
+          @attr name remote.tsoglan.desktop:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listDividerAlertDialog
+          @attr name remote.tsoglan.desktop:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listMenuViewStyle
+          @attr name remote.tsoglan.desktop:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:listPopupWindowStyle
+          @attr name remote.tsoglan.desktop:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8838,11 +8838,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:listPreferredItemHeight
+          @attr name remote.tsoglan.desktop:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8854,11 +8854,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:listPreferredItemHeightLarge
+          @attr name remote.tsoglan.desktop:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8870,11 +8870,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:listPreferredItemHeightSmall
+          @attr name remote.tsoglan.desktop:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8886,11 +8886,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:listPreferredItemPaddingLeft
+          @attr name remote.tsoglan.desktop:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8902,31 +8902,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:listPreferredItemPaddingRight
+          @attr name remote.tsoglan.desktop:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:panelBackground
+          @attr name remote.tsoglan.desktop:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:panelMenuListTheme
+          @attr name remote.tsoglan.desktop:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8938,211 +8938,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:panelMenuListWidth
+          @attr name remote.tsoglan.desktop:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:popupMenuStyle
+          @attr name remote.tsoglan.desktop:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:popupWindowStyle
+          @attr name remote.tsoglan.desktop:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:radioButtonStyle
+          @attr name remote.tsoglan.desktop:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:ratingBarStyle
+          @attr name remote.tsoglan.desktop:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:ratingBarStyleIndicator
+          @attr name remote.tsoglan.desktop:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:ratingBarStyleSmall
+          @attr name remote.tsoglan.desktop:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:searchViewStyle
+          @attr name remote.tsoglan.desktop:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:seekBarStyle
+          @attr name remote.tsoglan.desktop:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:selectableItemBackground
+          @attr name remote.tsoglan.desktop:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:selectableItemBackgroundBorderless
+          @attr name remote.tsoglan.desktop:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:spinnerDropDownItemStyle
+          @attr name remote.tsoglan.desktop:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:spinnerStyle
+          @attr name remote.tsoglan.desktop:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:switchStyle
+          @attr name remote.tsoglan.desktop:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceLargePopupMenu
+          @attr name remote.tsoglan.desktop:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceListItem
+          @attr name remote.tsoglan.desktop:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceListItemSmall
+          @attr name remote.tsoglan.desktop:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearancePopupMenuHeader
+          @attr name remote.tsoglan.desktop:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceSearchResultSubtitle
+          @attr name remote.tsoglan.desktop:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceSearchResultTitle
+          @attr name remote.tsoglan.desktop:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAppearanceSmallPopupMenu
+          @attr name remote.tsoglan.desktop:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9150,11 +9150,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textColorAlertDialogListItem
+          @attr name remote.tsoglan.desktop:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9162,31 +9162,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textColorSearchUrl
+          @attr name remote.tsoglan.desktop:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:toolbarNavigationButtonStyle
+          @attr name remote.tsoglan.desktop:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:toolbarStyle
+          @attr name remote.tsoglan.desktop:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9196,11 +9196,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowActionBar
+          @attr name remote.tsoglan.desktop:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9210,11 +9210,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowActionBarOverlay
+          @attr name remote.tsoglan.desktop:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9224,11 +9224,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowActionModeOverlay
+          @attr name remote.tsoglan.desktop:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9243,11 +9243,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowFixedHeightMajor
+          @attr name remote.tsoglan.desktop:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9262,11 +9262,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowFixedHeightMinor
+          @attr name remote.tsoglan.desktop:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9281,11 +9281,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowFixedWidthMajor
+          @attr name remote.tsoglan.desktop:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9300,11 +9300,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowFixedWidthMinor
+          @attr name remote.tsoglan.desktop:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9319,11 +9319,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowMinWidthMajor
+          @attr name remote.tsoglan.desktop:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9338,11 +9338,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowMinWidthMinor
+          @attr name remote.tsoglan.desktop:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -9352,7 +9352,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:windowNoTitle
+          @attr name remote.tsoglan.desktop:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a AppDataSearch.
@@ -9366,9 +9366,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.gaitan.tsoglan.androidmouse:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.gaitan.tsoglan.androidmouse:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.gaitan.tsoglan.androidmouse:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable remote.tsoglan.desktop:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight remote.tsoglan.desktop:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed remote.tsoglan.desktop:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -9378,7 +9378,7 @@ containing a value of this type.
             0x7f0100b0, 0x7f0100b1, 0x7f0100b2
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9388,11 +9388,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:behavior_hideable
+          @attr name remote.tsoglan.desktop:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9404,11 +9404,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:behavior_peekHeight
+          @attr name remote.tsoglan.desktop:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9418,7 +9418,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:behavior_skipCollapsed
+          @attr name remote.tsoglan.desktop:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a BoxInsetLayout_Layout.
@@ -9427,7 +9427,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BoxInsetLayout_Layout_layout_box com.gaitan.tsoglan.androidmouse:layout_box}</code></td><td></td></tr>
+           <tr><td><code>{@link #BoxInsetLayout_Layout_layout_box remote.tsoglan.desktop:layout_box}</code></td><td></td></tr>
            </table>
            @see #BoxInsetLayout_Layout_layout_box
          */
@@ -9435,7 +9435,7 @@ containing a value of this type.
             0x7f0100b3
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_box}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_box}
           attribute's value can be found in the {@link #BoxInsetLayout_Layout} array.
 
 
@@ -9451,7 +9451,7 @@ containing a value of this type.
 <tr><td><code>bottom</code></td><td>0x08</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x0F</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:layout_box
+          @attr name remote.tsoglan.desktop:layout_box
         */
         public static final int BoxInsetLayout_Layout_layout_box = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -9460,7 +9460,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.gaitan.tsoglan.androidmouse:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking remote.tsoglan.desktop:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -9468,7 +9468,7 @@ containing a value of this type.
             0x7f0100b4
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -9478,7 +9478,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:allowStacking
+          @attr name remote.tsoglan.desktop:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CastIntroOverlay.
@@ -9487,12 +9487,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor com.gaitan.tsoglan.androidmouse:castBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor com.gaitan.tsoglan.androidmouse:castButtonBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonText com.gaitan.tsoglan.androidmouse:castButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance com.gaitan.tsoglan.androidmouse:castButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castFocusRadius com.gaitan.tsoglan.androidmouse:castFocusRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance com.gaitan.tsoglan.androidmouse:castTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor remote.tsoglan.desktop:castBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor remote.tsoglan.desktop:castButtonBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castButtonText remote.tsoglan.desktop:castButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance remote.tsoglan.desktop:castButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castFocusRadius remote.tsoglan.desktop:castFocusRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance remote.tsoglan.desktop:castTitleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #CastIntroOverlay_castBackgroundColor
            @see #CastIntroOverlay_castButtonBackgroundColor
@@ -9506,7 +9506,7 @@ containing a value of this type.
             0x7f0100b9, 0x7f0100ba
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castBackgroundColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castBackgroundColor}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
@@ -9514,11 +9514,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castBackgroundColor
+          @attr name remote.tsoglan.desktop:castBackgroundColor
         */
         public static final int CastIntroOverlay_castBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castButtonBackgroundColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castButtonBackgroundColor}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
@@ -9526,32 +9526,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castButtonBackgroundColor
+          @attr name remote.tsoglan.desktop:castButtonBackgroundColor
         */
         public static final int CastIntroOverlay_castButtonBackgroundColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castButtonText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castButtonText}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.gaitan.tsoglan.androidmouse:castButtonText
+          @attr name remote.tsoglan.desktop:castButtonText
         */
         public static final int CastIntroOverlay_castButtonText = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castButtonTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castButtonTextAppearance}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castButtonTextAppearance
+          @attr name remote.tsoglan.desktop:castButtonTextAppearance
         */
         public static final int CastIntroOverlay_castButtonTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castFocusRadius}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castFocusRadius}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
@@ -9560,17 +9560,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name com.gaitan.tsoglan.androidmouse:castFocusRadius
+          @attr name remote.tsoglan.desktop:castFocusRadius
         */
         public static final int CastIntroOverlay_castFocusRadius = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castTitleTextAppearance}
           attribute's value can be found in the {@link #CastIntroOverlay} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castTitleTextAppearance
+          @attr name remote.tsoglan.desktop:castTitleTextAppearance
         */
         public static final int CastIntroOverlay_castTitleTextAppearance = 4;
         /** Attributes that can be used with a CastMiniController.
@@ -9579,9 +9579,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CastMiniController_castShowImageThumbnail com.gaitan.tsoglan.androidmouse:castShowImageThumbnail}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance com.gaitan.tsoglan.androidmouse:castSubtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastMiniController_castTitleTextAppearance com.gaitan.tsoglan.androidmouse:castTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastMiniController_castShowImageThumbnail remote.tsoglan.desktop:castShowImageThumbnail}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance remote.tsoglan.desktop:castSubtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CastMiniController_castTitleTextAppearance remote.tsoglan.desktop:castTitleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #CastMiniController_castShowImageThumbnail
            @see #CastMiniController_castSubtitleTextAppearance
@@ -9591,7 +9591,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b9, 0x7f0100bb, 0x7f0100bc
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castShowImageThumbnail}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castShowImageThumbnail}
           attribute's value can be found in the {@link #CastMiniController} array.
 
 
@@ -9601,27 +9601,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:castShowImageThumbnail
+          @attr name remote.tsoglan.desktop:castShowImageThumbnail
         */
         public static final int CastMiniController_castShowImageThumbnail = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castSubtitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castSubtitleTextAppearance}
           attribute's value can be found in the {@link #CastMiniController} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castSubtitleTextAppearance
+          @attr name remote.tsoglan.desktop:castSubtitleTextAppearance
         */
         public static final int CastMiniController_castSubtitleTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castTitleTextAppearance}
           attribute's value can be found in the {@link #CastMiniController} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castTitleTextAppearance
+          @attr name remote.tsoglan.desktop:castTitleTextAppearance
         */
         public static final int CastMiniController_castTitleTextAppearance = 0;
         /** Attributes that can be used with a CircleButton.
@@ -9630,8 +9630,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircleButton_cb_color com.gaitan.tsoglan.androidmouse:cb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleButton_cb_pressedRingWidth com.gaitan.tsoglan.androidmouse:cb_pressedRingWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleButton_cb_color remote.tsoglan.desktop:cb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleButton_cb_pressedRingWidth remote.tsoglan.desktop:cb_pressedRingWidth}</code></td><td></td></tr>
            </table>
            @see #CircleButton_cb_color
            @see #CircleButton_cb_pressedRingWidth
@@ -9640,7 +9640,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100bd, 0x7f0100be
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cb_color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cb_color}
           attribute's value can be found in the {@link #CircleButton} array.
 
 
@@ -9651,11 +9651,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cb_color
+          @attr name remote.tsoglan.desktop:cb_color
         */
         public static final int CircleButton_cb_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cb_pressedRingWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cb_pressedRingWidth}
           attribute's value can be found in the {@link #CircleButton} array.
 
 
@@ -9667,7 +9667,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cb_pressedRingWidth
+          @attr name remote.tsoglan.desktop:cb_pressedRingWidth
         */
         public static final int CircleButton_cb_pressedRingWidth = 1;
         /** Attributes that can be used with a CircledImageView.
@@ -9677,20 +9677,20 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CircledImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_cap com.gaitan.tsoglan.androidmouse:circle_border_cap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_color com.gaitan.tsoglan.androidmouse:circle_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_width com.gaitan.tsoglan.androidmouse:circle_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_color com.gaitan.tsoglan.androidmouse:circle_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_padding com.gaitan.tsoglan.androidmouse:circle_padding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius com.gaitan.tsoglan.androidmouse:circle_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_percent com.gaitan.tsoglan.androidmouse:circle_radius_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_pressed com.gaitan.tsoglan.androidmouse:circle_radius_pressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_pressed_percent com.gaitan.tsoglan.androidmouse:circle_radius_pressed_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_circle_percentage com.gaitan.tsoglan.androidmouse:image_circle_percentage}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_horizontal_offcenter_percentage com.gaitan.tsoglan.androidmouse:image_horizontal_offcenter_percentage}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_tint com.gaitan.tsoglan.androidmouse:image_tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_shadow_width com.gaitan.tsoglan.androidmouse:shadow_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_square_dimen com.gaitan.tsoglan.androidmouse:square_dimen}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_cap remote.tsoglan.desktop:circle_border_cap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_color remote.tsoglan.desktop:circle_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_width remote.tsoglan.desktop:circle_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_color remote.tsoglan.desktop:circle_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_padding remote.tsoglan.desktop:circle_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius remote.tsoglan.desktop:circle_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_percent remote.tsoglan.desktop:circle_radius_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_pressed remote.tsoglan.desktop:circle_radius_pressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_pressed_percent remote.tsoglan.desktop:circle_radius_pressed_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_circle_percentage remote.tsoglan.desktop:image_circle_percentage}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_horizontal_offcenter_percentage remote.tsoglan.desktop:image_horizontal_offcenter_percentage}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_tint remote.tsoglan.desktop:image_tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_shadow_width remote.tsoglan.desktop:shadow_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_square_dimen remote.tsoglan.desktop:square_dimen}</code></td><td></td></tr>
            </table>
            @see #CircledImageView_android_src
            @see #CircledImageView_circle_border_cap
@@ -9721,7 +9721,7 @@ containing a value of this type.
         */
         public static final int CircledImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_border_cap}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_cap}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9735,11 +9735,11 @@ containing a value of this type.
 <tr><td><code>round</code></td><td>1</td><td></td></tr>
 <tr><td><code>square</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:circle_border_cap
+          @attr name remote.tsoglan.desktop:circle_border_cap
         */
         public static final int CircledImageView_circle_border_cap = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_border_color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_color}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9750,11 +9750,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_border_color
+          @attr name remote.tsoglan.desktop:circle_border_color
         */
         public static final int CircledImageView_circle_border_color = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_border_width}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_width}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9766,11 +9766,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_border_width
+          @attr name remote.tsoglan.desktop:circle_border_width
         */
         public static final int CircledImageView_circle_border_width = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_color}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9781,11 +9781,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_color
+          @attr name remote.tsoglan.desktop:circle_color
         */
         public static final int CircledImageView_circle_color = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_padding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_padding}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9797,11 +9797,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_padding
+          @attr name remote.tsoglan.desktop:circle_padding
         */
         public static final int CircledImageView_circle_padding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_radius}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9813,11 +9813,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_radius
+          @attr name remote.tsoglan.desktop:circle_radius
         */
         public static final int CircledImageView_circle_radius = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_radius_percent}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_percent}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9829,11 +9829,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_radius_percent
+          @attr name remote.tsoglan.desktop:circle_radius_percent
         */
         public static final int CircledImageView_circle_radius_percent = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_radius_pressed}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_pressed}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9845,11 +9845,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_radius_pressed
+          @attr name remote.tsoglan.desktop:circle_radius_pressed
         */
         public static final int CircledImageView_circle_radius_pressed = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circle_radius_pressed_percent}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_pressed_percent}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9861,11 +9861,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circle_radius_pressed_percent
+          @attr name remote.tsoglan.desktop:circle_radius_pressed_percent
         */
         public static final int CircledImageView_circle_radius_pressed_percent = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#image_circle_percentage}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_circle_percentage}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9877,11 +9877,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:image_circle_percentage
+          @attr name remote.tsoglan.desktop:image_circle_percentage
         */
         public static final int CircledImageView_image_circle_percentage = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#image_horizontal_offcenter_percentage}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_horizontal_offcenter_percentage}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9893,11 +9893,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:image_horizontal_offcenter_percentage
+          @attr name remote.tsoglan.desktop:image_horizontal_offcenter_percentage
         */
         public static final int CircledImageView_image_horizontal_offcenter_percentage = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#image_tint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_tint}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9908,11 +9908,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:image_tint
+          @attr name remote.tsoglan.desktop:image_tint
         */
         public static final int CircledImageView_image_tint = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#shadow_width}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#shadow_width}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9924,11 +9924,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:shadow_width
+          @attr name remote.tsoglan.desktop:shadow_width
         */
         public static final int CircledImageView_shadow_width = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#square_dimen}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#square_dimen}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9942,7 +9942,7 @@ containing a value of this type.
 <tr><td><code>height</code></td><td>1</td><td></td></tr>
 <tr><td><code>width</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:square_dimen
+          @attr name remote.tsoglan.desktop:square_dimen
         */
         public static final int CircledImageView_square_dimen = 14;
         /** Attributes that can be used with a CircularButton.
@@ -9955,9 +9955,9 @@ containing a value of this type.
            <tr><td><code>{@link #CircularButton_android_elevation android:elevation}</code></td><td></td></tr>
            <tr><td><code>{@link #CircularButton_android_src android:src}</code></td><td></td></tr>
            <tr><td><code>{@link #CircularButton_android_stateListAnimator android:stateListAnimator}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_buttonRippleColor com.gaitan.tsoglan.androidmouse:buttonRippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_imageScaleMode com.gaitan.tsoglan.androidmouse:imageScaleMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_pressedButtonTranslationZ com.gaitan.tsoglan.androidmouse:pressedButtonTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_buttonRippleColor remote.tsoglan.desktop:buttonRippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_imageScaleMode remote.tsoglan.desktop:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_pressedButtonTranslationZ remote.tsoglan.desktop:pressedButtonTranslationZ}</code></td><td></td></tr>
            </table>
            @see #CircularButton_android_color
            @see #CircularButton_android_elevation
@@ -9996,7 +9996,7 @@ containing a value of this type.
         */
         public static final int CircularButton_android_stateListAnimator = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonRippleColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonRippleColor}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -10004,11 +10004,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:buttonRippleColor
+          @attr name remote.tsoglan.desktop:buttonRippleColor
         */
         public static final int CircularButton_buttonRippleColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#imageScaleMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageScaleMode}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -10021,11 +10021,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>fit</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:imageScaleMode
+          @attr name remote.tsoglan.desktop:imageScaleMode
         */
         public static final int CircularButton_imageScaleMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#pressedButtonTranslationZ}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedButtonTranslationZ}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -10037,7 +10037,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:pressedButtonTranslationZ
+          @attr name remote.tsoglan.desktop:pressedButtonTranslationZ
         */
         public static final int CircularButton_pressedButtonTranslationZ = 6;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -10046,22 +10046,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.gaitan.tsoglan.androidmouse:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.gaitan.tsoglan.androidmouse:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.gaitan.tsoglan.androidmouse:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.gaitan.tsoglan.androidmouse:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.gaitan.tsoglan.androidmouse:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.gaitan.tsoglan.androidmouse:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.gaitan.tsoglan.androidmouse:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.gaitan.tsoglan.androidmouse:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.gaitan.tsoglan.androidmouse:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.gaitan.tsoglan.androidmouse:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.gaitan.tsoglan.androidmouse:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.gaitan.tsoglan.androidmouse:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.gaitan.tsoglan.androidmouse:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.gaitan.tsoglan.androidmouse:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.gaitan.tsoglan.androidmouse:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.gaitan.tsoglan.androidmouse:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity remote.tsoglan.desktop:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance remote.tsoglan.desktop:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim remote.tsoglan.desktop:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity remote.tsoglan.desktop:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin remote.tsoglan.desktop:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom remote.tsoglan.desktop:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd remote.tsoglan.desktop:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart remote.tsoglan.desktop:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop remote.tsoglan.desktop:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance remote.tsoglan.desktop:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration remote.tsoglan.desktop:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger remote.tsoglan.desktop:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim remote.tsoglan.desktop:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled remote.tsoglan.desktop:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId remote.tsoglan.desktop:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10087,7 +10087,7 @@ containing a value of this type.
             0x7f0100db, 0x7f0100dc, 0x7f0100dd, 0x7f0100de
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10108,21 +10108,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:collapsedTitleGravity
+          @attr name remote.tsoglan.desktop:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:collapsedTitleTextAppearance
+          @attr name remote.tsoglan.desktop:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10133,11 +10133,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentScrim
+          @attr name remote.tsoglan.desktop:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10158,11 +10158,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleGravity
+          @attr name remote.tsoglan.desktop:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10174,11 +10174,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleMargin
+          @attr name remote.tsoglan.desktop:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10190,11 +10190,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleMarginBottom
+          @attr name remote.tsoglan.desktop:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10206,11 +10206,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleMarginEnd
+          @attr name remote.tsoglan.desktop:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10222,11 +10222,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleMarginStart
+          @attr name remote.tsoglan.desktop:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10238,21 +10238,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleMarginTop
+          @attr name remote.tsoglan.desktop:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:expandedTitleTextAppearance
+          @attr name remote.tsoglan.desktop:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10262,11 +10262,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:scrimAnimationDuration
+          @attr name remote.tsoglan.desktop:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10278,11 +10278,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:scrimVisibleHeightTrigger
+          @attr name remote.tsoglan.desktop:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10293,11 +10293,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:statusBarScrim
+          @attr name remote.tsoglan.desktop:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#title}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10307,11 +10307,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:title
+          @attr name remote.tsoglan.desktop:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10321,17 +10321,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleEnabled
+          @attr name remote.tsoglan.desktop:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:toolbarId
+          @attr name remote.tsoglan.desktop:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -10340,8 +10340,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.gaitan.tsoglan.androidmouse:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.gaitan.tsoglan.androidmouse:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode remote.tsoglan.desktop:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier remote.tsoglan.desktop:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -10350,7 +10350,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100df, 0x7f0100e0
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -10364,11 +10364,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:layout_collapseMode
+          @attr name remote.tsoglan.desktop:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -10378,7 +10378,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_collapseParallaxMultiplier
+          @attr name remote.tsoglan.desktop:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -10387,7 +10387,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.gaitan.tsoglan.androidmouse:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha remote.tsoglan.desktop:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -10399,7 +10399,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#alpha}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -10409,7 +10409,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:alpha
+          @attr name remote.tsoglan.desktop:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -10431,8 +10431,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.gaitan.tsoglan.androidmouse:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.gaitan.tsoglan.androidmouse:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint remote.tsoglan.desktop:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode remote.tsoglan.desktop:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -10448,7 +10448,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -10459,11 +10459,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:buttonTint
+          @attr name remote.tsoglan.desktop:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -10479,7 +10479,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buttonTintMode
+          @attr name remote.tsoglan.desktop:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -10488,8 +10488,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.gaitan.tsoglan.androidmouse:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.gaitan.tsoglan.androidmouse:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines remote.tsoglan.desktop:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground remote.tsoglan.desktop:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -10498,23 +10498,23 @@ containing a value of this type.
             0x7f0100e4, 0x7f0100e5
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#keylines}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:keylines
+          @attr name remote.tsoglan.desktop:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:statusBarBackground
+          @attr name remote.tsoglan.desktop:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -10524,10 +10524,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.gaitan.tsoglan.androidmouse:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.gaitan.tsoglan.androidmouse:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.gaitan.tsoglan.androidmouse:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.gaitan.tsoglan.androidmouse:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor remote.tsoglan.desktop:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity remote.tsoglan.desktop:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior remote.tsoglan.desktop:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline remote.tsoglan.desktop:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -10546,17 +10546,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:layout_anchor
+          @attr name remote.tsoglan.desktop:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -10581,11 +10581,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:layout_anchorGravity
+          @attr name remote.tsoglan.desktop:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -10595,11 +10595,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_behavior
+          @attr name remote.tsoglan.desktop:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -10609,7 +10609,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_keyline
+          @attr name remote.tsoglan.desktop:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a Corpus.
@@ -10618,13 +10618,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Corpus_contentProviderUri com.gaitan.tsoglan.androidmouse:contentProviderUri}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_corpusId com.gaitan.tsoglan.androidmouse:corpusId}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_corpusVersion com.gaitan.tsoglan.androidmouse:corpusVersion}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_perAccountTemplate com.gaitan.tsoglan.androidmouse:perAccountTemplate}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_schemaOrgType com.gaitan.tsoglan.androidmouse:schemaOrgType}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_semanticallySearchable com.gaitan.tsoglan.androidmouse:semanticallySearchable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_trimmable com.gaitan.tsoglan.androidmouse:trimmable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_contentProviderUri remote.tsoglan.desktop:contentProviderUri}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_corpusId remote.tsoglan.desktop:corpusId}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_corpusVersion remote.tsoglan.desktop:corpusVersion}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_perAccountTemplate remote.tsoglan.desktop:perAccountTemplate}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_schemaOrgType remote.tsoglan.desktop:schemaOrgType}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_semanticallySearchable remote.tsoglan.desktop:semanticallySearchable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Corpus_trimmable remote.tsoglan.desktop:trimmable}</code></td><td></td></tr>
            </table>
            @see #Corpus_contentProviderUri
            @see #Corpus_corpusId
@@ -10639,7 +10639,7 @@ containing a value of this type.
             0x7f0100ee, 0x7f0100ef, 0x7f0100f0
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentProviderUri}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentProviderUri}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10649,11 +10649,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentProviderUri
+          @attr name remote.tsoglan.desktop:contentProviderUri
         */
         public static final int Corpus_contentProviderUri = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#corpusId}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#corpusId}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10663,11 +10663,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:corpusId
+          @attr name remote.tsoglan.desktop:corpusId
         */
         public static final int Corpus_corpusId = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#corpusVersion}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#corpusVersion}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10677,11 +10677,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:corpusVersion
+          @attr name remote.tsoglan.desktop:corpusVersion
         */
         public static final int Corpus_corpusVersion = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#perAccountTemplate}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#perAccountTemplate}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10691,11 +10691,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:perAccountTemplate
+          @attr name remote.tsoglan.desktop:perAccountTemplate
         */
         public static final int Corpus_perAccountTemplate = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#schemaOrgType}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#schemaOrgType}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10705,11 +10705,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:schemaOrgType
+          @attr name remote.tsoglan.desktop:schemaOrgType
         */
         public static final int Corpus_schemaOrgType = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#semanticallySearchable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#semanticallySearchable}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10719,11 +10719,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:semanticallySearchable
+          @attr name remote.tsoglan.desktop:semanticallySearchable
         */
         public static final int Corpus_semanticallySearchable = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#trimmable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#trimmable}
           attribute's value can be found in the {@link #Corpus} array.
 
 
@@ -10733,7 +10733,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:trimmable
+          @attr name remote.tsoglan.desktop:trimmable
         */
         public static final int Corpus_trimmable = 3;
         /** Attributes that can be used with a CustomCastTheme.
@@ -10742,8 +10742,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle com.gaitan.tsoglan.androidmouse:castIntroOverlayStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle com.gaitan.tsoglan.androidmouse:castMiniControllerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle remote.tsoglan.desktop:castIntroOverlayStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle remote.tsoglan.desktop:castMiniControllerStyle}</code></td><td></td></tr>
            </table>
            @see #CustomCastTheme_castIntroOverlayStyle
            @see #CustomCastTheme_castMiniControllerStyle
@@ -10752,23 +10752,23 @@ containing a value of this type.
             0x7f0100f1, 0x7f0100f2
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castIntroOverlayStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castIntroOverlayStyle}
           attribute's value can be found in the {@link #CustomCastTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castIntroOverlayStyle
+          @attr name remote.tsoglan.desktop:castIntroOverlayStyle
         */
         public static final int CustomCastTheme_castIntroOverlayStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#castMiniControllerStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#castMiniControllerStyle}
           attribute's value can be found in the {@link #CustomCastTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:castMiniControllerStyle
+          @attr name remote.tsoglan.desktop:castMiniControllerStyle
         */
         public static final int CustomCastTheme_castMiniControllerStyle = 1;
         /** Attributes that can be used with a CustomWalletTheme.
@@ -10777,8 +10777,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle com.gaitan.tsoglan.androidmouse:toolbarTextColorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.gaitan.tsoglan.androidmouse:windowTransitionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle remote.tsoglan.desktop:toolbarTextColorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle remote.tsoglan.desktop:windowTransitionStyle}</code></td><td></td></tr>
            </table>
            @see #CustomWalletTheme_toolbarTextColorStyle
            @see #CustomWalletTheme_windowTransitionStyle
@@ -10787,7 +10787,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100f3, 0x7f0100f4
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#toolbarTextColorStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarTextColorStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -10800,11 +10800,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>dark</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:toolbarTextColorStyle
+          @attr name remote.tsoglan.desktop:toolbarTextColorStyle
         */
         public static final int CustomWalletTheme_toolbarTextColorStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#windowTransitionStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowTransitionStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -10817,7 +10817,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>slide</code></td><td>1</td><td></td></tr>
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:windowTransitionStyle
+          @attr name remote.tsoglan.desktop:windowTransitionStyle
         */
         public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a DelayedConfirmationView.
@@ -10826,7 +10826,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DelayedConfirmationView_update_interval com.gaitan.tsoglan.androidmouse:update_interval}</code></td><td></td></tr>
+           <tr><td><code>{@link #DelayedConfirmationView_update_interval remote.tsoglan.desktop:update_interval}</code></td><td></td></tr>
            </table>
            @see #DelayedConfirmationView_update_interval
          */
@@ -10834,7 +10834,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100f5
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#update_interval}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#update_interval}
           attribute's value can be found in the {@link #DelayedConfirmationView} array.
 
 
@@ -10844,7 +10844,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:update_interval
+          @attr name remote.tsoglan.desktop:update_interval
         */
         public static final int DelayedConfirmationView_update_interval = 0;
         /** Attributes that can be used with a DesignTheme.
@@ -10853,9 +10853,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.gaitan.tsoglan.androidmouse:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.gaitan.tsoglan.androidmouse:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.gaitan.tsoglan.androidmouse:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme remote.tsoglan.desktop:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle remote.tsoglan.desktop:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError remote.tsoglan.desktop:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -10865,27 +10865,27 @@ containing a value of this type.
             0x7f0100f6, 0x7f0100f7, 0x7f0100f8
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:bottomSheetDialogTheme
+          @attr name remote.tsoglan.desktop:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:bottomSheetStyle
+          @attr name remote.tsoglan.desktop:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -10896,7 +10896,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:textColorError
+          @attr name remote.tsoglan.desktop:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DiscreteSeekBar.
@@ -10905,19 +10905,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_allowTrackClickToDrag com.gaitan.tsoglan.androidmouse:dsb_allowTrackClickToDrag}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorColor com.gaitan.tsoglan.androidmouse:dsb_indicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorElevation com.gaitan.tsoglan.androidmouse:dsb_indicatorElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorFormatter com.gaitan.tsoglan.androidmouse:dsb_indicatorFormatter}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorPopupEnabled com.gaitan.tsoglan.androidmouse:dsb_indicatorPopupEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorTextAppearance com.gaitan.tsoglan.androidmouse:dsb_indicatorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_max com.gaitan.tsoglan.androidmouse:dsb_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_min com.gaitan.tsoglan.androidmouse:dsb_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_mirrorForRtl com.gaitan.tsoglan.androidmouse:dsb_mirrorForRtl}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_progressColor com.gaitan.tsoglan.androidmouse:dsb_progressColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_rippleColor com.gaitan.tsoglan.androidmouse:dsb_rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_trackColor com.gaitan.tsoglan.androidmouse:dsb_trackColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_value com.gaitan.tsoglan.androidmouse:dsb_value}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_allowTrackClickToDrag remote.tsoglan.desktop:dsb_allowTrackClickToDrag}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorColor remote.tsoglan.desktop:dsb_indicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorElevation remote.tsoglan.desktop:dsb_indicatorElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorFormatter remote.tsoglan.desktop:dsb_indicatorFormatter}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorPopupEnabled remote.tsoglan.desktop:dsb_indicatorPopupEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorTextAppearance remote.tsoglan.desktop:dsb_indicatorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_max remote.tsoglan.desktop:dsb_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_min remote.tsoglan.desktop:dsb_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_mirrorForRtl remote.tsoglan.desktop:dsb_mirrorForRtl}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_progressColor remote.tsoglan.desktop:dsb_progressColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_rippleColor remote.tsoglan.desktop:dsb_rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_trackColor remote.tsoglan.desktop:dsb_trackColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_value remote.tsoglan.desktop:dsb_value}</code></td><td></td></tr>
            </table>
            @see #DiscreteSeekBar_dsb_allowTrackClickToDrag
            @see #DiscreteSeekBar_dsb_indicatorColor
@@ -10940,7 +10940,7 @@ containing a value of this type.
             0x7f010105
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_allowTrackClickToDrag}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_allowTrackClickToDrag}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10950,11 +10950,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_allowTrackClickToDrag
+          @attr name remote.tsoglan.desktop:dsb_allowTrackClickToDrag
         */
         public static final int DiscreteSeekBar_dsb_allowTrackClickToDrag = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_indicatorColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10962,11 +10962,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_indicatorColor
+          @attr name remote.tsoglan.desktop:dsb_indicatorColor
         */
         public static final int DiscreteSeekBar_dsb_indicatorColor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_indicatorElevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorElevation}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10978,22 +10978,22 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_indicatorElevation
+          @attr name remote.tsoglan.desktop:dsb_indicatorElevation
         */
         public static final int DiscreteSeekBar_dsb_indicatorElevation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_indicatorFormatter}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorFormatter}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_indicatorFormatter
+          @attr name remote.tsoglan.desktop:dsb_indicatorFormatter
         */
         public static final int DiscreteSeekBar_dsb_indicatorFormatter = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_indicatorPopupEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorPopupEnabled}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11003,21 +11003,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_indicatorPopupEnabled
+          @attr name remote.tsoglan.desktop:dsb_indicatorPopupEnabled
         */
         public static final int DiscreteSeekBar_dsb_indicatorPopupEnabled = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_indicatorTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorTextAppearance}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_indicatorTextAppearance
+          @attr name remote.tsoglan.desktop:dsb_indicatorTextAppearance
         */
         public static final int DiscreteSeekBar_dsb_indicatorTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_max}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_max}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11030,11 +11030,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_max
+          @attr name remote.tsoglan.desktop:dsb_max
         */
         public static final int DiscreteSeekBar_dsb_max = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_min}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_min}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11047,11 +11047,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_min
+          @attr name remote.tsoglan.desktop:dsb_min
         */
         public static final int DiscreteSeekBar_dsb_min = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_mirrorForRtl}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_mirrorForRtl}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11061,11 +11061,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_mirrorForRtl
+          @attr name remote.tsoglan.desktop:dsb_mirrorForRtl
         */
         public static final int DiscreteSeekBar_dsb_mirrorForRtl = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_progressColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_progressColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11073,11 +11073,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_progressColor
+          @attr name remote.tsoglan.desktop:dsb_progressColor
         */
         public static final int DiscreteSeekBar_dsb_progressColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_rippleColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_rippleColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11085,11 +11085,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_rippleColor
+          @attr name remote.tsoglan.desktop:dsb_rippleColor
         */
         public static final int DiscreteSeekBar_dsb_rippleColor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_trackColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_trackColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11097,11 +11097,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_trackColor
+          @attr name remote.tsoglan.desktop:dsb_trackColor
         */
         public static final int DiscreteSeekBar_dsb_trackColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dsb_value}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_value}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -11114,7 +11114,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dsb_value
+          @attr name remote.tsoglan.desktop:dsb_value
         */
         public static final int DiscreteSeekBar_dsb_value = 2;
         /** Attributes that can be used with a DotsPageIndicator.
@@ -11123,19 +11123,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotColor com.gaitan.tsoglan.androidmouse:dotColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotColorSelected com.gaitan.tsoglan.androidmouse:dotColorSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeInDuration com.gaitan.tsoglan.androidmouse:dotFadeInDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDelay com.gaitan.tsoglan.androidmouse:dotFadeOutDelay}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDuration com.gaitan.tsoglan.androidmouse:dotFadeOutDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeWhenIdle com.gaitan.tsoglan.androidmouse:dotFadeWhenIdle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotRadius com.gaitan.tsoglan.androidmouse:dotRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotRadiusSelected com.gaitan.tsoglan.androidmouse:dotRadiusSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowColor com.gaitan.tsoglan.androidmouse:dotShadowColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowDx com.gaitan.tsoglan.androidmouse:dotShadowDx}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowDy com.gaitan.tsoglan.androidmouse:dotShadowDy}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowRadius com.gaitan.tsoglan.androidmouse:dotShadowRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotSpacing com.gaitan.tsoglan.androidmouse:dotSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotColor remote.tsoglan.desktop:dotColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotColorSelected remote.tsoglan.desktop:dotColorSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeInDuration remote.tsoglan.desktop:dotFadeInDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDelay remote.tsoglan.desktop:dotFadeOutDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDuration remote.tsoglan.desktop:dotFadeOutDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeWhenIdle remote.tsoglan.desktop:dotFadeWhenIdle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotRadius remote.tsoglan.desktop:dotRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotRadiusSelected remote.tsoglan.desktop:dotRadiusSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowColor remote.tsoglan.desktop:dotShadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowDx remote.tsoglan.desktop:dotShadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowDy remote.tsoglan.desktop:dotShadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowRadius remote.tsoglan.desktop:dotShadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotSpacing remote.tsoglan.desktop:dotSpacing}</code></td><td></td></tr>
            </table>
            @see #DotsPageIndicator_dotColor
            @see #DotsPageIndicator_dotColorSelected
@@ -11158,7 +11158,7 @@ containing a value of this type.
             0x7f010112
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotColor}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11169,11 +11169,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotColor
+          @attr name remote.tsoglan.desktop:dotColor
         */
         public static final int DotsPageIndicator_dotColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotColorSelected}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotColorSelected}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11184,11 +11184,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotColorSelected
+          @attr name remote.tsoglan.desktop:dotColorSelected
         */
         public static final int DotsPageIndicator_dotColorSelected = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotFadeInDuration}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeInDuration}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11198,11 +11198,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotFadeInDuration
+          @attr name remote.tsoglan.desktop:dotFadeInDuration
         */
         public static final int DotsPageIndicator_dotFadeInDuration = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotFadeOutDelay}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeOutDelay}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11212,11 +11212,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotFadeOutDelay
+          @attr name remote.tsoglan.desktop:dotFadeOutDelay
         */
         public static final int DotsPageIndicator_dotFadeOutDelay = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotFadeOutDuration}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeOutDuration}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11226,11 +11226,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotFadeOutDuration
+          @attr name remote.tsoglan.desktop:dotFadeOutDuration
         */
         public static final int DotsPageIndicator_dotFadeOutDuration = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotFadeWhenIdle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeWhenIdle}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11240,11 +11240,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotFadeWhenIdle
+          @attr name remote.tsoglan.desktop:dotFadeWhenIdle
         */
         public static final int DotsPageIndicator_dotFadeWhenIdle = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotRadius}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotRadius}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11256,11 +11256,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotRadius
+          @attr name remote.tsoglan.desktop:dotRadius
         */
         public static final int DotsPageIndicator_dotRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotRadiusSelected}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotRadiusSelected}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11272,11 +11272,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotRadiusSelected
+          @attr name remote.tsoglan.desktop:dotRadiusSelected
         */
         public static final int DotsPageIndicator_dotRadiusSelected = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotShadowColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowColor}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11287,11 +11287,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotShadowColor
+          @attr name remote.tsoglan.desktop:dotShadowColor
         */
         public static final int DotsPageIndicator_dotShadowColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotShadowDx}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowDx}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11303,11 +11303,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotShadowDx
+          @attr name remote.tsoglan.desktop:dotShadowDx
         */
         public static final int DotsPageIndicator_dotShadowDx = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotShadowDy}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowDy}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11319,11 +11319,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotShadowDy
+          @attr name remote.tsoglan.desktop:dotShadowDy
         */
         public static final int DotsPageIndicator_dotShadowDy = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotShadowRadius}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowRadius}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11335,11 +11335,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotShadowRadius
+          @attr name remote.tsoglan.desktop:dotShadowRadius
         */
         public static final int DotsPageIndicator_dotShadowRadius = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dotSpacing}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotSpacing}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -11351,7 +11351,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dotSpacing
+          @attr name remote.tsoglan.desktop:dotSpacing
         */
         public static final int DotsPageIndicator_dotSpacing = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -11360,14 +11360,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.gaitan.tsoglan.androidmouse:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.gaitan.tsoglan.androidmouse:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.gaitan.tsoglan.androidmouse:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.gaitan.tsoglan.androidmouse:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.gaitan.tsoglan.androidmouse:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.gaitan.tsoglan.androidmouse:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.gaitan.tsoglan.androidmouse:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.gaitan.tsoglan.androidmouse:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength remote.tsoglan.desktop:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength remote.tsoglan.desktop:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength remote.tsoglan.desktop:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color remote.tsoglan.desktop:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize remote.tsoglan.desktop:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars remote.tsoglan.desktop:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars remote.tsoglan.desktop:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness remote.tsoglan.desktop:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -11383,7 +11383,7 @@ containing a value of this type.
             0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11395,11 +11395,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:arrowHeadLength
+          @attr name remote.tsoglan.desktop:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11411,11 +11411,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:arrowShaftLength
+          @attr name remote.tsoglan.desktop:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#barLength}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11427,11 +11427,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:barLength
+          @attr name remote.tsoglan.desktop:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11442,11 +11442,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:color
+          @attr name remote.tsoglan.desktop:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11458,11 +11458,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:drawableSize
+          @attr name remote.tsoglan.desktop:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11474,11 +11474,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:gapBetweenBars
+          @attr name remote.tsoglan.desktop:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11488,11 +11488,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:spinBars
+          @attr name remote.tsoglan.desktop:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#thickness}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -11504,7 +11504,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:thickness
+          @attr name remote.tsoglan.desktop:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a ExpandableMenuOverlay.
@@ -11513,20 +11513,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_adjustViewSize com.gaitan.tsoglan.androidmouse:adjustViewSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_bottomPad com.gaitan.tsoglan.androidmouse:bottomPad}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_closeButtonSrc com.gaitan.tsoglan.androidmouse:closeButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_dimAmount com.gaitan.tsoglan.androidmouse:dimAmount}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_distanceX com.gaitan.tsoglan.androidmouse:distanceX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_distanceY com.gaitan.tsoglan.androidmouse:distanceY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonSrc com.gaitan.tsoglan.androidmouse:leftButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonText com.gaitan.tsoglan.androidmouse:leftButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_mainButtonSize com.gaitan.tsoglan.androidmouse:mainButtonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonSrc com.gaitan.tsoglan.androidmouse:midButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonText com.gaitan.tsoglan.androidmouse:midButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_otherButtonSize com.gaitan.tsoglan.androidmouse:otherButtonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonSrc com.gaitan.tsoglan.androidmouse:rightButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonText com.gaitan.tsoglan.androidmouse:rightButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_adjustViewSize remote.tsoglan.desktop:adjustViewSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_bottomPad remote.tsoglan.desktop:bottomPad}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_closeButtonSrc remote.tsoglan.desktop:closeButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_dimAmount remote.tsoglan.desktop:dimAmount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_distanceX remote.tsoglan.desktop:distanceX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_distanceY remote.tsoglan.desktop:distanceY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonSrc remote.tsoglan.desktop:leftButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonText remote.tsoglan.desktop:leftButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_mainButtonSize remote.tsoglan.desktop:mainButtonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonSrc remote.tsoglan.desktop:midButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonText remote.tsoglan.desktop:midButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_otherButtonSize remote.tsoglan.desktop:otherButtonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonSrc remote.tsoglan.desktop:rightButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonText remote.tsoglan.desktop:rightButtonText}</code></td><td></td></tr>
            </table>
            @see #ExpandableMenuOverlay_adjustViewSize
            @see #ExpandableMenuOverlay_bottomPad
@@ -11550,7 +11550,7 @@ containing a value of this type.
             0x7f010127, 0x7f010128
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#adjustViewSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adjustViewSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11560,11 +11560,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:adjustViewSize
+          @attr name remote.tsoglan.desktop:adjustViewSize
         */
         public static final int ExpandableMenuOverlay_adjustViewSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#bottomPad}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomPad}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11574,11 +11574,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:bottomPad
+          @attr name remote.tsoglan.desktop:bottomPad
         */
         public static final int ExpandableMenuOverlay_bottomPad = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#closeButtonSrc}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11588,11 +11588,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:closeButtonSrc
+          @attr name remote.tsoglan.desktop:closeButtonSrc
         */
         public static final int ExpandableMenuOverlay_closeButtonSrc = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dimAmount}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dimAmount}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11602,11 +11602,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dimAmount
+          @attr name remote.tsoglan.desktop:dimAmount
         */
         public static final int ExpandableMenuOverlay_dimAmount = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#distanceX}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#distanceX}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11616,11 +11616,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:distanceX
+          @attr name remote.tsoglan.desktop:distanceX
         */
         public static final int ExpandableMenuOverlay_distanceX = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#distanceY}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#distanceY}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11630,11 +11630,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:distanceY
+          @attr name remote.tsoglan.desktop:distanceY
         */
         public static final int ExpandableMenuOverlay_distanceY = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#leftButtonSrc}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#leftButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11644,11 +11644,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:leftButtonSrc
+          @attr name remote.tsoglan.desktop:leftButtonSrc
         */
         public static final int ExpandableMenuOverlay_leftButtonSrc = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#leftButtonText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#leftButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11658,11 +11658,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:leftButtonText
+          @attr name remote.tsoglan.desktop:leftButtonText
         */
         public static final int ExpandableMenuOverlay_leftButtonText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#mainButtonSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#mainButtonSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11672,11 +11672,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:mainButtonSize
+          @attr name remote.tsoglan.desktop:mainButtonSize
         */
         public static final int ExpandableMenuOverlay_mainButtonSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#midButtonSrc}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#midButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11686,11 +11686,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:midButtonSrc
+          @attr name remote.tsoglan.desktop:midButtonSrc
         */
         public static final int ExpandableMenuOverlay_midButtonSrc = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#midButtonText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#midButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11700,11 +11700,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:midButtonText
+          @attr name remote.tsoglan.desktop:midButtonText
         */
         public static final int ExpandableMenuOverlay_midButtonText = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#otherButtonSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#otherButtonSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11714,11 +11714,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:otherButtonSize
+          @attr name remote.tsoglan.desktop:otherButtonSize
         */
         public static final int ExpandableMenuOverlay_otherButtonSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#rightButtonSrc}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rightButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11728,11 +11728,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:rightButtonSrc
+          @attr name remote.tsoglan.desktop:rightButtonSrc
         */
         public static final int ExpandableMenuOverlay_rightButtonSrc = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#rightButtonText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rightButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -11742,7 +11742,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:rightButtonText
+          @attr name remote.tsoglan.desktop:rightButtonText
         */
         public static final int ExpandableMenuOverlay_rightButtonText = 13;
         /** Attributes that can be used with a FabToolbar.
@@ -11751,10 +11751,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FabToolbar_tb_anim_duration com.gaitan.tsoglan.androidmouse:tb_anim_duration}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_button_gravity com.gaitan.tsoglan.androidmouse:tb_button_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_color com.gaitan.tsoglan.androidmouse:tb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_container_gravity com.gaitan.tsoglan.androidmouse:tb_container_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_anim_duration remote.tsoglan.desktop:tb_anim_duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_button_gravity remote.tsoglan.desktop:tb_button_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_color remote.tsoglan.desktop:tb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_container_gravity remote.tsoglan.desktop:tb_container_gravity}</code></td><td></td></tr>
            </table>
            @see #FabToolbar_tb_anim_duration
            @see #FabToolbar_tb_button_gravity
@@ -11765,7 +11765,7 @@ containing a value of this type.
             0x7f010129, 0x7f01012a, 0x7f01012b, 0x7f01012c
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tb_anim_duration}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_anim_duration}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -11775,11 +11775,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tb_anim_duration
+          @attr name remote.tsoglan.desktop:tb_anim_duration
         */
         public static final int FabToolbar_tb_anim_duration = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tb_button_gravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_button_gravity}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -11793,11 +11793,11 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 <tr><td><code>end</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:tb_button_gravity
+          @attr name remote.tsoglan.desktop:tb_button_gravity
         */
         public static final int FabToolbar_tb_button_gravity = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tb_color}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_color}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -11808,11 +11808,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tb_color
+          @attr name remote.tsoglan.desktop:tb_color
         */
         public static final int FabToolbar_tb_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tb_container_gravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_container_gravity}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -11826,7 +11826,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 <tr><td><code>end</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:tb_container_gravity
+          @attr name remote.tsoglan.desktop:tb_container_gravity
         */
         public static final int FabToolbar_tb_container_gravity = 3;
         /** Attributes that can be used with a FancyButtonsAttrs.
@@ -11835,28 +11835,28 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderColor com.gaitan.tsoglan.androidmouse:fb_borderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderWidth com.gaitan.tsoglan.androidmouse:fb_borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_defaultColor com.gaitan.tsoglan.androidmouse:fb_defaultColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_focusColor com.gaitan.tsoglan.androidmouse:fb_focusColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconResource com.gaitan.tsoglan.androidmouse:fb_fontIconResource}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconSize com.gaitan.tsoglan.androidmouse:fb_fontIconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_ghost com.gaitan.tsoglan.androidmouse:fb_ghost}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconColor com.gaitan.tsoglan.androidmouse:fb_iconColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconFont com.gaitan.tsoglan.androidmouse:fb_iconFont}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingBottom com.gaitan.tsoglan.androidmouse:fb_iconPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingLeft com.gaitan.tsoglan.androidmouse:fb_iconPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingRight com.gaitan.tsoglan.androidmouse:fb_iconPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingTop com.gaitan.tsoglan.androidmouse:fb_iconPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPosition com.gaitan.tsoglan.androidmouse:fb_iconPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconResource com.gaitan.tsoglan.androidmouse:fb_iconResource}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_radius com.gaitan.tsoglan.androidmouse:fb_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_text com.gaitan.tsoglan.androidmouse:fb_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textColor com.gaitan.tsoglan.androidmouse:fb_textColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textFont com.gaitan.tsoglan.androidmouse:fb_textFont}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textGravity com.gaitan.tsoglan.androidmouse:fb_textGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textPosition com.gaitan.tsoglan.androidmouse:fb_textPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textSize com.gaitan.tsoglan.androidmouse:fb_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderColor remote.tsoglan.desktop:fb_borderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderWidth remote.tsoglan.desktop:fb_borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_defaultColor remote.tsoglan.desktop:fb_defaultColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_focusColor remote.tsoglan.desktop:fb_focusColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconResource remote.tsoglan.desktop:fb_fontIconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconSize remote.tsoglan.desktop:fb_fontIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_ghost remote.tsoglan.desktop:fb_ghost}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconColor remote.tsoglan.desktop:fb_iconColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconFont remote.tsoglan.desktop:fb_iconFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingBottom remote.tsoglan.desktop:fb_iconPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingLeft remote.tsoglan.desktop:fb_iconPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingRight remote.tsoglan.desktop:fb_iconPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingTop remote.tsoglan.desktop:fb_iconPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPosition remote.tsoglan.desktop:fb_iconPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconResource remote.tsoglan.desktop:fb_iconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_radius remote.tsoglan.desktop:fb_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_text remote.tsoglan.desktop:fb_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textColor remote.tsoglan.desktop:fb_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textFont remote.tsoglan.desktop:fb_textFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textGravity remote.tsoglan.desktop:fb_textGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textPosition remote.tsoglan.desktop:fb_textPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textSize remote.tsoglan.desktop:fb_textSize}</code></td><td></td></tr>
            </table>
            @see #FancyButtonsAttrs_fb_borderColor
            @see #FancyButtonsAttrs_fb_borderWidth
@@ -11890,7 +11890,7 @@ containing a value of this type.
             0x7f010141, 0x7f010142
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_borderColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_borderColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11901,11 +11901,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_borderColor
+          @attr name remote.tsoglan.desktop:fb_borderColor
         */
         public static final int FancyButtonsAttrs_fb_borderColor = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_borderWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_borderWidth}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11917,11 +11917,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_borderWidth
+          @attr name remote.tsoglan.desktop:fb_borderWidth
         */
         public static final int FancyButtonsAttrs_fb_borderWidth = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_defaultColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_defaultColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11932,11 +11932,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_defaultColor
+          @attr name remote.tsoglan.desktop:fb_defaultColor
         */
         public static final int FancyButtonsAttrs_fb_defaultColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_focusColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_focusColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11947,11 +11947,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_focusColor
+          @attr name remote.tsoglan.desktop:fb_focusColor
         */
         public static final int FancyButtonsAttrs_fb_focusColor = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_fontIconResource}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_fontIconResource}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11961,11 +11961,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_fontIconResource
+          @attr name remote.tsoglan.desktop:fb_fontIconResource
         */
         public static final int FancyButtonsAttrs_fb_fontIconResource = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_fontIconSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_fontIconSize}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11977,11 +11977,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_fontIconSize
+          @attr name remote.tsoglan.desktop:fb_fontIconSize
         */
         public static final int FancyButtonsAttrs_fb_fontIconSize = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_ghost}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_ghost}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11991,11 +11991,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_ghost
+          @attr name remote.tsoglan.desktop:fb_ghost
         */
         public static final int FancyButtonsAttrs_fb_ghost = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12006,11 +12006,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconColor
+          @attr name remote.tsoglan.desktop:fb_iconColor
         */
         public static final int FancyButtonsAttrs_fb_iconColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconFont}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconFont}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12020,11 +12020,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconFont
+          @attr name remote.tsoglan.desktop:fb_iconFont
         */
         public static final int FancyButtonsAttrs_fb_iconFont = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconPaddingBottom}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingBottom}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12036,11 +12036,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconPaddingBottom
+          @attr name remote.tsoglan.desktop:fb_iconPaddingBottom
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconPaddingLeft}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingLeft}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12052,11 +12052,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconPaddingLeft
+          @attr name remote.tsoglan.desktop:fb_iconPaddingLeft
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingLeft = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconPaddingRight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingRight}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12068,11 +12068,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconPaddingRight
+          @attr name remote.tsoglan.desktop:fb_iconPaddingRight
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingRight = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconPaddingTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingTop}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12084,11 +12084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconPaddingTop
+          @attr name remote.tsoglan.desktop:fb_iconPaddingTop
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconPosition}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPosition}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12103,11 +12103,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>3</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconPosition
+          @attr name remote.tsoglan.desktop:fb_iconPosition
         */
         public static final int FancyButtonsAttrs_fb_iconPosition = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_iconResource}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconResource}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12117,11 +12117,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_iconResource
+          @attr name remote.tsoglan.desktop:fb_iconResource
         */
         public static final int FancyButtonsAttrs_fb_iconResource = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_radius}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_radius}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12133,11 +12133,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_radius
+          @attr name remote.tsoglan.desktop:fb_radius
         */
         public static final int FancyButtonsAttrs_fb_radius = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_text}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_text}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12147,11 +12147,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_text
+          @attr name remote.tsoglan.desktop:fb_text
         */
         public static final int FancyButtonsAttrs_fb_text = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_textColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12162,11 +12162,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_textColor
+          @attr name remote.tsoglan.desktop:fb_textColor
         */
         public static final int FancyButtonsAttrs_fb_textColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_textFont}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textFont}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12176,11 +12176,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_textFont
+          @attr name remote.tsoglan.desktop:fb_textFont
         */
         public static final int FancyButtonsAttrs_fb_textFont = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_textGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textGravity}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12205,11 +12205,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fb_textGravity
+          @attr name remote.tsoglan.desktop:fb_textGravity
         */
         public static final int FancyButtonsAttrs_fb_textGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_textPosition}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textPosition}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12224,11 +12224,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>3</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fb_textPosition
+          @attr name remote.tsoglan.desktop:fb_textPosition
         */
         public static final int FancyButtonsAttrs_fb_textPosition = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fb_textSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textSize}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -12240,7 +12240,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fb_textSize
+          @attr name remote.tsoglan.desktop:fb_textSize
         */
         public static final int FancyButtonsAttrs_fb_textSize = 6;
         /** Attributes that can be used with a FeatureParam.
@@ -12249,8 +12249,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FeatureParam_paramName com.gaitan.tsoglan.androidmouse:paramName}</code></td><td></td></tr>
-           <tr><td><code>{@link #FeatureParam_paramValue com.gaitan.tsoglan.androidmouse:paramValue}</code></td><td></td></tr>
+           <tr><td><code>{@link #FeatureParam_paramName remote.tsoglan.desktop:paramName}</code></td><td></td></tr>
+           <tr><td><code>{@link #FeatureParam_paramValue remote.tsoglan.desktop:paramValue}</code></td><td></td></tr>
            </table>
            @see #FeatureParam_paramName
            @see #FeatureParam_paramValue
@@ -12259,7 +12259,7 @@ containing a value of this type.
             0x7f010143, 0x7f010144
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#paramName}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paramName}
           attribute's value can be found in the {@link #FeatureParam} array.
 
 
@@ -12269,11 +12269,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:paramName
+          @attr name remote.tsoglan.desktop:paramName
         */
         public static final int FeatureParam_paramName = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#paramValue}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paramValue}
           attribute's value can be found in the {@link #FeatureParam} array.
 
 
@@ -12283,7 +12283,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:paramValue
+          @attr name remote.tsoglan.desktop:paramValue
         */
         public static final int FeatureParam_paramValue = 1;
         /** Attributes that can be used with a FloatingActionButton.
@@ -12292,20 +12292,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.gaitan.tsoglan.androidmouse:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.gaitan.tsoglan.androidmouse:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.gaitan.tsoglan.androidmouse:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.gaitan.tsoglan.androidmouse:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.gaitan.tsoglan.androidmouse:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.gaitan.tsoglan.androidmouse:fab_colorDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.gaitan.tsoglan.androidmouse:fab_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.gaitan.tsoglan.androidmouse:fab_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.gaitan.tsoglan.androidmouse:fab_colorRipple}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadow com.gaitan.tsoglan.androidmouse:fab_shadow}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_type com.gaitan.tsoglan.androidmouse:fab_type}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.gaitan.tsoglan.androidmouse:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.gaitan.tsoglan.androidmouse:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.gaitan.tsoglan.androidmouse:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint remote.tsoglan.desktop:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode remote.tsoglan.desktop:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth remote.tsoglan.desktop:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize remote.tsoglan.desktop:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled remote.tsoglan.desktop:fab_colorDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal remote.tsoglan.desktop:fab_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed remote.tsoglan.desktop:fab_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple remote.tsoglan.desktop:fab_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadow remote.tsoglan.desktop:fab_shadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_type remote.tsoglan.desktop:fab_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ remote.tsoglan.desktop:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor remote.tsoglan.desktop:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding remote.tsoglan.desktop:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -12329,7 +12329,7 @@ containing a value of this type.
             0x7f0101e0, 0x7f0101e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12340,11 +12340,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundTint
+          @attr name remote.tsoglan.desktop:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12360,11 +12360,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundTintMode
+          @attr name remote.tsoglan.desktop:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12376,11 +12376,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:borderWidth
+          @attr name remote.tsoglan.desktop:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12392,11 +12392,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:elevation
+          @attr name remote.tsoglan.desktop:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12410,11 +12410,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fabSize
+          @attr name remote.tsoglan.desktop:fabSize
         */
         public static final int FloatingActionButton_fabSize = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_colorDisabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorDisabled}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12425,11 +12425,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fab_colorDisabled
+          @attr name remote.tsoglan.desktop:fab_colorDisabled
         */
         public static final int FloatingActionButton_fab_colorDisabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_colorNormal}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorNormal}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12440,11 +12440,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fab_colorNormal
+          @attr name remote.tsoglan.desktop:fab_colorNormal
         */
         public static final int FloatingActionButton_fab_colorNormal = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_colorPressed}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorPressed}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12455,11 +12455,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fab_colorPressed
+          @attr name remote.tsoglan.desktop:fab_colorPressed
         */
         public static final int FloatingActionButton_fab_colorPressed = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_colorRipple}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorRipple}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12470,11 +12470,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fab_colorRipple
+          @attr name remote.tsoglan.desktop:fab_colorRipple
         */
         public static final int FloatingActionButton_fab_colorRipple = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_shadow}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_shadow}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12484,11 +12484,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:fab_shadow
+          @attr name remote.tsoglan.desktop:fab_shadow
         */
         public static final int FloatingActionButton_fab_shadow = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fab_type}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_type}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12501,11 +12501,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fab_type
+          @attr name remote.tsoglan.desktop:fab_type
         */
         public static final int FloatingActionButton_fab_type = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12517,11 +12517,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:pressedTranslationZ
+          @attr name remote.tsoglan.desktop:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12532,11 +12532,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:rippleColor
+          @attr name remote.tsoglan.desktop:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12546,7 +12546,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:useCompatPadding
+          @attr name remote.tsoglan.desktop:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 11;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -12557,7 +12557,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.gaitan.tsoglan.androidmouse:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding remote.tsoglan.desktop:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -12579,7 +12579,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -12589,7 +12589,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:foregroundInsidePadding
+          @attr name remote.tsoglan.desktop:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a FreeGrowUpParentRelativeLayout.
@@ -12598,7 +12598,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FreeGrowUpParentRelativeLayout_offset com.gaitan.tsoglan.androidmouse:offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreeGrowUpParentRelativeLayout_offset remote.tsoglan.desktop:offset}</code></td><td></td></tr>
            </table>
            @see #FreeGrowUpParentRelativeLayout_offset
          */
@@ -12606,7 +12606,7 @@ containing a value of this type.
             0x7f010151
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#offset}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#offset}
           attribute's value can be found in the {@link #FreeGrowUpParentRelativeLayout} array.
 
 
@@ -12615,7 +12615,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name com.gaitan.tsoglan.androidmouse:offset
+          @attr name remote.tsoglan.desktop:offset
         */
         public static final int FreeGrowUpParentRelativeLayout_offset = 0;
         /** Attributes that can be used with a GlobalSearch.
@@ -12624,12 +12624,12 @@ in (inches), mm (millimeters).
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentAction com.gaitan.tsoglan.androidmouse:defaultIntentAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentActivity com.gaitan.tsoglan.androidmouse:defaultIntentActivity}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentData com.gaitan.tsoglan.androidmouse:defaultIntentData}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_searchEnabled com.gaitan.tsoglan.androidmouse:searchEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_searchLabel com.gaitan.tsoglan.androidmouse:searchLabel}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_settingsDescription com.gaitan.tsoglan.androidmouse:settingsDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_defaultIntentAction remote.tsoglan.desktop:defaultIntentAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_defaultIntentActivity remote.tsoglan.desktop:defaultIntentActivity}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_defaultIntentData remote.tsoglan.desktop:defaultIntentData}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_searchEnabled remote.tsoglan.desktop:searchEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_searchLabel remote.tsoglan.desktop:searchLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearch_settingsDescription remote.tsoglan.desktop:settingsDescription}</code></td><td></td></tr>
            </table>
            @see #GlobalSearch_defaultIntentAction
            @see #GlobalSearch_defaultIntentActivity
@@ -12643,7 +12643,7 @@ in (inches), mm (millimeters).
             0x7f010156, 0x7f010157
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#defaultIntentAction}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#defaultIntentAction}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12653,11 +12653,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:defaultIntentAction
+          @attr name remote.tsoglan.desktop:defaultIntentAction
         */
         public static final int GlobalSearch_defaultIntentAction = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#defaultIntentActivity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#defaultIntentActivity}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12667,11 +12667,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:defaultIntentActivity
+          @attr name remote.tsoglan.desktop:defaultIntentActivity
         */
         public static final int GlobalSearch_defaultIntentActivity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#defaultIntentData}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#defaultIntentData}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12681,11 +12681,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:defaultIntentData
+          @attr name remote.tsoglan.desktop:defaultIntentData
         */
         public static final int GlobalSearch_defaultIntentData = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#searchEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchEnabled}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12695,11 +12695,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:searchEnabled
+          @attr name remote.tsoglan.desktop:searchEnabled
         */
         public static final int GlobalSearch_searchEnabled = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#searchLabel}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchLabel}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12709,11 +12709,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:searchLabel
+          @attr name remote.tsoglan.desktop:searchLabel
         */
         public static final int GlobalSearch_searchLabel = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#settingsDescription}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#settingsDescription}
           attribute's value can be found in the {@link #GlobalSearch} array.
 
 
@@ -12723,7 +12723,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:settingsDescription
+          @attr name remote.tsoglan.desktop:settingsDescription
         */
         public static final int GlobalSearch_settingsDescription = 2;
         /** Attributes that can be used with a GlobalSearchCorpus.
@@ -12732,7 +12732,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts com.gaitan.tsoglan.androidmouse:allowShortcuts}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts remote.tsoglan.desktop:allowShortcuts}</code></td><td></td></tr>
            </table>
            @see #GlobalSearchCorpus_allowShortcuts
          */
@@ -12740,7 +12740,7 @@ containing a value of this type.
             0x7f010158
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#allowShortcuts}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#allowShortcuts}
           attribute's value can be found in the {@link #GlobalSearchCorpus} array.
 
 
@@ -12750,7 +12750,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:allowShortcuts
+          @attr name remote.tsoglan.desktop:allowShortcuts
         */
         public static final int GlobalSearchCorpus_allowShortcuts = 0;
         /** Attributes that can be used with a GlobalSearchSection.
@@ -12759,8 +12759,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearchSection_sectionContent com.gaitan.tsoglan.androidmouse:sectionContent}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearchSection_sectionType com.gaitan.tsoglan.androidmouse:sectionType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearchSection_sectionContent remote.tsoglan.desktop:sectionContent}</code></td><td></td></tr>
+           <tr><td><code>{@link #GlobalSearchSection_sectionType remote.tsoglan.desktop:sectionType}</code></td><td></td></tr>
            </table>
            @see #GlobalSearchSection_sectionContent
            @see #GlobalSearchSection_sectionType
@@ -12769,7 +12769,7 @@ containing a value of this type.
             0x7f010159, 0x7f01015a
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sectionContent}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sectionContent}
           attribute's value can be found in the {@link #GlobalSearchSection} array.
 
 
@@ -12779,11 +12779,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:sectionContent
+          @attr name remote.tsoglan.desktop:sectionContent
         */
         public static final int GlobalSearchSection_sectionContent = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sectionType}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sectionType}
           attribute's value can be found in the {@link #GlobalSearchSection} array.
 
 
@@ -12804,7 +12804,7 @@ containing a value of this type.
 <tr><td><code>intent_activity</code></td><td>8</td><td></td></tr>
 <tr><td><code>thing_proto</code></td><td>9</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:sectionType
+          @attr name remote.tsoglan.desktop:sectionType
         */
         public static final int GlobalSearchSection_sectionType = 0;
         /** Attributes that can be used with a IMECorpus.
@@ -12813,12 +12813,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #IMECorpus_inputEnabled com.gaitan.tsoglan.androidmouse:inputEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_sourceClass com.gaitan.tsoglan.androidmouse:sourceClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_toAddressesSection com.gaitan.tsoglan.androidmouse:toAddressesSection}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputSection com.gaitan.tsoglan.androidmouse:userInputSection}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputTag com.gaitan.tsoglan.androidmouse:userInputTag}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputValue com.gaitan.tsoglan.androidmouse:userInputValue}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_inputEnabled remote.tsoglan.desktop:inputEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_sourceClass remote.tsoglan.desktop:sourceClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_toAddressesSection remote.tsoglan.desktop:toAddressesSection}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_userInputSection remote.tsoglan.desktop:userInputSection}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_userInputTag remote.tsoglan.desktop:userInputTag}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMECorpus_userInputValue remote.tsoglan.desktop:userInputValue}</code></td><td></td></tr>
            </table>
            @see #IMECorpus_inputEnabled
            @see #IMECorpus_sourceClass
@@ -12832,7 +12832,7 @@ containing a value of this type.
             0x7f01015f, 0x7f010160
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#inputEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#inputEnabled}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12842,11 +12842,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:inputEnabled
+          @attr name remote.tsoglan.desktop:inputEnabled
         */
         public static final int IMECorpus_inputEnabled = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sourceClass}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sourceClass}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12860,11 +12860,11 @@ containing a value of this type.
 <tr><td><code>contact</code></td><td>1</td><td></td></tr>
 <tr><td><code>instant_message</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:sourceClass
+          @attr name remote.tsoglan.desktop:sourceClass
         */
         public static final int IMECorpus_sourceClass = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#toAddressesSection}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toAddressesSection}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12874,11 +12874,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:toAddressesSection
+          @attr name remote.tsoglan.desktop:toAddressesSection
         */
         public static final int IMECorpus_toAddressesSection = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#userInputSection}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#userInputSection}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12888,11 +12888,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:userInputSection
+          @attr name remote.tsoglan.desktop:userInputSection
         */
         public static final int IMECorpus_userInputSection = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#userInputTag}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#userInputTag}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12902,11 +12902,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:userInputTag
+          @attr name remote.tsoglan.desktop:userInputTag
         */
         public static final int IMECorpus_userInputTag = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#userInputValue}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#userInputValue}
           attribute's value can be found in the {@link #IMECorpus} array.
 
 
@@ -12916,7 +12916,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:userInputValue
+          @attr name remote.tsoglan.desktop:userInputValue
         */
         public static final int IMECorpus_userInputValue = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -12930,10 +12930,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.gaitan.tsoglan.androidmouse:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.gaitan.tsoglan.androidmouse:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.gaitan.tsoglan.androidmouse:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.gaitan.tsoglan.androidmouse:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider remote.tsoglan.desktop:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding remote.tsoglan.desktop:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild remote.tsoglan.desktop:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers remote.tsoglan.desktop:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -12981,17 +12981,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#divider}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:divider
+          @attr name remote.tsoglan.desktop:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13003,11 +13003,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:dividerPadding
+          @attr name remote.tsoglan.desktop:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13017,11 +13017,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:measureWithLargestChild
+          @attr name remote.tsoglan.desktop:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13036,7 +13036,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:showDividers
+          @attr name remote.tsoglan.desktop:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -13115,9 +13115,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.gaitan.tsoglan.androidmouse:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.gaitan.tsoglan.androidmouse:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.gaitan.tsoglan.androidmouse:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop remote.tsoglan.desktop:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio remote.tsoglan.desktop:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust remote.tsoglan.desktop:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -13127,7 +13127,7 @@ containing a value of this type.
             0x7f010164, 0x7f010165, 0x7f010166
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -13137,11 +13137,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circleCrop
+          @attr name remote.tsoglan.desktop:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -13151,11 +13151,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:imageAspectRatio
+          @attr name remote.tsoglan.desktop:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -13169,7 +13169,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:imageAspectRatioAdjust
+          @attr name remote.tsoglan.desktop:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -13178,23 +13178,23 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled com.gaitan.tsoglan.androidmouse:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.gaitan.tsoglan.androidmouse:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.gaitan.tsoglan.androidmouse:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.gaitan.tsoglan.androidmouse:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.gaitan.tsoglan.androidmouse:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.gaitan.tsoglan.androidmouse:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.gaitan.tsoglan.androidmouse:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.gaitan.tsoglan.androidmouse:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.gaitan.tsoglan.androidmouse:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.gaitan.tsoglan.androidmouse:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.gaitan.tsoglan.androidmouse:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.gaitan.tsoglan.androidmouse:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.gaitan.tsoglan.androidmouse:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.gaitan.tsoglan.androidmouse:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.gaitan.tsoglan.androidmouse:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.gaitan.tsoglan.androidmouse:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.gaitan.tsoglan.androidmouse:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled remote.tsoglan.desktop:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing remote.tsoglan.desktop:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat remote.tsoglan.desktop:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng remote.tsoglan.desktop:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt remote.tsoglan.desktop:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom remote.tsoglan.desktop:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode remote.tsoglan.desktop:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType remote.tsoglan.desktop:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass remote.tsoglan.desktop:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar remote.tsoglan.desktop:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures remote.tsoglan.desktop:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures remote.tsoglan.desktop:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures remote.tsoglan.desktop:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls remote.tsoglan.desktop:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures remote.tsoglan.desktop:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle remote.tsoglan.desktop:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop remote.tsoglan.desktop:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
@@ -13222,7 +13222,7 @@ containing a value of this type.
             0x7f010177
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#ambientEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ambientEnabled}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13232,11 +13232,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:ambientEnabled
+          @attr name remote.tsoglan.desktop:ambientEnabled
         */
         public static final int MapAttrs_ambientEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13246,11 +13246,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cameraBearing
+          @attr name remote.tsoglan.desktop:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13260,11 +13260,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cameraTargetLat
+          @attr name remote.tsoglan.desktop:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13274,11 +13274,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cameraTargetLng
+          @attr name remote.tsoglan.desktop:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13288,11 +13288,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cameraTilt
+          @attr name remote.tsoglan.desktop:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13302,11 +13302,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:cameraZoom
+          @attr name remote.tsoglan.desktop:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13316,11 +13316,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:liteMode
+          @attr name remote.tsoglan.desktop:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#mapType}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13336,11 +13336,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:mapType
+          @attr name remote.tsoglan.desktop:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13350,11 +13350,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiCompass
+          @attr name remote.tsoglan.desktop:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13364,11 +13364,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiMapToolbar
+          @attr name remote.tsoglan.desktop:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13378,11 +13378,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiRotateGestures
+          @attr name remote.tsoglan.desktop:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13392,11 +13392,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiScrollGestures
+          @attr name remote.tsoglan.desktop:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13406,11 +13406,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiTiltGestures
+          @attr name remote.tsoglan.desktop:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13420,11 +13420,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiZoomControls
+          @attr name remote.tsoglan.desktop:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13434,11 +13434,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:uiZoomGestures
+          @attr name remote.tsoglan.desktop:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13448,11 +13448,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:useViewLifecycle
+          @attr name remote.tsoglan.desktop:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -13462,7 +13462,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:zOrderOnTop
+          @attr name remote.tsoglan.desktop:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MediaRouteButton.
@@ -13473,7 +13473,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.gaitan.tsoglan.androidmouse:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable remote.tsoglan.desktop:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
@@ -13495,13 +13495,13 @@ containing a value of this type.
         */
         public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#externalRouteEnabledDrawable}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#externalRouteEnabledDrawable}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:externalRouteEnabledDrawable
+          @attr name remote.tsoglan.desktop:externalRouteEnabledDrawable
         */
         public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
@@ -13570,9 +13570,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.gaitan.tsoglan.androidmouse:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.gaitan.tsoglan.androidmouse:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.gaitan.tsoglan.androidmouse:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout remote.tsoglan.desktop:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass remote.tsoglan.desktop:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass remote.tsoglan.desktop:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -13586,7 +13586,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.gaitan.tsoglan.androidmouse:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction remote.tsoglan.desktop:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -13614,17 +13614,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01017c
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:actionLayout
+          @attr name remote.tsoglan.desktop:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -13634,11 +13634,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:actionProviderClass
+          @attr name remote.tsoglan.desktop:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -13648,7 +13648,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:actionViewClass
+          @attr name remote.tsoglan.desktop:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -13730,7 +13730,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -13746,7 +13746,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:showAsAction
+          @attr name remote.tsoglan.desktop:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -13762,8 +13762,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.gaitan.tsoglan.androidmouse:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.gaitan.tsoglan.androidmouse:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing remote.tsoglan.desktop:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow remote.tsoglan.desktop:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -13823,7 +13823,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -13833,17 +13833,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:preserveIconSpacing
+          @attr name remote.tsoglan.desktop:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:subMenuArrow
+          @attr name remote.tsoglan.desktop:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -13855,13 +13855,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.gaitan.tsoglan.androidmouse:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.gaitan.tsoglan.androidmouse:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.gaitan.tsoglan.androidmouse:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.gaitan.tsoglan.androidmouse:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.gaitan.tsoglan.androidmouse:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.gaitan.tsoglan.androidmouse:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.gaitan.tsoglan.androidmouse:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout remote.tsoglan.desktop:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground remote.tsoglan.desktop:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint remote.tsoglan.desktop:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance remote.tsoglan.desktop:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor remote.tsoglan.desktop:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu remote.tsoglan.desktop:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -13898,7 +13898,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13910,31 +13910,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:elevation
+          @attr name remote.tsoglan.desktop:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:headerLayout
+          @attr name remote.tsoglan.desktop:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:itemBackground
+          @attr name remote.tsoglan.desktop:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13945,21 +13945,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:itemIconTint
+          @attr name remote.tsoglan.desktop:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:itemTextAppearance
+          @attr name remote.tsoglan.desktop:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13970,17 +13970,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:itemTextColor
+          @attr name remote.tsoglan.desktop:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#menu}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:menu
+          @attr name remote.tsoglan.desktop:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -13991,7 +13991,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.gaitan.tsoglan.androidmouse:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor remote.tsoglan.desktop:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -14013,7 +14013,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -14023,7 +14023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:overlapAnchor
+          @attr name remote.tsoglan.desktop:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -14032,7 +14032,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.gaitan.tsoglan.androidmouse:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor remote.tsoglan.desktop:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -14040,7 +14040,7 @@ containing a value of this type.
             0x7f010186
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -14050,7 +14050,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:state_above_anchor
+          @attr name remote.tsoglan.desktop:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a ProgressSpinner.
@@ -14059,7 +14059,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ProgressSpinner_color_sequence com.gaitan.tsoglan.androidmouse:color_sequence}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressSpinner_color_sequence remote.tsoglan.desktop:color_sequence}</code></td><td></td></tr>
            </table>
            @see #ProgressSpinner_color_sequence
          */
@@ -14067,7 +14067,7 @@ containing a value of this type.
             0x7f010187
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#color_sequence}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#color_sequence}
           attribute's value can be found in the {@link #ProgressSpinner} array.
 
 
@@ -14075,7 +14075,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:color_sequence
+          @attr name remote.tsoglan.desktop:color_sequence
         */
         public static final int ProgressSpinner_color_sequence = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -14086,10 +14086,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.gaitan.tsoglan.androidmouse:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.gaitan.tsoglan.androidmouse:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.gaitan.tsoglan.androidmouse:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.gaitan.tsoglan.androidmouse:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager remote.tsoglan.desktop:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout remote.tsoglan.desktop:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount remote.tsoglan.desktop:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd remote.tsoglan.desktop:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -14115,7 +14115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14125,11 +14125,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layoutManager
+          @attr name remote.tsoglan.desktop:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14139,11 +14139,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:reverseLayout
+          @attr name remote.tsoglan.desktop:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14153,11 +14153,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:spanCount
+          @attr name remote.tsoglan.desktop:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14167,7 +14167,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:stackFromEnd
+          @attr name remote.tsoglan.desktop:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -14176,7 +14176,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.gaitan.tsoglan.androidmouse:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground remote.tsoglan.desktop:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -14184,7 +14184,7 @@ containing a value of this type.
             0x7f01018c
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -14192,7 +14192,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:insetForeground
+          @attr name remote.tsoglan.desktop:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -14201,7 +14201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.gaitan.tsoglan.androidmouse:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop remote.tsoglan.desktop:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -14209,7 +14209,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01018d
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -14221,7 +14221,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:behavior_overlapTop
+          @attr name remote.tsoglan.desktop:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -14234,19 +14234,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.gaitan.tsoglan.androidmouse:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.gaitan.tsoglan.androidmouse:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.gaitan.tsoglan.androidmouse:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.gaitan.tsoglan.androidmouse:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.gaitan.tsoglan.androidmouse:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.gaitan.tsoglan.androidmouse:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.gaitan.tsoglan.androidmouse:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.gaitan.tsoglan.androidmouse:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.gaitan.tsoglan.androidmouse:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.gaitan.tsoglan.androidmouse:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.gaitan.tsoglan.androidmouse:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.gaitan.tsoglan.androidmouse:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.gaitan.tsoglan.androidmouse:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon remote.tsoglan.desktop:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon remote.tsoglan.desktop:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint remote.tsoglan.desktop:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon remote.tsoglan.desktop:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault remote.tsoglan.desktop:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout remote.tsoglan.desktop:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground remote.tsoglan.desktop:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint remote.tsoglan.desktop:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon remote.tsoglan.desktop:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon remote.tsoglan.desktop:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground remote.tsoglan.desktop:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout remote.tsoglan.desktop:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon remote.tsoglan.desktop:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -14298,27 +14298,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:closeIcon
+          @attr name remote.tsoglan.desktop:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:commitIcon
+          @attr name remote.tsoglan.desktop:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -14328,21 +14328,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:defaultQueryHint
+          @attr name remote.tsoglan.desktop:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:goIcon
+          @attr name remote.tsoglan.desktop:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -14352,31 +14352,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:iconifiedByDefault
+          @attr name remote.tsoglan.desktop:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:layout
+          @attr name remote.tsoglan.desktop:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:queryBackground
+          @attr name remote.tsoglan.desktop:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -14386,57 +14386,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:queryHint
+          @attr name remote.tsoglan.desktop:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:searchHintIcon
+          @attr name remote.tsoglan.desktop:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:searchIcon
+          @attr name remote.tsoglan.desktop:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:submitBackground
+          @attr name remote.tsoglan.desktop:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:suggestionRowLayout
+          @attr name remote.tsoglan.desktop:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:voiceIcon
+          @attr name remote.tsoglan.desktop:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Section.
@@ -14445,13 +14445,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Section_indexPrefixes com.gaitan.tsoglan.androidmouse:indexPrefixes}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_noIndex com.gaitan.tsoglan.androidmouse:noIndex}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_schemaOrgProperty com.gaitan.tsoglan.androidmouse:schemaOrgProperty}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionFormat com.gaitan.tsoglan.androidmouse:sectionFormat}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionId com.gaitan.tsoglan.androidmouse:sectionId}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionWeight com.gaitan.tsoglan.androidmouse:sectionWeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_subsectionSeparator com.gaitan.tsoglan.androidmouse:subsectionSeparator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_indexPrefixes remote.tsoglan.desktop:indexPrefixes}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_noIndex remote.tsoglan.desktop:noIndex}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_schemaOrgProperty remote.tsoglan.desktop:schemaOrgProperty}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_sectionFormat remote.tsoglan.desktop:sectionFormat}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_sectionId remote.tsoglan.desktop:sectionId}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_sectionWeight remote.tsoglan.desktop:sectionWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Section_subsectionSeparator remote.tsoglan.desktop:subsectionSeparator}</code></td><td></td></tr>
            </table>
            @see #Section_indexPrefixes
            @see #Section_noIndex
@@ -14466,7 +14466,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01019f, 0x7f0101a0, 0x7f0101a1
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#indexPrefixes}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indexPrefixes}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14476,11 +14476,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:indexPrefixes
+          @attr name remote.tsoglan.desktop:indexPrefixes
         */
         public static final int Section_indexPrefixes = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#noIndex}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#noIndex}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14490,11 +14490,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:noIndex
+          @attr name remote.tsoglan.desktop:noIndex
         */
         public static final int Section_noIndex = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#schemaOrgProperty}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#schemaOrgProperty}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14504,11 +14504,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:schemaOrgProperty
+          @attr name remote.tsoglan.desktop:schemaOrgProperty
         */
         public static final int Section_schemaOrgProperty = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sectionFormat}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sectionFormat}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14523,11 +14523,11 @@ containing a value of this type.
 <tr><td><code>rfc822</code></td><td>2</td><td></td></tr>
 <tr><td><code>url</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:sectionFormat
+          @attr name remote.tsoglan.desktop:sectionFormat
         */
         public static final int Section_sectionFormat = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sectionId}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sectionId}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14537,11 +14537,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:sectionId
+          @attr name remote.tsoglan.desktop:sectionId
         */
         public static final int Section_sectionId = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#sectionWeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#sectionWeight}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14551,11 +14551,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:sectionWeight
+          @attr name remote.tsoglan.desktop:sectionWeight
         */
         public static final int Section_sectionWeight = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subsectionSeparator}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subsectionSeparator}
           attribute's value can be found in the {@link #Section} array.
 
 
@@ -14565,7 +14565,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:subsectionSeparator
+          @attr name remote.tsoglan.desktop:subsectionSeparator
         */
         public static final int Section_subsectionSeparator = 5;
         /** Attributes that can be used with a SectionFeature.
@@ -14574,7 +14574,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SectionFeature_featureType com.gaitan.tsoglan.androidmouse:featureType}</code></td><td></td></tr>
+           <tr><td><code>{@link #SectionFeature_featureType remote.tsoglan.desktop:featureType}</code></td><td></td></tr>
            </table>
            @see #SectionFeature_featureType
          */
@@ -14582,7 +14582,7 @@ containing a value of this type.
             0x7f0101a2
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#featureType}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#featureType}
           attribute's value can be found in the {@link #SectionFeature} array.
 
 
@@ -14599,7 +14599,7 @@ containing a value of this type.
 <tr><td><code>omnibox_title_section</code></td><td>5</td><td></td></tr>
 <tr><td><code>index_entity_types</code></td><td>6</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:featureType
+          @attr name remote.tsoglan.desktop:featureType
         */
         public static final int SectionFeature_featureType = 0;
         /** Attributes that can be used with a SignInButton.
@@ -14608,9 +14608,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.gaitan.tsoglan.androidmouse:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.gaitan.tsoglan.androidmouse:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.gaitan.tsoglan.androidmouse:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize remote.tsoglan.desktop:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme remote.tsoglan.desktop:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris remote.tsoglan.desktop:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -14620,7 +14620,7 @@ containing a value of this type.
             0x7f0101a3, 0x7f0101a4, 0x7f0101a5
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -14636,11 +14636,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buttonSize
+          @attr name remote.tsoglan.desktop:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -14656,18 +14656,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:colorScheme
+          @attr name remote.tsoglan.desktop:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.gaitan.tsoglan.androidmouse:scopeUris
+          @attr name remote.tsoglan.desktop:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -14677,8 +14677,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.gaitan.tsoglan.androidmouse:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.gaitan.tsoglan.androidmouse:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth remote.tsoglan.desktop:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -14694,7 +14694,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -14706,11 +14706,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:elevation
+          @attr name remote.tsoglan.desktop:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -14722,7 +14722,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:maxActionInlineWidth
+          @attr name remote.tsoglan.desktop:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -14735,7 +14735,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.gaitan.tsoglan.androidmouse:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -14772,13 +14772,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:popupTheme
+          @attr name remote.tsoglan.desktop:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -14790,17 +14790,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.gaitan.tsoglan.androidmouse:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.gaitan.tsoglan.androidmouse:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.gaitan.tsoglan.androidmouse:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.gaitan.tsoglan.androidmouse:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.gaitan.tsoglan.androidmouse:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.gaitan.tsoglan.androidmouse:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.gaitan.tsoglan.androidmouse:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.gaitan.tsoglan.androidmouse:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.gaitan.tsoglan.androidmouse:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.gaitan.tsoglan.androidmouse:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.gaitan.tsoglan.androidmouse:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText remote.tsoglan.desktop:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack remote.tsoglan.desktop:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth remote.tsoglan.desktop:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding remote.tsoglan.desktop:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance remote.tsoglan.desktop:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding remote.tsoglan.desktop:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint remote.tsoglan.desktop:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode remote.tsoglan.desktop:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track remote.tsoglan.desktop:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint remote.tsoglan.desktop:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode remote.tsoglan.desktop:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -14842,7 +14842,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#showText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14852,11 +14852,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:showText
+          @attr name remote.tsoglan.desktop:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14866,11 +14866,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:splitTrack
+          @attr name remote.tsoglan.desktop:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14882,11 +14882,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:switchMinWidth
+          @attr name remote.tsoglan.desktop:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14898,21 +14898,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:switchPadding
+          @attr name remote.tsoglan.desktop:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:switchTextAppearance
+          @attr name remote.tsoglan.desktop:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14924,11 +14924,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:thumbTextPadding
+          @attr name remote.tsoglan.desktop:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14939,11 +14939,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:thumbTint
+          @attr name remote.tsoglan.desktop:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14960,21 +14960,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:thumbTintMode
+          @attr name remote.tsoglan.desktop:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#track}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:track
+          @attr name remote.tsoglan.desktop:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -14985,11 +14985,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:trackTint
+          @attr name remote.tsoglan.desktop:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -15006,7 +15006,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:trackTintMode
+          @attr name remote.tsoglan.desktop:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -15050,22 +15050,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.gaitan.tsoglan.androidmouse:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.gaitan.tsoglan.androidmouse:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.gaitan.tsoglan.androidmouse:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.gaitan.tsoglan.androidmouse:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.gaitan.tsoglan.androidmouse:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.gaitan.tsoglan.androidmouse:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.gaitan.tsoglan.androidmouse:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.gaitan.tsoglan.androidmouse:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.gaitan.tsoglan.androidmouse:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.gaitan.tsoglan.androidmouse:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.gaitan.tsoglan.androidmouse:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.gaitan.tsoglan.androidmouse:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.gaitan.tsoglan.androidmouse:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.gaitan.tsoglan.androidmouse:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.gaitan.tsoglan.androidmouse:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.gaitan.tsoglan.androidmouse:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground remote.tsoglan.desktop:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart remote.tsoglan.desktop:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity remote.tsoglan.desktop:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor remote.tsoglan.desktop:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight remote.tsoglan.desktop:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth remote.tsoglan.desktop:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth remote.tsoglan.desktop:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode remote.tsoglan.desktop:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding remote.tsoglan.desktop:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom remote.tsoglan.desktop:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd remote.tsoglan.desktop:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart remote.tsoglan.desktop:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop remote.tsoglan.desktop:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor remote.tsoglan.desktop:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance remote.tsoglan.desktop:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor remote.tsoglan.desktop:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -15091,17 +15091,17 @@ containing a value of this type.
             0x7f0101be, 0x7f0101bf, 0x7f0101c0, 0x7f0101c1
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:tabBackground
+          @attr name remote.tsoglan.desktop:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15113,11 +15113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabContentStart
+          @attr name remote.tsoglan.desktop:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15130,11 +15130,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:tabGravity
+          @attr name remote.tsoglan.desktop:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15145,11 +15145,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabIndicatorColor
+          @attr name remote.tsoglan.desktop:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15161,11 +15161,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabIndicatorHeight
+          @attr name remote.tsoglan.desktop:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15177,11 +15177,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabMaxWidth
+          @attr name remote.tsoglan.desktop:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15193,11 +15193,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabMinWidth
+          @attr name remote.tsoglan.desktop:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15210,11 +15210,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:tabMode
+          @attr name remote.tsoglan.desktop:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15226,11 +15226,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabPadding
+          @attr name remote.tsoglan.desktop:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15242,11 +15242,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabPaddingBottom
+          @attr name remote.tsoglan.desktop:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15258,11 +15258,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabPaddingEnd
+          @attr name remote.tsoglan.desktop:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15274,11 +15274,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabPaddingStart
+          @attr name remote.tsoglan.desktop:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15290,11 +15290,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabPaddingTop
+          @attr name remote.tsoglan.desktop:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15305,21 +15305,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabSelectedTextColor
+          @attr name remote.tsoglan.desktop:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:tabTextAppearance
+          @attr name remote.tsoglan.desktop:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15330,7 +15330,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:tabTextColor
+          @attr name remote.tsoglan.desktop:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -15347,7 +15347,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.gaitan.tsoglan.androidmouse:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps remote.tsoglan.desktop:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -15413,14 +15413,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.gaitan.tsoglan.androidmouse:textAllCaps
+          @attr name remote.tsoglan.desktop:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -15431,15 +15431,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.gaitan.tsoglan.androidmouse:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.gaitan.tsoglan.androidmouse:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.gaitan.tsoglan.androidmouse:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.gaitan.tsoglan.androidmouse:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.gaitan.tsoglan.androidmouse:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.gaitan.tsoglan.androidmouse:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.gaitan.tsoglan.androidmouse:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.gaitan.tsoglan.androidmouse:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.gaitan.tsoglan.androidmouse:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled remote.tsoglan.desktop:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength remote.tsoglan.desktop:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance remote.tsoglan.desktop:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance remote.tsoglan.desktop:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled remote.tsoglan.desktop:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance remote.tsoglan.desktop:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled remote.tsoglan.desktop:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled remote.tsoglan.desktop:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance remote.tsoglan.desktop:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -15471,7 +15471,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15481,11 +15481,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:counterEnabled
+          @attr name remote.tsoglan.desktop:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15495,31 +15495,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:counterMaxLength
+          @attr name remote.tsoglan.desktop:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:counterOverflowTextAppearance
+          @attr name remote.tsoglan.desktop:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:counterTextAppearance
+          @attr name remote.tsoglan.desktop:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15529,21 +15529,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:errorEnabled
+          @attr name remote.tsoglan.desktop:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:errorTextAppearance
+          @attr name remote.tsoglan.desktop:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15553,11 +15553,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:hintAnimationEnabled
+          @attr name remote.tsoglan.desktop:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15567,17 +15567,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:hintEnabled
+          @attr name remote.tsoglan.desktop:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:hintTextAppearance
+          @attr name remote.tsoglan.desktop:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Theme.
@@ -15586,7 +15586,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_discreteSeekBarStyle com.gaitan.tsoglan.androidmouse:discreteSeekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_discreteSeekBarStyle remote.tsoglan.desktop:discreteSeekBarStyle}</code></td><td></td></tr>
            </table>
            @see #Theme_discreteSeekBarStyle
          */
@@ -15594,13 +15594,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101cb
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#discreteSeekBarStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#discreteSeekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:discreteSeekBarStyle
+          @attr name remote.tsoglan.desktop:discreteSeekBarStyle
         */
         public static final int Theme_discreteSeekBarStyle = 0;
         /** Attributes that can be used with a Toolbar.
@@ -15611,33 +15611,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.gaitan.tsoglan.androidmouse:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.gaitan.tsoglan.androidmouse:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.gaitan.tsoglan.androidmouse:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.gaitan.tsoglan.androidmouse:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.gaitan.tsoglan.androidmouse:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.gaitan.tsoglan.androidmouse:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.gaitan.tsoglan.androidmouse:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.gaitan.tsoglan.androidmouse:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.gaitan.tsoglan.androidmouse:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.gaitan.tsoglan.androidmouse:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.gaitan.tsoglan.androidmouse:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.gaitan.tsoglan.androidmouse:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.gaitan.tsoglan.androidmouse:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.gaitan.tsoglan.androidmouse:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.gaitan.tsoglan.androidmouse:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.gaitan.tsoglan.androidmouse:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.gaitan.tsoglan.androidmouse:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.gaitan.tsoglan.androidmouse:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.gaitan.tsoglan.androidmouse:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.gaitan.tsoglan.androidmouse:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.gaitan.tsoglan.androidmouse:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.gaitan.tsoglan.androidmouse:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.gaitan.tsoglan.androidmouse:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.gaitan.tsoglan.androidmouse:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.gaitan.tsoglan.androidmouse:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.gaitan.tsoglan.androidmouse:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.gaitan.tsoglan.androidmouse:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity remote.tsoglan.desktop:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription remote.tsoglan.desktop:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon remote.tsoglan.desktop:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd remote.tsoglan.desktop:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions remote.tsoglan.desktop:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft remote.tsoglan.desktop:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight remote.tsoglan.desktop:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart remote.tsoglan.desktop:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation remote.tsoglan.desktop:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo remote.tsoglan.desktop:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription remote.tsoglan.desktop:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight remote.tsoglan.desktop:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription remote.tsoglan.desktop:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon remote.tsoglan.desktop:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle remote.tsoglan.desktop:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance remote.tsoglan.desktop:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor remote.tsoglan.desktop:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin remote.tsoglan.desktop:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom remote.tsoglan.desktop:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd remote.tsoglan.desktop:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart remote.tsoglan.desktop:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop remote.tsoglan.desktop:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins remote.tsoglan.desktop:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance remote.tsoglan.desktop:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor remote.tsoglan.desktop:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -15692,7 +15692,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15705,11 +15705,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buttonGravity
+          @attr name remote.tsoglan.desktop:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15719,21 +15719,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:collapseContentDescription
+          @attr name remote.tsoglan.desktop:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:collapseIcon
+          @attr name remote.tsoglan.desktop:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15745,11 +15745,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetEnd
+          @attr name remote.tsoglan.desktop:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15761,11 +15761,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetEndWithActions
+          @attr name remote.tsoglan.desktop:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15777,11 +15777,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetLeft
+          @attr name remote.tsoglan.desktop:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15793,11 +15793,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetRight
+          @attr name remote.tsoglan.desktop:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15809,11 +15809,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetStart
+          @attr name remote.tsoglan.desktop:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15825,21 +15825,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:contentInsetStartWithNavigation
+          @attr name remote.tsoglan.desktop:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#logo}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:logo
+          @attr name remote.tsoglan.desktop:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15849,11 +15849,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:logoDescription
+          @attr name remote.tsoglan.desktop:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15865,11 +15865,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:maxButtonHeight
+          @attr name remote.tsoglan.desktop:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15879,31 +15879,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:navigationContentDescription
+          @attr name remote.tsoglan.desktop:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:navigationIcon
+          @attr name remote.tsoglan.desktop:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:popupTheme
+          @attr name remote.tsoglan.desktop:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15913,21 +15913,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:subtitle
+          @attr name remote.tsoglan.desktop:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:subtitleTextAppearance
+          @attr name remote.tsoglan.desktop:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15938,11 +15938,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:subtitleTextColor
+          @attr name remote.tsoglan.desktop:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#title}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15952,11 +15952,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:title
+          @attr name remote.tsoglan.desktop:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15968,11 +15968,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMargin
+          @attr name remote.tsoglan.desktop:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -15984,11 +15984,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMarginBottom
+          @attr name remote.tsoglan.desktop:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16000,11 +16000,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMarginEnd
+          @attr name remote.tsoglan.desktop:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16016,11 +16016,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMarginStart
+          @attr name remote.tsoglan.desktop:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16032,11 +16032,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMarginTop
+          @attr name remote.tsoglan.desktop:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16048,21 +16048,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleMargins
+          @attr name remote.tsoglan.desktop:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:titleTextAppearance
+          @attr name remote.tsoglan.desktop:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16073,7 +16073,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:titleTextColor
+          @attr name remote.tsoglan.desktop:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -16084,9 +16084,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.gaitan.tsoglan.androidmouse:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.gaitan.tsoglan.androidmouse:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.gaitan.tsoglan.androidmouse:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd remote.tsoglan.desktop:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart remote.tsoglan.desktop:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme remote.tsoglan.desktop:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -16111,7 +16111,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -16123,11 +16123,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:paddingEnd
+          @attr name remote.tsoglan.desktop:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -16139,17 +16139,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:paddingStart
+          @attr name remote.tsoglan.desktop:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#theme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:theme
+          @attr name remote.tsoglan.desktop:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -16159,8 +16159,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.gaitan.tsoglan.androidmouse:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.gaitan.tsoglan.androidmouse:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint remote.tsoglan.desktop:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode remote.tsoglan.desktop:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -16176,7 +16176,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -16187,11 +16187,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundTint
+          @attr name remote.tsoglan.desktop:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -16207,7 +16207,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:backgroundTintMode
+          @attr name remote.tsoglan.desktop:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -16251,10 +16251,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.gaitan.tsoglan.androidmouse:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.gaitan.tsoglan.androidmouse:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.gaitan.tsoglan.androidmouse:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.gaitan.tsoglan.androidmouse:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme remote.tsoglan.desktop:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment remote.tsoglan.desktop:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode remote.tsoglan.desktop:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle remote.tsoglan.desktop:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -16265,7 +16265,7 @@ containing a value of this type.
             0x7f0101e2, 0x7f0101e3, 0x7f0101e4, 0x7f0101e5
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -16278,11 +16278,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:appTheme
+          @attr name remote.tsoglan.desktop:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#environment}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -16297,11 +16297,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:environment
+          @attr name remote.tsoglan.desktop:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -16314,17 +16314,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:fragmentMode
+          @attr name remote.tsoglan.desktop:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:fragmentStyle
+          @attr name remote.tsoglan.desktop:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -16333,17 +16333,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.gaitan.tsoglan.androidmouse:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.gaitan.tsoglan.androidmouse:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.gaitan.tsoglan.androidmouse:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.gaitan.tsoglan.androidmouse:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.gaitan.tsoglan.androidmouse:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.gaitan.tsoglan.androidmouse:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.gaitan.tsoglan.androidmouse:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.gaitan.tsoglan.androidmouse:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.gaitan.tsoglan.androidmouse:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.gaitan.tsoglan.androidmouse:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.gaitan.tsoglan.androidmouse:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance remote.tsoglan.desktop:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight remote.tsoglan.desktop:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText remote.tsoglan.desktop:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth remote.tsoglan.desktop:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground remote.tsoglan.desktop:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground remote.tsoglan.desktop:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance remote.tsoglan.desktop:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance remote.tsoglan.desktop:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType remote.tsoglan.desktop:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor remote.tsoglan.desktop:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance remote.tsoglan.desktop:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -16363,7 +16363,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101ee, 0x7f0101ef, 0x7f0101f0
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16383,11 +16383,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buyButtonAppearance
+          @attr name remote.tsoglan.desktop:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16408,11 +16408,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buyButtonHeight
+          @attr name remote.tsoglan.desktop:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16430,11 +16430,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buyButtonText
+          @attr name remote.tsoglan.desktop:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16455,11 +16455,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:buyButtonWidth
+          @attr name remote.tsoglan.desktop:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16467,11 +16467,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsBackground
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16479,31 +16479,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsButtonBackground
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsButtonTextAppearance
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsHeaderTextAppearance
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16519,11 +16519,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsLogoImageType
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -16534,17 +16534,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsLogoTextColor
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:maskedWalletDetailsTextAppearance
+          @attr name remote.tsoglan.desktop:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
         /** Attributes that can be used with a WatchViewStub.
@@ -16553,8 +16553,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WatchViewStub_rectLayout com.gaitan.tsoglan.androidmouse:rectLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #WatchViewStub_roundLayout com.gaitan.tsoglan.androidmouse:roundLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #WatchViewStub_rectLayout remote.tsoglan.desktop:rectLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #WatchViewStub_roundLayout remote.tsoglan.desktop:roundLayout}</code></td><td></td></tr>
            </table>
            @see #WatchViewStub_rectLayout
            @see #WatchViewStub_roundLayout
@@ -16563,23 +16563,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101f1, 0x7f0101f2
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#rectLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rectLayout}
           attribute's value can be found in the {@link #WatchViewStub} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:rectLayout
+          @attr name remote.tsoglan.desktop:rectLayout
         */
         public static final int WatchViewStub_rectLayout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#roundLayout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#roundLayout}
           attribute's value can be found in the {@link #WatchViewStub} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:roundLayout
+          @attr name remote.tsoglan.desktop:roundLayout
         */
         public static final int WatchViewStub_roundLayout = 1;
         /** Attributes that can be used with a WearableActionDrawer.
@@ -16588,7 +16588,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableActionDrawer_action_menu com.gaitan.tsoglan.androidmouse:action_menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableActionDrawer_action_menu remote.tsoglan.desktop:action_menu}</code></td><td></td></tr>
            </table>
            @see #WearableActionDrawer_action_menu
          */
@@ -16596,13 +16596,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101f3
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#action_menu}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#action_menu}
           attribute's value can be found in the {@link #WearableActionDrawer} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gaitan.tsoglan.androidmouse:action_menu
+          @attr name remote.tsoglan.desktop:action_menu
         */
         public static final int WearableActionDrawer_action_menu = 0;
         /** Attributes that can be used with a WearableFrameLayout.
@@ -16615,14 +16615,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #WearableFrameLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
            <tr><td><code>{@link #WearableFrameLayout_android_foregroundTint android:foregroundTint}</code></td><td></td></tr>
            <tr><td><code>{@link #WearableFrameLayout_android_measureAllChildren android:measureAllChildren}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_gravityRound com.gaitan.tsoglan.androidmouse:layout_gravityRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_heightRound com.gaitan.tsoglan.androidmouse:layout_heightRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginBottomRound com.gaitan.tsoglan.androidmouse:layout_marginBottomRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginLeftRound com.gaitan.tsoglan.androidmouse:layout_marginLeftRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginRightRound com.gaitan.tsoglan.androidmouse:layout_marginRightRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginRound com.gaitan.tsoglan.androidmouse:layout_marginRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginTopRound com.gaitan.tsoglan.androidmouse:layout_marginTopRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_widthRound com.gaitan.tsoglan.androidmouse:layout_widthRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_gravityRound remote.tsoglan.desktop:layout_gravityRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_heightRound remote.tsoglan.desktop:layout_heightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginBottomRound remote.tsoglan.desktop:layout_marginBottomRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginLeftRound remote.tsoglan.desktop:layout_marginLeftRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRightRound remote.tsoglan.desktop:layout_marginRightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRound remote.tsoglan.desktop:layout_marginRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginTopRound remote.tsoglan.desktop:layout_marginTopRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_widthRound remote.tsoglan.desktop:layout_widthRound}</code></td><td></td></tr>
            </table>
            @see #WearableFrameLayout_android_foreground
            @see #WearableFrameLayout_android_foregroundGravity
@@ -16667,7 +16667,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WearableFrameLayout_android_measureAllChildren = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_gravityRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_gravityRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16692,11 +16692,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:layout_gravityRound
+          @attr name remote.tsoglan.desktop:layout_gravityRound
         */
         public static final int WearableFrameLayout_layout_gravityRound = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_heightRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_heightRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16708,11 +16708,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_heightRound
+          @attr name remote.tsoglan.desktop:layout_heightRound
         */
         public static final int WearableFrameLayout_layout_heightRound = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_marginBottomRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginBottomRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16724,11 +16724,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_marginBottomRound
+          @attr name remote.tsoglan.desktop:layout_marginBottomRound
         */
         public static final int WearableFrameLayout_layout_marginBottomRound = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_marginLeftRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginLeftRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16740,11 +16740,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_marginLeftRound
+          @attr name remote.tsoglan.desktop:layout_marginLeftRound
         */
         public static final int WearableFrameLayout_layout_marginLeftRound = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_marginRightRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginRightRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16756,11 +16756,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_marginRightRound
+          @attr name remote.tsoglan.desktop:layout_marginRightRound
         */
         public static final int WearableFrameLayout_layout_marginRightRound = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_marginRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16772,11 +16772,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_marginRound
+          @attr name remote.tsoglan.desktop:layout_marginRound
         */
         public static final int WearableFrameLayout_layout_marginRound = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_marginTopRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginTopRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16788,11 +16788,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_marginTopRound
+          @attr name remote.tsoglan.desktop:layout_marginTopRound
         */
         public static final int WearableFrameLayout_layout_marginTopRound = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#layout_widthRound}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_widthRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -16804,7 +16804,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:layout_widthRound
+          @attr name remote.tsoglan.desktop:layout_widthRound
         */
         public static final int WearableFrameLayout_layout_widthRound = 5;
         /** Attributes that can be used with a WearableHeaderTextView.
@@ -16813,8 +16813,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableHeaderTextView_circular_layout_gravity com.gaitan.tsoglan.androidmouse:circular_layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableHeaderTextView_circular_text_size com.gaitan.tsoglan.androidmouse:circular_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableHeaderTextView_circular_layout_gravity remote.tsoglan.desktop:circular_layout_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableHeaderTextView_circular_text_size remote.tsoglan.desktop:circular_text_size}</code></td><td></td></tr>
            </table>
            @see #WearableHeaderTextView_circular_layout_gravity
            @see #WearableHeaderTextView_circular_text_size
@@ -16823,7 +16823,7 @@ containing a value of this type.
             0x7f0101fc, 0x7f0101fd
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circular_layout_gravity}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circular_layout_gravity}
           attribute's value can be found in the {@link #WearableHeaderTextView} array.
 
 
@@ -16841,11 +16841,11 @@ containing a value of this type.
 <tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
 <tr><td><code>center</code></td><td>0x11</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:circular_layout_gravity
+          @attr name remote.tsoglan.desktop:circular_layout_gravity
         */
         public static final int WearableHeaderTextView_circular_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#circular_text_size}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circular_text_size}
           attribute's value can be found in the {@link #WearableHeaderTextView} array.
 
 
@@ -16857,7 +16857,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:circular_text_size
+          @attr name remote.tsoglan.desktop:circular_text_size
         */
         public static final int WearableHeaderTextView_circular_text_size = 1;
         /** Attributes that can be used with a WearableRecyclerView.
@@ -16866,10 +16866,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableRecyclerView_bezel_width com.gaitan.tsoglan.androidmouse:bezel_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableRecyclerView_child_layout com.gaitan.tsoglan.androidmouse:child_layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableRecyclerView_rotary_scrolling_enabled com.gaitan.tsoglan.androidmouse:rotary_scrolling_enabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableRecyclerView_scroll_degrees_per_screen com.gaitan.tsoglan.androidmouse:scroll_degrees_per_screen}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_bezel_width remote.tsoglan.desktop:bezel_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_child_layout remote.tsoglan.desktop:child_layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_rotary_scrolling_enabled remote.tsoglan.desktop:rotary_scrolling_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_scroll_degrees_per_screen remote.tsoglan.desktop:scroll_degrees_per_screen}</code></td><td></td></tr>
            </table>
            @see #WearableRecyclerView_bezel_width
            @see #WearableRecyclerView_child_layout
@@ -16880,7 +16880,7 @@ containing a value of this type.
             0x7f0101fe, 0x7f0101ff, 0x7f010200, 0x7f010201
         };
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#bezel_width}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bezel_width}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -16892,11 +16892,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:bezel_width
+          @attr name remote.tsoglan.desktop:bezel_width
         */
         public static final int WearableRecyclerView_bezel_width = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#child_layout}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#child_layout}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -16909,11 +16909,11 @@ containing a value of this type.
 <tr><td><code>linear</code></td><td>0x00</td><td></td></tr>
 <tr><td><code>semi_circular</code></td><td>0x01</td><td></td></tr>
 </table>
-          @attr name com.gaitan.tsoglan.androidmouse:child_layout
+          @attr name remote.tsoglan.desktop:child_layout
         */
         public static final int WearableRecyclerView_child_layout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#rotary_scrolling_enabled}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rotary_scrolling_enabled}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -16923,11 +16923,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:rotary_scrolling_enabled
+          @attr name remote.tsoglan.desktop:rotary_scrolling_enabled
         */
         public static final int WearableRecyclerView_rotary_scrolling_enabled = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gaitan.tsoglan.androidmouse.R.attr#scroll_degrees_per_screen}
+          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scroll_degrees_per_screen}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -16937,7 +16937,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gaitan.tsoglan.androidmouse:scroll_degrees_per_screen
+          @attr name remote.tsoglan.desktop:scroll_degrees_per_screen
         */
         public static final int WearableRecyclerView_scroll_degrees_per_screen = 3;
     };
