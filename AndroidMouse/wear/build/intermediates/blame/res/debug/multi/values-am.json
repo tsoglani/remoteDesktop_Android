@@ -11,7 +11,7 @@
                     "endOffset": 202
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 310
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 433
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 532
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 724
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 827
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -159,17 +159,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 945,
-                    "endColumn": 78,
-                    "endOffset": 1019
+                    "endColumn": 99,
+                    "endOffset": 1040
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
                         "startOffset": 1116,
-                        "endColumn": 78,
-                        "endOffset": 1190
+                        "endColumn": 99,
+                        "endOffset": 1211
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1024,
+                    "startOffset": 1045,
                     "endColumn": 99,
-                    "endOffset": 1119
+                    "endOffset": 1140
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1195,
+                        "startOffset": 1216,
                         "endColumn": 99,
-                        "endOffset": 1290
+                        "endOffset": 1311
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1124,
-                    "endColumn": 99,
-                    "endOffset": 1219
+                    "startOffset": 1145,
+                    "endColumn": 95,
+                    "endOffset": 1236
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1295,
-                        "endColumn": 99,
-                        "endOffset": 1390
+                        "startOffset": 1316,
+                        "endColumn": 95,
+                        "endOffset": 1407
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1224,
-                    "endColumn": 95,
-                    "endOffset": 1315
+                    "startOffset": 1241,
+                    "endColumn": 102,
+                    "endOffset": 1339
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1395,
-                        "endColumn": 95,
-                        "endOffset": 1486
+                        "startOffset": 1412,
+                        "endColumn": 102,
+                        "endOffset": 1510
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1320,
-                    "endColumn": 102,
-                    "endOffset": 1418
+                    "startOffset": 1344,
+                    "endColumn": 98,
+                    "endOffset": 1438
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1491,
-                        "endColumn": 102,
-                        "endOffset": 1589
+                        "startOffset": 1515,
+                        "endColumn": 98,
+                        "endOffset": 1609
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1423,
-                    "endColumn": 98,
-                    "endOffset": 1517
+                    "startOffset": 1443,
+                    "endColumn": 106,
+                    "endOffset": 1545
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1594,
-                        "endColumn": 98,
-                        "endOffset": 1688
+                        "startOffset": 1614,
+                        "endColumn": 106,
+                        "endOffset": 1716
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1522,
-                    "endColumn": 106,
-                    "endOffset": 1624
+                    "startOffset": 1550,
+                    "endColumn": 115,
+                    "endOffset": 1661
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1693,
-                        "endColumn": 106,
-                        "endOffset": 1795
+                        "startOffset": 1721,
+                        "endColumn": 115,
+                        "endOffset": 1832
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1629,
-                    "endColumn": 115,
-                    "endOffset": 1740
+                    "startOffset": 1666,
+                    "endColumn": 95,
+                    "endOffset": 1757
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1800,
-                        "endColumn": 115,
-                        "endOffset": 1911
+                        "startOffset": 1837,
+                        "endColumn": 95,
+                        "endOffset": 1928
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1745,
-                    "endColumn": 95,
-                    "endOffset": 1836
+                    "startOffset": 1762,
+                    "endColumn": 180,
+                    "endOffset": 1938
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 1916,
-                        "endColumn": 95,
-                        "endOffset": 2007
+                        "startOffset": 466,
+                        "endColumn": 184,
+                        "endOffset": 646
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1841,
-                    "endColumn": 229,
-                    "endOffset": 2066
+                    "startOffset": 1943,
+                    "endColumn": 166,
+                    "endOffset": 2105
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 323,
-                        "endColumn": 229,
-                        "endOffset": 548
+                        "startOffset": 2451,
+                        "endColumn": 170,
+                        "endOffset": 2617
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 2071,
-                    "endColumn": 124,
-                    "endOffset": 2191
+                    "startOffset": 2110,
+                    "endColumn": 109,
+                    "endOffset": 2215
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 553,
-                        "endColumn": 124,
-                        "endOffset": 673
+                        "startOffset": 2161,
+                        "endColumn": 109,
+                        "endOffset": 2266
                     }
                 }
             },
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2196,
-                    "endColumn": 170,
-                    "endOffset": 2362
+                    "startOffset": 2220,
+                    "endColumn": 226,
+                    "endOffset": 2442
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 678,
-                        "endColumn": 170,
-                        "endOffset": 844
+                        "startOffset": 4358,
+                        "endColumn": 230,
+                        "endOffset": 4584
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2367,
-                    "endColumn": 123,
-                    "endOffset": 2486
+                    "startOffset": 2447,
+                    "endColumn": 124,
+                    "endOffset": 2567
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 849,
-                        "endColumn": 123,
-                        "endOffset": 968
+                        "startOffset": 1911,
+                        "endColumn": 124,
+                        "endOffset": 2031
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2491,
-                    "endColumn": 125,
-                    "endOffset": 2612
+                    "startOffset": 2572,
+                    "endColumn": 170,
+                    "endOffset": 2738
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 125,
-                        "endOffset": 1094
+                        "startOffset": 1736,
+                        "endColumn": 174,
+                        "endOffset": 1906
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2617,
-                    "endColumn": 194,
-                    "endOffset": 2807
+                    "startOffset": 2743,
+                    "endColumn": 122,
+                    "endOffset": 2861
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1099,
-                        "endColumn": 194,
-                        "endOffset": 1289
+                        "startOffset": 1613,
+                        "endColumn": 122,
+                        "endOffset": 1731
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2812,
-                    "endColumn": 191,
-                    "endOffset": 2999
+                    "startOffset": 2866,
+                    "endColumn": 162,
+                    "endOffset": 3024
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 1294,
-                        "endColumn": 191,
-                        "endOffset": 1481
+                        "startOffset": 803,
+                        "endColumn": 166,
+                        "endOffset": 965
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 3004,
-                    "endColumn": 124,
-                    "endOffset": 3124
+                    "startOffset": 3029,
+                    "endColumn": 125,
+                    "endOffset": 3150
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1486,
-                        "endColumn": 124,
-                        "endOffset": 1606
+                        "startOffset": 1487,
+                        "endColumn": 125,
+                        "endOffset": 1608
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3129,
-                    "endColumn": 153,
-                    "endOffset": 3278
+                    "startOffset": 3155,
+                    "endColumn": 194,
+                    "endOffset": 3345
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1611,
-                        "endColumn": 153,
-                        "endOffset": 1760
+                        "startOffset": 1093,
+                        "endColumn": 198,
+                        "endOffset": 1287
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3283,
-                    "endColumn": 119,
-                    "endOffset": 3398
+                    "startOffset": 3350,
+                    "endColumn": 190,
+                    "endOffset": 3536
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1765,
-                        "endColumn": 119,
-                        "endOffset": 1880
+                        "startOffset": 1292,
+                        "endColumn": 194,
+                        "endOffset": 1482
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3403,
-                    "endColumn": 154,
-                    "endOffset": 3553
+                    "startOffset": 3541,
+                    "endColumn": 122,
+                    "endOffset": 3659
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 1885,
-                        "endColumn": 154,
-                        "endOffset": 2035
+                        "startOffset": 970,
+                        "endColumn": 122,
+                        "endOffset": 1088
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3558,
-                    "endColumn": 120,
-                    "endOffset": 3674
+                    "startOffset": 3664,
+                    "endColumn": 154,
+                    "endOffset": 3814
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 2040,
-                        "endColumn": 120,
-                        "endOffset": 2156
+                        "startOffset": 3350,
+                        "endColumn": 154,
+                        "endOffset": 3500
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3679,
-                    "endColumn": 130,
-                    "endOffset": 3805
+                    "startOffset": 3819,
+                    "endColumn": 119,
+                    "endOffset": 3934
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2161,
-                        "endColumn": 130,
-                        "endOffset": 2287
+                        "startOffset": 3230,
+                        "endColumn": 119,
+                        "endOffset": 3345
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3810,
-                    "endColumn": 170,
-                    "endOffset": 3976
+                    "startOffset": 3939,
+                    "endColumn": 151,
+                    "endOffset": 4086
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 2292,
-                        "endColumn": 170,
-                        "endOffset": 2458
+                        "startOffset": 651,
+                        "endColumn": 151,
+                        "endOffset": 798
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3981,
-                    "endColumn": 145,
-                    "endOffset": 4122
+                    "startOffset": 4091,
+                    "endColumn": 154,
+                    "endOffset": 4241
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 2463,
-                        "endColumn": 145,
-                        "endOffset": 2604
+                        "startOffset": 3075,
+                        "endColumn": 154,
+                        "endOffset": 3225
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4127,
-                    "endColumn": 140,
-                    "endOffset": 4263
+                    "startOffset": 4246,
+                    "endColumn": 120,
+                    "endOffset": 4362
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2609,
-                        "endColumn": 140,
-                        "endOffset": 2745
+                        "startOffset": 2954,
+                        "endColumn": 120,
+                        "endOffset": 3070
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4268,
-                    "endColumn": 121,
-                    "endOffset": 4385
+                    "startOffset": 4367,
+                    "endColumn": 163,
+                    "endOffset": 4526
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 2750,
-                        "endColumn": 121,
-                        "endOffset": 2867
+                        "startOffset": 302,
+                        "endColumn": 163,
+                        "endOffset": 461
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4390,
-                    "endColumn": 151,
-                    "endOffset": 4537
+                    "startOffset": 4531,
+                    "endColumn": 131,
+                    "endOffset": 4658
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 2872,
-                        "endColumn": 151,
-                        "endOffset": 3019
+                        "startOffset": 170,
+                        "endColumn": 131,
+                        "endOffset": 297
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4542,
-                    "endColumn": 123,
-                    "endOffset": 4661
+                    "startOffset": 4663,
+                    "endColumn": 151,
+                    "endOffset": 4810
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 3024,
-                        "endColumn": 123,
-                        "endOffset": 3143
+                        "startOffset": 4713,
+                        "endColumn": 151,
+                        "endOffset": 4860
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4666,
-                    "endColumn": 206,
-                    "endOffset": 4868
+                    "startOffset": 4815,
+                    "endColumn": 123,
+                    "endOffset": 4934
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 323,
-                        "endColumn": 206,
-                        "endOffset": 525
+                        "startOffset": 4589,
+                        "endColumn": 123,
+                        "endOffset": 4708
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4873,
-                    "endColumn": 207,
-                    "endOffset": 5076
+                    "startOffset": 4939,
+                    "endColumn": 134,
+                    "endOffset": 5069
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3148,
-                        "endColumn": 207,
-                        "endOffset": 3351
+                        "startOffset": 3505,
+                        "endColumn": 134,
+                        "endOffset": 3635
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5081,
-                    "endColumn": 122,
-                    "endOffset": 5199
+                    "startOffset": 5074,
+                    "endColumn": 207,
+                    "endOffset": 5277
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 3356,
-                        "endColumn": 122,
-                        "endOffset": 3474
+                        "startOffset": 3764,
+                        "endColumn": 211,
+                        "endOffset": 3971
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5204,
-                    "endColumn": 104,
-                    "endOffset": 5304
+                    "startOffset": 5282,
+                    "endColumn": 123,
+                    "endOffset": 5401
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3479,
-                        "endColumn": 104,
-                        "endOffset": 3579
+                        "startOffset": 3640,
+                        "endColumn": 123,
+                        "endOffset": 3759
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5309,
-                    "endColumn": 175,
-                    "endOffset": 5480
+                    "startOffset": 5406,
+                    "endColumn": 104,
+                    "endOffset": 5506
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 3584,
-                        "endColumn": 175,
-                        "endOffset": 3755
+                        "startOffset": 3976,
+                        "endColumn": 104,
+                        "endOffset": 4076
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5485,
-                    "endColumn": 124,
-                    "endOffset": 5605
+                    "startOffset": 5511,
+                    "endColumn": 175,
+                    "endOffset": 5682
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 3760,
-                        "endColumn": 124,
-                        "endOffset": 3880
+                        "startOffset": 2271,
+                        "endColumn": 179,
+                        "endOffset": 2446
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5610,
-                    "endColumn": 193,
-                    "endOffset": 5799
+                    "startOffset": 5687,
+                    "endColumn": 124,
+                    "endOffset": 5807
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 3885,
-                        "endColumn": 193,
-                        "endOffset": 4074
+                        "startOffset": 2036,
+                        "endColumn": 124,
+                        "endOffset": 2156
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 5804,
-                    "endColumn": 134,
-                    "endOffset": 5934
+                    "startOffset": 5812,
+                    "endColumn": 193,
+                    "endOffset": 6001
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 4079,
-                        "endColumn": 134,
-                        "endOffset": 4209
+                        "startOffset": 2756,
+                        "endColumn": 197,
+                        "endOffset": 2949
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 5939,
-                    "endColumn": 156,
-                    "endOffset": 6091
+                    "startOffset": 6006,
+                    "endColumn": 133,
+                    "endOffset": 6135
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 4214,
-                        "endColumn": 156,
-                        "endOffset": 4366
+                        "startOffset": 2622,
+                        "endColumn": 133,
+                        "endOffset": 2751
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6096,
-                    "endColumn": 89,
-                    "endOffset": 6181
+                    "startOffset": 6140,
+                    "endColumn": 88,
+                    "endOffset": 6224
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 4371,
-                        "endColumn": 89,
-                        "endOffset": 4456
+                        "startOffset": 4269,
+                        "endColumn": 88,
+                        "endOffset": 4353
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6186,
+                    "startOffset": 6229,
                     "endColumn": 86,
-                    "endOffset": 6268
+                    "endOffset": 6311
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 4461,
+                        "startOffset": 4081,
                         "endColumn": 86,
-                        "endOffset": 4543
+                        "endOffset": 4163
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6273,
-                    "endColumn": 99,
-                    "endOffset": 6368
+                    "startOffset": 6316,
+                    "endColumn": 100,
+                    "endOffset": 6412
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-am/values.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-am/common_strings.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4548,
-                        "endColumn": 99,
-                        "endOffset": 4643
+                        "startOffset": 4168,
+                        "endColumn": 100,
+                        "endOffset": 4264
                     }
                 }
             },
@@ -918,12 +918,12 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6373,
+                    "startOffset": 6417,
                     "endColumn": 103,
-                    "endOffset": 6472
+                    "endOffset": 6516
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -937,12 +937,12 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6477,
+                    "startOffset": 6521,
                     "endColumn": 108,
-                    "endOffset": 6581
+                    "endOffset": 6625
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -956,12 +956,12 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6586,
+                    "startOffset": 6630,
                     "endColumn": 100,
-                    "endOffset": 6682
+                    "endOffset": 6726
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -975,12 +975,12 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6687,
+                    "startOffset": 6731,
                     "endColumn": 104,
-                    "endOffset": 6787
+                    "endOffset": 6831
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -994,18 +994,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6792,
-                    "endColumn": 115,
-                    "endOffset": 6903
+                    "startOffset": 6836,
+                    "endColumn": 98,
+                    "endOffset": 6930
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
                         "startOffset": 697,
-                        "endColumn": 115,
-                        "endOffset": 808
+                        "endColumn": 98,
+                        "endOffset": 791
                     }
                 }
             },
@@ -1013,18 +1013,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6908,
-                    "endColumn": 98,
-                    "endOffset": 7002
+                    "startOffset": 6935,
+                    "endColumn": 93,
+                    "endOffset": 7024
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 813,
-                        "endColumn": 98,
-                        "endOffset": 907
+                        "startOffset": 796,
+                        "endColumn": 93,
+                        "endOffset": 885
                     }
                 }
             },
@@ -1032,17 +1032,17 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 7007,
-                    "endColumn": 93,
-                    "endOffset": 7096
+                    "startOffset": 7029,
+                    "endColumn": 115,
+                    "endOffset": 7140
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 912,
-                        "endColumn": 93,
+                        "startOffset": 890,
+                        "endColumn": 115,
                         "endOffset": 1001
                     }
                 }
@@ -1051,18 +1051,18 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 7101,
-                    "endColumn": 115,
-                    "endOffset": 7212
+                    "startOffset": 7145,
+                    "endColumn": 97,
+                    "endOffset": 7238
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
                         "startOffset": 1006,
-                        "endColumn": 115,
-                        "endOffset": 1117
+                        "endColumn": 97,
+                        "endOffset": 1099
                     }
                 }
             },
@@ -1070,18 +1070,18 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 7217,
-                    "endColumn": 97,
-                    "endOffset": 7310
+                    "startOffset": 7243,
+                    "endColumn": 83,
+                    "endOffset": 7322
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1122,
-                        "endColumn": 97,
-                        "endOffset": 1215
+                        "startOffset": 1104,
+                        "endColumn": 83,
+                        "endOffset": 1183
                     }
                 }
             },
@@ -1089,94 +1089,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 7315,
-                    "endColumn": 83,
-                    "endOffset": 7394
+                    "startOffset": 7327,
+                    "endColumn": 92,
+                    "endOffset": 7415
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-am/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1220,
-                        "endColumn": 83,
-                        "endOffset": 1299
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 60,
-                    "startColumn": 4,
-                    "startOffset": 7399,
-                    "endColumn": 92,
-                    "endOffset": 7487
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-am/values-am.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1304,
+                        "startOffset": 1188,
                         "endColumn": 92,
-                        "endOffset": 1392
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 61,
-                    "startColumn": 4,
-                    "startOffset": 7492,
-                    "endColumn": 98,
-                    "endOffset": 7586
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/values-am/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 275,
-                        "endColumn": 98,
-                        "endOffset": 369
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 62,
-                    "startColumn": 4,
-                    "startOffset": 7591,
-                    "endColumn": 93,
-                    "endOffset": 7680
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/values-am/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 374,
-                        "endColumn": 93,
-                        "endOffset": 463
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 63,
-                    "startColumn": 4,
-                    "startOffset": 7685,
-                    "endColumn": 100,
-                    "endOffset": 7781
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-am/values-am.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2012,
-                        "endColumn": 100,
-                        "endOffset": 2108
+                        "endOffset": 1276
                     }
                 }
             }

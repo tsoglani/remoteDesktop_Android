@@ -24,6 +24,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.Asset;
+import com.google.android.gms.wearable.Channel;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
@@ -33,20 +34,22 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
+import com.google.android.gms.wearable.WearableListenerService;
 
+import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MouseView extends Activity implements
-        DataApi.DataListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
-    private FrameLayout frameLayout;
+public class MouseView extends Activity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+    static FrameLayout frameLayout;
     private BoxInsetLayout mainFrameLayout;
     private View coursor;
     private Point startPoint, coursorStartPoint;
     private Button back;
-
+    static MouseView mouseView;
     private int Width, Height;
     private long startEvent, finishEvent;
     boolean isRound;
@@ -61,6 +64,7 @@ public class MouseView extends Activity implements
 
             @Override
             public WindowInsets onApplyWindowInsets(View view, WindowInsets windowInsets) {
+                mouseView=MouseView.this;
                 //////////////////////////////////////////////////
                 // IMPORTANT - the following line is required
                 stub.onApplyWindowInsets(windowInsets);
@@ -74,12 +78,12 @@ public class MouseView extends Activity implements
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
                 createDataConnection();
-                sendMessage("/mouseView","start".getBytes());
+                sendMessage("/mouseView", "start".getBytes());
                 coursor = findViewById(R.id.coursor);
                 frameLayout = (FrameLayout) findViewById(R.id.mouseView);
                 mainFrameLayout = (BoxInsetLayout) findViewById(R.id.mainMouseView);
-                Width = (int)(getWindowManager().getDefaultDisplay().getWidth() * 2.2);
-                Height = (int)(getWindowManager().getDefaultDisplay().getHeight() * 2.2);
+                Width = (int) (getWindowManager().getDefaultDisplay().getWidth() * 2.2);
+                Height = (int) (getWindowManager().getDefaultDisplay().getHeight() * 2.2);
                 BoxInsetLayout.LayoutParams params = new BoxInsetLayout.LayoutParams(Width, Height);
                 coursor.setX(mainFrameLayout.getWidth() / 2);
                 coursor.setY(mainFrameLayout.getHeight() / 2);
@@ -93,10 +97,12 @@ public class MouseView extends Activity implements
                 back.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        finish();
                         Intent intent = new Intent(MouseView.this, MainActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
-                        finish();
+
                     }
                 });
                 frameLayout.setOnTouchListener(new View.OnTouchListener() {
@@ -104,7 +110,7 @@ public class MouseView extends Activity implements
                     public boolean onTouch(View v, MotionEvent event) {
                         int action = event.getAction();
 
-                        if(chechForDoubleTouchDown(event)){
+                        if (chechForDoubleTouchDown(event)) {
                             return true;
                         }
                         if (MotionEvent.ACTION_DOWN == action) {
@@ -116,27 +122,27 @@ public class MouseView extends Activity implements
                             int difY = (int) event.getY() - startPoint.y;
                             coursor.setX(coursorStartPoint.x + difX);
                             coursor.setY(coursorStartPoint.y + difY);
-                            if(coursor.getX()>frameLayout.getWidth()){
+                            if (coursor.getX() > frameLayout.getWidth()) {
                                 coursor.setX(frameLayout.getWidth());
                             }
-                            if(coursor.getX()<-coursor.getWidth()){
+                            if (coursor.getX() < -coursor.getWidth()) {
                                 coursor.setX(-coursor.getWidth());
                             }
 
-                            if(coursor.getY()>frameLayout.getHeight()){
+                            if (coursor.getY() > frameLayout.getHeight()) {
                                 coursor.setY(frameLayout.getHeight());
                             }
-                            if(coursor.getX()<-coursor.getHeight()){
+                            if (coursor.getX() < -coursor.getHeight()) {
                                 coursor.setX(-coursor.getHeight());
                             }
-//                            sendMessage("/mouseView", ("MoveTo:x=" + (coursor.getX()) / frameLayout.getWidth() + ":y=" + (coursor.getY()) / frameLayout.getHeight()).getBytes());
+                            sendMessage("/mouseView", ("MoveTo:x=" + (coursor.getX()) / frameLayout.getWidth() + ":y=" + (coursor.getY()) / frameLayout.getHeight()).getBytes());
 
                         } else if (action == MotionEvent.ACTION_UP) {
 
 
                             float frameLayoutX = frameLayout.getX(), frameLayoutY = frameLayout.getY();
 
-                            if(!isRound) {
+                            if (!isRound) {
                                 frameLayoutX = -coursor.getX() + getWindowManager().getDefaultDisplay().getWidth() / 2;
                                 frameLayoutY = -coursor.getY() + getWindowManager().getDefaultDisplay().getHeight() / 2;
                                 if (frameLayoutX > 0) {
@@ -154,28 +160,27 @@ public class MouseView extends Activity implements
                                     frameLayoutY = -Height + getWindowManager().getDefaultDisplay().getHeight();
                                 }
 
-                            }else{
+                            } else {
 
-                                int extraX=getWindowManager().getDefaultDisplay().getWidth() / 7,extraY=getWindowManager().getDefaultDisplay().getHeight() / 7;
+                                int extraX = getWindowManager().getDefaultDisplay().getWidth() / 7, extraY = getWindowManager().getDefaultDisplay().getHeight() / 7;
                                 frameLayoutX = -coursor.getX() + getWindowManager().getDefaultDisplay().getWidth() / 2;
                                 frameLayoutY = -coursor.getY() + getWindowManager().getDefaultDisplay().getHeight() / 2;
                                 if (frameLayoutX > extraX) {
 
-                                    frameLayoutX =extraX;
+                                    frameLayoutX = extraX;
                                 }
-                                if (frameLayoutX < -Width + getWindowManager().getDefaultDisplay().getWidth()-extraX) {
-                                    frameLayoutX = -Width + getWindowManager().getDefaultDisplay().getWidth()-extraX;
+                                if (frameLayoutX < -Width + getWindowManager().getDefaultDisplay().getWidth() - extraX) {
+                                    frameLayoutX = -Width + getWindowManager().getDefaultDisplay().getWidth() - extraX;
                                 }
 //
-                                if (frameLayoutY >  extraY) {
+                                if (frameLayoutY > extraY) {
                                     frameLayoutY = extraY;
                                 }
-                                if (frameLayoutY < -Height + getWindowManager().getDefaultDisplay().getHeight()-extraY) {
-                                    frameLayoutY = -Height + getWindowManager().getDefaultDisplay().getHeight()-extraY;
+                                if (frameLayoutY < -Height + getWindowManager().getDefaultDisplay().getHeight() - extraY) {
+                                    frameLayoutY = -Height + getWindowManager().getDefaultDisplay().getHeight() - extraY;
                                 }
 
                             }
-
 
 
                             frameLayout.setX(frameLayoutX);
@@ -215,7 +220,7 @@ public class MouseView extends Activity implements
     }
 
 
-    private GoogleApiClient dataClient;
+    static GoogleApiClient dataClient;
 
     private GoogleApiClient messageClient;
 
@@ -280,6 +285,7 @@ public class MouseView extends Activity implements
                             if (sendMessageResult.getStatus().isSuccess()) {
                                 if (new String(payload).equals("close_connection")) {
                                     closeDataConnection();
+                                    closeMessageConnection();
                                 }
                             } else {
 
@@ -294,15 +300,12 @@ public class MouseView extends Activity implements
     }
 
 
-    @Override
-    public void onConnectionSuspended(int i) {
 
-    }
 
 
     private void closeDataConnection() {
         if (dataClient != null) {
-            Wearable.DataApi.removeListener(dataClient, this);
+//            Wearable.DataApi.removeListener(dataClient, this);
             dataClient.disconnect();
             dataClient = null;
         }
@@ -342,9 +345,13 @@ public class MouseView extends Activity implements
 
         closeMessageConnection();
     }
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
 
     @Override
-    protected void onDestroy() {
+    public void onDestroy() {
         super.onDestroy();
         closeDataConnection();
         new Thread() {
@@ -356,94 +363,118 @@ public class MouseView extends Activity implements
                     e.printStackTrace();
                 }
                 sendMessage("/mouseView", "close_connection".getBytes());
+
             }
         }.start();
 
-        closeMessageConnection();
+
     }
 
     @Override
     public void onConnected(Bundle connectionHint) {
-        if (dataClient == null||!dataClient.isConnected()){
-            dataClient=null;
+        if (dataClient == null || !dataClient.isConnected()) {
+            dataClient = null;
             createDataConnection();
         }
-        if (dataClient != null)
-            Wearable.DataApi.addListener(dataClient, this);
+//        if (dataClient != null)
+//            Wearable.DataApi.addListener(dataClient, this);
 
     }
 
-    @Override
-    public void onDataChanged(DataEventBuffer dataEventBuffer) {
-//        Toast.makeText(MouseView.this, "onDataChanged", Toast.LENGTH_SHORT).show();
-        for (final DataEvent event : dataEventBuffer) {
-            if (event.getType() == DataEvent.TYPE_CHANGED &&
-                    event.getDataItem().getUri().getPath().equals("/image")) {
-                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                final Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                new AsyncTask<Void, Void, Void>() {
-                    Bitmap bitmap;
-                    BitmapDrawable ob;
+    AsyncTask<Void, Void, Void> async;
 
-                    @Override
-                    protected Void doInBackground(Void... params) {
-                        bitmap = loadBitmapFromAsset(profileAsset);
-                        ob = new BitmapDrawable(getResources(), bitmap);
+//    @Override
+//    public void onDataChanged(DataEventBuffer dataEventBuffer) {
+//
+//
+//        for (final DataEvent event : dataEventBuffer) {
+//            if (event.getType() == DataEvent.TYPE_CHANGED &&
+//                    event.getDataItem().getUri().getPath().equals("/image")) {
+//                if (async != null) {
+//                    continue;
+//                }
+//                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+//                final Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
+//                async = new AsyncTask<Void, Void, Void>() {
+//                    Bitmap bitmap;
+//                    BitmapDrawable ob;
+//
+//                    @Override
+//                    protected Void doInBackground(Void... params) {
+//                        try {
+//                            bitmap = loadBitmapFromAsset(profileAsset);
+//                            ob = new BitmapDrawable(getResources(), bitmap);
+//
+////                        Wearable.DataApi.deleteDataItems(dataClient, getUriForDataItem());
+////                        dataClient.disconnect();
+//
+//                        } catch (Exception e) {
+//                            Intent intent = new Intent(MouseView.this, MainActivity.class);
+//                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                            startActivity(intent);
+//                        }
+//                        return null;
+//                    }
+//
+//                    @Override
+//                    protected void onPostExecute(Void aVoid) {
+//                        super.onPostExecute(aVoid);
+//                        if (ob != null) {
+//                            frameLayout.setBackground(ob);
+//
+////                            dataClient.disconnect();
+////                            dataClient=null;
+//                        }
+//
+//
+//                    }
+//                };
+//                async.execute();
+////                Bitmap bitmap = loadBitmapFromAsset(profileAsset);
+//
+//
+//                // Do something with the bitmap
+//            } else if (event.getType() == DataEvent.TYPE_CHANGED &&
+//                    event.getDataItem().getUri().getPath().equals("/close")) {
+//                Intent intent = new Intent(this, MainActivity.class);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(intent);
+//            }
+//        }
+//        dataEventBuffer.release();
+//
+//    }
+//
+//    private int TIMEOUT_MS = 10000;
 
-//                        Wearable.DataApi.deleteDataItems(dataClient, getUriForDataItem());
-//                        dataClient.disconnect();
-
-                        return null;
-                    }
-
-                    @Override
-                    protected void onPostExecute(Void aVoid) {
-                        super.onPostExecute(aVoid);
-                        if (ob != null) {
-                            frameLayout.setBackground(ob);
-                        }
-
-
-                    }
-                }.execute();
-//                Bitmap bitmap = loadBitmapFromAsset(profileAsset);
-
-
-                dataEventBuffer.release();
-                // Do something with the bitmap
-            } else if (event.getType() == DataEvent.TYPE_CHANGED &&
-                    event.getDataItem().getUri().getPath().equals("/close")) {
-                Intent intent = new Intent(this, MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }
-        }
-    }
-
-    private int TIMEOUT_MS = 1000;
-
-    public Bitmap loadBitmapFromAsset(Asset asset) {
-
-        if (asset == null) {
-            throw new IllegalArgumentException("Asset must be non-null");
-        }
-
-        ConnectionResult result = dataClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
-        if (!result.isSuccess()) {
-            return null;
-        }
-        // convert asset into a file descriptor and block until it's ready
-        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                dataClient, asset).await().getInputStream();
+//    public Bitmap loadBitmapFromAsset(Asset asset) {
+//
+//        if (asset == null) {
+//            throw new IllegalArgumentException("Asset must be non-null");
+//        }
+//
+//        ConnectionResult result = dataClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
+//        if (!result.isSuccess()) {
+//            return null;
+//        }
+//        // convert asset into a file descriptor and block until it's ready
+//        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
+//                dataClient, asset).await().getInputStream();
+//        Wearable.DataApi.removeListener(dataClient, MouseView.this);
 //        dataClient.disconnect();
-
-        if (assetInputStream == null) {
-            Log.w("request uknown", "Requested an unknown Asset.");
-            return null;
-        }
-        // decode the stream into a bitmap
-        return BitmapFactory.decodeStream(assetInputStream);
-    }
+//        dataClient = null;
+//        async = null;
+//        createDataConnection();
+//
+//        if (assetInputStream == null) {
+//            Log.w("request uknown", "Requested an unknown Asset.");
+//            return null;
+//        }
+//        // decode the stream into a bitmap
+//        return BitmapFactory.decodeStream(assetInputStream);
+//    }
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {

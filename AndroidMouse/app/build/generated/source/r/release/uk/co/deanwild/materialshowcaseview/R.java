@@ -8,11 +8,11 @@ package uk.co.deanwild.materialshowcaseview;
 
 public final class R {
 	public static final class id {
-		public static final int content_box = 0x7f1301c4;
-		public static final int tv_content = 0x7f1301c5;
-		public static final int tv_dismiss = 0x7f1301c6;
+		public static final int content_box = 0x7f130186;
+		public static final int tv_content = 0x7f130187;
+		public static final int tv_dismiss = 0x7f130188;
 	}
 	public static final class layout {
-		public static final int showcase_content = 0x7f04005f;
+		public static final int showcase_content = 0x7f040058;
 	}
 }

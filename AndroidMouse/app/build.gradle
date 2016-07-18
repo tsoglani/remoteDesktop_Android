@@ -72,8 +72,8 @@ android {
         compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
             transitive = true;
         }
-        compile 'com.google.android.support:wearable:2.0.0-alpha1'
-        compile 'com.google.android.gms:play-services:9.2.0'
+        compile 'com.google.android.support:wearable:+'
+        compile 'com.google.android.gms:play-services:7.5.0'
 //        compile 'com.android.support:appcompat-v7:24.0.0'
 //        compile 'com.android.support:design:24.0.0'
 

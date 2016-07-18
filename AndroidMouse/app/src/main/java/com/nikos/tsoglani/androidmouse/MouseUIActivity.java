@@ -46,8 +46,13 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.Asset;
+import com.google.android.gms.wearable.Channel;
+import com.google.android.gms.wearable.ChannelApi;
 import com.google.android.gms.wearable.DataMap;
+import com.google.android.gms.wearable.Node;
+import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
@@ -68,6 +73,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Hashtable;
+import java.util.List;
 
 import io.codetail.animation.ViewAnimationUtils;
 import uk.co.deanwild.materialshowcaseview.MaterialShowcaseSequence;
@@ -851,7 +857,7 @@ if(type.equals("Wear")){
 
                             int bytesRead = 0;
 
-                            byte[] pic = new byte[receivedImageX * receivedImageX];
+                          final  byte[] pic = new byte[receivedImageX * receivedImageX];
                             try {
 
                                 bytesRead = bf.read(pic, 0, pic.length);
@@ -883,6 +889,29 @@ if(type.equals("Wear")){
                                                             if (client == null) {
                                                                 createGoogleApiConnection();
                                                             }
+//                                                            if (client != null) {
+//
+////                                                                    PutDataMapRequest request = PutDataMapRequest.create("/image");
+////                                                                    Asset asset = createAssetFromBitmap(bitmap);
+////                                                                    request.putAsset("profileImage", asset);
+////                                                                    DataMap dataMap = request.getDataMap();
+////                                                                    dataMap.putLong("timestamp", System.currentTimeMillis());
+////                                                                    PutDataRequest dataRequest = request.asPutDataRequest();
+////                                                                    Wearable.DataApi.putDataItem(mGoogleApiClient, dataRequest);
+////
+//
+//
+//
+//
+//                                                                Asset asset = createAssetFromBitmap(bitmapimage);
+//                                                                PutDataMapRequest request = PutDataMapRequest.create("/image");
+//                                                                DataMap map = request.getDataMap();
+//                                                                map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+//                                                                map.putAsset("profileImage", asset);
+//                                                                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());
+//
+//
+//                                                            }
                                                             if (client != null) {
 
 //                                                                    PutDataMapRequest request = PutDataMapRequest.create("/image");
@@ -893,16 +922,22 @@ if(type.equals("Wear")){
 //                                                                    PutDataRequest dataRequest = request.asPutDataRequest();
 //                                                                    Wearable.DataApi.putDataItem(mGoogleApiClient, dataRequest);
 //
+                                                                new Thread() {
+                                                                    @Override
+                                                                    public void run() {
+//                                                                Asset asset = createAssetFromBitmap(bitmapimage);
+//                                                                PutDataMapRequest request = PutDataMapRequest.create("/image");
+//                                                                DataMap map = request.getDataMap();
+//                                                                map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+//                                                                map.putAsset("profileImage", asset);
+//                                                                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());
+//                                                                client.disconnect();
+//                                                                client=null;
+                                                                        sendImage("/image", pic);
 
 
-
-
-                                                                Asset asset = createAssetFromBitmap(bitmapimage);
-                                                                PutDataMapRequest request = PutDataMapRequest.create("/image");
-                                                                DataMap map = request.getDataMap();
-                                                                map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
-                                                                map.putAsset("profileImage", asset);
-                                                                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());
+                                                                    }
+                                                                }.start();
 
 
                                                             }
@@ -1031,7 +1066,37 @@ if(type.equals("Wear")){
 //        };
 //        thread.start();
     }
+    private void sendImage(final String path, final byte[] data) {
+        if (client == null) {
+            createConnection();
+        }
 
+        Wearable.NodeApi.getConnectedNodes(client).setResultCallback(new ResultCallback<NodeApi.GetConnectedNodesResult>() {
+            @Override
+            public void onResult(NodeApi.GetConnectedNodesResult getConnectedNodesResult) {
+                List<Node> nodes = getConnectedNodesResult.getNodes();
+                for (final Node node : nodes) {
+                    new Thread() {
+                        @Override
+                        public void run() {
+
+                            //toast(node.getId());
+                            ChannelApi.OpenChannelResult result = Wearable.ChannelApi.openChannel(client, node.getId(), path).await();
+                            Channel channel = result.getChannel();
+
+//sending file
+                            try {
+                                channel.getOutputStream(client).await().getOutputStream().write(data, 0, data.length);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }.start();
+                }
+
+            }
+        });
+    }
     private static Asset createAssetFromBitmap(Bitmap bitmap) {
         final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);

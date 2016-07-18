@@ -1,5 +1,4 @@
 package com.nikos.tsoglani.androidmouse;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
@@ -28,11 +27,10 @@ public class MobileService extends WearableListenerService {
         String message = new String(messageEvent.getData());
 //        Toast.makeText(MobileService.this, "Message = "+message, Toast.LENGTH_SHORT).show();
 
-        if (message.equals("start")){
-            MouseUIActivity.type="Wear";
-        }
-       else if (message.equals("Search_WLAN")) {
-            if(MouseUIActivity.ps!=null){
+        if (message.equals("start")) {
+            MouseUIActivity.type = "Wear";
+        } else if (message.equals("Search_WLAN")) {
+            if (MouseUIActivity.ps != null) {
                 clearSocket();
                 Intent startMain = new Intent(Intent.ACTION_MAIN);
                 startMain.addCategory(Intent.CATEGORY_HOME);
@@ -56,7 +54,7 @@ public class MobileService extends WearableListenerService {
             clearSocket();
 
         } else if (message.equals("main")) {
-            Intent startMain = new Intent(this,MainActivity.class);
+            Intent startMain = new Intent(this, MainActivity.class);
             startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startMain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(startMain);
@@ -67,14 +65,16 @@ public class MobileService extends WearableListenerService {
             startMain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(startMain);
         } else if (message.startsWith("MoveTo:")) {
-            if (PageOneFragment.zoomValue != 0) {
-                PageOneFragment.zoomValue = 0;
-                MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+            if (MouseUIActivity.ps != null) {
+                if (PageOneFragment.zoomValue != 0) {
+                    PageOneFragment.zoomValue = 0;
+                    MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+                }
+                MouseUIActivity.ps.println(message);
             }
-            MouseUIActivity.ps.println(message);
-
         } else if (message.equals("LEFT_CLICK")) {
-            MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
+            if (MouseUIActivity.ps != null)
+                MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
             MouseUIActivity.ps.println("LEFT_CLICK_UP");
         } else if (message.startsWith("LEFT_CLICK") || message.startsWith("RIGHT_CLICK")) {
             MouseUIActivity.ps.println(message);

@@ -266,7 +266,6 @@
         <item name="android:textSize">20sp</item>
         <item name="android:lineSpacingMultiplier">0.93867</item>
     </style>
-    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar"/>
     <style name="Theme.WearDiag" parent="@android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:textAppearance">@style/TextAppearance.WearDiag</item>
         <item name="android:windowBackground">@color/dialog_background</item>

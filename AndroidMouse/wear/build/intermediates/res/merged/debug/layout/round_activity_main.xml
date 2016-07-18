@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/local_search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wlan Auto Connect"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/auto_connection"
         android:layout_gravity="center" />
 
 

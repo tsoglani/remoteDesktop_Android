@@ -38,6 +38,7 @@ public class MainActivity extends Activity implements MessageApi.MessageListener
             public void onLayoutInflated(WatchViewStub stub) {
                 sendMessage("/main", ("main").getBytes());
                 local_search = (Button) stub.findViewById(R.id.local_search);
+                local_search.setBackground(getResources().getDrawable(R.drawable.auto_connection));
                 local_search.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -46,6 +47,7 @@ public class MainActivity extends Activity implements MessageApi.MessageListener
                             protected void onPreExecute() {
                                 super.onPreExecute();
                                 local_search.setEnabled(false);
+                                local_search.setBackground(getResources().getDrawable(R.drawable.waiting_connection));
                             }
 
                             @Override
@@ -63,6 +65,7 @@ public class MainActivity extends Activity implements MessageApi.MessageListener
                             protected void onPostExecute(Void aVoid) {
                                 super.onPostExecute(aVoid);
                                 local_search.setEnabled(true);
+                                local_search.setBackground(getResources().getDrawable(R.drawable.auto_connection));
 
                             }
                         }.execute();
@@ -121,12 +124,13 @@ public class MainActivity extends Activity implements MessageApi.MessageListener
                         public void onResult(MessageApi.SendMessageResult sendMessageResult) {
                             if (sendMessageResult.getStatus().isSuccess()) {
                                 if (new String(payload).equals("close_application")) {
-                                    client.disconnect();
+                                    if (client!= null)
+                                        client.disconnect();
                                     client = null;
                                 }
                             } else {
                                 client = null;
-                                toast("not sended");
+                                toast("Not connected with phone device");
                             }
                         }
                     });

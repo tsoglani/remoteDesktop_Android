@@ -9,7 +9,7 @@
     android:orientation="vertical"
     tools:context=".MouseView"
     tools:deviceIds="wear_square"
-    android:keepScreenOn="true"
+
     >
 
 
@@ -30,8 +30,8 @@
 
     </FrameLayout>
     <Button
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/back"
         android:layout_gravity="center_horizontal|top"
         android:id="@+id/back" />

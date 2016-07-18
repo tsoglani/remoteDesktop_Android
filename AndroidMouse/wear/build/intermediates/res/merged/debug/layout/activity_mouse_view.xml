@@ -9,4 +9,5 @@
     app:roundLayout="@layout/mouse_view_round"
     tools:context="com.smart.tsoglani.androidmouse.MouseView"
     tools:deviceIds="wear"
+    android:keepScreenOn="true"
     android:background="@drawable/bg2"/>

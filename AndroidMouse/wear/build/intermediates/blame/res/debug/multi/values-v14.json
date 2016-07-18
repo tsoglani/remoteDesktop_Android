@@ -12,7 +12,7 @@
                     "endOffset": 326
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -28,78 +28,40 @@
                     "startLine": 7,
                     "startColumn": 4,
                     "startOffset": 331,
-                    "endColumn": 70,
-                    "endOffset": 397
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 840
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
                         "startOffset": 788,
-                        "endColumn": 70,
-                        "endOffset": 854
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 402,
-                    "endColumn": 82,
-                    "endOffset": 480
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 859,
-                        "endColumn": 82,
-                        "endOffset": 937
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 485,
-                    "endLine": 14,
-                    "endColumn": 12,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 942,
-                        "endLine": 18,
+                        "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 1347
+                        "endOffset": 1297
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 895,
+                    "startOffset": 845,
                     "endLine": 20,
                     "endColumn": 12,
-                    "endOffset": 1312
+                    "endOffset": 1368
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1352,
+                        "startOffset": 1302,
                         "endLine": 24,
                         "endColumn": 12,
-                        "endOffset": 1769
+                        "endOffset": 1825
                     }
                 }
             },
@@ -107,96 +69,117 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1317,
-                    "endColumn": 119,
-                    "endOffset": 1432
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 1995,
-                        "endColumn": 119,
-                        "endOffset": 2110
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1437,
-                    "endColumn": 62,
-                    "endOffset": 1495
-                },
-                "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 2115,
-                        "endColumn": 62,
-                        "endOffset": 2173
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 1500,
-                    "endLine": 25,
+                    "startOffset": 1373,
+                    "endLine": 27,
                     "endColumn": 12,
-                    "endOffset": 1649
+                    "endOffset": 1894
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 2178,
+                        "startOffset": 1830,
                         "endLine": 31,
                         "endColumn": 12,
-                        "endOffset": 2327
+                        "endOffset": 2351
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1654,
-                    "endColumn": 62,
-                    "endOffset": 1712
+                    "startOffset": 1899,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 2434
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 2332,
-                        "endColumn": 62,
-                        "endOffset": 2390
+                        "startOffset": 2356,
+                        "endLine": 38,
+                        "endColumn": 12,
+                        "endOffset": 2891
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1717,
-                    "endColumn": 131,
-                    "endOffset": 1844
+                    "startOffset": 2439,
+                    "endColumn": 78,
+                    "endOffset": 2513
                 },
                 "from": {
-                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v14/values-v14.xml",
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 2395,
-                        "endColumn": 131,
-                        "endOffset": 2522
+                        "startOffset": 2896,
+                        "endColumn": 78,
+                        "endOffset": 2970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2518,
+                    "endColumn": 92,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2975,
+                        "endColumn": 92,
+                        "endOffset": 3063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endColumn": 90,
+                    "endOffset": 2697
+                },
+                "from": {
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 3068,
+                        "endColumn": 90,
+                        "endOffset": 3154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2702,
+                    "endColumn": 104,
+                    "endOffset": 2802
+                },
+                "from": {
+                    "file": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3159,
+                        "endColumn": 104,
+                        "endOffset": 3259
                     }
                 }
             }
