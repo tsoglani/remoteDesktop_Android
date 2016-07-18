@@ -922,10 +922,10 @@ if(type.equals("Wear")){
 //                                                                    PutDataRequest dataRequest = request.asPutDataRequest();
 //                                                                    Wearable.DataApi.putDataItem(mGoogleApiClient, dataRequest);
 //
-                                                                new Thread() {
-                                                                    @Override
-                                                                    public void run() {
-//                                                                Asset asset = createAssetFromBitmap(bitmapimage);
+//                                                                new Thread() {
+//                                                                    @Override
+//                                                                    public void run() {
+////                                                                Asset asset = createAssetFromBitmap(bitmapimage);
 //                                                                PutDataMapRequest request = PutDataMapRequest.create("/image");
 //                                                                DataMap map = request.getDataMap();
 //                                                                map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
@@ -933,11 +933,14 @@ if(type.equals("Wear")){
 //                                                                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());
 //                                                                client.disconnect();
 //                                                                client=null;
+
+
                                                                         sendImage("/image", pic);
 
+                                                                Thread.sleep(500);
 
-                                                                    }
-                                                                }.start();
+//                                                                    }
+//                                                                }.start();
 
 
                                                             }
