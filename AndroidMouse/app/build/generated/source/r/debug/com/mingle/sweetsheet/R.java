@@ -415,12 +415,12 @@ public final class R {
 		public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f020049;
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f02004a;
 		public static final int abc_textfield_search_material = 0x7f02004b;
-		public static final int ic_slider_line = 0x7f0200c9;
-		public static final int indicator = 0x7f0200d4;
-		public static final int indicator_normal = 0x7f0200d5;
-		public static final int indicator_select = 0x7f0200d6;
-		public static final int lv_white_to_gray = 0x7f0200ea;
-		public static final int notification_template_icon_bg = 0x7f020128;
+		public static final int ic_slider_line = 0x7f0200ca;
+		public static final int indicator = 0x7f0200d5;
+		public static final int indicator_normal = 0x7f0200d6;
+		public static final int indicator_select = 0x7f0200d7;
+		public static final int lv_white_to_gray = 0x7f0200eb;
+		public static final int notification_template_icon_bg = 0x7f020129;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f130162;

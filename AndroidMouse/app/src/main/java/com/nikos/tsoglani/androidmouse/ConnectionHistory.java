@@ -96,9 +96,10 @@ public class ConnectionHistory extends Activity {
 
         Button button = new Button(this);
         button.setGravity(Gravity.CENTER_HORIZONTAL);
-        ViewGroup.LayoutParams addNewParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+        ViewGroup.LayoutParams addNewParams = new ViewGroup.LayoutParams(  dpToPx(50), dpToPx(50));
         button.setLayoutParams(addNewParams);
-        button.setText("Add new connection");
+        button.setBackgroundResource(R.drawable.add);
         connection_history_linear.addView(button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

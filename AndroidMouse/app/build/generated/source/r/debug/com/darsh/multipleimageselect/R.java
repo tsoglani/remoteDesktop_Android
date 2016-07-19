@@ -402,10 +402,10 @@ public final class R {
 		public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f020049;
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f02004a;
 		public static final int abc_textfield_search_material = 0x7f02004b;
-		public static final int ic_cab_done_mtrl_alpha = 0x7f0200a8;
-		public static final int image_placeholder = 0x7f0200d3;
-		public static final int notification_template_icon_bg = 0x7f020128;
-		public static final int scrollbar = 0x7f020110;
+		public static final int ic_cab_done_mtrl_alpha = 0x7f0200a9;
+		public static final int image_placeholder = 0x7f0200d4;
+		public static final int notification_template_icon_bg = 0x7f020129;
+		public static final int scrollbar = 0x7f020111;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f130162;

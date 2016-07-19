@@ -345,10 +345,10 @@ public final class R {
 		public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f020049;
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f02004a;
 		public static final int abc_textfield_search_material = 0x7f02004b;
-		public static final int fab_shadow = 0x7f02009c;
-		public static final int fab_shadow_mini = 0x7f02009d;
-		public static final int ic_add_white_24dp = 0x7f0200a7;
-		public static final int ic_launcher = 0x7f0200b3;
+		public static final int fab_shadow = 0x7f02009d;
+		public static final int fab_shadow_mini = 0x7f02009e;
+		public static final int ic_add_white_24dp = 0x7f0200a8;
+		public static final int ic_launcher = 0x7f0200b4;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f130098;

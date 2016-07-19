@@ -13,10 +13,12 @@ ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/a
 	android:versionCode
 		INJECTED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml
 		INJECTED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml
-uses-feature#android.hardware.type.watch
-ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:4:5-64
+uses-feature#android.hardware.type.watch 
+ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:4:5-90
+	android:required
+		ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:4:63-87
 	android:name
-		ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:4:19-61
+		ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:4:19-62
 uses-permission#android.permission.INTERNET
 ADDED from /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/AndroidManifest.xml:9:5-67
