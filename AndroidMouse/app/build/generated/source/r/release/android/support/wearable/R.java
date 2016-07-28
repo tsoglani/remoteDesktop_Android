@@ -168,18 +168,18 @@ public final class R {
 	public static final class drawable {
 		public static final int action_item_background = 0x7f02004c;
 		public static final int action_item_icon_background = 0x7f02004d;
-		public static final int card_background = 0x7f020052;
-		public static final int card_frame = 0x7f020053;
-		public static final int card_frame_pressed = 0x7f020054;
-		public static final int close_button = 0x7f020075;
-		public static final int generic_confirmation = 0x7f02009f;
-		public static final int generic_confirmation_animation = 0x7f0200a0;
-		public static final int ic_full_cancel = 0x7f0200b1;
-		public static final int ic_full_sad = 0x7f0200b2;
-		public static final int ic_more_horiz_24dp_wht = 0x7f0200bd;
-		public static final int ic_more_vert_24dp_wht = 0x7f0200be;
-		public static final int open_on_phone = 0x7f0200fc;
-		public static final int open_on_phone_animation = 0x7f0200fd;
+		public static final int card_background = 0x7f020053;
+		public static final int card_frame = 0x7f020054;
+		public static final int card_frame_pressed = 0x7f020055;
+		public static final int close_button = 0x7f020076;
+		public static final int generic_confirmation = 0x7f0200a0;
+		public static final int generic_confirmation_animation = 0x7f0200a1;
+		public static final int ic_full_cancel = 0x7f0200b2;
+		public static final int ic_full_sad = 0x7f0200b3;
+		public static final int ic_more_horiz_24dp_wht = 0x7f0200be;
+		public static final int ic_more_vert_24dp_wht = 0x7f0200bf;
+		public static final int open_on_phone = 0x7f0200fd;
+		public static final int open_on_phone_animation = 0x7f0200fe;
 	}
 	public static final class fraction {
 		public static final int action_drawer_item_bottom_padding = 0x7f0f0000;
