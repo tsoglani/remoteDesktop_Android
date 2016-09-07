@@ -23,7 +23,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "remote.tsoglan.desktop"
+        applicationId "remote_desktop.nick.tsoglanakos.wear"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

@@ -1,10 +1,9 @@
-package com.smart.tsoglani.androidmouse;
+package com.remote.tsoglanakos.desktop;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
-import android.widget.Toast;
 
 import com.google.android.gms.wearable.Channel;
 import com.google.android.gms.wearable.WearableListenerService;

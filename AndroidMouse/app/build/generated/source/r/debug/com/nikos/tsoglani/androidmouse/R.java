@@ -5808,8 +5808,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AVLoadingIndicatorView_indicator remote.tsoglan.desktop:indicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AVLoadingIndicatorView_indicator_color remote.tsoglan.desktop:indicator_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #AVLoadingIndicatorView_indicator remote_desktop.nick.tsoglanakos.wear:indicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AVLoadingIndicatorView_indicator_color remote_desktop.nick.tsoglanakos.wear:indicator_color}</code></td><td></td></tr>
            </table>
            @see #AVLoadingIndicatorView_indicator
            @see #AVLoadingIndicatorView_indicator_color
@@ -5818,7 +5818,7 @@ containing a value of this type.
             0x7f01000b, 0x7f01000c
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indicator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#indicator}
           attribute's value can be found in the {@link #AVLoadingIndicatorView} array.
 
 
@@ -5857,11 +5857,11 @@ containing a value of this type.
 <tr><td><code>BallGridBeat</code></td><td>26</td><td></td></tr>
 <tr><td><code>SemiCircleSpin</code></td><td>27</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:indicator
+          @attr name remote_desktop.nick.tsoglanakos.wear:indicator
         */
         public static final int AVLoadingIndicatorView_indicator = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indicator_color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#indicator_color}
           attribute's value can be found in the {@link #AVLoadingIndicatorView} array.
 
 
@@ -5872,7 +5872,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:indicator_color
+          @attr name remote_desktop.nick.tsoglanakos.wear:indicator_color
         */
         public static final int AVLoadingIndicatorView_indicator_color = 1;
         /** Attributes that can be used with a ActionBar.
@@ -5881,35 +5881,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background remote.tsoglan.desktop:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit remote.tsoglan.desktop:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked remote.tsoglan.desktop:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd remote.tsoglan.desktop:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions remote.tsoglan.desktop:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft remote.tsoglan.desktop:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight remote.tsoglan.desktop:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart remote.tsoglan.desktop:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation remote.tsoglan.desktop:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout remote.tsoglan.desktop:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions remote.tsoglan.desktop:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider remote.tsoglan.desktop:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height remote.tsoglan.desktop:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll remote.tsoglan.desktop:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator remote.tsoglan.desktop:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout remote.tsoglan.desktop:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon remote.tsoglan.desktop:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle remote.tsoglan.desktop:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding remote.tsoglan.desktop:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo remote.tsoglan.desktop:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode remote.tsoglan.desktop:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding remote.tsoglan.desktop:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle remote.tsoglan.desktop:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle remote.tsoglan.desktop:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle remote.tsoglan.desktop:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle remote.tsoglan.desktop:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background remote_desktop.nick.tsoglanakos.wear:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit remote_desktop.nick.tsoglanakos.wear:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked remote_desktop.nick.tsoglanakos.wear:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd remote_desktop.nick.tsoglanakos.wear:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions remote_desktop.nick.tsoglanakos.wear:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft remote_desktop.nick.tsoglanakos.wear:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight remote_desktop.nick.tsoglanakos.wear:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart remote_desktop.nick.tsoglanakos.wear:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation remote_desktop.nick.tsoglanakos.wear:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout remote_desktop.nick.tsoglanakos.wear:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions remote_desktop.nick.tsoglanakos.wear:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider remote_desktop.nick.tsoglanakos.wear:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation remote_desktop.nick.tsoglanakos.wear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height remote_desktop.nick.tsoglanakos.wear:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll remote_desktop.nick.tsoglanakos.wear:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator remote_desktop.nick.tsoglanakos.wear:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout remote_desktop.nick.tsoglanakos.wear:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon remote_desktop.nick.tsoglanakos.wear:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle remote_desktop.nick.tsoglanakos.wear:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding remote_desktop.nick.tsoglanakos.wear:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo remote_desktop.nick.tsoglanakos.wear:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode remote_desktop.nick.tsoglanakos.wear:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme remote_desktop.nick.tsoglanakos.wear:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding remote_desktop.nick.tsoglanakos.wear:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle remote_desktop.nick.tsoglanakos.wear:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle remote_desktop.nick.tsoglanakos.wear:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle remote_desktop.nick.tsoglanakos.wear:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title remote_desktop.nick.tsoglanakos.wear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle remote_desktop.nick.tsoglanakos.wear:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -5952,17 +5952,17 @@ containing a value of this type.
             0x7f01006d
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#background}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:background
+          @attr name remote_desktop.nick.tsoglanakos.wear:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5970,11 +5970,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:backgroundSplit
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5982,11 +5982,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:backgroundStacked
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5998,11 +5998,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6014,11 +6014,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetEndWithActions
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6030,11 +6030,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetLeft
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6046,11 +6046,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetRight
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6062,11 +6062,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6078,21 +6078,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetStartWithNavigation
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:customNavigationLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6110,21 +6110,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:displayOptions
+          @attr name remote_desktop.nick.tsoglanakos.wear:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#divider}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:divider
+          @attr name remote_desktop.nick.tsoglanakos.wear:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6136,11 +6136,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:elevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#height}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6152,11 +6152,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:height
+          @attr name remote_desktop.nick.tsoglanakos.wear:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6166,51 +6166,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:hideOnContentScroll
+          @attr name remote_desktop.nick.tsoglanakos.wear:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:homeAsUpIndicator
+          @attr name remote_desktop.nick.tsoglanakos.wear:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:homeLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#icon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:icon
+          @attr name remote_desktop.nick.tsoglanakos.wear:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:indeterminateProgressStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6222,21 +6222,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:itemPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logo}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:logo
+          @attr name remote_desktop.nick.tsoglanakos.wear:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6250,21 +6250,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:navigationMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:popupTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6276,21 +6276,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:progressBarPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:progressBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6300,21 +6300,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:subtitle
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:subtitleTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6324,17 +6324,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:title
+          @attr name remote_desktop.nick.tsoglanakos.wear:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:titleTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -6371,8 +6371,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #ActionLabel_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionLabel_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionLabel_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionLabel_maxTextSize remote.tsoglan.desktop:maxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionLabel_minTextSize remote.tsoglan.desktop:minTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_maxTextSize remote_desktop.nick.tsoglanakos.wear:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_minTextSize remote_desktop.nick.tsoglanakos.wear:minTextSize}</code></td><td></td></tr>
            </table>
            @see #ActionLabel_android_fontFamily
            @see #ActionLabel_android_gravity
@@ -6446,7 +6446,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionLabel_android_typeface = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxTextSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maxTextSize}
           attribute's value can be found in the {@link #ActionLabel} array.
 
 
@@ -6458,11 +6458,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:maxTextSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:maxTextSize
         */
         public static final int ActionLabel_maxTextSize = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#minTextSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#minTextSize}
           attribute's value can be found in the {@link #ActionLabel} array.
 
 
@@ -6474,7 +6474,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:minTextSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:minTextSize
         */
         public static final int ActionLabel_minTextSize = 9;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -6507,12 +6507,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background remote.tsoglan.desktop:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit remote.tsoglan.desktop:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout remote.tsoglan.desktop:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height remote.tsoglan.desktop:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle remote.tsoglan.desktop:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle remote.tsoglan.desktop:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background remote_desktop.nick.tsoglanakos.wear:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit remote_desktop.nick.tsoglanakos.wear:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout remote_desktop.nick.tsoglanakos.wear:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height remote_desktop.nick.tsoglanakos.wear:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle remote_desktop.nick.tsoglanakos.wear:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle remote_desktop.nick.tsoglanakos.wear:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -6526,17 +6526,17 @@ containing a value of this type.
             0x7f010017, 0x7f010029
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#background}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:background
+          @attr name remote_desktop.nick.tsoglanakos.wear:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -6544,21 +6544,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:backgroundSplit
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:closeItemLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#height}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -6570,27 +6570,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:height
+          @attr name remote_desktop.nick.tsoglanakos.wear:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:subtitleTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:titleTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActionPage.
@@ -6612,11 +6612,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #ActionPage_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionPage_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionPage_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_buttonRippleColor remote.tsoglan.desktop:buttonRippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_imageScaleMode remote.tsoglan.desktop:imageScaleMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_maxTextSize remote.tsoglan.desktop:maxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_minTextSize remote.tsoglan.desktop:minTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionPage_pressedButtonTranslationZ remote.tsoglan.desktop:pressedButtonTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_buttonRippleColor remote_desktop.nick.tsoglanakos.wear:buttonRippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_imageScaleMode remote_desktop.nick.tsoglanakos.wear:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_maxTextSize remote_desktop.nick.tsoglanakos.wear:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_minTextSize remote_desktop.nick.tsoglanakos.wear:minTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_pressedButtonTranslationZ remote_desktop.nick.tsoglanakos.wear:pressedButtonTranslationZ}</code></td><td></td></tr>
            </table>
            @see #ActionPage_android_color
            @see #ActionPage_android_elevation
@@ -6723,7 +6723,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionPage_android_typeface = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonRippleColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonRippleColor}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -6731,11 +6731,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:buttonRippleColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonRippleColor
         */
         public static final int ActionPage_buttonRippleColor = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageScaleMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#imageScaleMode}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -6748,11 +6748,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>fit</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:imageScaleMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:imageScaleMode
         */
         public static final int ActionPage_imageScaleMode = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxTextSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maxTextSize}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -6764,11 +6764,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:maxTextSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:maxTextSize
         */
         public static final int ActionPage_maxTextSize = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#minTextSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#minTextSize}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -6780,11 +6780,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:minTextSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:minTextSize
         */
         public static final int ActionPage_minTextSize = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedButtonTranslationZ}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pressedButtonTranslationZ}
           attribute's value can be found in the {@link #ActionPage} array.
 
 
@@ -6796,7 +6796,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pressedButtonTranslationZ
+          @attr name remote_desktop.nick.tsoglanakos.wear:pressedButtonTranslationZ
         */
         public static final int ActionPage_pressedButtonTranslationZ = 17;
         /** Attributes that can be used with a ActivityChooserView.
@@ -6805,8 +6805,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable remote.tsoglan.desktop:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount remote.tsoglan.desktop:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable remote_desktop.nick.tsoglanakos.wear:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount remote_desktop.nick.tsoglanakos.wear:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -6815,17 +6815,17 @@ containing a value of this type.
             0x7f01002a, 0x7f01002b
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:expandActivityOverflowButtonDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -6835,7 +6835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:initialActivityCount
+          @attr name remote_desktop.nick.tsoglanakos.wear:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -6844,9 +6844,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize remote.tsoglan.desktop:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes remote.tsoglan.desktop:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId remote.tsoglan.desktop:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize remote_desktop.nick.tsoglanakos.wear:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes remote_desktop.nick.tsoglanakos.wear:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId remote_desktop.nick.tsoglanakos.wear:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -6856,7 +6856,7 @@ containing a value of this type.
             0x7f01002c, 0x7f01002d, 0x7f01002e
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -6866,11 +6866,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:adSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -6880,11 +6880,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:adSizes
+          @attr name remote_desktop.nick.tsoglanakos.wear:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -6894,7 +6894,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:adUnitId
+          @attr name remote_desktop.nick.tsoglanakos.wear:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
@@ -6904,11 +6904,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout remote.tsoglan.desktop:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout remote.tsoglan.desktop:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout remote.tsoglan.desktop:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout remote.tsoglan.desktop:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout remote.tsoglan.desktop:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout remote_desktop.nick.tsoglanakos.wear:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout remote_desktop.nick.tsoglanakos.wear:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout remote_desktop.nick.tsoglanakos.wear:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout remote_desktop.nick.tsoglanakos.wear:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout remote_desktop.nick.tsoglanakos.wear:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -6928,53 +6928,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonPanelSideLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listItemLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:multiChoiceItemLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:singleChoiceItemLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -6984,8 +6984,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded remote.tsoglan.desktop:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation remote_desktop.nick.tsoglanakos.wear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded remote_desktop.nick.tsoglanakos.wear:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -7001,7 +7001,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -7013,11 +7013,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:elevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expanded}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -7027,7 +7027,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expanded
+          @attr name remote_desktop.nick.tsoglanakos.wear:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -7036,8 +7036,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed remote.tsoglan.desktop:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible remote.tsoglan.desktop:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed remote_desktop.nick.tsoglanakos.wear:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible remote_desktop.nick.tsoglanakos.wear:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -7046,7 +7046,7 @@ containing a value of this type.
             0x7f010035, 0x7f010036
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -7056,11 +7056,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:state_collapsed
+          @attr name remote_desktop.nick.tsoglanakos.wear:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -7070,7 +7070,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:state_collapsible
+          @attr name remote_desktop.nick.tsoglanakos.wear:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -7079,8 +7079,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags remote.tsoglan.desktop:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator remote.tsoglan.desktop:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags remote_desktop.nick.tsoglanakos.wear:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator remote_desktop.nick.tsoglanakos.wear:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -7089,7 +7089,7 @@ containing a value of this type.
             0x7f010037, 0x7f010038
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -7105,17 +7105,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:layout_scrollFlags
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:layout_scrollInterpolator
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -7125,7 +7125,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat remote.tsoglan.desktop:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat remote_desktop.nick.tsoglanakos.wear:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -7140,13 +7140,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:srcCompat
+          @attr name remote_desktop.nick.tsoglanakos.wear:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -7156,9 +7156,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark remote.tsoglan.desktop:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint remote.tsoglan.desktop:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode remote.tsoglan.desktop:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark remote_desktop.nick.tsoglanakos.wear:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint remote_desktop.nick.tsoglanakos.wear:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode remote_desktop.nick.tsoglanakos.wear:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -7175,17 +7175,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:tickMark
+          @attr name remote_desktop.nick.tsoglanakos.wear:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -7196,11 +7196,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tickMarkTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -7217,7 +7217,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:tickMarkTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextView.
@@ -7227,7 +7227,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps remote.tsoglan.desktop:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps remote_desktop.nick.tsoglanakos.wear:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -7242,14 +7242,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name remote.tsoglan.desktop:textAllCaps
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -7258,121 +7258,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider remote.tsoglan.desktop:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground remote.tsoglan.desktop:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme remote.tsoglan.desktop:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize remote.tsoglan.desktop:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle remote.tsoglan.desktop:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle remote.tsoglan.desktop:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle remote.tsoglan.desktop:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle remote.tsoglan.desktop:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle remote.tsoglan.desktop:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme remote.tsoglan.desktop:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme remote.tsoglan.desktop:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle remote.tsoglan.desktop:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle remote.tsoglan.desktop:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance remote.tsoglan.desktop:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor remote.tsoglan.desktop:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground remote.tsoglan.desktop:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle remote.tsoglan.desktop:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable remote.tsoglan.desktop:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable remote.tsoglan.desktop:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable remote.tsoglan.desktop:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable remote.tsoglan.desktop:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable remote.tsoglan.desktop:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle remote.tsoglan.desktop:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable remote.tsoglan.desktop:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable remote.tsoglan.desktop:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground remote.tsoglan.desktop:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle remote.tsoglan.desktop:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable remote.tsoglan.desktop:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle remote.tsoglan.desktop:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle remote.tsoglan.desktop:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle remote.tsoglan.desktop:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle remote.tsoglan.desktop:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons remote.tsoglan.desktop:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle remote.tsoglan.desktop:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme remote.tsoglan.desktop:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider remote_desktop.nick.tsoglanakos.wear:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground remote_desktop.nick.tsoglanakos.wear:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme remote_desktop.nick.tsoglanakos.wear:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize remote_desktop.nick.tsoglanakos.wear:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle remote_desktop.nick.tsoglanakos.wear:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle remote_desktop.nick.tsoglanakos.wear:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle remote_desktop.nick.tsoglanakos.wear:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle remote_desktop.nick.tsoglanakos.wear:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle remote_desktop.nick.tsoglanakos.wear:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme remote_desktop.nick.tsoglanakos.wear:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme remote_desktop.nick.tsoglanakos.wear:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle remote_desktop.nick.tsoglanakos.wear:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle remote_desktop.nick.tsoglanakos.wear:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance remote_desktop.nick.tsoglanakos.wear:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor remote_desktop.nick.tsoglanakos.wear:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground remote_desktop.nick.tsoglanakos.wear:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle remote_desktop.nick.tsoglanakos.wear:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable remote_desktop.nick.tsoglanakos.wear:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable remote_desktop.nick.tsoglanakos.wear:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable remote_desktop.nick.tsoglanakos.wear:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable remote_desktop.nick.tsoglanakos.wear:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable remote_desktop.nick.tsoglanakos.wear:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle remote_desktop.nick.tsoglanakos.wear:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable remote_desktop.nick.tsoglanakos.wear:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable remote_desktop.nick.tsoglanakos.wear:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground remote_desktop.nick.tsoglanakos.wear:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle remote_desktop.nick.tsoglanakos.wear:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable remote_desktop.nick.tsoglanakos.wear:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle remote_desktop.nick.tsoglanakos.wear:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle remote_desktop.nick.tsoglanakos.wear:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle remote_desktop.nick.tsoglanakos.wear:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle remote_desktop.nick.tsoglanakos.wear:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons remote_desktop.nick.tsoglanakos.wear:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle remote_desktop.nick.tsoglanakos.wear:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme remote_desktop.nick.tsoglanakos.wear:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle remote.tsoglan.desktop:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle remote.tsoglan.desktop:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle remote.tsoglan.desktop:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle remote.tsoglan.desktop:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle remote.tsoglan.desktop:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle remote.tsoglan.desktop:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle remote.tsoglan.desktop:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle remote.tsoglan.desktop:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall remote.tsoglan.desktop:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle remote.tsoglan.desktop:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle remote.tsoglan.desktop:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent remote.tsoglan.desktop:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating remote.tsoglan.desktop:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal remote.tsoglan.desktop:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated remote.tsoglan.desktop:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight remote.tsoglan.desktop:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal remote.tsoglan.desktop:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary remote.tsoglan.desktop:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark remote.tsoglan.desktop:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal remote.tsoglan.desktop:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground remote.tsoglan.desktop:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding remote.tsoglan.desktop:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme remote.tsoglan.desktop:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal remote.tsoglan.desktop:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical remote.tsoglan.desktop:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle remote.tsoglan.desktop:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight remote.tsoglan.desktop:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground remote.tsoglan.desktop:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor remote.tsoglan.desktop:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle remote.tsoglan.desktop:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator remote.tsoglan.desktop:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle remote.tsoglan.desktop:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator remote.tsoglan.desktop:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog remote.tsoglan.desktop:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle remote.tsoglan.desktop:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle remote.tsoglan.desktop:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight remote.tsoglan.desktop:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge remote.tsoglan.desktop:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall remote.tsoglan.desktop:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft remote.tsoglan.desktop:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight remote.tsoglan.desktop:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground remote.tsoglan.desktop:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme remote.tsoglan.desktop:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth remote.tsoglan.desktop:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle remote.tsoglan.desktop:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle remote.tsoglan.desktop:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle remote.tsoglan.desktop:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle remote.tsoglan.desktop:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator remote.tsoglan.desktop:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall remote.tsoglan.desktop:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle remote.tsoglan.desktop:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle remote.tsoglan.desktop:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground remote.tsoglan.desktop:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless remote.tsoglan.desktop:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle remote.tsoglan.desktop:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle remote.tsoglan.desktop:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle remote.tsoglan.desktop:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu remote.tsoglan.desktop:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem remote.tsoglan.desktop:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall remote.tsoglan.desktop:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader remote.tsoglan.desktop:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle remote.tsoglan.desktop:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle remote.tsoglan.desktop:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu remote.tsoglan.desktop:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem remote.tsoglan.desktop:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl remote.tsoglan.desktop:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle remote.tsoglan.desktop:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle remote.tsoglan.desktop:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar remote.tsoglan.desktop:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay remote.tsoglan.desktop:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay remote.tsoglan.desktop:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor remote.tsoglan.desktop:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor remote.tsoglan.desktop:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor remote.tsoglan.desktop:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor remote.tsoglan.desktop:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor remote.tsoglan.desktop:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor remote.tsoglan.desktop:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle remote.tsoglan.desktop:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle remote_desktop.nick.tsoglanakos.wear:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle remote_desktop.nick.tsoglanakos.wear:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle remote_desktop.nick.tsoglanakos.wear:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle remote_desktop.nick.tsoglanakos.wear:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle remote_desktop.nick.tsoglanakos.wear:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle remote_desktop.nick.tsoglanakos.wear:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle remote_desktop.nick.tsoglanakos.wear:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle remote_desktop.nick.tsoglanakos.wear:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall remote_desktop.nick.tsoglanakos.wear:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle remote_desktop.nick.tsoglanakos.wear:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle remote_desktop.nick.tsoglanakos.wear:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent remote_desktop.nick.tsoglanakos.wear:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating remote_desktop.nick.tsoglanakos.wear:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal remote_desktop.nick.tsoglanakos.wear:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated remote_desktop.nick.tsoglanakos.wear:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight remote_desktop.nick.tsoglanakos.wear:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal remote_desktop.nick.tsoglanakos.wear:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary remote_desktop.nick.tsoglanakos.wear:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark remote_desktop.nick.tsoglanakos.wear:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal remote_desktop.nick.tsoglanakos.wear:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground remote_desktop.nick.tsoglanakos.wear:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding remote_desktop.nick.tsoglanakos.wear:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme remote_desktop.nick.tsoglanakos.wear:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal remote_desktop.nick.tsoglanakos.wear:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical remote_desktop.nick.tsoglanakos.wear:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle remote_desktop.nick.tsoglanakos.wear:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight remote_desktop.nick.tsoglanakos.wear:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground remote_desktop.nick.tsoglanakos.wear:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor remote_desktop.nick.tsoglanakos.wear:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle remote_desktop.nick.tsoglanakos.wear:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator remote_desktop.nick.tsoglanakos.wear:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle remote_desktop.nick.tsoglanakos.wear:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator remote_desktop.nick.tsoglanakos.wear:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog remote_desktop.nick.tsoglanakos.wear:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle remote_desktop.nick.tsoglanakos.wear:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle remote_desktop.nick.tsoglanakos.wear:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft remote_desktop.nick.tsoglanakos.wear:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight remote_desktop.nick.tsoglanakos.wear:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground remote_desktop.nick.tsoglanakos.wear:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme remote_desktop.nick.tsoglanakos.wear:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth remote_desktop.nick.tsoglanakos.wear:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle remote_desktop.nick.tsoglanakos.wear:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle remote_desktop.nick.tsoglanakos.wear:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle remote_desktop.nick.tsoglanakos.wear:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle remote_desktop.nick.tsoglanakos.wear:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator remote_desktop.nick.tsoglanakos.wear:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall remote_desktop.nick.tsoglanakos.wear:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle remote_desktop.nick.tsoglanakos.wear:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle remote_desktop.nick.tsoglanakos.wear:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground remote_desktop.nick.tsoglanakos.wear:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless remote_desktop.nick.tsoglanakos.wear:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle remote_desktop.nick.tsoglanakos.wear:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle remote_desktop.nick.tsoglanakos.wear:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle remote_desktop.nick.tsoglanakos.wear:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu remote_desktop.nick.tsoglanakos.wear:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem remote_desktop.nick.tsoglanakos.wear:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall remote_desktop.nick.tsoglanakos.wear:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader remote_desktop.nick.tsoglanakos.wear:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle remote_desktop.nick.tsoglanakos.wear:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle remote_desktop.nick.tsoglanakos.wear:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu remote_desktop.nick.tsoglanakos.wear:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem remote_desktop.nick.tsoglanakos.wear:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl remote_desktop.nick.tsoglanakos.wear:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle remote_desktop.nick.tsoglanakos.wear:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle remote_desktop.nick.tsoglanakos.wear:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar remote_desktop.nick.tsoglanakos.wear:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay remote_desktop.nick.tsoglanakos.wear:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay remote_desktop.nick.tsoglanakos.wear:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor remote_desktop.nick.tsoglanakos.wear:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor remote_desktop.nick.tsoglanakos.wear:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor remote_desktop.nick.tsoglanakos.wear:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor remote_desktop.nick.tsoglanakos.wear:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor remote_desktop.nick.tsoglanakos.wear:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor remote_desktop.nick.tsoglanakos.wear:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle remote_desktop.nick.tsoglanakos.wear:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -7522,37 +7522,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ac, 0x7f0100ad, 0x7f0100ae
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarDivider
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarItemBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarPopupTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7572,111 +7572,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:actionBarSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarSplitStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarTabBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarTabStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarTabTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionBarWidgetTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionDropDownStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionMenuTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7684,181 +7684,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:actionMenuTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeCloseButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeCloseDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeCopyDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeCutDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeFindDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModePasteDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModePopupWindowStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeSelectAllDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeShareDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeSplitBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionModeWebSearchDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionOverflowButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionOverflowMenuStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:activityChooserViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:alertDialogButtonGroupStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7868,27 +7868,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:alertDialogCenterButtons
+          @attr name remote_desktop.nick.tsoglanakos.wear:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:alertDialogStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:alertDialogTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -7904,117 +7904,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:autoCompleteTextViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:borderlessButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonBarButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonBarNegativeButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonBarNeutralButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonBarPositiveButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:buttonStyleSmall
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:checkboxStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:checkedTextViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8025,11 +8025,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorAccent
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8040,11 +8040,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorBackgroundFloating
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8055,11 +8055,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorButtonNormal
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8070,11 +8070,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorControlActivated
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8085,11 +8085,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorControlHighlight
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8100,11 +8100,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorControlNormal
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8115,11 +8115,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorPrimary
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8130,11 +8130,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorPrimaryDark
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8145,21 +8145,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:colorSwitchThumbNormal
+          @attr name remote_desktop.nick.tsoglanakos.wear:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:controlBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8171,51 +8171,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dialogPreferredPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:dialogTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:dividerHorizontal
+          @attr name remote_desktop.nick.tsoglanakos.wear:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:dividerVertical
+          @attr name remote_desktop.nick.tsoglanakos.wear:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:dropDownListViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8227,21 +8227,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dropdownListPreferredItemHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:editTextBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8249,81 +8249,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:editTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:editTextStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:homeAsUpIndicator
+          @attr name remote_desktop.nick.tsoglanakos.wear:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:imageButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listChoiceBackgroundIndicator
+          @attr name remote_desktop.nick.tsoglanakos.wear:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listDividerAlertDialog
+          @attr name remote_desktop.nick.tsoglanakos.wear:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listMenuViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:listPopupWindowStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8335,11 +8335,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:listPreferredItemHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8351,11 +8351,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:listPreferredItemHeightLarge
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8367,11 +8367,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:listPreferredItemHeightSmall
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8383,11 +8383,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:listPreferredItemPaddingLeft
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8399,31 +8399,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:listPreferredItemPaddingRight
+          @attr name remote_desktop.nick.tsoglanakos.wear:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:panelBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:panelMenuListTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8435,211 +8435,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:panelMenuListWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:popupMenuStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:popupWindowStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:radioButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:ratingBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:ratingBarStyleIndicator
+          @attr name remote_desktop.nick.tsoglanakos.wear:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:ratingBarStyleSmall
+          @attr name remote_desktop.nick.tsoglanakos.wear:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:searchViewStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:seekBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:selectableItemBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:selectableItemBackgroundBorderless
+          @attr name remote_desktop.nick.tsoglanakos.wear:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:spinnerDropDownItemStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:spinnerStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:switchStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceLargePopupMenu
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceListItem
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceListItemSmall
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearancePopupMenuHeader
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceSearchResultSubtitle
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceSearchResultTitle
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:textAppearanceSmallPopupMenu
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8647,11 +8647,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:textColorAlertDialogListItem
+          @attr name remote_desktop.nick.tsoglanakos.wear:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8659,31 +8659,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:textColorSearchUrl
+          @attr name remote_desktop.nick.tsoglanakos.wear:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:toolbarNavigationButtonStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:toolbarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8693,11 +8693,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowActionBar
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8707,11 +8707,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowActionBarOverlay
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8721,11 +8721,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowActionModeOverlay
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8740,11 +8740,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowFixedHeightMajor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8759,11 +8759,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowFixedHeightMinor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8778,11 +8778,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowFixedWidthMajor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8797,11 +8797,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowFixedWidthMinor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8816,11 +8816,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowMinWidthMajor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8835,11 +8835,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowMinWidthMinor
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8849,7 +8849,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:windowNoTitle
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -8858,9 +8858,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable remote.tsoglan.desktop:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight remote.tsoglan.desktop:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed remote.tsoglan.desktop:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable remote_desktop.nick.tsoglanakos.wear:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight remote_desktop.nick.tsoglanakos.wear:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed remote_desktop.nick.tsoglanakos.wear:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -8870,7 +8870,7 @@ containing a value of this type.
             0x7f0100af, 0x7f0100b0, 0x7f0100b1
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8880,11 +8880,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:behavior_hideable
+          @attr name remote_desktop.nick.tsoglanakos.wear:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8896,11 +8896,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:behavior_peekHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8910,7 +8910,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:behavior_skipCollapsed
+          @attr name remote_desktop.nick.tsoglanakos.wear:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a BoxInsetLayout_Layout.
@@ -8919,7 +8919,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BoxInsetLayout_Layout_layout_box remote.tsoglan.desktop:layout_box}</code></td><td></td></tr>
+           <tr><td><code>{@link #BoxInsetLayout_Layout_layout_box remote_desktop.nick.tsoglanakos.wear:layout_box}</code></td><td></td></tr>
            </table>
            @see #BoxInsetLayout_Layout_layout_box
          */
@@ -8927,7 +8927,7 @@ containing a value of this type.
             0x7f0100b2
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_box}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_box}
           attribute's value can be found in the {@link #BoxInsetLayout_Layout} array.
 
 
@@ -8943,7 +8943,7 @@ containing a value of this type.
 <tr><td><code>bottom</code></td><td>0x08</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x0F</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:layout_box
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_box
         */
         public static final int BoxInsetLayout_Layout_layout_box = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -8952,7 +8952,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking remote.tsoglan.desktop:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking remote_desktop.nick.tsoglanakos.wear:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -8960,7 +8960,7 @@ containing a value of this type.
             0x7f0100b3
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -8970,7 +8970,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:allowStacking
+          @attr name remote_desktop.nick.tsoglanakos.wear:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CircleButton.
@@ -8979,8 +8979,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircleButton_cb_color remote.tsoglan.desktop:cb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleButton_cb_pressedRingWidth remote.tsoglan.desktop:cb_pressedRingWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleButton_cb_color remote_desktop.nick.tsoglanakos.wear:cb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleButton_cb_pressedRingWidth remote_desktop.nick.tsoglanakos.wear:cb_pressedRingWidth}</code></td><td></td></tr>
            </table>
            @see #CircleButton_cb_color
            @see #CircleButton_cb_pressedRingWidth
@@ -8989,7 +8989,7 @@ containing a value of this type.
             0x7f0100b4, 0x7f0100b5
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cb_color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cb_color}
           attribute's value can be found in the {@link #CircleButton} array.
 
 
@@ -9000,11 +9000,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cb_color
+          @attr name remote_desktop.nick.tsoglanakos.wear:cb_color
         */
         public static final int CircleButton_cb_color = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cb_pressedRingWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cb_pressedRingWidth}
           attribute's value can be found in the {@link #CircleButton} array.
 
 
@@ -9016,7 +9016,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cb_pressedRingWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:cb_pressedRingWidth
         */
         public static final int CircleButton_cb_pressedRingWidth = 1;
         /** Attributes that can be used with a CircledImageView.
@@ -9026,20 +9026,20 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CircledImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_cap remote.tsoglan.desktop:circle_border_cap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_color remote.tsoglan.desktop:circle_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_border_width remote.tsoglan.desktop:circle_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_color remote.tsoglan.desktop:circle_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_padding remote.tsoglan.desktop:circle_padding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius remote.tsoglan.desktop:circle_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_percent remote.tsoglan.desktop:circle_radius_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_pressed remote.tsoglan.desktop:circle_radius_pressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_circle_radius_pressed_percent remote.tsoglan.desktop:circle_radius_pressed_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_circle_percentage remote.tsoglan.desktop:image_circle_percentage}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_horizontal_offcenter_percentage remote.tsoglan.desktop:image_horizontal_offcenter_percentage}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_image_tint remote.tsoglan.desktop:image_tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_shadow_width remote.tsoglan.desktop:shadow_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircledImageView_square_dimen remote.tsoglan.desktop:square_dimen}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_cap remote_desktop.nick.tsoglanakos.wear:circle_border_cap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_color remote_desktop.nick.tsoglanakos.wear:circle_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_border_width remote_desktop.nick.tsoglanakos.wear:circle_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_color remote_desktop.nick.tsoglanakos.wear:circle_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_padding remote_desktop.nick.tsoglanakos.wear:circle_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius remote_desktop.nick.tsoglanakos.wear:circle_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_percent remote_desktop.nick.tsoglanakos.wear:circle_radius_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_pressed remote_desktop.nick.tsoglanakos.wear:circle_radius_pressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_circle_radius_pressed_percent remote_desktop.nick.tsoglanakos.wear:circle_radius_pressed_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_circle_percentage remote_desktop.nick.tsoglanakos.wear:image_circle_percentage}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_horizontal_offcenter_percentage remote_desktop.nick.tsoglanakos.wear:image_horizontal_offcenter_percentage}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_image_tint remote_desktop.nick.tsoglanakos.wear:image_tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_shadow_width remote_desktop.nick.tsoglanakos.wear:shadow_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircledImageView_square_dimen remote_desktop.nick.tsoglanakos.wear:square_dimen}</code></td><td></td></tr>
            </table>
            @see #CircledImageView_android_src
            @see #CircledImageView_circle_border_cap
@@ -9070,7 +9070,7 @@ containing a value of this type.
         */
         public static final int CircledImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_cap}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_border_cap}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9084,11 +9084,11 @@ containing a value of this type.
 <tr><td><code>round</code></td><td>1</td><td></td></tr>
 <tr><td><code>square</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:circle_border_cap
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_border_cap
         */
         public static final int CircledImageView_circle_border_cap = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_border_color}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9099,11 +9099,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_border_color
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_border_color
         */
         public static final int CircledImageView_circle_border_color = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_border_width}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_border_width}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9115,11 +9115,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_border_width
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_border_width
         */
         public static final int CircledImageView_circle_border_width = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_color}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9130,11 +9130,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_color
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_color
         */
         public static final int CircledImageView_circle_color = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_padding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_padding}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9146,11 +9146,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_padding
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_padding
         */
         public static final int CircledImageView_circle_padding = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_radius}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9162,11 +9162,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_radius
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_radius
         */
         public static final int CircledImageView_circle_radius = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_percent}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_radius_percent}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9178,11 +9178,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_radius_percent
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_radius_percent
         */
         public static final int CircledImageView_circle_radius_percent = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_pressed}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_radius_pressed}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9194,11 +9194,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_radius_pressed
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_radius_pressed
         */
         public static final int CircledImageView_circle_radius_pressed = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circle_radius_pressed_percent}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circle_radius_pressed_percent}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9210,11 +9210,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circle_radius_pressed_percent
+          @attr name remote_desktop.nick.tsoglanakos.wear:circle_radius_pressed_percent
         */
         public static final int CircledImageView_circle_radius_pressed_percent = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_circle_percentage}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#image_circle_percentage}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9226,11 +9226,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:image_circle_percentage
+          @attr name remote_desktop.nick.tsoglanakos.wear:image_circle_percentage
         */
         public static final int CircledImageView_image_circle_percentage = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_horizontal_offcenter_percentage}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#image_horizontal_offcenter_percentage}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9242,11 +9242,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:image_horizontal_offcenter_percentage
+          @attr name remote_desktop.nick.tsoglanakos.wear:image_horizontal_offcenter_percentage
         */
         public static final int CircledImageView_image_horizontal_offcenter_percentage = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#image_tint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#image_tint}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9257,11 +9257,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:image_tint
+          @attr name remote_desktop.nick.tsoglanakos.wear:image_tint
         */
         public static final int CircledImageView_image_tint = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#shadow_width}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#shadow_width}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9273,11 +9273,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:shadow_width
+          @attr name remote_desktop.nick.tsoglanakos.wear:shadow_width
         */
         public static final int CircledImageView_shadow_width = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#square_dimen}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#square_dimen}
           attribute's value can be found in the {@link #CircledImageView} array.
 
 
@@ -9291,7 +9291,7 @@ containing a value of this type.
 <tr><td><code>height</code></td><td>1</td><td></td></tr>
 <tr><td><code>width</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:square_dimen
+          @attr name remote_desktop.nick.tsoglanakos.wear:square_dimen
         */
         public static final int CircledImageView_square_dimen = 14;
         /** Attributes that can be used with a CircularButton.
@@ -9304,9 +9304,9 @@ containing a value of this type.
            <tr><td><code>{@link #CircularButton_android_elevation android:elevation}</code></td><td></td></tr>
            <tr><td><code>{@link #CircularButton_android_src android:src}</code></td><td></td></tr>
            <tr><td><code>{@link #CircularButton_android_stateListAnimator android:stateListAnimator}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_buttonRippleColor remote.tsoglan.desktop:buttonRippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_imageScaleMode remote.tsoglan.desktop:imageScaleMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularButton_pressedButtonTranslationZ remote.tsoglan.desktop:pressedButtonTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_buttonRippleColor remote_desktop.nick.tsoglanakos.wear:buttonRippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_imageScaleMode remote_desktop.nick.tsoglanakos.wear:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_pressedButtonTranslationZ remote_desktop.nick.tsoglanakos.wear:pressedButtonTranslationZ}</code></td><td></td></tr>
            </table>
            @see #CircularButton_android_color
            @see #CircularButton_android_elevation
@@ -9345,7 +9345,7 @@ containing a value of this type.
         */
         public static final int CircularButton_android_stateListAnimator = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonRippleColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonRippleColor}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -9353,11 +9353,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:buttonRippleColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonRippleColor
         */
         public static final int CircularButton_buttonRippleColor = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageScaleMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#imageScaleMode}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -9370,11 +9370,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>fit</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:imageScaleMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:imageScaleMode
         */
         public static final int CircularButton_imageScaleMode = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedButtonTranslationZ}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pressedButtonTranslationZ}
           attribute's value can be found in the {@link #CircularButton} array.
 
 
@@ -9386,7 +9386,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pressedButtonTranslationZ
+          @attr name remote_desktop.nick.tsoglanakos.wear:pressedButtonTranslationZ
         */
         public static final int CircularButton_pressedButtonTranslationZ = 6;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -9395,22 +9395,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity remote.tsoglan.desktop:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance remote.tsoglan.desktop:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim remote.tsoglan.desktop:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity remote.tsoglan.desktop:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin remote.tsoglan.desktop:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom remote.tsoglan.desktop:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd remote.tsoglan.desktop:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart remote.tsoglan.desktop:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop remote.tsoglan.desktop:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance remote.tsoglan.desktop:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration remote.tsoglan.desktop:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger remote.tsoglan.desktop:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim remote.tsoglan.desktop:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled remote.tsoglan.desktop:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId remote.tsoglan.desktop:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity remote_desktop.nick.tsoglanakos.wear:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance remote_desktop.nick.tsoglanakos.wear:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim remote_desktop.nick.tsoglanakos.wear:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity remote_desktop.nick.tsoglanakos.wear:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin remote_desktop.nick.tsoglanakos.wear:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance remote_desktop.nick.tsoglanakos.wear:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration remote_desktop.nick.tsoglanakos.wear:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger remote_desktop.nick.tsoglanakos.wear:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim remote_desktop.nick.tsoglanakos.wear:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title remote_desktop.nick.tsoglanakos.wear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled remote_desktop.nick.tsoglanakos.wear:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId remote_desktop.nick.tsoglanakos.wear:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -9436,7 +9436,7 @@ containing a value of this type.
             0x7f0100d2, 0x7f0100d3, 0x7f0100d4, 0x7f0100d5
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9457,21 +9457,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:collapsedTitleGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:collapsedTitleTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9482,11 +9482,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentScrim
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9507,11 +9507,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:expandedTitleGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9523,11 +9523,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expandedTitleMargin
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9539,11 +9539,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expandedTitleMarginBottom
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9555,11 +9555,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expandedTitleMarginEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9571,11 +9571,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expandedTitleMarginStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9587,21 +9587,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:expandedTitleMarginTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:expandedTitleTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9611,11 +9611,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:scrimAnimationDuration
+          @attr name remote_desktop.nick.tsoglanakos.wear:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9627,11 +9627,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:scrimVisibleHeightTrigger
+          @attr name remote_desktop.nick.tsoglanakos.wear:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9642,11 +9642,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:statusBarScrim
+          @attr name remote_desktop.nick.tsoglanakos.wear:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9656,11 +9656,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:title
+          @attr name remote_desktop.nick.tsoglanakos.wear:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9670,17 +9670,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:toolbarId
+          @attr name remote_desktop.nick.tsoglanakos.wear:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -9689,8 +9689,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode remote.tsoglan.desktop:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier remote.tsoglan.desktop:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode remote_desktop.nick.tsoglanakos.wear:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier remote_desktop.nick.tsoglanakos.wear:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -9699,7 +9699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100d6, 0x7f0100d7
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -9713,11 +9713,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:layout_collapseMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -9727,7 +9727,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_collapseParallaxMultiplier
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -9736,7 +9736,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha remote.tsoglan.desktop:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha remote_desktop.nick.tsoglanakos.wear:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -9748,7 +9748,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100d8
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#alpha}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -9758,7 +9758,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:alpha
+          @attr name remote_desktop.nick.tsoglanakos.wear:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -9780,8 +9780,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint remote.tsoglan.desktop:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode remote.tsoglan.desktop:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint remote_desktop.nick.tsoglanakos.wear:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode remote_desktop.nick.tsoglanakos.wear:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -9797,7 +9797,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -9808,11 +9808,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:buttonTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -9828,7 +9828,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buttonTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -9837,8 +9837,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines remote.tsoglan.desktop:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground remote.tsoglan.desktop:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines remote_desktop.nick.tsoglanakos.wear:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground remote_desktop.nick.tsoglanakos.wear:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -9847,23 +9847,23 @@ containing a value of this type.
             0x7f0100db, 0x7f0100dc
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#keylines}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:keylines
+          @attr name remote_desktop.nick.tsoglanakos.wear:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:statusBarBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -9873,10 +9873,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor remote.tsoglan.desktop:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity remote.tsoglan.desktop:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior remote.tsoglan.desktop:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline remote.tsoglan.desktop:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor remote_desktop.nick.tsoglanakos.wear:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity remote_desktop.nick.tsoglanakos.wear:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior remote_desktop.nick.tsoglanakos.wear:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline remote_desktop.nick.tsoglanakos.wear:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -9895,17 +9895,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:layout_anchor
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9930,11 +9930,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:layout_anchorGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9944,11 +9944,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_behavior
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9958,7 +9958,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_keyline
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a CustomWalletTheme.
@@ -9967,7 +9967,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle remote.tsoglan.desktop:windowTransitionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle remote_desktop.nick.tsoglanakos.wear:windowTransitionStyle}</code></td><td></td></tr>
            </table>
            @see #CustomWalletTheme_windowTransitionStyle
          */
@@ -9975,7 +9975,7 @@ containing a value of this type.
             0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#windowTransitionStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#windowTransitionStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -9988,7 +9988,7 @@ containing a value of this type.
 <tr><td><code>slide</code></td><td>1</td><td></td></tr>
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:windowTransitionStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:windowTransitionStyle
         */
         public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a DelayedConfirmationView.
@@ -9997,7 +9997,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DelayedConfirmationView_update_interval remote.tsoglan.desktop:update_interval}</code></td><td></td></tr>
+           <tr><td><code>{@link #DelayedConfirmationView_update_interval remote_desktop.nick.tsoglanakos.wear:update_interval}</code></td><td></td></tr>
            </table>
            @see #DelayedConfirmationView_update_interval
          */
@@ -10005,7 +10005,7 @@ containing a value of this type.
             0x7f0100e2
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#update_interval}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#update_interval}
           attribute's value can be found in the {@link #DelayedConfirmationView} array.
 
 
@@ -10015,7 +10015,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:update_interval
+          @attr name remote_desktop.nick.tsoglanakos.wear:update_interval
         */
         public static final int DelayedConfirmationView_update_interval = 0;
         /** Attributes that can be used with a DesignTheme.
@@ -10024,9 +10024,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme remote.tsoglan.desktop:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle remote.tsoglan.desktop:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError remote.tsoglan.desktop:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme remote_desktop.nick.tsoglanakos.wear:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle remote_desktop.nick.tsoglanakos.wear:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError remote_desktop.nick.tsoglanakos.wear:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -10036,27 +10036,27 @@ containing a value of this type.
             0x7f0100e3, 0x7f0100e4, 0x7f0100e5
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:bottomSheetDialogTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:bottomSheetStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -10067,7 +10067,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:textColorError
+          @attr name remote_desktop.nick.tsoglanakos.wear:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DiscreteSeekBar.
@@ -10076,19 +10076,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_allowTrackClickToDrag remote.tsoglan.desktop:dsb_allowTrackClickToDrag}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorColor remote.tsoglan.desktop:dsb_indicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorElevation remote.tsoglan.desktop:dsb_indicatorElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorFormatter remote.tsoglan.desktop:dsb_indicatorFormatter}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorPopupEnabled remote.tsoglan.desktop:dsb_indicatorPopupEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorTextAppearance remote.tsoglan.desktop:dsb_indicatorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_max remote.tsoglan.desktop:dsb_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_min remote.tsoglan.desktop:dsb_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_mirrorForRtl remote.tsoglan.desktop:dsb_mirrorForRtl}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_progressColor remote.tsoglan.desktop:dsb_progressColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_rippleColor remote.tsoglan.desktop:dsb_rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_trackColor remote.tsoglan.desktop:dsb_trackColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DiscreteSeekBar_dsb_value remote.tsoglan.desktop:dsb_value}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_allowTrackClickToDrag remote_desktop.nick.tsoglanakos.wear:dsb_allowTrackClickToDrag}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorColor remote_desktop.nick.tsoglanakos.wear:dsb_indicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorElevation remote_desktop.nick.tsoglanakos.wear:dsb_indicatorElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorFormatter remote_desktop.nick.tsoglanakos.wear:dsb_indicatorFormatter}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorPopupEnabled remote_desktop.nick.tsoglanakos.wear:dsb_indicatorPopupEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_indicatorTextAppearance remote_desktop.nick.tsoglanakos.wear:dsb_indicatorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_max remote_desktop.nick.tsoglanakos.wear:dsb_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_min remote_desktop.nick.tsoglanakos.wear:dsb_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_mirrorForRtl remote_desktop.nick.tsoglanakos.wear:dsb_mirrorForRtl}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_progressColor remote_desktop.nick.tsoglanakos.wear:dsb_progressColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_rippleColor remote_desktop.nick.tsoglanakos.wear:dsb_rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_trackColor remote_desktop.nick.tsoglanakos.wear:dsb_trackColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscreteSeekBar_dsb_value remote_desktop.nick.tsoglanakos.wear:dsb_value}</code></td><td></td></tr>
            </table>
            @see #DiscreteSeekBar_dsb_allowTrackClickToDrag
            @see #DiscreteSeekBar_dsb_indicatorColor
@@ -10111,7 +10111,7 @@ containing a value of this type.
             0x7f0100f2
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_allowTrackClickToDrag}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_allowTrackClickToDrag}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10121,11 +10121,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_allowTrackClickToDrag
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_allowTrackClickToDrag
         */
         public static final int DiscreteSeekBar_dsb_allowTrackClickToDrag = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_indicatorColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10133,11 +10133,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:dsb_indicatorColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_indicatorColor
         */
         public static final int DiscreteSeekBar_dsb_indicatorColor = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorElevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_indicatorElevation}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10149,22 +10149,22 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_indicatorElevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_indicatorElevation
         */
         public static final int DiscreteSeekBar_dsb_indicatorElevation = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorFormatter}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_indicatorFormatter}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name remote.tsoglan.desktop:dsb_indicatorFormatter
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_indicatorFormatter
         */
         public static final int DiscreteSeekBar_dsb_indicatorFormatter = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorPopupEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_indicatorPopupEnabled}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10174,21 +10174,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_indicatorPopupEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_indicatorPopupEnabled
         */
         public static final int DiscreteSeekBar_dsb_indicatorPopupEnabled = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_indicatorTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_indicatorTextAppearance}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:dsb_indicatorTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_indicatorTextAppearance
         */
         public static final int DiscreteSeekBar_dsb_indicatorTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_max}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_max}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10201,11 +10201,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_max
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_max
         */
         public static final int DiscreteSeekBar_dsb_max = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_min}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_min}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10218,11 +10218,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_min
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_min
         */
         public static final int DiscreteSeekBar_dsb_min = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_mirrorForRtl}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_mirrorForRtl}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10232,11 +10232,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_mirrorForRtl
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_mirrorForRtl
         */
         public static final int DiscreteSeekBar_dsb_mirrorForRtl = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_progressColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_progressColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10244,11 +10244,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:dsb_progressColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_progressColor
         */
         public static final int DiscreteSeekBar_dsb_progressColor = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_rippleColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_rippleColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10256,11 +10256,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:dsb_rippleColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_rippleColor
         */
         public static final int DiscreteSeekBar_dsb_rippleColor = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_trackColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_trackColor}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10268,11 +10268,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:dsb_trackColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_trackColor
         */
         public static final int DiscreteSeekBar_dsb_trackColor = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dsb_value}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dsb_value}
           attribute's value can be found in the {@link #DiscreteSeekBar} array.
 
 
@@ -10285,7 +10285,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dsb_value
+          @attr name remote_desktop.nick.tsoglanakos.wear:dsb_value
         */
         public static final int DiscreteSeekBar_dsb_value = 2;
         /** Attributes that can be used with a DotsPageIndicator.
@@ -10294,19 +10294,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotColor remote.tsoglan.desktop:dotColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotColorSelected remote.tsoglan.desktop:dotColorSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeInDuration remote.tsoglan.desktop:dotFadeInDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDelay remote.tsoglan.desktop:dotFadeOutDelay}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDuration remote.tsoglan.desktop:dotFadeOutDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotFadeWhenIdle remote.tsoglan.desktop:dotFadeWhenIdle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotRadius remote.tsoglan.desktop:dotRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotRadiusSelected remote.tsoglan.desktop:dotRadiusSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowColor remote.tsoglan.desktop:dotShadowColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowDx remote.tsoglan.desktop:dotShadowDx}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowDy remote.tsoglan.desktop:dotShadowDy}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotShadowRadius remote.tsoglan.desktop:dotShadowRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #DotsPageIndicator_dotSpacing remote.tsoglan.desktop:dotSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotColor remote_desktop.nick.tsoglanakos.wear:dotColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotColorSelected remote_desktop.nick.tsoglanakos.wear:dotColorSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeInDuration remote_desktop.nick.tsoglanakos.wear:dotFadeInDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDelay remote_desktop.nick.tsoglanakos.wear:dotFadeOutDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeOutDuration remote_desktop.nick.tsoglanakos.wear:dotFadeOutDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotFadeWhenIdle remote_desktop.nick.tsoglanakos.wear:dotFadeWhenIdle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotRadius remote_desktop.nick.tsoglanakos.wear:dotRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotRadiusSelected remote_desktop.nick.tsoglanakos.wear:dotRadiusSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowColor remote_desktop.nick.tsoglanakos.wear:dotShadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowDx remote_desktop.nick.tsoglanakos.wear:dotShadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowDy remote_desktop.nick.tsoglanakos.wear:dotShadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotShadowRadius remote_desktop.nick.tsoglanakos.wear:dotShadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #DotsPageIndicator_dotSpacing remote_desktop.nick.tsoglanakos.wear:dotSpacing}</code></td><td></td></tr>
            </table>
            @see #DotsPageIndicator_dotColor
            @see #DotsPageIndicator_dotColorSelected
@@ -10329,7 +10329,7 @@ containing a value of this type.
             0x7f0100ff
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotColor}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10340,11 +10340,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotColor
         */
         public static final int DotsPageIndicator_dotColor = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotColorSelected}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotColorSelected}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10355,11 +10355,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotColorSelected
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotColorSelected
         */
         public static final int DotsPageIndicator_dotColorSelected = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeInDuration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotFadeInDuration}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10369,11 +10369,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotFadeInDuration
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotFadeInDuration
         */
         public static final int DotsPageIndicator_dotFadeInDuration = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeOutDelay}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotFadeOutDelay}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10383,11 +10383,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotFadeOutDelay
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotFadeOutDelay
         */
         public static final int DotsPageIndicator_dotFadeOutDelay = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeOutDuration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotFadeOutDuration}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10397,11 +10397,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotFadeOutDuration
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotFadeOutDuration
         */
         public static final int DotsPageIndicator_dotFadeOutDuration = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotFadeWhenIdle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotFadeWhenIdle}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10411,11 +10411,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotFadeWhenIdle
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotFadeWhenIdle
         */
         public static final int DotsPageIndicator_dotFadeWhenIdle = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotRadius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotRadius}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10427,11 +10427,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotRadius
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotRadius
         */
         public static final int DotsPageIndicator_dotRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotRadiusSelected}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotRadiusSelected}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10443,11 +10443,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotRadiusSelected
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotRadiusSelected
         */
         public static final int DotsPageIndicator_dotRadiusSelected = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotShadowColor}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10458,11 +10458,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotShadowColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotShadowColor
         */
         public static final int DotsPageIndicator_dotShadowColor = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowDx}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotShadowDx}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10474,11 +10474,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotShadowDx
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotShadowDx
         */
         public static final int DotsPageIndicator_dotShadowDx = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowDy}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotShadowDy}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10490,11 +10490,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotShadowDy
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotShadowDy
         */
         public static final int DotsPageIndicator_dotShadowDy = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotShadowRadius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotShadowRadius}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10506,11 +10506,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotShadowRadius
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotShadowRadius
         */
         public static final int DotsPageIndicator_dotShadowRadius = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dotSpacing}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dotSpacing}
           attribute's value can be found in the {@link #DotsPageIndicator} array.
 
 
@@ -10522,7 +10522,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dotSpacing
+          @attr name remote_desktop.nick.tsoglanakos.wear:dotSpacing
         */
         public static final int DotsPageIndicator_dotSpacing = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -10531,14 +10531,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength remote.tsoglan.desktop:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength remote.tsoglan.desktop:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength remote.tsoglan.desktop:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color remote.tsoglan.desktop:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize remote.tsoglan.desktop:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars remote.tsoglan.desktop:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars remote.tsoglan.desktop:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness remote.tsoglan.desktop:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength remote_desktop.nick.tsoglanakos.wear:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength remote_desktop.nick.tsoglanakos.wear:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength remote_desktop.nick.tsoglanakos.wear:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color remote_desktop.nick.tsoglanakos.wear:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize remote_desktop.nick.tsoglanakos.wear:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars remote_desktop.nick.tsoglanakos.wear:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars remote_desktop.nick.tsoglanakos.wear:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness remote_desktop.nick.tsoglanakos.wear:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -10554,7 +10554,7 @@ containing a value of this type.
             0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10566,11 +10566,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:arrowHeadLength
+          @attr name remote_desktop.nick.tsoglanakos.wear:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10582,11 +10582,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:arrowShaftLength
+          @attr name remote_desktop.nick.tsoglanakos.wear:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#barLength}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10598,11 +10598,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:barLength
+          @attr name remote_desktop.nick.tsoglanakos.wear:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10613,11 +10613,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:color
+          @attr name remote_desktop.nick.tsoglanakos.wear:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10629,11 +10629,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:drawableSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10645,11 +10645,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:gapBetweenBars
+          @attr name remote_desktop.nick.tsoglanakos.wear:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10659,11 +10659,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:spinBars
+          @attr name remote_desktop.nick.tsoglanakos.wear:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thickness}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -10675,7 +10675,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:thickness
+          @attr name remote_desktop.nick.tsoglanakos.wear:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a ExpandableMenuOverlay.
@@ -10684,20 +10684,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_adjustViewSize remote.tsoglan.desktop:adjustViewSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_bottomPad remote.tsoglan.desktop:bottomPad}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_closeButtonSrc remote.tsoglan.desktop:closeButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_dimAmount remote.tsoglan.desktop:dimAmount}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_distanceX remote.tsoglan.desktop:distanceX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_distanceY remote.tsoglan.desktop:distanceY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonSrc remote.tsoglan.desktop:leftButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonText remote.tsoglan.desktop:leftButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_mainButtonSize remote.tsoglan.desktop:mainButtonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonSrc remote.tsoglan.desktop:midButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonText remote.tsoglan.desktop:midButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_otherButtonSize remote.tsoglan.desktop:otherButtonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonSrc remote.tsoglan.desktop:rightButtonSrc}</code></td><td></td></tr>
-           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonText remote.tsoglan.desktop:rightButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_adjustViewSize remote_desktop.nick.tsoglanakos.wear:adjustViewSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_bottomPad remote_desktop.nick.tsoglanakos.wear:bottomPad}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_closeButtonSrc remote_desktop.nick.tsoglanakos.wear:closeButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_dimAmount remote_desktop.nick.tsoglanakos.wear:dimAmount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_distanceX remote_desktop.nick.tsoglanakos.wear:distanceX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_distanceY remote_desktop.nick.tsoglanakos.wear:distanceY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonSrc remote_desktop.nick.tsoglanakos.wear:leftButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_leftButtonText remote_desktop.nick.tsoglanakos.wear:leftButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_mainButtonSize remote_desktop.nick.tsoglanakos.wear:mainButtonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonSrc remote_desktop.nick.tsoglanakos.wear:midButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_midButtonText remote_desktop.nick.tsoglanakos.wear:midButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_otherButtonSize remote_desktop.nick.tsoglanakos.wear:otherButtonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonSrc remote_desktop.nick.tsoglanakos.wear:rightButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableMenuOverlay_rightButtonText remote_desktop.nick.tsoglanakos.wear:rightButtonText}</code></td><td></td></tr>
            </table>
            @see #ExpandableMenuOverlay_adjustViewSize
            @see #ExpandableMenuOverlay_bottomPad
@@ -10721,7 +10721,7 @@ containing a value of this type.
             0x7f010114, 0x7f010115
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#adjustViewSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#adjustViewSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10731,11 +10731,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:adjustViewSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:adjustViewSize
         */
         public static final int ExpandableMenuOverlay_adjustViewSize = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bottomPad}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#bottomPad}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10745,11 +10745,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:bottomPad
+          @attr name remote_desktop.nick.tsoglanakos.wear:bottomPad
         */
         public static final int ExpandableMenuOverlay_bottomPad = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeButtonSrc}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#closeButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10759,11 +10759,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:closeButtonSrc
+          @attr name remote_desktop.nick.tsoglanakos.wear:closeButtonSrc
         */
         public static final int ExpandableMenuOverlay_closeButtonSrc = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dimAmount}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dimAmount}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10773,11 +10773,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dimAmount
+          @attr name remote_desktop.nick.tsoglanakos.wear:dimAmount
         */
         public static final int ExpandableMenuOverlay_dimAmount = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#distanceX}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#distanceX}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10787,11 +10787,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:distanceX
+          @attr name remote_desktop.nick.tsoglanakos.wear:distanceX
         */
         public static final int ExpandableMenuOverlay_distanceX = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#distanceY}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#distanceY}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10801,11 +10801,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:distanceY
+          @attr name remote_desktop.nick.tsoglanakos.wear:distanceY
         */
         public static final int ExpandableMenuOverlay_distanceY = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#leftButtonSrc}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#leftButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10815,11 +10815,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:leftButtonSrc
+          @attr name remote_desktop.nick.tsoglanakos.wear:leftButtonSrc
         */
         public static final int ExpandableMenuOverlay_leftButtonSrc = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#leftButtonText}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#leftButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10829,11 +10829,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:leftButtonText
+          @attr name remote_desktop.nick.tsoglanakos.wear:leftButtonText
         */
         public static final int ExpandableMenuOverlay_leftButtonText = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#mainButtonSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#mainButtonSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10843,11 +10843,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:mainButtonSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:mainButtonSize
         */
         public static final int ExpandableMenuOverlay_mainButtonSize = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#midButtonSrc}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#midButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10857,11 +10857,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:midButtonSrc
+          @attr name remote_desktop.nick.tsoglanakos.wear:midButtonSrc
         */
         public static final int ExpandableMenuOverlay_midButtonSrc = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#midButtonText}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#midButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10871,11 +10871,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:midButtonText
+          @attr name remote_desktop.nick.tsoglanakos.wear:midButtonText
         */
         public static final int ExpandableMenuOverlay_midButtonText = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#otherButtonSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#otherButtonSize}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10885,11 +10885,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:otherButtonSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:otherButtonSize
         */
         public static final int ExpandableMenuOverlay_otherButtonSize = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rightButtonSrc}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#rightButtonSrc}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10899,11 +10899,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:rightButtonSrc
+          @attr name remote_desktop.nick.tsoglanakos.wear:rightButtonSrc
         */
         public static final int ExpandableMenuOverlay_rightButtonSrc = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rightButtonText}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#rightButtonText}
           attribute's value can be found in the {@link #ExpandableMenuOverlay} array.
 
 
@@ -10913,7 +10913,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:rightButtonText
+          @attr name remote_desktop.nick.tsoglanakos.wear:rightButtonText
         */
         public static final int ExpandableMenuOverlay_rightButtonText = 13;
         /** Attributes that can be used with a FabToolbar.
@@ -10922,10 +10922,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FabToolbar_tb_anim_duration remote.tsoglan.desktop:tb_anim_duration}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_button_gravity remote.tsoglan.desktop:tb_button_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_color remote.tsoglan.desktop:tb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #FabToolbar_tb_container_gravity remote.tsoglan.desktop:tb_container_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_anim_duration remote_desktop.nick.tsoglanakos.wear:tb_anim_duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_button_gravity remote_desktop.nick.tsoglanakos.wear:tb_button_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_color remote_desktop.nick.tsoglanakos.wear:tb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #FabToolbar_tb_container_gravity remote_desktop.nick.tsoglanakos.wear:tb_container_gravity}</code></td><td></td></tr>
            </table>
            @see #FabToolbar_tb_anim_duration
            @see #FabToolbar_tb_button_gravity
@@ -10936,7 +10936,7 @@ containing a value of this type.
             0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_anim_duration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tb_anim_duration}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -10946,11 +10946,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tb_anim_duration
+          @attr name remote_desktop.nick.tsoglanakos.wear:tb_anim_duration
         */
         public static final int FabToolbar_tb_anim_duration = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_button_gravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tb_button_gravity}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -10964,11 +10964,11 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 <tr><td><code>end</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:tb_button_gravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:tb_button_gravity
         */
         public static final int FabToolbar_tb_button_gravity = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_color}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tb_color}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -10979,11 +10979,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tb_color
+          @attr name remote_desktop.nick.tsoglanakos.wear:tb_color
         */
         public static final int FabToolbar_tb_color = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tb_container_gravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tb_container_gravity}
           attribute's value can be found in the {@link #FabToolbar} array.
 
 
@@ -10997,7 +10997,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 <tr><td><code>end</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:tb_container_gravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:tb_container_gravity
         */
         public static final int FabToolbar_tb_container_gravity = 3;
         /** Attributes that can be used with a FancyButtonsAttrs.
@@ -11006,28 +11006,28 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderColor remote.tsoglan.desktop:fb_borderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderWidth remote.tsoglan.desktop:fb_borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_defaultColor remote.tsoglan.desktop:fb_defaultColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_focusColor remote.tsoglan.desktop:fb_focusColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconResource remote.tsoglan.desktop:fb_fontIconResource}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconSize remote.tsoglan.desktop:fb_fontIconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_ghost remote.tsoglan.desktop:fb_ghost}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconColor remote.tsoglan.desktop:fb_iconColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconFont remote.tsoglan.desktop:fb_iconFont}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingBottom remote.tsoglan.desktop:fb_iconPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingLeft remote.tsoglan.desktop:fb_iconPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingRight remote.tsoglan.desktop:fb_iconPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingTop remote.tsoglan.desktop:fb_iconPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPosition remote.tsoglan.desktop:fb_iconPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconResource remote.tsoglan.desktop:fb_iconResource}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_radius remote.tsoglan.desktop:fb_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_text remote.tsoglan.desktop:fb_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textColor remote.tsoglan.desktop:fb_textColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textFont remote.tsoglan.desktop:fb_textFont}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textGravity remote.tsoglan.desktop:fb_textGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textPosition remote.tsoglan.desktop:fb_textPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #FancyButtonsAttrs_fb_textSize remote.tsoglan.desktop:fb_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderColor remote_desktop.nick.tsoglanakos.wear:fb_borderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderWidth remote_desktop.nick.tsoglanakos.wear:fb_borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_defaultColor remote_desktop.nick.tsoglanakos.wear:fb_defaultColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_focusColor remote_desktop.nick.tsoglanakos.wear:fb_focusColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconResource remote_desktop.nick.tsoglanakos.wear:fb_fontIconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconSize remote_desktop.nick.tsoglanakos.wear:fb_fontIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_ghost remote_desktop.nick.tsoglanakos.wear:fb_ghost}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconColor remote_desktop.nick.tsoglanakos.wear:fb_iconColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconFont remote_desktop.nick.tsoglanakos.wear:fb_iconFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingBottom remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingLeft remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingRight remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingTop remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPosition remote_desktop.nick.tsoglanakos.wear:fb_iconPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconResource remote_desktop.nick.tsoglanakos.wear:fb_iconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_radius remote_desktop.nick.tsoglanakos.wear:fb_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_text remote_desktop.nick.tsoglanakos.wear:fb_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textColor remote_desktop.nick.tsoglanakos.wear:fb_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textFont remote_desktop.nick.tsoglanakos.wear:fb_textFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textGravity remote_desktop.nick.tsoglanakos.wear:fb_textGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textPosition remote_desktop.nick.tsoglanakos.wear:fb_textPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textSize remote_desktop.nick.tsoglanakos.wear:fb_textSize}</code></td><td></td></tr>
            </table>
            @see #FancyButtonsAttrs_fb_borderColor
            @see #FancyButtonsAttrs_fb_borderWidth
@@ -11061,7 +11061,7 @@ containing a value of this type.
             0x7f01012e, 0x7f01012f
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_borderColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_borderColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11072,11 +11072,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_borderColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_borderColor
         */
         public static final int FancyButtonsAttrs_fb_borderColor = 17;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_borderWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_borderWidth}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11088,11 +11088,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_borderWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_borderWidth
         */
         public static final int FancyButtonsAttrs_fb_borderWidth = 18;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_defaultColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_defaultColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11103,11 +11103,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_defaultColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_defaultColor
         */
         public static final int FancyButtonsAttrs_fb_defaultColor = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_focusColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_focusColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11118,11 +11118,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_focusColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_focusColor
         */
         public static final int FancyButtonsAttrs_fb_focusColor = 19;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_fontIconResource}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_fontIconResource}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11132,11 +11132,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_fontIconResource
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_fontIconResource
         */
         public static final int FancyButtonsAttrs_fb_fontIconResource = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_fontIconSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_fontIconSize}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11148,11 +11148,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_fontIconSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_fontIconSize
         */
         public static final int FancyButtonsAttrs_fb_fontIconSize = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_ghost}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_ghost}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11162,11 +11162,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_ghost
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_ghost
         */
         public static final int FancyButtonsAttrs_fb_ghost = 21;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11177,11 +11177,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconColor
         */
         public static final int FancyButtonsAttrs_fb_iconColor = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconFont}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconFont}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11191,11 +11191,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconFont
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconFont
         */
         public static final int FancyButtonsAttrs_fb_iconFont = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingBottom}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconPaddingBottom}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11207,11 +11207,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconPaddingBottom
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingBottom
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingLeft}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconPaddingLeft}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11223,11 +11223,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconPaddingLeft
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingLeft
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingLeft = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingRight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconPaddingRight}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11239,11 +11239,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconPaddingRight
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingRight
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingRight = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPaddingTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconPaddingTop}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11255,11 +11255,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconPaddingTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconPaddingTop
         */
         public static final int FancyButtonsAttrs_fb_iconPaddingTop = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconPosition}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconPosition}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11274,11 +11274,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>3</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fb_iconPosition
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconPosition
         */
         public static final int FancyButtonsAttrs_fb_iconPosition = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_iconResource}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_iconResource}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11288,11 +11288,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_iconResource
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_iconResource
         */
         public static final int FancyButtonsAttrs_fb_iconResource = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_radius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_radius}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11304,11 +11304,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_radius
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_radius
         */
         public static final int FancyButtonsAttrs_fb_radius = 20;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_text}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_text}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11318,11 +11318,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_text
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_text
         */
         public static final int FancyButtonsAttrs_fb_text = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_textColor}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11333,11 +11333,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_textColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_textColor
         */
         public static final int FancyButtonsAttrs_fb_textColor = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textFont}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_textFont}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11347,11 +11347,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_textFont
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_textFont
         */
         public static final int FancyButtonsAttrs_fb_textFont = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_textGravity}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11376,11 +11376,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fb_textGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_textGravity
         */
         public static final int FancyButtonsAttrs_fb_textGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textPosition}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_textPosition}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11395,11 +11395,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>3</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fb_textPosition
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_textPosition
         */
         public static final int FancyButtonsAttrs_fb_textPosition = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fb_textSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fb_textSize}
           attribute's value can be found in the {@link #FancyButtonsAttrs} array.
 
 
@@ -11411,7 +11411,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fb_textSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:fb_textSize
         */
         public static final int FancyButtonsAttrs_fb_textSize = 6;
         /** Attributes that can be used with a FloatingActionButton.
@@ -11420,20 +11420,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint remote.tsoglan.desktop:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode remote.tsoglan.desktop:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth remote.tsoglan.desktop:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize remote.tsoglan.desktop:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled remote.tsoglan.desktop:fab_colorDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal remote.tsoglan.desktop:fab_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed remote.tsoglan.desktop:fab_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple remote.tsoglan.desktop:fab_colorRipple}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadow remote.tsoglan.desktop:fab_shadow}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_type remote.tsoglan.desktop:fab_type}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ remote.tsoglan.desktop:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor remote.tsoglan.desktop:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding remote.tsoglan.desktop:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint remote_desktop.nick.tsoglanakos.wear:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode remote_desktop.nick.tsoglanakos.wear:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth remote_desktop.nick.tsoglanakos.wear:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation remote_desktop.nick.tsoglanakos.wear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize remote_desktop.nick.tsoglanakos.wear:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled remote_desktop.nick.tsoglanakos.wear:fab_colorDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal remote_desktop.nick.tsoglanakos.wear:fab_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed remote_desktop.nick.tsoglanakos.wear:fab_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple remote_desktop.nick.tsoglanakos.wear:fab_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadow remote_desktop.nick.tsoglanakos.wear:fab_shadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_type remote_desktop.nick.tsoglanakos.wear:fab_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ remote_desktop.nick.tsoglanakos.wear:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor remote_desktop.nick.tsoglanakos.wear:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding remote_desktop.nick.tsoglanakos.wear:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -11457,7 +11457,7 @@ containing a value of this type.
             0x7f0101bd, 0x7f0101be
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11468,11 +11468,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:backgroundTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11488,11 +11488,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:backgroundTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11504,11 +11504,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:borderWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11520,11 +11520,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:elevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11538,11 +11538,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fabSize
+          @attr name remote_desktop.nick.tsoglanakos.wear:fabSize
         */
         public static final int FloatingActionButton_fabSize = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorDisabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_colorDisabled}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11553,11 +11553,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fab_colorDisabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_colorDisabled
         */
         public static final int FloatingActionButton_fab_colorDisabled = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorNormal}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_colorNormal}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11568,11 +11568,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fab_colorNormal
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_colorNormal
         */
         public static final int FloatingActionButton_fab_colorNormal = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorPressed}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_colorPressed}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11583,11 +11583,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fab_colorPressed
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_colorPressed
         */
         public static final int FloatingActionButton_fab_colorPressed = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_colorRipple}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_colorRipple}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11598,11 +11598,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fab_colorRipple
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_colorRipple
         */
         public static final int FloatingActionButton_fab_colorRipple = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_shadow}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_shadow}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11612,11 +11612,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:fab_shadow
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_shadow
         */
         public static final int FloatingActionButton_fab_shadow = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fab_type}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fab_type}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11629,11 +11629,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fab_type
+          @attr name remote_desktop.nick.tsoglanakos.wear:fab_type
         */
         public static final int FloatingActionButton_fab_type = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11645,11 +11645,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pressedTranslationZ
+          @attr name remote_desktop.nick.tsoglanakos.wear:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11660,11 +11660,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:rippleColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11674,7 +11674,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:useCompatPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 11;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -11685,7 +11685,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding remote.tsoglan.desktop:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding remote_desktop.nick.tsoglanakos.wear:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -11707,7 +11707,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -11717,7 +11717,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:foregroundInsidePadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a FreeGrowUpParentRelativeLayout.
@@ -11726,7 +11726,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FreeGrowUpParentRelativeLayout_offset remote.tsoglan.desktop:offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreeGrowUpParentRelativeLayout_offset remote_desktop.nick.tsoglanakos.wear:offset}</code></td><td></td></tr>
            </table>
            @see #FreeGrowUpParentRelativeLayout_offset
          */
@@ -11734,7 +11734,7 @@ containing a value of this type.
             0x7f01013c
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#offset}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#offset}
           attribute's value can be found in the {@link #FreeGrowUpParentRelativeLayout} array.
 
 
@@ -11743,7 +11743,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name remote.tsoglan.desktop:offset
+          @attr name remote_desktop.nick.tsoglanakos.wear:offset
         */
         public static final int FreeGrowUpParentRelativeLayout_offset = 0;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -11757,10 +11757,10 @@ in (inches), mm (millimeters).
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider remote.tsoglan.desktop:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding remote.tsoglan.desktop:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild remote.tsoglan.desktop:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers remote.tsoglan.desktop:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider remote_desktop.nick.tsoglanakos.wear:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding remote_desktop.nick.tsoglanakos.wear:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild remote_desktop.nick.tsoglanakos.wear:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers remote_desktop.nick.tsoglanakos.wear:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -11808,17 +11808,17 @@ in (inches), mm (millimeters).
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#divider}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:divider
+          @attr name remote_desktop.nick.tsoglanakos.wear:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -11830,11 +11830,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:dividerPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -11844,11 +11844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:measureWithLargestChild
+          @attr name remote_desktop.nick.tsoglanakos.wear:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -11863,7 +11863,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:showDividers
+          @attr name remote_desktop.nick.tsoglanakos.wear:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -11942,9 +11942,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop remote.tsoglan.desktop:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio remote.tsoglan.desktop:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust remote.tsoglan.desktop:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop remote_desktop.nick.tsoglanakos.wear:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio remote_desktop.nick.tsoglanakos.wear:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust remote_desktop.nick.tsoglanakos.wear:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -11954,7 +11954,7 @@ containing a value of this type.
             0x7f010140, 0x7f010141, 0x7f010142
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -11964,11 +11964,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circleCrop
+          @attr name remote_desktop.nick.tsoglanakos.wear:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -11978,11 +11978,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:imageAspectRatio
+          @attr name remote_desktop.nick.tsoglanakos.wear:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -11996,7 +11996,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:imageAspectRatioAdjust
+          @attr name remote_desktop.nick.tsoglanakos.wear:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -12005,22 +12005,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing remote.tsoglan.desktop:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat remote.tsoglan.desktop:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng remote.tsoglan.desktop:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt remote.tsoglan.desktop:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom remote.tsoglan.desktop:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode remote.tsoglan.desktop:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType remote.tsoglan.desktop:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass remote.tsoglan.desktop:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar remote.tsoglan.desktop:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures remote.tsoglan.desktop:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures remote.tsoglan.desktop:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures remote.tsoglan.desktop:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls remote.tsoglan.desktop:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures remote.tsoglan.desktop:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle remote.tsoglan.desktop:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop remote.tsoglan.desktop:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing remote_desktop.nick.tsoglanakos.wear:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat remote_desktop.nick.tsoglanakos.wear:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng remote_desktop.nick.tsoglanakos.wear:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt remote_desktop.nick.tsoglanakos.wear:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom remote_desktop.nick.tsoglanakos.wear:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode remote_desktop.nick.tsoglanakos.wear:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType remote_desktop.nick.tsoglanakos.wear:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass remote_desktop.nick.tsoglanakos.wear:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar remote_desktop.nick.tsoglanakos.wear:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures remote_desktop.nick.tsoglanakos.wear:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures remote_desktop.nick.tsoglanakos.wear:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures remote_desktop.nick.tsoglanakos.wear:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls remote_desktop.nick.tsoglanakos.wear:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures remote_desktop.nick.tsoglanakos.wear:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle remote_desktop.nick.tsoglanakos.wear:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop remote_desktop.nick.tsoglanakos.wear:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -12046,7 +12046,7 @@ containing a value of this type.
             0x7f01014f, 0x7f010150, 0x7f010151, 0x7f010152
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12056,11 +12056,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cameraBearing
+          @attr name remote_desktop.nick.tsoglanakos.wear:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12070,11 +12070,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cameraTargetLat
+          @attr name remote_desktop.nick.tsoglanakos.wear:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12084,11 +12084,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cameraTargetLng
+          @attr name remote_desktop.nick.tsoglanakos.wear:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12098,11 +12098,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cameraTilt
+          @attr name remote_desktop.nick.tsoglanakos.wear:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12112,11 +12112,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:cameraZoom
+          @attr name remote_desktop.nick.tsoglanakos.wear:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12126,11 +12126,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:liteMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#mapType}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12146,11 +12146,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:mapType
+          @attr name remote_desktop.nick.tsoglanakos.wear:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12160,11 +12160,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiCompass
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12174,11 +12174,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiMapToolbar
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12188,11 +12188,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiRotateGestures
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12202,11 +12202,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiScrollGestures
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12216,11 +12216,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiTiltGestures
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12230,11 +12230,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiZoomControls
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12244,11 +12244,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:uiZoomGestures
+          @attr name remote_desktop.nick.tsoglanakos.wear:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12258,11 +12258,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:useViewLifecycle
+          @attr name remote_desktop.nick.tsoglanakos.wear:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -12272,7 +12272,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:zOrderOnTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MediaRouteButton.
@@ -12283,7 +12283,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable remote.tsoglan.desktop:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable remote_desktop.nick.tsoglanakos.wear:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
@@ -12305,13 +12305,13 @@ containing a value of this type.
         */
         public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#externalRouteEnabledDrawable}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#externalRouteEnabledDrawable}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:externalRouteEnabledDrawable
+          @attr name remote_desktop.nick.tsoglanakos.wear:externalRouteEnabledDrawable
         */
         public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
@@ -12380,9 +12380,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout remote.tsoglan.desktop:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass remote.tsoglan.desktop:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass remote.tsoglan.desktop:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout remote_desktop.nick.tsoglanakos.wear:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass remote_desktop.nick.tsoglanakos.wear:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass remote_desktop.nick.tsoglanakos.wear:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -12396,7 +12396,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction remote.tsoglan.desktop:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction remote_desktop.nick.tsoglanakos.wear:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -12424,17 +12424,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010157
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:actionLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -12444,11 +12444,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:actionProviderClass
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -12458,7 +12458,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:actionViewClass
+          @attr name remote_desktop.nick.tsoglanakos.wear:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -12540,7 +12540,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -12556,7 +12556,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:showAsAction
+          @attr name remote_desktop.nick.tsoglanakos.wear:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -12572,8 +12572,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing remote.tsoglan.desktop:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow remote.tsoglan.desktop:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing remote_desktop.nick.tsoglanakos.wear:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow remote_desktop.nick.tsoglanakos.wear:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -12633,7 +12633,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -12643,17 +12643,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:preserveIconSpacing
+          @attr name remote_desktop.nick.tsoglanakos.wear:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:subMenuArrow
+          @attr name remote_desktop.nick.tsoglanakos.wear:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -12665,13 +12665,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout remote.tsoglan.desktop:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground remote.tsoglan.desktop:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint remote.tsoglan.desktop:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance remote.tsoglan.desktop:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor remote.tsoglan.desktop:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu remote.tsoglan.desktop:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation remote_desktop.nick.tsoglanakos.wear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout remote_desktop.nick.tsoglanakos.wear:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground remote_desktop.nick.tsoglanakos.wear:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint remote_desktop.nick.tsoglanakos.wear:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance remote_desktop.nick.tsoglanakos.wear:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor remote_desktop.nick.tsoglanakos.wear:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu remote_desktop.nick.tsoglanakos.wear:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -12708,7 +12708,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -12720,31 +12720,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:elevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:headerLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:itemBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -12755,21 +12755,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:itemIconTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:itemTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -12780,17 +12780,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:itemTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#menu}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:menu
+          @attr name remote_desktop.nick.tsoglanakos.wear:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PageIndicatorView.
@@ -12799,19 +12799,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotColor remote.tsoglan.desktop:pageIndicatorDotColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotColorSelected remote.tsoglan.desktop:pageIndicatorDotColorSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeInDuration remote.tsoglan.desktop:pageIndicatorDotFadeInDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeOutDelay remote.tsoglan.desktop:pageIndicatorDotFadeOutDelay}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeOutDuration remote.tsoglan.desktop:pageIndicatorDotFadeOutDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeWhenIdle remote.tsoglan.desktop:pageIndicatorDotFadeWhenIdle}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotRadius remote.tsoglan.desktop:pageIndicatorDotRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotRadiusSelected remote.tsoglan.desktop:pageIndicatorDotRadiusSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowColor remote.tsoglan.desktop:pageIndicatorDotShadowColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowDx remote.tsoglan.desktop:pageIndicatorDotShadowDx}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowDy remote.tsoglan.desktop:pageIndicatorDotShadowDy}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowRadius remote.tsoglan.desktop:pageIndicatorDotShadowRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotSpacing remote.tsoglan.desktop:pageIndicatorDotSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotColor remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotColorSelected remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotColorSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeInDuration remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeInDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeOutDelay remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeOutDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeOutDuration remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeOutDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotFadeWhenIdle remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeWhenIdle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotRadius remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotRadiusSelected remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotRadiusSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowColor remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowDx remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowDy remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotShadowRadius remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #PageIndicatorView_pageIndicatorDotSpacing remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotSpacing}</code></td><td></td></tr>
            </table>
            @see #PageIndicatorView_pageIndicatorDotColor
            @see #PageIndicatorView_pageIndicatorDotColorSelected
@@ -12834,7 +12834,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01016c
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotColor}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12845,11 +12845,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotColor
         */
         public static final int PageIndicatorView_pageIndicatorDotColor = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotColorSelected}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotColorSelected}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12860,11 +12860,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotColorSelected
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotColorSelected
         */
         public static final int PageIndicatorView_pageIndicatorDotColorSelected = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotFadeInDuration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotFadeInDuration}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12874,11 +12874,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotFadeInDuration
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeInDuration
         */
         public static final int PageIndicatorView_pageIndicatorDotFadeInDuration = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotFadeOutDelay}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotFadeOutDelay}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12888,11 +12888,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotFadeOutDelay
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeOutDelay
         */
         public static final int PageIndicatorView_pageIndicatorDotFadeOutDelay = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotFadeOutDuration}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotFadeOutDuration}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12902,11 +12902,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotFadeOutDuration
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeOutDuration
         */
         public static final int PageIndicatorView_pageIndicatorDotFadeOutDuration = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotFadeWhenIdle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotFadeWhenIdle}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12916,11 +12916,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotFadeWhenIdle
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotFadeWhenIdle
         */
         public static final int PageIndicatorView_pageIndicatorDotFadeWhenIdle = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotRadius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotRadius}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12932,11 +12932,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotRadius
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotRadius
         */
         public static final int PageIndicatorView_pageIndicatorDotRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotRadiusSelected}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotRadiusSelected}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12948,11 +12948,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotRadiusSelected
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotRadiusSelected
         */
         public static final int PageIndicatorView_pageIndicatorDotRadiusSelected = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotShadowColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotShadowColor}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12963,11 +12963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotShadowColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowColor
         */
         public static final int PageIndicatorView_pageIndicatorDotShadowColor = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotShadowDx}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotShadowDx}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12979,11 +12979,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotShadowDx
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowDx
         */
         public static final int PageIndicatorView_pageIndicatorDotShadowDx = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotShadowDy}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotShadowDy}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -12995,11 +12995,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotShadowDy
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowDy
         */
         public static final int PageIndicatorView_pageIndicatorDotShadowDy = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotShadowRadius}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotShadowRadius}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -13011,11 +13011,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotShadowRadius
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotShadowRadius
         */
         public static final int PageIndicatorView_pageIndicatorDotShadowRadius = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#pageIndicatorDotSpacing}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#pageIndicatorDotSpacing}
           attribute's value can be found in the {@link #PageIndicatorView} array.
 
 
@@ -13027,7 +13027,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:pageIndicatorDotSpacing
+          @attr name remote_desktop.nick.tsoglanakos.wear:pageIndicatorDotSpacing
         */
         public static final int PageIndicatorView_pageIndicatorDotSpacing = 0;
         /** Attributes that can be used with a PopupWindow.
@@ -13038,7 +13038,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor remote.tsoglan.desktop:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor remote_desktop.nick.tsoglanakos.wear:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -13060,7 +13060,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -13070,7 +13070,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:overlapAnchor
+          @attr name remote_desktop.nick.tsoglanakos.wear:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -13079,7 +13079,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor remote.tsoglan.desktop:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor remote_desktop.nick.tsoglanakos.wear:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -13087,7 +13087,7 @@ containing a value of this type.
             0x7f01016e
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -13097,7 +13097,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:state_above_anchor
+          @attr name remote_desktop.nick.tsoglanakos.wear:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a ProgressSpinner.
@@ -13106,7 +13106,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ProgressSpinner_color_sequence remote.tsoglan.desktop:color_sequence}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressSpinner_color_sequence remote_desktop.nick.tsoglanakos.wear:color_sequence}</code></td><td></td></tr>
            </table>
            @see #ProgressSpinner_color_sequence
          */
@@ -13114,7 +13114,7 @@ containing a value of this type.
             0x7f01016f
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#color_sequence}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#color_sequence}
           attribute's value can be found in the {@link #ProgressSpinner} array.
 
 
@@ -13122,7 +13122,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:color_sequence
+          @attr name remote_desktop.nick.tsoglanakos.wear:color_sequence
         */
         public static final int ProgressSpinner_color_sequence = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -13133,10 +13133,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager remote.tsoglan.desktop:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout remote.tsoglan.desktop:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount remote.tsoglan.desktop:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd remote.tsoglan.desktop:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager remote_desktop.nick.tsoglanakos.wear:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout remote_desktop.nick.tsoglanakos.wear:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount remote_desktop.nick.tsoglanakos.wear:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd remote_desktop.nick.tsoglanakos.wear:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -13162,7 +13162,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -13172,11 +13172,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layoutManager
+          @attr name remote_desktop.nick.tsoglanakos.wear:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -13186,11 +13186,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:reverseLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -13200,11 +13200,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:spanCount
+          @attr name remote_desktop.nick.tsoglanakos.wear:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -13214,7 +13214,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:stackFromEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -13223,7 +13223,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground remote.tsoglan.desktop:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground remote_desktop.nick.tsoglanakos.wear:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -13231,7 +13231,7 @@ containing a value of this type.
             0x7f010174
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -13239,7 +13239,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:insetForeground
+          @attr name remote_desktop.nick.tsoglanakos.wear:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -13248,7 +13248,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop remote.tsoglan.desktop:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop remote_desktop.nick.tsoglanakos.wear:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -13256,7 +13256,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010175
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -13268,7 +13268,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:behavior_overlapTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -13281,19 +13281,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon remote.tsoglan.desktop:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon remote.tsoglan.desktop:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint remote.tsoglan.desktop:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon remote.tsoglan.desktop:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault remote.tsoglan.desktop:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout remote.tsoglan.desktop:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground remote.tsoglan.desktop:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint remote.tsoglan.desktop:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon remote.tsoglan.desktop:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon remote.tsoglan.desktop:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground remote.tsoglan.desktop:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout remote.tsoglan.desktop:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon remote.tsoglan.desktop:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon remote_desktop.nick.tsoglanakos.wear:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon remote_desktop.nick.tsoglanakos.wear:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint remote_desktop.nick.tsoglanakos.wear:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon remote_desktop.nick.tsoglanakos.wear:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault remote_desktop.nick.tsoglanakos.wear:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout remote_desktop.nick.tsoglanakos.wear:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground remote_desktop.nick.tsoglanakos.wear:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint remote_desktop.nick.tsoglanakos.wear:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon remote_desktop.nick.tsoglanakos.wear:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon remote_desktop.nick.tsoglanakos.wear:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground remote_desktop.nick.tsoglanakos.wear:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout remote_desktop.nick.tsoglanakos.wear:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon remote_desktop.nick.tsoglanakos.wear:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -13345,27 +13345,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:closeIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:commitIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -13375,21 +13375,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:defaultQueryHint
+          @attr name remote_desktop.nick.tsoglanakos.wear:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:goIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -13399,31 +13399,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:iconifiedByDefault
+          @attr name remote_desktop.nick.tsoglanakos.wear:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:layout
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:queryBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -13433,57 +13433,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:queryHint
+          @attr name remote_desktop.nick.tsoglanakos.wear:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:searchHintIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:searchIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:submitBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:suggestionRowLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:voiceIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -13493,8 +13493,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation remote.tsoglan.desktop:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth remote.tsoglan.desktop:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation remote_desktop.nick.tsoglanakos.wear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth remote_desktop.nick.tsoglanakos.wear:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -13510,7 +13510,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#elevation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -13522,11 +13522,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:elevation
+          @attr name remote_desktop.nick.tsoglanakos.wear:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -13538,7 +13538,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:maxActionInlineWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -13551,7 +13551,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme remote_desktop.nick.tsoglanakos.wear:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -13588,13 +13588,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:popupTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -13606,17 +13606,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText remote.tsoglan.desktop:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack remote.tsoglan.desktop:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth remote.tsoglan.desktop:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding remote.tsoglan.desktop:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance remote.tsoglan.desktop:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding remote.tsoglan.desktop:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint remote.tsoglan.desktop:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode remote.tsoglan.desktop:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track remote.tsoglan.desktop:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint remote.tsoglan.desktop:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode remote.tsoglan.desktop:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText remote_desktop.nick.tsoglanakos.wear:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack remote_desktop.nick.tsoglanakos.wear:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth remote_desktop.nick.tsoglanakos.wear:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding remote_desktop.nick.tsoglanakos.wear:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance remote_desktop.nick.tsoglanakos.wear:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding remote_desktop.nick.tsoglanakos.wear:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint remote_desktop.nick.tsoglanakos.wear:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode remote_desktop.nick.tsoglanakos.wear:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track remote_desktop.nick.tsoglanakos.wear:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint remote_desktop.nick.tsoglanakos.wear:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode remote_desktop.nick.tsoglanakos.wear:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -13658,7 +13658,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#showText}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13668,11 +13668,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:showText
+          @attr name remote_desktop.nick.tsoglanakos.wear:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13682,11 +13682,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:splitTrack
+          @attr name remote_desktop.nick.tsoglanakos.wear:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13698,11 +13698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:switchMinWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13714,21 +13714,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:switchPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:switchTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13740,11 +13740,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:thumbTextPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13755,11 +13755,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:thumbTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13776,21 +13776,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:thumbTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#track}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:track
+          @attr name remote_desktop.nick.tsoglanakos.wear:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13801,11 +13801,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:trackTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -13822,7 +13822,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:trackTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -13866,22 +13866,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground remote.tsoglan.desktop:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart remote.tsoglan.desktop:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity remote.tsoglan.desktop:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor remote.tsoglan.desktop:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight remote.tsoglan.desktop:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth remote.tsoglan.desktop:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth remote.tsoglan.desktop:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode remote.tsoglan.desktop:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding remote.tsoglan.desktop:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom remote.tsoglan.desktop:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd remote.tsoglan.desktop:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart remote.tsoglan.desktop:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop remote.tsoglan.desktop:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor remote.tsoglan.desktop:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance remote.tsoglan.desktop:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor remote.tsoglan.desktop:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground remote_desktop.nick.tsoglanakos.wear:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart remote_desktop.nick.tsoglanakos.wear:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity remote_desktop.nick.tsoglanakos.wear:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor remote_desktop.nick.tsoglanakos.wear:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight remote_desktop.nick.tsoglanakos.wear:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth remote_desktop.nick.tsoglanakos.wear:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth remote_desktop.nick.tsoglanakos.wear:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode remote_desktop.nick.tsoglanakos.wear:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding remote_desktop.nick.tsoglanakos.wear:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom remote_desktop.nick.tsoglanakos.wear:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd remote_desktop.nick.tsoglanakos.wear:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart remote_desktop.nick.tsoglanakos.wear:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop remote_desktop.nick.tsoglanakos.wear:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor remote_desktop.nick.tsoglanakos.wear:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance remote_desktop.nick.tsoglanakos.wear:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor remote_desktop.nick.tsoglanakos.wear:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -13907,17 +13907,17 @@ containing a value of this type.
             0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:tabBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -13929,11 +13929,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabContentStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -13946,11 +13946,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:tabGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -13961,11 +13961,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabIndicatorColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -13977,11 +13977,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabIndicatorHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -13993,11 +13993,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabMaxWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14009,11 +14009,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabMinWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14026,11 +14026,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:tabMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14042,11 +14042,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabPadding
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14058,11 +14058,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabPaddingBottom
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14074,11 +14074,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabPaddingEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14090,11 +14090,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabPaddingStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14106,11 +14106,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabPaddingTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14121,21 +14121,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabSelectedTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:tabTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -14146,7 +14146,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:tabTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -14163,7 +14163,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps remote.tsoglan.desktop:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps remote_desktop.nick.tsoglanakos.wear:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -14229,14 +14229,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name remote.tsoglan.desktop:textAllCaps
+          @attr name remote_desktop.nick.tsoglanakos.wear:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -14247,15 +14247,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled remote.tsoglan.desktop:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength remote.tsoglan.desktop:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance remote.tsoglan.desktop:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance remote.tsoglan.desktop:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled remote.tsoglan.desktop:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance remote.tsoglan.desktop:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled remote.tsoglan.desktop:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled remote.tsoglan.desktop:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance remote.tsoglan.desktop:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled remote_desktop.nick.tsoglanakos.wear:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength remote_desktop.nick.tsoglanakos.wear:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance remote_desktop.nick.tsoglanakos.wear:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance remote_desktop.nick.tsoglanakos.wear:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled remote_desktop.nick.tsoglanakos.wear:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance remote_desktop.nick.tsoglanakos.wear:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled remote_desktop.nick.tsoglanakos.wear:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled remote_desktop.nick.tsoglanakos.wear:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance remote_desktop.nick.tsoglanakos.wear:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -14287,7 +14287,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -14297,11 +14297,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:counterEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -14311,31 +14311,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:counterMaxLength
+          @attr name remote_desktop.nick.tsoglanakos.wear:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:counterOverflowTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:counterTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -14345,21 +14345,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:errorEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:errorTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -14369,11 +14369,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:hintAnimationEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -14383,17 +14383,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:hintEnabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:hintTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Theme.
@@ -14402,7 +14402,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_discreteSeekBarStyle remote.tsoglan.desktop:discreteSeekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_discreteSeekBarStyle remote_desktop.nick.tsoglanakos.wear:discreteSeekBarStyle}</code></td><td></td></tr>
            </table>
            @see #Theme_discreteSeekBarStyle
          */
@@ -14410,13 +14410,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101a8
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#discreteSeekBarStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#discreteSeekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:discreteSeekBarStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:discreteSeekBarStyle
         */
         public static final int Theme_discreteSeekBarStyle = 0;
         /** Attributes that can be used with a Toolbar.
@@ -14427,33 +14427,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity remote.tsoglan.desktop:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription remote.tsoglan.desktop:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon remote.tsoglan.desktop:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd remote.tsoglan.desktop:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions remote.tsoglan.desktop:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft remote.tsoglan.desktop:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight remote.tsoglan.desktop:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart remote.tsoglan.desktop:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation remote.tsoglan.desktop:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo remote.tsoglan.desktop:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription remote.tsoglan.desktop:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight remote.tsoglan.desktop:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription remote.tsoglan.desktop:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon remote.tsoglan.desktop:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme remote.tsoglan.desktop:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle remote.tsoglan.desktop:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance remote.tsoglan.desktop:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor remote.tsoglan.desktop:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title remote.tsoglan.desktop:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin remote.tsoglan.desktop:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom remote.tsoglan.desktop:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd remote.tsoglan.desktop:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart remote.tsoglan.desktop:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop remote.tsoglan.desktop:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins remote.tsoglan.desktop:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance remote.tsoglan.desktop:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor remote.tsoglan.desktop:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity remote_desktop.nick.tsoglanakos.wear:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription remote_desktop.nick.tsoglanakos.wear:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon remote_desktop.nick.tsoglanakos.wear:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd remote_desktop.nick.tsoglanakos.wear:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions remote_desktop.nick.tsoglanakos.wear:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft remote_desktop.nick.tsoglanakos.wear:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight remote_desktop.nick.tsoglanakos.wear:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart remote_desktop.nick.tsoglanakos.wear:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation remote_desktop.nick.tsoglanakos.wear:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo remote_desktop.nick.tsoglanakos.wear:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription remote_desktop.nick.tsoglanakos.wear:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight remote_desktop.nick.tsoglanakos.wear:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription remote_desktop.nick.tsoglanakos.wear:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon remote_desktop.nick.tsoglanakos.wear:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme remote_desktop.nick.tsoglanakos.wear:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle remote_desktop.nick.tsoglanakos.wear:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance remote_desktop.nick.tsoglanakos.wear:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor remote_desktop.nick.tsoglanakos.wear:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title remote_desktop.nick.tsoglanakos.wear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin remote_desktop.nick.tsoglanakos.wear:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom remote_desktop.nick.tsoglanakos.wear:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd remote_desktop.nick.tsoglanakos.wear:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart remote_desktop.nick.tsoglanakos.wear:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop remote_desktop.nick.tsoglanakos.wear:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins remote_desktop.nick.tsoglanakos.wear:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance remote_desktop.nick.tsoglanakos.wear:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor remote_desktop.nick.tsoglanakos.wear:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -14508,7 +14508,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14521,11 +14521,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buttonGravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14535,21 +14535,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:collapseContentDescription
+          @attr name remote_desktop.nick.tsoglanakos.wear:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:collapseIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14561,11 +14561,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14577,11 +14577,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetEndWithActions
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14593,11 +14593,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetLeft
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14609,11 +14609,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetRight
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14625,11 +14625,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14641,21 +14641,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:contentInsetStartWithNavigation
+          @attr name remote_desktop.nick.tsoglanakos.wear:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logo}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:logo
+          @attr name remote_desktop.nick.tsoglanakos.wear:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14665,11 +14665,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:logoDescription
+          @attr name remote_desktop.nick.tsoglanakos.wear:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14681,11 +14681,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:maxButtonHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14695,31 +14695,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:navigationContentDescription
+          @attr name remote_desktop.nick.tsoglanakos.wear:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:navigationIcon
+          @attr name remote_desktop.nick.tsoglanakos.wear:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:popupTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14729,21 +14729,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:subtitle
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:subtitleTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14754,11 +14754,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:subtitleTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#title}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14768,11 +14768,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:title
+          @attr name remote_desktop.nick.tsoglanakos.wear:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14784,11 +14784,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMargin
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14800,11 +14800,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMarginBottom
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14816,11 +14816,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMarginEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14832,11 +14832,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMarginStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14848,11 +14848,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMarginTop
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14864,21 +14864,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleMargins
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:titleTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -14889,7 +14889,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:titleTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -14900,9 +14900,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd remote.tsoglan.desktop:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart remote.tsoglan.desktop:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme remote.tsoglan.desktop:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd remote_desktop.nick.tsoglanakos.wear:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart remote_desktop.nick.tsoglanakos.wear:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme remote_desktop.nick.tsoglanakos.wear:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -14927,7 +14927,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -14939,11 +14939,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:paddingEnd
+          @attr name remote_desktop.nick.tsoglanakos.wear:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -14955,17 +14955,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:paddingStart
+          @attr name remote_desktop.nick.tsoglanakos.wear:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#theme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:theme
+          @attr name remote_desktop.nick.tsoglanakos.wear:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -14975,8 +14975,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint remote.tsoglan.desktop:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode remote.tsoglan.desktop:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint remote_desktop.nick.tsoglanakos.wear:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode remote_desktop.nick.tsoglanakos.wear:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -14992,7 +14992,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -15003,11 +15003,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:backgroundTint
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -15023,7 +15023,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:backgroundTintMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -15067,10 +15067,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme remote.tsoglan.desktop:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment remote.tsoglan.desktop:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode remote.tsoglan.desktop:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle remote.tsoglan.desktop:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme remote_desktop.nick.tsoglanakos.wear:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment remote_desktop.nick.tsoglanakos.wear:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode remote_desktop.nick.tsoglanakos.wear:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle remote_desktop.nick.tsoglanakos.wear:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -15081,7 +15081,7 @@ containing a value of this type.
             0x7f0101bf, 0x7f0101c0, 0x7f0101c1, 0x7f0101c2
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -15094,11 +15094,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:appTheme
+          @attr name remote_desktop.nick.tsoglanakos.wear:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#environment}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -15113,11 +15113,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:environment
+          @attr name remote_desktop.nick.tsoglanakos.wear:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -15130,17 +15130,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:fragmentMode
+          @attr name remote_desktop.nick.tsoglanakos.wear:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:fragmentStyle
+          @attr name remote_desktop.nick.tsoglanakos.wear:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -15149,17 +15149,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance remote.tsoglan.desktop:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight remote.tsoglan.desktop:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText remote.tsoglan.desktop:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth remote.tsoglan.desktop:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground remote.tsoglan.desktop:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground remote.tsoglan.desktop:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance remote.tsoglan.desktop:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance remote.tsoglan.desktop:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType remote.tsoglan.desktop:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor remote.tsoglan.desktop:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance remote.tsoglan.desktop:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance remote_desktop.nick.tsoglanakos.wear:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight remote_desktop.nick.tsoglanakos.wear:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText remote_desktop.nick.tsoglanakos.wear:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth remote_desktop.nick.tsoglanakos.wear:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -15179,7 +15179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101cb, 0x7f0101cc, 0x7f0101cd
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15193,11 +15193,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buyButtonAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15218,11 +15218,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buyButtonHeight
+          @attr name remote_desktop.nick.tsoglanakos.wear:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15237,11 +15237,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buyButtonText
+          @attr name remote_desktop.nick.tsoglanakos.wear:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15262,11 +15262,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:buyButtonWidth
+          @attr name remote_desktop.nick.tsoglanakos.wear:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15274,11 +15274,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15286,31 +15286,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsButtonBackground
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsButtonTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsHeaderTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15323,11 +15323,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsLogoImageType
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -15338,17 +15338,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsLogoTextColor
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:maskedWalletDetailsTextAppearance
+          @attr name remote_desktop.nick.tsoglanakos.wear:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
         /** Attributes that can be used with a WatchViewStub.
@@ -15357,8 +15357,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WatchViewStub_rectLayout remote.tsoglan.desktop:rectLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #WatchViewStub_roundLayout remote.tsoglan.desktop:roundLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #WatchViewStub_rectLayout remote_desktop.nick.tsoglanakos.wear:rectLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #WatchViewStub_roundLayout remote_desktop.nick.tsoglanakos.wear:roundLayout}</code></td><td></td></tr>
            </table>
            @see #WatchViewStub_rectLayout
            @see #WatchViewStub_roundLayout
@@ -15367,23 +15367,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101ce, 0x7f0101cf
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rectLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#rectLayout}
           attribute's value can be found in the {@link #WatchViewStub} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:rectLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:rectLayout
         */
         public static final int WatchViewStub_rectLayout = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#roundLayout}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#roundLayout}
           attribute's value can be found in the {@link #WatchViewStub} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:roundLayout
+          @attr name remote_desktop.nick.tsoglanakos.wear:roundLayout
         */
         public static final int WatchViewStub_roundLayout = 1;
         /** Attributes that can be used with a WearableActionDrawer.
@@ -15392,7 +15392,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableActionDrawer_action_menu remote.tsoglan.desktop:action_menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableActionDrawer_action_menu remote_desktop.nick.tsoglanakos.wear:action_menu}</code></td><td></td></tr>
            </table>
            @see #WearableActionDrawer_action_menu
          */
@@ -15400,13 +15400,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101d0
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#action_menu}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#action_menu}
           attribute's value can be found in the {@link #WearableActionDrawer} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:action_menu
+          @attr name remote_desktop.nick.tsoglanakos.wear:action_menu
         */
         public static final int WearableActionDrawer_action_menu = 0;
         /** Attributes that can be used with a WearableDrawerView.
@@ -15415,8 +15415,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableDrawerView_drawer_content remote.tsoglan.desktop:drawer_content}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableDrawerView_peek_view remote.tsoglan.desktop:peek_view}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableDrawerView_drawer_content remote_desktop.nick.tsoglanakos.wear:drawer_content}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableDrawerView_peek_view remote_desktop.nick.tsoglanakos.wear:peek_view}</code></td><td></td></tr>
            </table>
            @see #WearableDrawerView_drawer_content
            @see #WearableDrawerView_peek_view
@@ -15425,23 +15425,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101d1, 0x7f0101d2
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#drawer_content}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#drawer_content}
           attribute's value can be found in the {@link #WearableDrawerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:drawer_content
+          @attr name remote_desktop.nick.tsoglanakos.wear:drawer_content
         */
         public static final int WearableDrawerView_drawer_content = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#peek_view}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#peek_view}
           attribute's value can be found in the {@link #WearableDrawerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name remote.tsoglan.desktop:peek_view
+          @attr name remote_desktop.nick.tsoglanakos.wear:peek_view
         */
         public static final int WearableDrawerView_peek_view = 0;
         /** Attributes that can be used with a WearableFrameLayout.
@@ -15454,14 +15454,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #WearableFrameLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
            <tr><td><code>{@link #WearableFrameLayout_android_foregroundTint android:foregroundTint}</code></td><td></td></tr>
            <tr><td><code>{@link #WearableFrameLayout_android_measureAllChildren android:measureAllChildren}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_gravityRound remote.tsoglan.desktop:layout_gravityRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_heightRound remote.tsoglan.desktop:layout_heightRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginBottomRound remote.tsoglan.desktop:layout_marginBottomRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginLeftRound remote.tsoglan.desktop:layout_marginLeftRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginRightRound remote.tsoglan.desktop:layout_marginRightRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginRound remote.tsoglan.desktop:layout_marginRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_marginTopRound remote.tsoglan.desktop:layout_marginTopRound}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableFrameLayout_layout_widthRound remote.tsoglan.desktop:layout_widthRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_gravityRound remote_desktop.nick.tsoglanakos.wear:layout_gravityRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_heightRound remote_desktop.nick.tsoglanakos.wear:layout_heightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginBottomRound remote_desktop.nick.tsoglanakos.wear:layout_marginBottomRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginLeftRound remote_desktop.nick.tsoglanakos.wear:layout_marginLeftRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRightRound remote_desktop.nick.tsoglanakos.wear:layout_marginRightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRound remote_desktop.nick.tsoglanakos.wear:layout_marginRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginTopRound remote_desktop.nick.tsoglanakos.wear:layout_marginTopRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_widthRound remote_desktop.nick.tsoglanakos.wear:layout_widthRound}</code></td><td></td></tr>
            </table>
            @see #WearableFrameLayout_android_foreground
            @see #WearableFrameLayout_android_foregroundGravity
@@ -15506,7 +15506,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WearableFrameLayout_android_measureAllChildren = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_gravityRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_gravityRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15531,11 +15531,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:layout_gravityRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_gravityRound
         */
         public static final int WearableFrameLayout_layout_gravityRound = 4;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_heightRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_heightRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15547,11 +15547,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_heightRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_heightRound
         */
         public static final int WearableFrameLayout_layout_heightRound = 6;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginBottomRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_marginBottomRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15563,11 +15563,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_marginBottomRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_marginBottomRound
         */
         public static final int WearableFrameLayout_layout_marginBottomRound = 11;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginLeftRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_marginLeftRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15579,11 +15579,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_marginLeftRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_marginLeftRound
         */
         public static final int WearableFrameLayout_layout_marginLeftRound = 8;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginRightRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_marginRightRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15595,11 +15595,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_marginRightRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_marginRightRound
         */
         public static final int WearableFrameLayout_layout_marginRightRound = 10;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_marginRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15611,11 +15611,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_marginRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_marginRound
         */
         public static final int WearableFrameLayout_layout_marginRound = 7;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_marginTopRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_marginTopRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15627,11 +15627,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_marginTopRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_marginTopRound
         */
         public static final int WearableFrameLayout_layout_marginTopRound = 9;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#layout_widthRound}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#layout_widthRound}
           attribute's value can be found in the {@link #WearableFrameLayout} array.
 
 
@@ -15643,7 +15643,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:layout_widthRound
+          @attr name remote_desktop.nick.tsoglanakos.wear:layout_widthRound
         */
         public static final int WearableFrameLayout_layout_widthRound = 5;
         /** Attributes that can be used with a WearableHeaderTextView.
@@ -15652,8 +15652,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableHeaderTextView_circular_layout_gravity remote.tsoglan.desktop:circular_layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableHeaderTextView_circular_text_size remote.tsoglan.desktop:circular_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableHeaderTextView_circular_layout_gravity remote_desktop.nick.tsoglanakos.wear:circular_layout_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableHeaderTextView_circular_text_size remote_desktop.nick.tsoglanakos.wear:circular_text_size}</code></td><td></td></tr>
            </table>
            @see #WearableHeaderTextView_circular_layout_gravity
            @see #WearableHeaderTextView_circular_text_size
@@ -15662,7 +15662,7 @@ containing a value of this type.
             0x7f0101db, 0x7f0101dc
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circular_layout_gravity}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circular_layout_gravity}
           attribute's value can be found in the {@link #WearableHeaderTextView} array.
 
 
@@ -15680,11 +15680,11 @@ containing a value of this type.
 <tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
 <tr><td><code>center</code></td><td>0x11</td><td></td></tr>
 </table>
-          @attr name remote.tsoglan.desktop:circular_layout_gravity
+          @attr name remote_desktop.nick.tsoglanakos.wear:circular_layout_gravity
         */
         public static final int WearableHeaderTextView_circular_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#circular_text_size}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#circular_text_size}
           attribute's value can be found in the {@link #WearableHeaderTextView} array.
 
 
@@ -15696,7 +15696,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:circular_text_size
+          @attr name remote_desktop.nick.tsoglanakos.wear:circular_text_size
         */
         public static final int WearableHeaderTextView_circular_text_size = 1;
         /** Attributes that can be used with a WearableRecyclerView.
@@ -15705,9 +15705,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WearableRecyclerView_bezel_width remote.tsoglan.desktop:bezel_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableRecyclerView_rotary_scrolling_enabled remote.tsoglan.desktop:rotary_scrolling_enabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #WearableRecyclerView_scroll_degrees_per_screen remote.tsoglan.desktop:scroll_degrees_per_screen}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_bezel_width remote_desktop.nick.tsoglanakos.wear:bezel_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_rotary_scrolling_enabled remote_desktop.nick.tsoglanakos.wear:rotary_scrolling_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableRecyclerView_scroll_degrees_per_screen remote_desktop.nick.tsoglanakos.wear:scroll_degrees_per_screen}</code></td><td></td></tr>
            </table>
            @see #WearableRecyclerView_bezel_width
            @see #WearableRecyclerView_rotary_scrolling_enabled
@@ -15717,7 +15717,7 @@ containing a value of this type.
             0x7f0101dd, 0x7f0101de, 0x7f0101df
         };
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#bezel_width}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#bezel_width}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -15729,11 +15729,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:bezel_width
+          @attr name remote_desktop.nick.tsoglanakos.wear:bezel_width
         */
         public static final int WearableRecyclerView_bezel_width = 0;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#rotary_scrolling_enabled}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#rotary_scrolling_enabled}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -15743,11 +15743,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:rotary_scrolling_enabled
+          @attr name remote_desktop.nick.tsoglanakos.wear:rotary_scrolling_enabled
         */
         public static final int WearableRecyclerView_rotary_scrolling_enabled = 1;
         /**
-          <p>This symbol is the offset where the {@link remote.tsoglan.desktop.R.attr#scroll_degrees_per_screen}
+          <p>This symbol is the offset where the {@link remote_desktop.nick.tsoglanakos.wear.R.attr#scroll_degrees_per_screen}
           attribute's value can be found in the {@link #WearableRecyclerView} array.
 
 
@@ -15757,7 +15757,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name remote.tsoglan.desktop:scroll_degrees_per_screen
+          @attr name remote_desktop.nick.tsoglanakos.wear:scroll_degrees_per_screen
         */
         public static final int WearableRecyclerView_scroll_degrees_per_screen = 2;
     };

@@ -1,4 +1,4 @@
-package com.smart.tsoglani.androidmouse;
+package com.remote.tsoglanakos.desktop;
 
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;

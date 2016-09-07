@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.smart.tsoglani.androidmouse;
+package com.remote.tsoglanakos.desktop;
 
 public final class R {
     public static final class anim {

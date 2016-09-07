@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.smart.tsoglani.androidmouse;
+package com.remote.tsoglanakos.desktop;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
