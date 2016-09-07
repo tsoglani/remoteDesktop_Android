@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     app:rectLayout="@layout/rect_activity_main"
     app:roundLayout="@layout/round_activity_main"
-    tools:context="com.smart.tsoglani.androidmouse.MainActivity"
+    tools:context="com.remote.tsoglanakos.desktop.MainActivity"
     tools:deviceIds="wear"
     android:background="@drawable/on3"
     />

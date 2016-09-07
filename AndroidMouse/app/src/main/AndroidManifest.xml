@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nikos.tsoglani.androidmouse">
+    package="com.remote.tsoglanakos.desktop">
     <uses-feature android:name="android.hardware.type.watch " android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -17,7 +17,7 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.remote.tsoglanakos.desktop.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -34,18 +34,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MouseUIActivity"
+            android:name="com.remote.tsoglanakos.desktop.MouseUIActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_mouse" />
 
-        <service android:name=".InternetConnection" />
+        <service android:name="com.remote.tsoglanakos.desktop.InternetConnection" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="9dbef38b87e1170a0266e453ade0b0d7165b763f" />
 
         <activity
-            android:name=".ConnectionHistory"
+            android:name="com.remote.tsoglanakos.desktop.ConnectionHistory"
             android:noHistory="true"></activity>
 
 
@@ -53,7 +53,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <service android:name=".MobileService">
+        <service android:name="com.remote.tsoglanakos.desktop.MobileService">
             <intent-filter>
                 <!--<action android:name="com.google.android.gms.wearable.BIND_LISTENER" />-->
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />

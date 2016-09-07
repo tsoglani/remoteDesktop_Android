@@ -13,7 +13,7 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:theme="@android:style/Theme.DeviceDefault">
         <activity
-            android:name="com.remote.tsoglanakos.desktop.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
 
 
         <activity
-            android:name="com.remote.tsoglanakos.desktop.MouseView"
+            android:name=".MouseView"
             android:label="@string/title_activity_mouse_view"
             android:theme="@style/AppTheme"
          >

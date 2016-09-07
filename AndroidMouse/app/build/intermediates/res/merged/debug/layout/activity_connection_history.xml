@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nikos.tsoglani.androidmouse.ConnectionHistory">
+    tools:context="com.remote.tsoglanakos.desktop.ConnectionHistory">
 
     <ScrollView
         android:layout_width="match_parent"
