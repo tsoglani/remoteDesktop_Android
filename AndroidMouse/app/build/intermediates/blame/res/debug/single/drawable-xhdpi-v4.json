@@ -112,12 +112,12 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xhdpi-v4/ic_media_route_off_mono_dark.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_setting_light.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xhdpi-v4/ic_setting_light.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_full_sad.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable-xhdpi-v4/ic_full_sad.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_setting_light.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xhdpi-v4/ic_setting_light.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_cast_off_light.png",

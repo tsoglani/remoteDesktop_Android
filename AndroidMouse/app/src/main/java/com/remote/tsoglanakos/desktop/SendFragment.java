@@ -1,5 +1,6 @@
 package com.remote.tsoglanakos.desktop;
 
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -14,6 +15,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.test.mock.MockPackageManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,9 +50,12 @@ import java.util.List;
 public class SendFragment extends android.support.v4.app.Fragment {
     @Nullable
     @Override
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.send_image_layout, container, false);
     }
+    boolean isAllPermissionGranded=true;
+
     SweetSheet mSweetSheet;
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -62,7 +69,7 @@ public class SendFragment extends android.support.v4.app.Fragment {
 //
 
 
-
+        requestPermissions();
 
         MenuEntity sendImage = new MenuEntity();
         MenuEntity sendAudio = new MenuEntity();
@@ -95,7 +102,7 @@ public class SendFragment extends android.support.v4.app.Fragment {
         mSweetSheet.setOnMenuItemClickListener(new SweetSheet.OnMenuItemClickListener() {
             @Override
             public boolean onItemClick(int position, MenuEntity menuEntity1) {
-
+if(isAllPermissionGranded){
                 //根据返回值, true 会关闭 SweetSheet ,false 则不会.
                 switch (menuEntity1.title.toString()){
                     case "Send image":
@@ -114,7 +121,9 @@ public class SendFragment extends android.support.v4.app.Fragment {
                         pickFile();
                         break;
 
-                }
+                }}else {
+    requestPermissions();
+}
 
                 return false;
             }
@@ -480,7 +489,64 @@ e.printStackTrace();
 
     }
 
+    private void requestPermissions(){
+        String[] mPermission = {Manifest.permission.READ_EXTERNAL_STORAGE
 
+        };
+
+        permissionNeeded.clear();
+        try {
+
+            for (String s:mPermission) {
+                if (ActivityCompat.checkSelfPermission(getContext(), s)
+                        != MockPackageManager.PERMISSION_GRANTED) {
+                    permissionNeeded.add(s);
+                }
+            }
+//        if (ActivityCompat.checkSelfPermission(this, mPermission[0])
+//                != MockPackageManager.PERMISSION_GRANTED ||
+//                ActivityCompat.checkSelfPermission(this, mPermission[1])
+//                        != MockPackageManager.PERMISSION_GRANTED ||
+//                ActivityCompat.checkSelfPermission(this, mPermission[2])
+//                        != MockPackageManager.PERMISSION_GRANTED ||
+//                ActivityCompat.checkSelfPermission(this, mPermission[3])
+//                        != MockPackageManager.PERMISSION_GRANTED) {
+
+            if(permissionNeeded.size()>0){
+                String []reqPer= permissionNeeded.toArray(new String[permissionNeeded.size()]);
+                ActivityCompat.requestPermissions(getActivity(),
+                        reqPer, REQUEST_CODE_PERMISSION);
+            }
+
+        }catch (Exception e){e.printStackTrace();}}
+
+    private ArrayList<String> permissionNeeded= new ArrayList<String>();
+    private static final int REQUEST_CODE_PERMISSION = 2;
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        Log.e("Req Code", "" + requestCode);
+        if (requestCode == REQUEST_CODE_PERMISSION) {
+            if (grantResults.length == permissionNeeded.size() ) {
+                isAllPermissionGranded=true;
+
+                for (int id:grantResults){
+                    if(id != MockPackageManager.PERMISSION_GRANTED){
+                        isAllPermissionGranded=false ;
+                        break;
+                    }
+                }
+
+
+              }
+        }else{
+//                int pid = android.os.Process.myPid();
+//    android.os.Process.killProcess(pid);
+//System.exit(0);
+//    System.gc();
+        }
+
+    }
 
 
 }

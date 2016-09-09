@@ -61,7 +61,7 @@
         jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="2c96de5edf82a383b4c53267909e0e31147b5d19">
+        sha1="b8241600a6f75d2c188be92506a812bb947246ce">
         <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e49387a64abb47a19d938b581118b9f55069b108/classes.dex" />
     </item>
     <item
@@ -96,7 +96,7 @@
         jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="c2d9733f62055179c8a160ae525a519747ba1886">
+        sha1="1bf6811c52c2e2235b54f0e30a7fcfa55fdb0703">
         <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_75e469a4811c1a490f9897208fd9d50c09ca80e3/classes.dex" />
     </item>
     <item
