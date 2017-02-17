@@ -1,6 +1,46 @@
 [
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_more_vert_24dp_wht.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_more_vert_24dp_wht.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_more_horiz_24dp_wht.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_more_horiz_24dp_wht.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/action_item_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/action_item_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_cc_settings_button_center.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_cc_settings_button_center.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_cc_settings_button_e.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_cc_settings_button_e.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/action_item_icon_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/action_item_icon_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_expand_less_white_22.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_expand_less_white_22.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_cc_settings_button_top.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_cc_settings_button_top.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-v23/ic_cc_settings_button_bottom.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable-v23/ic_cc_settings_button_bottom.xml"
     }
 ]

@@ -2,375 +2,214 @@
 <items version="2" >
 
     <item
-        jar="/home/tsoglani/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_9ddc57ca78bff37a13779ddf28f50ed9fb583648/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-7.5.0_47e76f112894b23892c56f6c37f1a392c5037271/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-7.5.0_f5d4b341f953831237ce4866cb7370b35e4f379c/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_4de4db83dc196362d684e3c6fcbcfd56b14ea56b/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-7.5.0_9a278dcaf7d9a95a21d26dbe3feba485e8e8b5d3/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.5_7d4a61175da414fe10f5cec2b972a8fd7473f18b/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-7.5.0_4db07cd4ae6ce99f05f30499538e2f8a922c664f/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="4968500e276d051b8ed8135f1a0254120f6c600d">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wang.avi-library-1.0.1_8e9aea7b9c0363ced0f1ae4e3daa1a70e9c3df70/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="b8241600a6f75d2c188be92506a812bb947246ce">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e49387a64abb47a19d938b581118b9f55069b108/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-7.5.0_ba5a053112d5453a45f974dacaabf278d3871744/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_8002cc6ddb9fe3cc14b1d01e2ec694e090dcf5fd/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/org.adw.library/discrete-seekbar/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="3e2965bae48affdd6dcd3f87cd525a988ade1250">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.adw.library-discrete-seekbar-1.0.0_44872219ff95dbef39ce02a511694d17f4dbf81e/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8e6e30a296f144126c62da545452456950e56b27">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.zzz40500-AndroidSweetSheet-1.1.0_2e478cb6651050ea06d5468bdf1c4b219c580487/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="1bf6811c52c2e2235b54f0e30a7fcfa55fdb0703">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_75e469a4811c1a490f9897208fd9d50c09ca80e3/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.ozodrukh-CircularReveal-1.1.1_da5f0bbe83c0435d2430461ed489c577741af7ba/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-7.5.0_82ba56be5e583f4a1d02d7c9e59c79b1049f20de/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.5.0_713eab2ce0b931a1a2efdaee7f4d649b322bc50e.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_e12455b28496388d437b2ffd683b8c3a08af27c7/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_2a2a5b1804a429db71ae62c21c015de6e2206f9b/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appstate-7.5.0_fc059d1e4836e3e8a527ab403babb62c67f80635/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.5.0_e4856982f675d3d78c53cc137c37dd3dbdf14e12.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.4_883d7ca5b34bc1c1bde548765643813b2b85b999/classes.dex" />
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.5.0_ac129ec25f4fb12759b6d3c76a3f5d3d83f86291.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.5/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="511320053169bdc5d8445a414db09e7cdd10d920">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.medyo-fancybuttons-1.5_3a42296a7c58e0d074b1db92d5b6ec0f3c0a60c1/classes.dex" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.0.0_ef50ef7b136fffe5fc56cb698a51d0f858e3e047.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.0.0_f3aafa73fb2715815d410482dabc707dd86be6c4/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-22.0.0_714c344427edc40e7922a36184618e640fe3db4f.jar" />
     </item>
     <item
-        jar="/home/tsoglani/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.0_a3160a66e8baa9923a245e5e6ec51d012204688f/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_e349c061e9f882830f60e87576610b386d6a70a1/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_2076e924eb0686ddc8749f659249b0b569b0cf38/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-7.5.0_70ba539ee1f467ffa2fd2e32e37e1edeee47bcdc/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.10_343274c9ff62afeb5ffe5438ad5322480a79de37/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/Android_files/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_310f0d0bda449baed7b25b9089fa61815df551b7/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_76f9c16e27ebb356de8104f2289568db2336122c/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="87fb797ba434e0847cfcca4ffd740941c41634e6">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0-alpha2_7f281f698fc748b525dfcbd51548d91dd2c5d64d/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fa8b9fe429cf6dfae8b74673088ed0219bf0ca4a">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.yalantis-sidemenu-1.0_41dc1b44be2121f1f92286b2d85d076af7c52baf/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-7.5.0_8bb2aaf7e803a16802aeb9861c09b1182a463208/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.markushi-circlebutton-1.1_6f3b6e5bdb0bc8c80c999796f6aefa1ac6f0e3e0/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-7.5.0_9447f518054db8a1f5886ff625b8fc3555d73965/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-7.5.0_eb291da3371017762ee1fc6c17e1d4396c890998/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e739330288642e9e8d865b72f6dc23706c245a1d">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.felipecsl-gifimageview-2.0.0_f7ed91a8a5f3634b03cf7f33abff527da6d95526/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_4da0c5defada2f98082f6cb9c4b6a1e49418ead0/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/co.lemonlabs/expandable-button-menu/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="71d40ca0d1401c134d7825b308ac1b224ad14474">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/co.lemonlabs-expandable-button-menu-1.0.0_53753e8ddfa82173017802e9273558bb8a98e5d4/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.6_7f8f23e4cb4f3505909cb15b01ac305667594728/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-7.5.0_ce1bfa112f266920ff6c26969edf7840f3933c08/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-7.5.0_c64a7a88def0896650e6de1ab379324edb7972cb/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_1c4200d57b61f2b110286442cf54dade02c22100/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_a85b2cb0f7139ea7819422a1c27f6f22f1121a0c.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.8_6dcf0d42a0a0c7081694f87325cde8c38b79e918/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-7.5.0_062c50d6ebfe6e936dfe908b7670dcb2d535ae09/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.5.0_30fcd130cf65af3b8a298fc1d7e6553771afe6b2.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-7.5.0_6bc8aa68b09c3438d2e194c9cdf5836555b56f98/classes.dex" />
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.5.0_3a8faf799dc21c82ea4f491a18d2e261ccb5251b.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.5.0_858f2c1182064973a196425d8cf6bd967c18ccbf.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-7.5.0_a434017f71bf97ec98899e267223e27a42643989/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.5.0_0d124b023f6e25b776fd1510f668871356f60900.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.alexkolpa/floating-action-button-toolbar/0.5.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="998c4bbbb72b73b28ebeb71a01b1503db49f0c74">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.alexkolpa-floating-action-button-toolbar-0.5.1_aedd54c95095970e3e15b1ed58e004ebe715a9db/classes.dex" />
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.5.0_47cca7062cb6aad87997057164b3aad004048aca.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_7e3a1a636eb28a129dfb5cb48a1e19c53eb2c533.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_4b6523cb848f0bc4038377ffa085bcd66a94c5f3.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.5.0_1aae77b9cd7e4b62dded31bc0818c89346167473.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.5.0_d25830ff853ddd1474edd4490a36cc9fab7287d1.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.5.0_8628a71d6074f589e169820c060d91eda3544c5e.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.5.0_e6980535f9b7c9df712ebcf8b018ba77c110ddfe.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.5.0_42b775e84988b31f5ade69e7b38ffe02603e0eb9.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.5.0_7595c183631695693bd38be26e710a5fa03f5bb2.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.5.0_c59bac91640fccce1182f850c402587ffe4824d0.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.5.0_8644299992f5ad0d8f3df3a9f9b6a696d90716e9.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-7.5.0_f6f40cf1a6f60b0a53dea850bf4e371f2b02c18f.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-percent-23.0.1_40416f74bc2c5ef5de5e9e732470ff0f64ca940b.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.0_983c946675eaa25a81dcb0d569978fdd8a9cf5e4.jar" />
+    </item>
+    <item
+        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_101ed176403705532c63ebf7739523994b5a258f.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-2.0.0_4c168a3efe8014cedf857f4ffcf2613f9ff2fcf8.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.5.0_568a9ad2dc66a208a9584ad0b8db45eb57743bc0.jar" />
+    </item>
+    <item
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-7.5.0_29c309123d2c2dbec4de5fdbd71f02d364cef246/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.5.0_9129c77866514dc16d87aa43296c711d463d2d7e.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_62473168cbea94d36e4ef949cf31e7ae6454e396/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
         sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-7.5.0_d18c07c03f622ac950197e53fc4d4b7369ac35e1/classes.dex" />
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.5.0_2b2453ecd9fb92c8713725ba2c2350bf7001eb06.jar" />
     </item>
     <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_64934c175b4117ed6ef4d4c82b86cedc5076ccde/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.melnykov-floatingactionbutton-1.3.0_47b31a8282a32611223362002f08aeeaeb6bcdc8/classes.dex" />
-    </item>
-    <item
-        jar="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="f3147df885d73141d7dc722145674c5ee8db7eb5">
-        <dex dex="/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.darsh2-MultipleImageSelect-v0.0.3_fae31a4a9664853d22d96b3c54a4250fd2dbddc8/classes.dex" />
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.0.1_1d455cf656b5ef076508b294b91d3c71f606aa1c.jar" />
     </item>
 
 </items>

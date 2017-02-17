@@ -12,10 +12,10 @@
     <android.support.wearable.view.drawer.PageIndicatorView
         android:id="@+id/wearable_support_navigation_drawer_page_indicator"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/peek_view_icon_size"
+        android:layout_marginBottom="@dimen/peek_view_bottom_padding"
         android:layout_gravity="bottom|center_horizontal"
         app:pageIndicatorDotFadeWhenIdle="false" />
 
 </FrameLayout>
 
-<!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/layout/navigation_drawer_view.xml -->

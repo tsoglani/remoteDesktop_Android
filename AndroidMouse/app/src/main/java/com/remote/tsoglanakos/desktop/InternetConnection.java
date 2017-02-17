@@ -127,7 +127,14 @@ public class InternetConnection extends Service {
                                 MouseUIActivity.ps = new PrintWriter(new BufferedWriter(
                                         new OutputStreamWriter(returnSocket.getOutputStream())),
                                         true);
-                                MouseUIActivity.ps.println("LOCAL_IP");
+                                new Thread(){
+                                    @Override
+                                    public void run() {
+                                        MouseUIActivity.ps.println("LOCAL_IP");
+
+
+                                    }
+                                }.start();
                                 MainActivity.typeOfConntection = "LOCAL_IP";
                                 MouseUIActivity.bf = new DataInputStream(returnSocket.getInputStream());
 

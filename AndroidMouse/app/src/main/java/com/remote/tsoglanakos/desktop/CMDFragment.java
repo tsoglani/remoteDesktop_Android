@@ -50,7 +50,14 @@ public class CMDFragment extends android.support.v4.app.Fragment {
         execute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MouseUIActivity.ps.println("CommandLine:" + command.getText());
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("CommandLine:" + command.getText());
+
+
+                    }
+                }.start();
                 //  commandView.setText("");
                 if (!checkBox.isChecked()) {
                     commandView.setText("");
@@ -67,7 +74,14 @@ public class CMDFragment extends android.support.v4.app.Fragment {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    MouseUIActivity.ps.println("CommandLine:" + command.getText());
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("CommandLine:" + command.getText());
+
+
+                        }
+                    }.start();
                     if (!checkBox.isChecked()) {
                         commandView.setText("");
                     }

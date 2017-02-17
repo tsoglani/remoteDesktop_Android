@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals formatted="false" msgid="7742631289175833205" name="time_difference_short_days">
-      <item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> d</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> d</item>
-    </plurals>
-    <plurals formatted="false" msgid="5517328857835062796" name="time_difference_short_hours">
-      <item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> h</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> h</item>
-    </plurals>
-    <plurals formatted="false" msgid="7359384479137727610" name="time_difference_short_minutes">
-      <item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> m</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> m</item>
-    </plurals>
-    <plurals formatted="false" msgid="2946369038647898503" name="time_difference_words_days">
-      <item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> dias</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> dias</item>
-    </plurals>
-    <plurals formatted="false" msgid="54021993005249478" name="time_difference_words_hours">
-      <item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> horas</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> horas</item>
-    </plurals>
-    <plurals formatted="false" msgid="6039601245972500593" name="time_difference_words_minutes">
-      <item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
-      <item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
-    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -75,7 +51,6 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Abrir no smartphone"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Login"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Fazer login com o Google"</string>
-    <string msgid="8455537630633057684" name="dismiss_overlay_button_label">"Sair"</string>
     <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Transmitir"</string>
     <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Procurando dispositivos…"</string>
     <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectar ao dispositivo"</string>
@@ -87,7 +62,4 @@
     <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="1674592248188350347" name="time_difference_now">"agora"</string>
-    <string msgid="7277518582146396827" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
-    <string msgid="4986220553102177066" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
 </resources>

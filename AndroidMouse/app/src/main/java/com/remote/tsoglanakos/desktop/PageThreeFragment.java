@@ -24,8 +24,14 @@ public class PageThreeFragment extends android.support.v4.app.Fragment {
 
 
     public void onChangeView() {
-        MouseUIActivity.ps.println("keyboard:CHECKBOXES_STOP");
-        MouseUIActivity.ps.flush();
+        new Thread(){
+            @Override
+            public void run() {
+                MouseUIActivity.ps.println("keyboard:CHECKBOXES_STOP");
+                MouseUIActivity.ps.flush();
+            }
+        }.start();
+
     }
 
     @Override
@@ -38,9 +44,14 @@ public class PageThreeFragment extends android.support.v4.app.Fragment {
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
                     // Perform action on key press
-                    EditText txtView = (EditText) v;
-                    MouseUIActivity.ps.println("keyboard Word:" + txtView.getText().toString());
-                    MouseUIActivity.ps.flush();
+                  final  EditText txtView = (EditText) v;
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("keyboard Word:" + txtView.getText().toString());
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
                     txtView.setText("");
 
 
@@ -157,8 +168,13 @@ public class PageThreeFragment extends android.support.v4.app.Fragment {
         f_spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(f_spinner.getSelectedItem() + ""));
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(f_spinner.getSelectedItem() + ""));
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
 
                 Toast.makeText(getActivity(), toUperCase(f_spinner.getSelectedItem() + ""), Toast.LENGTH_LONG).show();
             }
@@ -175,9 +191,14 @@ public class PageThreeFragment extends android.support.v4.app.Fragment {
         f_spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(more_spinner.getSelectedItem() + ""));
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(more_spinner.getSelectedItem() + ""));
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
                 Toast.makeText(getActivity(), toUperCase(more_spinner.getSelectedItem() + ""), Toast.LENGTH_LONG).show();
-                MouseUIActivity.ps.flush();
             }
         });
 
@@ -191,13 +212,24 @@ public class PageThreeFragment extends android.support.v4.app.Fragment {
 
     CompoundButton.OnCheckedChangeListener oncheck = new CompoundButton.OnCheckedChangeListener() {
         @Override
-        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        public void onCheckedChanged(final CompoundButton buttonView, boolean isChecked) {
             if (buttonView.isChecked()) {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_START");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_START");
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
             } else {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_STOP");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_STOP");
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
+
             }
 
         }

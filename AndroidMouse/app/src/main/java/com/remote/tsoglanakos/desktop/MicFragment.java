@@ -77,8 +77,14 @@ public class MicFragment extends android.support.v4.app.Fragment {
             protected void onPreExecute() {
                 super.onPreExecute();
 
-                MouseUIActivity.ps.println("START_AUDIO_RECORDING");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("START_AUDIO_RECORDING");
+                        MouseUIActivity.ps.flush();
+
+                    }
+                }.start();
             }
 
             @Override

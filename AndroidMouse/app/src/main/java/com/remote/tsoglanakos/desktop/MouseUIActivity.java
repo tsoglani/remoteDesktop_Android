@@ -198,10 +198,16 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                         if (!type.equals("Wear")){
                             qualityPad=80;
                         }
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("QualityCam:" + qualityCam);
+                                MouseUIActivity.ps.println("QualityPad:" + qualityPad);
+                                MouseUIActivity.ps.flush();
+                            }
+                        }.start();
 
 
-                        MouseUIActivity.ps.println("QualityCam:" + qualityCam);
-                        MouseUIActivity.ps.println("QualityPad:" + qualityPad);
 
 
                     } catch (Exception e) {
@@ -228,7 +234,14 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                 if (receivedImageX > maxResolution) {
                     receivedImageX = maxResolution;
                 }
-                MouseUIActivity.ps.println("Resolution:" + receivedImageX);
+
+
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("Resolution:" + receivedImageX);
+                    }
+                }.start();
                 contentFragment = ContentFragment.newInstance(R.drawable.icn_1);
                 if (previousTab == null) {
                     previousTab = "MousePad";
@@ -1492,8 +1505,15 @@ if(type.equals("Wear")){
         if (previousTab != null && previousTab.equalsIgnoreCase(title)) {
             return contentFragment;
         }
-        progress = ProgressDialog.show(MouseUIActivity.this, "Please wait ...", "", true);
-        progress.setCancelable(false);
+        runOnUiThread(new Thread(){
+
+            @Override
+            public void run() {
+                progress = ProgressDialog.show(MouseUIActivity.this, "Please wait ...", "", true);
+                progress.setCancelable(false);
+            }
+        });
+
 
 
         // Toast.makeText(getApplicationContext(),"Please Wait ..",Toast.LENGTH_SHORT).show();
@@ -1507,9 +1527,9 @@ if(type.equals("Wear")){
                     mf = null;
                 }
 
-                if (previousTab != null && ((previousTab.equalsIgnoreCase("MousePad") && title.equalsIgnoreCase("Spy Microphone")))) {
-                    closeAndCreateAgaiConnection();
-                }
+//                if (previousTab != null && ((previousTab.equalsIgnoreCase("MousePad") && title.equalsIgnoreCase("Spy Microphone")))) {
+//                    closeAndCreateAgaiConnection();
+//                }
 
 //                if ((previousTab != null && title.equalsIgnoreCase("MousePad") && previousTab.equalsIgnoreCase("Spy Camera"))) {
 //                    runOnUiThread(new Thread() {
@@ -1982,9 +2002,15 @@ if(type.equals("Wear")){
 //    }
 //
     public void pauseJoystickFunction(View v) {
-        String pauseString = getData("pause", "ESC");
-        MouseUIActivity.ps.println("keyboard:" + pauseString);
-        MouseUIActivity.ps.flush();
+      final  String pauseString = getData("pause", "ESC");
+        new Thread(){
+            @Override
+            public void run() {
+                MouseUIActivity.ps.println("keyboard:" + pauseString);
+                MouseUIActivity.ps.flush();
+            }
+        }.start();
+
 
     }
 
@@ -2178,8 +2204,14 @@ if(type.equals("Wear")){
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                 if (position != 0) {
-                    MouseUIActivity.ps.println("keyboard:" + f_spinner.getSelectedItem().toString());
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("keyboard:" + f_spinner.getSelectedItem().toString());
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
+
                     f_spinner.setSelection(0);
                     f_spinner.setRotationY(0);
                 }
@@ -2194,41 +2226,56 @@ if(type.equals("Wear")){
 
         alt.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+            public void onCheckedChanged(CompoundButton buttonView, final boolean isChecked) {
+                new Thread(){
+                    @Override
+                    public void run() {
+
+
                 if (isChecked) {
+
                     MouseUIActivity.ps.println("keyboard:" + "ALT_START");
                     MouseUIActivity.ps.flush();
                 } else {
                     MouseUIActivity.ps.println("keyboard:" + "ALT_STOP");
                     MouseUIActivity.ps.flush();
                 }
+                    }
+                }.start();
             }
         });
 
 
         shift.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    MouseUIActivity.ps.println("keyboard:" + "SHIFT_START");
-                    MouseUIActivity.ps.flush();
-                } else {
-                    MouseUIActivity.ps.println("keyboard:" + "SHIFT_STOP");
-                    MouseUIActivity.ps.flush();
-                }
+            public void onCheckedChanged(CompoundButton buttonView,final boolean isChecked) {
+                new Thread(){
+                    @Override
+                    public void run() {
+                        if (isChecked) {
+                            MouseUIActivity.ps.println("keyboard:" + "SHIFT_START");
+                            MouseUIActivity.ps.flush();
+                        } else {
+                            MouseUIActivity.ps.println("keyboard:" + "SHIFT_STOP");
+                            MouseUIActivity.ps.flush();
+                        }
+                    }}.start();
             }
         });
 
         ctrl.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+            public void onCheckedChanged(CompoundButton buttonView, final boolean isChecked) {
+                new Thread(){
+                    @Override
+                    public void run() {
                 if (isChecked) {
                     MouseUIActivity.ps.println("keyboard:" + "CTRL_START");
                     MouseUIActivity.ps.flush();
                 } else {
                     MouseUIActivity.ps.println("keyboard:" + "CTRL_STOP");
                     MouseUIActivity.ps.flush();
-                }
+                }}}.start();
             }
         });
 
@@ -2253,15 +2300,19 @@ if(type.equals("Wear")){
 //
     private KeyboardView.OnKeyboardActionListener mOnKeyboardActionListener = new KeyboardView.OnKeyboardActionListener() {
         @Override
-        public void onKey(int primaryCode, int[] keyCodes) {
+        public void onKey(final int primaryCode, int[] keyCodes) {
 //            Toast.makeText(MouseUIActivity.this, hash.get(primaryCode), Toast.LENGTH_SHORT).show();
             if (hash.get(primaryCode) != null) {
                 if (hash.get(primaryCode).equals("HIDE")) {
                     hideKeyboard();
                     return;
                 } else {
-                    MouseUIActivity.ps.println("keyboard:" + hash.get(primaryCode));
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("keyboard:" + hash.get(primaryCode));
+                            MouseUIActivity.ps.flush();
+                        }}.start();
                 }
             }
         }
@@ -2301,14 +2352,18 @@ if(type.equals("Wear")){
 
     CompoundButton.OnCheckedChangeListener oncheck = new CompoundButton.OnCheckedChangeListener() {
         @Override
-        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-            if (buttonView.isChecked()) {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_START");
-                MouseUIActivity.ps.flush();
-            } else {
-                MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_STOP");
-                MouseUIActivity.ps.flush();
-            }
+        public void onCheckedChanged(final CompoundButton buttonView, boolean isChecked) {
+            new Thread(){
+                @Override
+                public void run() {
+                    if (buttonView.isChecked()) {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_START");
+                        MouseUIActivity.ps.flush();
+                    } else {
+                        MouseUIActivity.ps.println("keyboard:" + toUperCase(buttonView.getText().toString()) + "_STOP");
+                        MouseUIActivity.ps.flush();
+                    }
+                }}.start();
 
         }
     };
@@ -2320,8 +2375,13 @@ if(type.equals("Wear")){
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position != 0) {
-                    MouseUIActivity.ps.println("keyboard:" + toUperCase(spinner.getSelectedItem() + ""));
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("keyboard:" + toUperCase(spinner.getSelectedItem() + ""));
+                            MouseUIActivity.ps.flush();
+                        }}.start();
+
                     runOnUiThread(new Thread() {
                         @Override
                         public void run() {
@@ -2351,18 +2411,34 @@ if(type.equals("Wear")){
 
             if (alt.isChecked()) {
                 alt.setChecked(false);
-                MouseUIActivity.ps.println("keyboard:" + "ALT_STOP");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + "ALT_STOP");
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
             }
             if (shift.isChecked()) {
                 shift.setChecked(false);
-                MouseUIActivity.ps.println("keyboard:" + "SHIFT_STOP");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + "SHIFT_STOP");
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
+
             }
             if (ctrl.isChecked()) {
                 ctrl.setChecked(false);
-                MouseUIActivity.ps.println("keyboard:" + "CTRL_STOP");
-                MouseUIActivity.ps.flush();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("keyboard:" + "CTRL_STOP");
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
             }
 
             ll.setVisibility(View.INVISIBLE);
@@ -2610,8 +2686,14 @@ if(type.equals("Wear")){
         resolution.setProgress(receivedImageX);
         resolution.setOnProgressChangeListener(new DiscreteSeekBar.OnProgressChangeListener() {
             @Override
-            public void onProgressChanged(DiscreteSeekBar discreteSeekBar, int i, boolean b) {
-                MouseUIActivity.ps.println("Resolution:" + discreteSeekBar.getProgress());
+            public void onProgressChanged(final DiscreteSeekBar discreteSeekBar, int i, boolean b) {
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("Resolution:" + discreteSeekBar.getProgress());
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
                 receivedImageX = discreteSeekBar.getProgress();
                 receivedImageY = discreteSeekBar.getProgress();
                 saveInteger("Resolution", i);
@@ -2634,10 +2716,16 @@ if(type.equals("Wear")){
         show_computer_mouse_seperate.setChecked(is_show_computer_mouse_seperate);
         show_computer_mouse_seperate.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+            public void onCheckedChanged(CompoundButton buttonView,final  boolean isChecked) {
                 saveBoolean(show_computer_mouse_seperateString, isChecked);
-                MouseUIActivity.ps.println("ShowMouse:" + isChecked);
-                MouseUIActivity.ps.flush();
+
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("ShowMouse:" + isChecked);
+                        MouseUIActivity.ps.flush();
+                    }
+                }.start();
 
             }
         });
@@ -2696,12 +2784,26 @@ if(type.equals("Wear")){
             public void onProgressChanged(DiscreteSeekBar discreteSeekBar, int i, boolean b) {
                 if (tabTitle.equalsIgnoreCase("Spy Camera")) {
                     qualityCam = discreteSeekBar.getProgress();
-                    MouseUIActivity.ps.println("QualityCam:" + qualityCam);
+                    new Thread(){
+                        @Override
+                        public void run() {
+
+                            MouseUIActivity.ps.println("QualityCam:" + qualityCam);
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
                     quality_text.setText("Quality : " + qualityCam);
                     saveInteger("qualityCam", i);
                 } else if (tabTitle.equalsIgnoreCase("Mousepad")) {
                     qualityPad = discreteSeekBar.getProgress();
-                    MouseUIActivity.ps.println("QualityPad:" + qualityPad);
+                    new Thread(){
+                        @Override
+                        public void run() {
+
+                            MouseUIActivity.ps.println("QualityPad:" + qualityPad);
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
                     quality_text.setText("Quality : " + qualityPad);
                     saveInteger("qualityPad", i);
                 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="remote_desktop.nick.tsoglanakos.wear.test">
+    package="com.remote.tsoglanakos.desktop.test">
 
     <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="remote_desktop.nick.tsoglanakos.wear"
+                     android:targetPackage="com.remote.tsoglanakos.desktop"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for remote_desktop.nick.tsoglanakos.wear"/>
+                     android:label="Tests for com.remote.tsoglanakos.desktop"/>
 </manifest>

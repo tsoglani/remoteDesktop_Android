@@ -136,9 +136,17 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         if( MouseUIActivity.ps==null){
             return;
         }
-        boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, false);
-        MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
-        MouseUIActivity.ps.flush();
+//        boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, false);
+        new Thread(){
+            @Override
+            public void run() {
+                boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, false);
+
+                MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
+                MouseUIActivity.ps.flush();
+
+            }
+        }.start();
         waitUntilDraw = false;
         View coursor = getActivity().findViewById(R.id.coursor);
 
@@ -158,8 +166,14 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
             second_coursor.setVisibility(View.INVISIBLE);
         }
 
-        MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+        new Thread(){
+            @Override
+            public void run() {
+                MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
 
+
+            }
+        }.start();
         final Button lc = (Button) getActivity().findViewById(R.id.lc);
 
         lc.setOnTouchListener(new View.OnTouchListener() {
@@ -167,15 +181,30 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
             public boolean onTouch(View v, MotionEvent event) {
                 try {
                     if (MotionEvent.ACTION_UP == event.getAction()) {
-                        MouseUIActivity.ps.println("LEFT_CLICK_UP");
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("LEFT_CLICK_UP");
+
+                                MouseUIActivity.ps.flush();
+
+                            }
+                        }.start();
                         MouseUIActivity.ps.flush();
                         lc.setBackgroundResource(R.drawable.left_click);
                         isOnTouchDown = false;
                         waitUntilDraw = false;
                         updateZoomViewWithLocation();
                     } else if (MotionEvent.ACTION_DOWN == event.getAction()) {
-                        MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
-                        MouseUIActivity.ps.flush();
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
+
+                                MouseUIActivity.ps.flush();
+
+                            }
+                        }.start();
                         lc.setBackgroundResource(R.drawable.left_click2pressed3);
                         isOnTouchDown = false;
                         waitUntilDraw = false;
@@ -235,9 +264,17 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         sb.setProgress(zoomValue);
         sb.setOnProgressChangeListener(new DiscreteSeekBar.OnProgressChangeListener() {
             @Override
-            public void onProgressChanged(DiscreteSeekBar discreteSeekBar, int i, boolean b) {
+            public void onProgressChanged(final DiscreteSeekBar discreteSeekBar, int i, boolean b) {
                 if (MouseUIActivity.ps != null){
-                    MouseUIActivity.ps.println("ZOOM:" + discreteSeekBar.getProgress());}
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("ZOOM:" + discreteSeekBar.getProgress());
+                            MouseUIActivity.ps.flush();
+
+                        }
+                    }.start();
+            }
                 else{
                     Intent intent= new Intent(getContext(),MainActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -275,8 +312,15 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                 firstTouchX = -1;
                 firstTouchY = -1;
                 waitUntilDraw = false;
-                View coursor = getActivity().findViewById(R.id.coursor);
-                MouseUIActivity.ps.println("MoveTo:x=" + (coursor.getX()) / fl.getWidth() + ":y=" + (coursor.getY()) / fl.getHeight());
+             final   View coursor = getActivity().findViewById(R.id.coursor);
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("MoveTo:x=" + (coursor.getX()) / fl.getWidth() + ":y=" + (coursor.getY()) / fl.getHeight());
+                        MouseUIActivity.ps.flush();
+
+                    }
+                }.start();
                 updateZoomViewWithLocation();
             }
 
@@ -322,8 +366,17 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
             sb.setProgress(PageOneFragment.zoomValue);
         if (zoomView != null)
             zoomView.setText("ZOOM: " + PageOneFragment.zoomValue + "%");
-        if (MouseUIActivity.ps != null)
-            MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+        if (MouseUIActivity.ps != null){
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
+
+        }
         DrawerLayout drawerLayout = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
 
     }
@@ -336,11 +389,23 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         }
         isGoingUp = isGoingUp(event);
         if (isGoingUp) {
-            MouseUIActivity.ps.println("SCROLL_DOWN");
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("SCROLL_DOWN");
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
         } else {
-            MouseUIActivity.ps.println("SCROLL_UP");
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("SCROLL_UP");
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
         }
     }
 
@@ -371,9 +436,9 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         public boolean onTouch(View v, MotionEvent event) {
             View second_coursor = getActivity().findViewById(R.id.second_coursor);
             int distanceXToSplit = 0, distanceYToSplit = 0;
-            View coursor = getActivity().findViewById(R.id.coursor);
+           final View coursor = getActivity().findViewById(R.id.coursor);
 //            View second_coursor = getActivity().findViewById(R.id.second_coursor);
-            ImageView fl = (ImageView) getActivity().findViewById(R.id.mousepad_screen);
+           final ImageView fl = (ImageView) getActivity().findViewById(R.id.mousepad_screen);
 
             try {
 
@@ -400,10 +465,11 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                     isOnTouchDown = true;
                     if (zoomValue > 0) {
                         if (!waitUntilDraw) {
-                            MouseUIActivity.ps.println("MoveTo:x=" + (coursor.getX()) / fl.getWidth() + ":y=" + (coursor.getY()) / fl.getHeight());
                             new Thread() {
                                 @Override
                                 public void run() {
+                                    MouseUIActivity.ps.println("MoveTo:x=" + (coursor.getX()) / fl.getWidth() + ":y=" + (coursor.getY()) / fl.getHeight());
+
                                     try {
                                         Thread.sleep(200);
                                         if (isOnTouchDown)
@@ -463,9 +529,16 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                         if (finishEvent - startEvent > 110) {
                             counter = -1;
                         }
+                        final View coursor2=   coursor;
 
-                        MouseUIActivity.ps.println("MoveTo:x=" + (coursor.getX() + dpToPx(1.5f)) / fl.getWidth() + ":y=" + (coursor.getY()) / (fl.getHeight()));
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("MoveTo:x=" + (coursor2.getX() + dpToPx(1.5f)) / fl.getWidth() + ":y=" + (coursor2.getY()) / (fl.getHeight()));
 
+
+                            }
+                        }.start();
                         firstTouchX = -1;
                         firstTouchY = -1;
                     }
@@ -511,8 +584,15 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
 
                     counter++;
                     if (counter == 1) {
-                        MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
-                        MouseUIActivity.ps.println("LEFT_CLICK_UP");
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
+                                MouseUIActivity.ps.println("LEFT_CLICK_UP");
+
+                            }
+                        }.start();
+
                         MouseUIActivity.ps.flush();
                         if (oneThread == null || !oneThread.isAlive()) {
                             oneThread = new Thread() {
@@ -535,9 +615,16 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                     }
                     if (counter == 2) {
                         oneThread = null;
-                        MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
-                        MouseUIActivity.ps.println("LEFT_CLICK_UP");
-                        MouseUIActivity.ps.flush();
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
+                                MouseUIActivity.ps.println("LEFT_CLICK_UP");
+                                MouseUIActivity.ps.flush();
+
+                            }
+                        }.start();
+
                         updateZoomViewTwice();
 
                     }
@@ -1020,8 +1107,17 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
             is_show_computer_mouse_seperate = !is_show_computer_mouse_seperate;
 
             saveBoolean(MouseUIActivity.show_computer_mouse_seperateString, is_show_computer_mouse_seperate);
-            MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, true);
+
+                    MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
+                    MouseUIActivity.ps.flush();
+
+
+                }
+            }.start();
         }
 
 //        else if (action == MotionEvent.ACTION_POINTER_DOWN && (pointerCount == 4)) {
@@ -1034,8 +1130,19 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
         else if (action == MotionEvent.ACTION_POINTER_DOWN && (pointerCount == 4)) {
             is_show_computer_mouse_seperate = !is_show_computer_mouse_seperate;
             saveBoolean(MouseUIActivity.show_computer_mouse_seperateString, is_show_computer_mouse_seperate);
-            MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
-            MouseUIActivity.ps.flush();
+
+
+            new Thread(){
+                @Override
+                public void run() {
+                    boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(getActivity(), MouseUIActivity.show_computer_mouse_seperateString, true);
+
+                    MouseUIActivity.ps.println("ShowMouse:" + is_show_computer_mouse_seperate);
+                    MouseUIActivity.ps.flush();
+
+
+                }
+            }.start();
             toggleZoomBar();
         }
 
@@ -1091,22 +1198,48 @@ public class PageOneFragment extends android.support.v4.app.Fragment {
                     previousPoints[1].y > (int) m.getY(1)) {
                 isScrolling = true;
                 if (isMacMode) {
-                    MouseUIActivity.ps.println("SCROLL_DOWN");
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("SCROLL_DOWN");
+                            MouseUIActivity.ps.flush();
+
+
+                        }
+                    }.start();
+
                 } else {
-                    MouseUIActivity.ps.println("SCROLL_UP");
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("SCROLL_UP");
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
+
                 }
             }
             if (previousPoints[0].y < (int) m.getY(0) &&
                     previousPoints[1].y < (int) m.getY(1)) {
                 isScrolling = true;
                 if (isMacMode) {
-                    MouseUIActivity.ps.println("SCROLL_UP");
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("SCROLL_UP");
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
+
                 } else {
-                    MouseUIActivity.ps.println("SCROLL_DOWN");
-                    MouseUIActivity.ps.flush();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("SCROLL_DOWN");
+                            MouseUIActivity.ps.flush();
+                        }
+                    }.start();
+
                 }
             }
 //            if (!isScrolling) {

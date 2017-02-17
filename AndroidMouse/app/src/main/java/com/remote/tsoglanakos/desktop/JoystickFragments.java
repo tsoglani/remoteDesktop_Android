@@ -160,8 +160,15 @@ public class JoystickFragments extends Fragment {
 
     public void gameButtonFunction(View v) {
         Button b = (Button) v;
-        String text = b.getText().toString();
-        MouseUIActivity.ps.println("keyboard:" + text);
+       final String text = b.getText().toString();
+        new Thread(){
+            @Override
+            public void run() {
+                MouseUIActivity.ps.println("keyboard:" + text);
+
+
+            }
+        }.start();
         MouseUIActivity.ps.flush();
     }
 
@@ -171,23 +178,50 @@ public class JoystickFragments extends Fragment {
         Button rightButton = (Button) getActivity().findViewById(R.id.right);
         Button leftButton = (Button) getActivity().findViewById(R.id.left);
 
-        String upString = getData("up", "UP");
-        String downString = getData("down", "DOWN");
-        String rightString = getData("right", "RIGHT"), leftString = getData("left", "LEFT");
+      final  String upString = getData("up", "UP");
+        final  String downString = getData("down", "DOWN");
+        final  String rightString = getData("right", "RIGHT"), leftString = getData("left", "LEFT");
 
 
         if (v == upButton) {
-            MouseUIActivity.ps.println("keyboard:" + upString);
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("keyboard:" + upString);
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
+
         } else if (v == downButton) {
-            MouseUIActivity.ps.println("keyboard:" + downString);
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("keyboard:" + downString);
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
         } else if (v == rightButton) {
-            MouseUIActivity.ps.println("keyboard:" + rightString);
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("keyboard:" + rightString);
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
+
         } else if (v == leftButton) {
-            MouseUIActivity.ps.println("keyboard:" + leftString);
-            MouseUIActivity.ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("keyboard:" + leftString);
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
+
         }
     }
 }

@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout-v21/dismiss_overlay.xml"
     }

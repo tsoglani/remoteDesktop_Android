@@ -1,47 +1,43 @@
 [
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ic_launcher.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/image_placeholder.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable/image_placeholder.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/info1_blue.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/info1_blue.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/shutdown.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/shutdown.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_8.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_8.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/volume_up.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/volume_up.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/back_space.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/back_space.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scroll_up.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/scroll_up.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/drawable/design_fab_background.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/keyboard2.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/keyboard2.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/pref.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/pref.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/invisible.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/invisible.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/up.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/up.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_dark.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_settings_dark.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nozoom1.png",
@@ -52,20 +48,32 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nomouse1.png"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray_dark.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_done.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_done.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/on3.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/on3.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mouse.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mouse.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/backspace.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/backspace.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/print_sc.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/print_sc.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help1_red.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help1_red.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
@@ -80,24 +88,8 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/round_shape.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_play_light.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_settings_light.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy2.png",
@@ -112,8 +104,8 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_mono_light.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/del.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/del.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
@@ -124,60 +116,24 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/hide.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/enter.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/enter.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ci.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ci.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/lv_white_to_gray.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/lv_white_to_gray.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allleft.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allleft.png"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ci.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ci.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/down_pressed.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/down_pressed.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_play_light.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red_dark.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/up.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/up.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/info_red.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/info_red.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_light.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2.jpg"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_dark.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/visible.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/visible.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/zoom1.png",
@@ -188,44 +144,80 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/txt.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed2.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed2.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed3.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed3.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right.png"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_pressed.jpg"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/image_placeholder.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable/image_placeholder.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help1_blue.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help1_blue.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help_red.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help_red.png"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_close.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_close.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/zoom.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/zoom.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cursor.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/cursor.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/visible.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/visible.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_green.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_green.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed2.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed2.jpg"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/visible.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/visible.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scrollbar.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable/scrollbar.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_delete.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_delete.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/hide.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/hide.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_done.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_done.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/rodela.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/rodela.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_blue_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_blue_dark.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cursor.png",
@@ -238,6 +230,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/volume_up.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/volume_up.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/print_sc.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/print_sc.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_pressed.jpg",
@@ -256,6 +252,10 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/close_button.xml"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator_select.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator_select.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/setporticon.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/setporticon.png"
     },
@@ -264,12 +264,12 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_mouse.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/restart.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/restart.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_4.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_4.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/escape.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/escape.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_1.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator_select.xml",
@@ -288,116 +288,104 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scroll_down.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/scroll_down.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sleep.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sleep.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_right.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_right.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_home.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_home.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_5.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_5.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_2.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_2.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_slider_line.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/ic_slider_line.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_yellow.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_yellow.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/enter.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/enter.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_launcher2.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ic_launcher2.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_2.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_2.xml"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed.jpg",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_8.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_8.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/edit.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/edit.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nozoom.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nozoom.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_more_vert_24dp_wht.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/ic_more_vert_24dp_wht.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_green_dark.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_green_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_1.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_1.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click.jpg",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_delete.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_delete.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_4.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_4.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/volume_down.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/volume_down.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help1_blue.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help1_blue.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allright.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allright.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -412,36 +400,24 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mouse.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mouse1.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/mouse1.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/save.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/save.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nozoom.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nozoom.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_3.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_3.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/card_background.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/card_background.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_close.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_close.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_green.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_green.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/shift.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/shift.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -456,72 +432,64 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_blue_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/gamepad.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/gamepad.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/backspace.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/backspace.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_mouse.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_mouse.jpg"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_3.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_3.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_blue.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_blue.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_purple.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_purple.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2.jpg",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/volume_down.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/volume_down.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed3.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed3.jpg"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/alt.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/alt.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help1_red.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help1_red.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/x.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/x.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_pressed.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_pressed.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/setporticon.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/setporticon.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_play_dark.xml"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/escape.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/escape.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/keyboard2.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/keyboard2.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_dark.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystic_circle.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystic_circle.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_home.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_home.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/info_red.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/info_red.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/info1_blue.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/info1_blue.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_mouse.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_mouse.jpg"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/action_item_icon_background.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/action_item_icon_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/close_button.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable/close_button.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -532,24 +500,8 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/res/drawable/menu_item_selector.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystick1.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystick1.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/hex.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/hex.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystic_circle.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystic_circle.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
@@ -560,10 +512,6 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_7.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cancel.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/cancel.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed3.jpg",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed3.jpg"
     },
@@ -572,24 +520,32 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_1.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nomouse1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nomouse1.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_close.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_close.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/edit.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/edit.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_green_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_green_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/alt.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/alt.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_yellow.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_yellow.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray_dark.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ctrl.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ctrl.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/del.png",
@@ -604,60 +560,56 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy_icon.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_left.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_left.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/txt.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/txt.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_dark.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/add.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/add.png"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator_normal.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator_normal.xml"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_left.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_left.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_6.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_6.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable/cast_ic_notification_connecting.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/delete.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/delete.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed.jpg"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/action_item_background.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/action_item_background.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/delete.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/delete.png"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main_dark.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main_dark.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/shutdown.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/shutdown.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/tab.png",
@@ -680,28 +632,36 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_mouse.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_mouse.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed2.jpg"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/shift.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/shift.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_6.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_6.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/delete1.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/delete1.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_left.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_left.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/delete1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/delete1.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help_blue.png",
@@ -712,31 +672,795 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left.png"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_green.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_green.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed2.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed2.jpg"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scroll_up.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/scroll_up.png"
     },
     {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/space.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/space.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator_normal.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator_normal.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_more_horiz_24dp_wht.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/ic_more_horiz_24dp_wht.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/shutdown.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/shutdown.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/back_space.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/back_space.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/invisible.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/invisible.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/gamepad.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/gamepad.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/on3.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/on3.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/print_sc.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/print_sc.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/lv_white_to_gray.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/lv_white_to_gray.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allright.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allright.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_7.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_7.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help_blue.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help_blue.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_return.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_return.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_3.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_3.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/space.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/space.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/enter.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/enter.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_right.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_right.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allleft.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allleft.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/down_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/down_pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/hex.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/hex.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/up.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/up.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ci.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ci.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/info_red.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/info_red.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/x.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/x.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_1.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_1.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/add.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/add.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_5.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_5.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/restart.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/restart.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/save.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/save.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/invisible.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/invisible.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_yellow.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_yellow.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_launcher2.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ic_launcher2.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cancel.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/cancel.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scrollbar.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable/scrollbar.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/menu_item_selector.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/res/drawable/menu_item_selector.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/on3.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/on3.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/restart.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/restart.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/escape.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/escape.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scroll_down.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/scroll_down.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sleep.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sleep.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_right.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_right.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/tab.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/tab.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_yellow.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_yellow.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/zoom1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/zoom1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_2.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_2.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_8.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_8.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mouse1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/mouse1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allleft.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allleft.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_1.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_1.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help_red.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help_red.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mouse2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mouse2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_4.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_4.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sym_keyboard_allright.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sym_keyboard_allright.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/up_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/up_pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_yellow.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_yellow.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_3.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_3.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mouse1.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/mouse1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/save.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/save.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nozoom.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nozoom.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed2.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy2.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy2.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_3.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_3.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/card_background.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/down_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/down_pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scrollbar.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable/scrollbar.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/gamepad.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/gamepad.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_mouse.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_mouse.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/zoom.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/zoom.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_blue.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_blue.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystick1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystick1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joy_icon.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joy_icon.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/volume_down.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/volume_down.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed3.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed3.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/alt.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/alt.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/help1_red.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/help1_red.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/x.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/x.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_pressed.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_pressed.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_home.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_home.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/sleep.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/sleep.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_red.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_red.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/icn_2.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/icn_2.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystick1.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystick1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/joystic_circle.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/joystic_circle.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/hex.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/hex.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_blue.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_blue.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cancel.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/cancel.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/edit.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/edit.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_blue.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_blue.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/scroll_down.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/scroll_down.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_gray_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_gray_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/add.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/add.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/indicator_normal.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/drawable/indicator_normal.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/round_shape.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/round_shape.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/down.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/down.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/action_item_background.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/action_item_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/delete.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/delete.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_red.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_red.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main_dark.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/nozoom1.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/nozoom1.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/back_space.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/back_space.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_main.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_main.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/windows.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/windows.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_drawable_green.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_drawable_green.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/right_click_click2pressed3.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/right_click_click2pressed3.jpg"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/card_background.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/center_click_mous2pressed2.jpg",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/center_click_mous2pressed2.jpg"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/windows.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/windows.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/space.jpg",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/space.jpg"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/circle_2.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/circle_2.xml"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ctrl.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/ctrl.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/ic_more_horiz_24dp_wht.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/drawable/ic_more_horiz_24dp_wht.xml"
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/pref.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/pref.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable/left_click2pressed3.jpg",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/drawable/left_click2pressed3.jpg"
     }
 ]

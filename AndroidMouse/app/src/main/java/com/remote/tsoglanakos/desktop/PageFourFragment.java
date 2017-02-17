@@ -41,7 +41,7 @@ private void shutDown(){
 
     LinearLayout linear=new LinearLayout(getActivity());
 
-    linear.setOrientation(1);
+    linear.setOrientation(LinearLayout.VERTICAL);
     final TextView text=new TextView(getActivity());
     text.setText("Shut Down now");
     text.setPadding(10, 10, 10, 10);
@@ -76,8 +76,17 @@ seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
     alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
         public void onClick(DialogInterface dialog, int id) {
-            MouseUIActivity.ps.println("SHUT_DOWN_IN:" + seek.getProgress());
-            MouseUIActivity.ps.flush();
+
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("SHUT_DOWN_IN:" + seek.getProgress());
+
+
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
         }
     });
 
@@ -103,7 +112,16 @@ alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener(){
         public void onClick(View v) {
 
             TextView txtView= (TextView) getActivity().findViewById(R.id.restart_text_view);
-            MouseUIActivity.ps.println("RESTART");
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("RESTART" );
+
+
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
             }
     };
     View.OnClickListener sleepListener= new View.OnClickListener() {
@@ -111,7 +129,16 @@ alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener(){
         public void onClick(View v) {
 
             TextView txtView= (TextView) getActivity().findViewById(R.id.sleep_text_view);
-            MouseUIActivity.ps.println("SLEEP");
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("SLEEP" );
+
+
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
             }
     };
 

@@ -14,10 +14,6 @@
         android:scaleX="1"
         android:scaleY="1"
         android:rotation="65">
-        <path
-            android:name="border_path"
-            android:fillColor="#FF1CE8B5"
-            android:pathData="m-0.05012,-40c22.0637,0 39.94986,17.88617 39.94986,39.94988c0,22.06371 -17.88617,39.94987 -39.94986,39.94987c-22.06371,0 -39.94988,-17.88617 -39.94988,-39.94987c0,-22.06371 17.88617,-39.94988 39.94988,-39.94988z" />
         <group android:name="check">
             <path
                 android:name="check_path"
@@ -26,4 +22,3 @@
         </group>
     </group>
 </vector>
-<!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/drawable-v21/generic_confirmation.xml -->

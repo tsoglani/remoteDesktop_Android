@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
@@ -8,7 +9,8 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_centerInParent="true"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitCenter"
+        tools:ignore="ContentDescription" />
     <TextView
         android:id="@+id/wearable_support_navigation_drawer_item_text"
         android:layout_width="match_parent"
@@ -16,6 +18,5 @@
         android:layout_below="@id/wearable_support_navigation_drawer_item_icon"
         android:layout_marginTop="6dp"
         android:gravity="center_horizontal"
-        android:textColor="@android:color/white"/>
+        android:textColor="?android:attr/textColorPrimary"/>
 </RelativeLayout>
-<!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/layout/navigation_drawer_item_view.xml -->

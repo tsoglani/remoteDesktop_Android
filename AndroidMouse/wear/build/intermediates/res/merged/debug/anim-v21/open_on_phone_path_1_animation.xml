@@ -9,4 +9,3 @@
         android:valueType="pathType"
         android:interpolator="@interpolator/open_on_phone_animation_interpolator_1" />
 </set>
-<!-- From: file:/tmp/tmp-deduplicated574725355717134199/third_party/java_src/android_libs/android_wear/wearable_support/java/android/support/wearable/res/anim-v21/open_on_phone_path_1_animation.xml -->

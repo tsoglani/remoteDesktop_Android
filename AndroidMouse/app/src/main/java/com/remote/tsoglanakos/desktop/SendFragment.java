@@ -300,8 +300,13 @@ if(isAllPermissionGranded){
 
     private synchronized  void sendAudio(Uri uri) {
         try {
-
-            MouseUIActivity.ps.println("Send:" + 1);
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println("Send:" + 1);
+                    MouseUIActivity.ps.flush();
+                }
+            }.start();
             BufferedReader br = new BufferedReader(new InputStreamReader(InternetConnection.returnSocket.getInputStream()));
             String ready = br.readLine();
            ;
@@ -328,8 +333,16 @@ if(isAllPermissionGranded){
             folder = " ";
         }
         allTitles += folder;
-        MouseUIActivity.ps.println(allTitles);
-        MouseUIActivity.ps.flush();
+        final String allTitles2=allTitles;
+        new Thread(){
+            @Override
+            public void run() {
+
+                MouseUIActivity.ps.println(allTitles2);
+                MouseUIActivity.ps.flush();
+            }
+        }.start();
+
         byte[] result = getBytes(f.getAbsolutePath());
         DataOutputStream dos = new DataOutputStream(InternetConnection.returnSocket.getOutputStream());
         dos.write(result);
@@ -378,10 +391,16 @@ if(isAllPermissionGranded){
 
 
         try {
-            ArrayList<com.darsh.multipleimageselect.models.Image> imagesPaths = data.getParcelableArrayListExtra(Constants.INTENT_EXTRA_IMAGES);
+          final  ArrayList<com.darsh.multipleimageselect.models.Image> imagesPaths = data.getParcelableArrayListExtra(Constants.INTENT_EXTRA_IMAGES);
 
+            new Thread(){
+                @Override
+                public void run() {
 
-            MouseUIActivity.ps.println("Send:" + imagesPaths.size());
+                    MouseUIActivity.ps.println("Send:" + imagesPaths.size());
+                    MouseUIActivity.ps.flush();
+                }
+            }.start();
             BufferedReader br = new BufferedReader(new InputStreamReader(InternetConnection.returnSocket.getInputStream()));
             String ready = br.readLine();
             if (!ready.equalsIgnoreCase("ok")) {
@@ -403,9 +422,16 @@ if(isAllPermissionGranded){
                 folder = " ";
             }
             allTitles += folder;
+            final String allTitles2=allTitles;
+            new Thread(){
+                @Override
+                public void run() {
 
-            MouseUIActivity.ps.println(allTitles);
-            MouseUIActivity.ps.flush();
+                    MouseUIActivity.ps.println(allTitles2);
+                    MouseUIActivity.ps.flush();
+                }
+            }.start();
+
             for (int i = 0; i < imagesPaths.size(); i++) {
                 findAndSend(imagesPaths.get(i).path);
             }

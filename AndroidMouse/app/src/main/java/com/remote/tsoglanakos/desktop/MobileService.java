@@ -23,7 +23,7 @@ public class MobileService extends WearableListenerService {
         super.onMessageReceived(messageEvent);
         //Log.i(MobileService.class.getSimpleName(), "WEAR Message " + messageEvent.getPath());
 
-        String message = new String(messageEvent.getData());
+       final String message = new String(messageEvent.getData());
 //        Toast.makeText(MobileService.this, "Message = "+message, Toast.LENGTH_SHORT).show();
 
         if (message.equals("start")) {
@@ -67,17 +67,41 @@ public class MobileService extends WearableListenerService {
             if (MouseUIActivity.ps != null) {
                 if (PageOneFragment.zoomValue != 0) {
                     PageOneFragment.zoomValue = 0;
-                    MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            MouseUIActivity.ps.println("ZOOM:" + PageOneFragment.zoomValue);
+                            MouseUIActivity.ps.println(message);
+
+                            MouseUIActivity.ps.flush();
+
+                        }
+                    }.start();
                 }
-                MouseUIActivity.ps.println(message);
             }
         } else if (message.equals("LEFT_CLICK")) {
             if (MouseUIActivity.ps != null)
-                MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
-            MouseUIActivity.ps.println("LEFT_CLICK_UP");
-        } else if (message.startsWith("LEFT_CLICK") || message.startsWith("RIGHT_CLICK")) {
-            MouseUIActivity.ps.println(message);
+                new Thread(){
+                    @Override
+                    public void run() {
+                        MouseUIActivity.ps.println("LEFT_CLICK_DOWN");
+                        MouseUIActivity.ps.println("LEFT_CLICK_UP");
 
+                        MouseUIActivity.ps.flush();
+
+                    }
+                }.start();
+
+        } else if (message.startsWith("LEFT_CLICK") || message.startsWith("RIGHT_CLICK")) {
+            new Thread(){
+                @Override
+                public void run() {
+                    MouseUIActivity.ps.println(message);
+
+                    MouseUIActivity.ps.flush();
+
+                }
+            }.start();
         }
 
 
