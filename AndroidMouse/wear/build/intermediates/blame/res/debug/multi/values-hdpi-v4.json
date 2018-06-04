@@ -26,6 +26,32 @@
         ]
     },
     {
+        "outputFile": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hdpi-v4/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 552
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/wear/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {

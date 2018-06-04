@@ -15,8 +15,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
 
     dexOptions {
         javaMaxHeapSize "4g"

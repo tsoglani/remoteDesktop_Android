@@ -58,4 +58,5 @@
     <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Interromper transmissão"</string>
     <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

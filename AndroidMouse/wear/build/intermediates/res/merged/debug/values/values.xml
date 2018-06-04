@@ -62,6 +62,15 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="complicationDrawable_backgroundColor">#00000000</color>
+    <color name="complicationDrawable_borderColor">#80000000</color>
+    <color name="complicationDrawable_highlightColor">#4DFFFFFF</color>
+    <color name="complicationDrawable_iconColor">#FFFFFFFF</color>
+    <color name="complicationDrawable_rangedValuePrimaryColor">#FFFFFFFF</color>
+    <color name="complicationDrawable_rangedValueSecondaryColor">#80FFFFFF</color>
+    <color name="complicationDrawable_textColor">#FFFFFFFF</color>
+    <color name="complicationDrawable_titleColor">#80FFFFFF</color>
+    <color name="config_scrim_color">#80000000</color>
     <color name="dark_blue">#1565C0</color>
     <color name="dark_grey">#424242</color>
     <color name="dark_red">#D32F2F</color>
@@ -89,6 +98,9 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="orange">#FF6D3F</color>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -140,10 +152,13 @@
     <declare-styleable name="CircledImageView"><attr name="android:src"/><attr format="color" name="circle_color"/><attr format="dimension" name="circle_radius"/><attr format="dimension" name="circle_radius_pressed"/><attr format="dimension" name="circle_border_width"/><attr format="color" name="circle_border_color"/><attr name="circle_border_cap"><enum name="butt" value="0"/><enum name="round" value="1"/><enum name="square" value="2"/></attr><attr format="dimension" name="circle_padding"/><attr format="dimension" name="shadow_width"/><attr format="dimension" name="image_circle_percentage"/><attr format="dimension" name="image_horizontal_offcenter_percentage"/><attr format="color" name="image_tint"/><attr format="fraction" name="circle_radius_percent"/><attr format="fraction" name="circle_radius_pressed_percent"/><attr name="square_dimen"><enum name="none" value="0"/><enum name="height" value="1"/><enum name="width" value="2"/></attr></declare-styleable>
     <declare-styleable name="CircularButton"><attr name="android:src"/><attr name="imageScaleMode"><enum name="fit" value="0"/><enum name="center" value="1"/></attr><attr name="android:color"/><attr name="android:clickable"/><attr format="color|reference" name="buttonRippleColor"/><attr name="android:elevation"/><attr name="android:stateListAnimator"/><attr format="dimension" name="pressedButtonTranslationZ"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
+    <declare-styleable name="ComplicationDrawable"><attr format="color" name="backgroundColor"/><attr format="reference" name="backgroundDrawable"/><attr format="color" name="textColor"/><attr format="color" name="titleColor"/><attr format="string" name="textTypeface"/><attr format="string" name="titleTypeface"/><attr format="dimension" name="textSize"/><attr format="dimension" name="titleSize"/><attr format="color" name="iconColor"/><attr format="color" name="borderColor"/><attr format="dimension" name="borderRadius"/><attr name="borderStyle"><enum name="none" value="0"/><enum name="solid" value="1"/><enum name="dashed" value="2"/></attr><attr format="dimension" name="borderDashWidth"/><attr format="dimension" name="borderDashGap"/><attr format="dimension" name="borderWidth"/><attr format="dimension" name="rangedValueRingWidth"/><attr format="color" name="rangedValuePrimaryColor"/><attr format="color" name="rangedValueSecondaryColor"/><attr format="boolean" name="rangedValueProgressHidden"/><attr format="color" name="highlightColor"/></declare-styleable>
     <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr></declare-styleable>
     <declare-styleable name="DelayedConfirmationView"><attr format="integer" name="update_interval"/></declare-styleable>
     <declare-styleable name="DotsPageIndicator"><attr format="dimension" name="dotSpacing"/><attr format="dimension" name="dotRadius"/><attr format="dimension" name="dotRadiusSelected"/><attr format="color" name="dotColor"/><attr format="color" name="dotColorSelected"/><attr format="boolean" name="dotFadeWhenIdle"/><attr format="integer" name="dotFadeOutDelay"/><attr format="integer" name="dotFadeOutDuration"/><attr format="integer" name="dotFadeInDuration"/><attr format="color" name="dotShadowColor"/><attr format="dimension" name="dotShadowRadius"/><attr format="dimension" name="dotShadowDx"/><attr format="dimension" name="dotShadowDy"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy"><enum name="blocking" value="0"/><enum name="async" value="1"/></attr><attr format="integer" name="fontProviderFetchTimeout"><enum name="forever" value="-1"/></attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle"><enum name="normal" value="0"/><enum name="italic" value="1"/></attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -154,11 +169,11 @@
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
     <declare-styleable name="PageIndicatorView"><attr format="dimension" name="pageIndicatorDotSpacing"/><attr format="dimension" name="pageIndicatorDotRadius"/><attr format="dimension" name="pageIndicatorDotRadiusSelected"/><attr format="color" name="pageIndicatorDotColor"/><attr format="color" name="pageIndicatorDotColorSelected"/><attr format="boolean" name="pageIndicatorDotFadeWhenIdle"/><attr format="integer" name="pageIndicatorDotFadeOutDelay"/><attr format="integer" name="pageIndicatorDotFadeOutDuration"/><attr format="integer" name="pageIndicatorDotFadeInDuration"/><attr format="color" name="pageIndicatorDotShadowColor"/><attr format="dimension" name="pageIndicatorDotShadowRadius"/><attr format="dimension" name="pageIndicatorDotShadowDx"/><attr format="dimension" name="pageIndicatorDotShadowDy"/></declare-styleable>
-    <declare-styleable name="PercentLayout_Layout"><attr format="fraction" name="layout_widthPercent"/><attr format="fraction" name="layout_heightPercent"/><attr format="fraction" name="layout_marginPercent"/><attr format="fraction" name="layout_marginLeftPercent"/><attr format="fraction" name="layout_marginTopPercent"/><attr format="fraction" name="layout_marginRightPercent"/><attr format="fraction" name="layout_marginBottomPercent"/><attr format="fraction" name="layout_marginStartPercent"/><attr format="fraction" name="layout_marginEndPercent"/></declare-styleable>
+    <declare-styleable name="PercentLayout_Layout"><attr format="fraction" name="layout_widthPercent"/><attr format="fraction" name="layout_heightPercent"/><attr format="fraction" name="layout_marginPercent"/><attr format="fraction" name="layout_marginLeftPercent"/><attr format="fraction" name="layout_marginTopPercent"/><attr format="fraction" name="layout_marginRightPercent"/><attr format="fraction" name="layout_marginBottomPercent"/><attr format="fraction" name="layout_marginStartPercent"/><attr format="fraction" name="layout_marginEndPercent"/><attr format="fraction" name="layout_aspectRatio"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="ProgressSpinner"><attr format="color|reference" name="color_sequence"/></declare-styleable>
-    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/><attr format="boolean" name="fastScrollEnabled"/><attr format="reference" name="fastScrollVerticalThumbDrawable"/><attr format="reference" name="fastScrollVerticalTrackDrawable"/><attr format="reference" name="fastScrollHorizontalThumbDrawable"/><attr format="reference" name="fastScrollHorizontalTrackDrawable"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
@@ -170,7 +185,7 @@
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="test" value="3"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
     <declare-styleable name="WatchViewStub"><attr format="reference" name="rectLayout"/><attr format="reference" name="roundLayout"/></declare-styleable>
-    <declare-styleable name="WearableActionDrawer"><attr format="reference" name="action_menu"/><attr format="boolean" name="show_overflow_in_peek"/></declare-styleable>
+    <declare-styleable name="WearableActionDrawer"><attr format="reference" name="action_menu"/><attr format="string" name="drawer_title"/><attr format="boolean" name="show_overflow_in_peek"/></declare-styleable>
     <declare-styleable name="WearableDialogPreference"><attr format="string" name="neutralButtonText"/><attr format="reference" name="positiveButtonIcon"/><attr format="reference" name="neutralButtonIcon"/><attr format="reference" name="negativeButtonIcon"/></declare-styleable>
     <declare-styleable name="WearableDrawerView"><attr format="reference" name="peek_view"/><attr format="reference" name="drawer_content"/></declare-styleable>
     <declare-styleable name="WearableFrameLayout"><attr name="layout_gravityRound"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="dimension" name="layout_widthRound"/><attr format="dimension" name="layout_heightRound"/><attr format="dimension" name="layout_marginRound"/><attr format="dimension" name="layout_marginLeftRound"/><attr format="dimension" name="layout_marginTopRound"/><attr format="dimension" name="layout_marginRightRound"/><attr format="dimension" name="layout_marginBottomRound"/><attr name="android:foregroundGravity"/><attr name="android:foreground"/><attr name="android:measureAllChildren"/><attr name="android:foregroundTint"/></declare-styleable>
@@ -235,10 +250,25 @@
     <dimen name="action_drawer_peek_view_height">43dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="blank_config_dash_gap">2dp</dimen>
+    <dimen name="blank_config_dash_width">2dp</dimen>
     <dimen name="card_content_padding_rect_top">4dp</dimen>
     <dimen name="circular_button_elevation">1dp</dimen>
     <dimen name="circular_button_elevation_pressed">6dp</dimen>
     <dimen name="close_button_diameter">104dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="complicationDrawable_borderDashGap">1dp</dimen>
+    <dimen name="complicationDrawable_borderDashWidth">1dp</dimen>
+    <dimen name="complicationDrawable_borderRadius">65536dp</dimen>
+    <dimen name="complicationDrawable_borderWidth">1dp</dimen>
+    <dimen name="complicationDrawable_rangedValueRingWidth">2dp</dimen>
+    <dimen name="complicationDrawable_textSize">14sp</dimen>
+    <dimen name="complicationDrawable_titleSize">14sp</dimen>
+    <dimen name="config_margin">12dp</dimen>
     <dimen name="confirmation_overlay_image_size">64dp</dimen>
     <dimen name="confirmation_overlay_text_size">14sp</dimen>
     <dimen name="diag_button_bottom_padding">10dp</dimen>
@@ -260,12 +290,32 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="dismiss_padding">16dp</dimen>
     <dimen name="drawer_view_edge_size">38dp</dimen>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="mr_media_route_controller_art_max_height">320dp</dimen>
     <dimen name="nav_drawer_single_page_circle_radius">24dp</dimen>
     <dimen name="nav_drawer_single_page_icon_padding">6dp</dimen>
     <dimen name="nav_drawer_single_page_icon_size">28dp</dimen>
     <dimen name="nav_drawer_text_size">12sp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
     <dimen name="peek_view_bottom_padding">8dp</dimen>
     <dimen name="peek_view_icon_size">22dp</dimen>
     <dimen name="peek_view_top_padding">8dp</dimen>
@@ -275,14 +325,16 @@
     <dimen name="screen_percentage_15">0dp</dimen>
     <dimen name="wearable_drawer_view_elevation">12dp</dimen>
     <dimen name="wrv_curve_default_x_offset">24dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_drawer_item_first_item_top_padding" type="fraction">15%</item>
     <item name="action_drawer_item_last_item_bottom_padding" type="fraction">15%</item>
     <item name="action_drawer_item_left_padding" type="fraction">15%</item>
     <item name="action_drawer_item_right_padding" type="fraction">10%</item>
     <item name="confirmation_overlay_margin_above_text" type="fraction">5%</item>
     <item name="confirmation_overlay_margin_side" type="fraction">4.167%</item>
-    <fraction name="nav_drawer_margin_2_items">16.66%</fraction>
-    <fraction name="nav_drawer_margin_3_items">13%</fraction>
+    <fraction name="nav_drawer_margin_2_items">20%</fraction>
+    <fraction name="nav_drawer_margin_3_items">16%</fraction>
     <fraction name="nav_drawer_margin_4_items_horizontal">13%</fraction>
     <fraction name="nav_drawer_margin_4_items_vertical">16.9%</fraction>
     <fraction name="nav_drawer_margin_5_items_horizontal_middle_row">13%</fraction>
@@ -301,9 +353,14 @@
     <item name="cast_notification_id" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
     <item name="up" type="id"/>
     <item name="wearable_support_navigation_drawer_view_pager" type="id"/>
     <item name="wearable_support_overlay_confirmation" type="id"/>
@@ -314,7 +371,11 @@
     <integer name="action_chooser_anim_duration">250</integer>
     <integer name="action_chooser_bounce_delay">500</integer>
     <integer name="action_chooser_confirmation_duration">500</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="complicationDrawable_borderStyle">1</integer>
+    <integer name="complicationDrawable_highlightDurationMs">300</integer>
     <integer name="google_play_services_version">7571000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
     <plurals name="time_difference_short_days"><item quantity="one"><ns1:g id="number_of_days">%d</ns1:g>d</item>
 <item quantity="other"><ns1:g id="number_of_days">%d</ns1:g>d</item>
 </plurals>
@@ -333,6 +394,9 @@
     <plurals name="time_difference_words_minutes"><item quantity="one"><ns1:g id="number_of_minutes">%d</ns1:g> min</item>
 <item quantity="other"><ns1:g id="number_of_minutes">%d</ns1:g> mins</item>
 </plurals>
+    <string name="a11y_no_data">No data</string>
+    <string name="a11y_no_permission">No permission to access data</string>
+    <string name="a11y_template_range"><ns1:g example="654" id="value">%1$f</ns1:g> of <ns1:g example="10000" id="max">%2$f</ns1:g></string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -416,6 +480,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="complicationDrawable_noDataText" translatable="false">--</string>
+    <string name="complicationDrawable_textTypeface">sans-serif-condensed</string>
+    <string name="complicationDrawable_titleTypeface">sans-serif-condensed</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
@@ -435,9 +502,10 @@
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
     <string name="navigation_drawer_content_description">Navigation drawer</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <string name="time_difference_now">now</string>
+    <string name="time_difference_now">Now</string>
     <string name="time_difference_short_days_and_hours"><ns1:g example="3d" id="short_days">%1$s</ns1:g>\u0020<ns1:g example="13h" id="short_hours">%2$s</ns1:g></string>
     <string name="time_difference_short_hours_and_minutes"><ns1:g example="13h" id="short_hours">%1$s</ns1:g>\u0020<ns1:g example="58m" id="short_minutes">%2$s</ns1:g></string>
     <string name="title_activity_mouse_view">MouseView</string>
@@ -1557,6 +1625,22 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -1729,6 +1813,8 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
     <style name="Widget.MediaRouter.Light.MediaRouteButton" parent="Widget.AppCompat.Light.ActionButton">
         <item name="android:minWidth">56dp</item>
         <item name="android:minHeight">48dp</item>

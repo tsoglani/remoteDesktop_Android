@@ -782,7 +782,16 @@ if(type.equals("Wear")){
             return;
         }
 
-        ps.println("Motion:x:" + x_axis.getText().toString() + "@@" + "y:" + y_axis.getText().toString() + "@@" + "z:" + z_axis.getText().toString());
+        new Thread(){
+            @Override
+            public void run() {
+                try {
+                    ps.println("Motion:x:" + x_axis.getText().toString() + "@@" + "y:" + y_axis.getText().toString() + "@@" + "z:" + z_axis.getText().toString());
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+        }.start();
 
 
     }

@@ -18,6 +18,9 @@
     <plurals formatted="false" msgid="5776851900234724977" name="time_difference_words_minutes"><item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
 <item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
 </plurals>
+    <string msgid="2797946772857096171" name="a11y_no_data">"Sem dados"</string>
+    <string msgid="4300397698563265356" name="a11y_no_permission">"Sem permissão para acessar os dados"</string>
+    <string msgid="1721092186473175874" name="a11y_template_range">"<ns1:g id="VALUE">%1$f</ns1:g> de <ns1:g id="MAX">%2$f</ns1:g>"</string>
     <string msgid="2392275098186720450" name="buttons_rect_bottom_center">"Parte inferior"</string>
     <string msgid="8019030592199928760" name="buttons_rect_bottom_left">"Parte inferior esquerda"</string>
     <string msgid="7032364303033228242" name="buttons_rect_bottom_right">"Parte inferior direita"</string>
@@ -82,7 +85,8 @@
     <string msgid="4031765397716487527" name="generic_cancel">"Cancelar"</string>
     <string msgid="9120485112909311969" name="generic_yes">"Sim"</string>
     <string msgid="4674705273641635102" name="navigation_drawer_content_description">"Gaveta de navegação"</string>
-    <string msgid="4600747107629098989" name="time_difference_now">"agora"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8966826895301384054" name="time_difference_now">"Agora"</string>
     <string msgid="3432160628957797741" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
     <string msgid="4219196550677438545" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
 </resources>

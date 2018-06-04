@@ -4,6 +4,10 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
     },
@@ -12,12 +16,24 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_play.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/item_down.png",
@@ -40,6 +56,18 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_0_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_0_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_setting_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_setting_dark.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -48,8 +76,20 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png",
@@ -62,6 +102,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/item_up.png",
@@ -80,12 +124,24 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
@@ -96,8 +152,16 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_off_mono_dark.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fab_shadow_mini.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/res/drawable-xxhdpi-v4/fab_shadow_mini.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
@@ -112,6 +176,14 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
@@ -120,12 +192,24 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_0.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cab_done_mtrl_alpha.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable-xxhdpi/ic_cab_done_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_light.9.png",
@@ -144,8 +228,24 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_normal_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/res/drawable-xxhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
@@ -154,6 +254,10 @@
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
@@ -184,24 +288,44 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_setting_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mr_ic_audio_vol.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/mr_ic_audio_vol.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_play.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_play.png"
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mr_ic_audio_vol.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/mr_ic_audio_vol.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_play.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_play.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_off_mono_dark.png",
@@ -216,8 +340,28 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_disabled_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_disabled_mono_dark.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_disabled_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_2.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_2.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_1.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_1.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_light.9.png",
@@ -228,12 +372,28 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_light.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_2_light.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_2_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fab_shadow_mini.png",
@@ -260,8 +420,20 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_on.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_on.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_0.png",
@@ -270,6 +442,14 @@
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_disabled_mono_dark.png",
@@ -296,12 +476,12 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_light.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_light.9.png",
@@ -324,6 +504,10 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/res/drawable-xxhdpi-v4/item_down.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png"
     },
@@ -332,16 +516,28 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_light.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_play_light.png"
     },
     {
+        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/item_down.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/res/drawable-xxhdpi-v4/item_down.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
@@ -360,8 +556,16 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_2_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_2_light.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
@@ -384,6 +588,14 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_play.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_play.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
     },
@@ -400,6 +612,18 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/item_up.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.yalantis/sidemenu/1.0/res/drawable-xxhdpi-v4/item_up.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cab_done_mtrl_alpha.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable-xxhdpi/ic_cab_done_mtrl_alpha.png"
     },
@@ -412,8 +636,20 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_off_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_off_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fab_shadow.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/res/drawable-xxhdpi-v4/fab_shadow.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_light.9.png",
@@ -432,12 +668,36 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_on.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_play_dark.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_dark.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_pause_dark.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_dark.9.png",
@@ -464,12 +724,36 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_normal_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_off_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.alexkolpa/floating-action-button-toolbar/0.5.1/res/drawable-xxhdpi-v4/ic_launcher.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_dark.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_play_dark.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
@@ -478,6 +762,10 @@
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_normal_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
@@ -500,8 +788,20 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_add_white_24dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.alexkolpa/floating-action-button-toolbar/0.5.1/res/drawable-xxhdpi-v4/ic_add_white_24dp.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_pause_dark.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
@@ -540,6 +840,10 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_pause_light.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -552,12 +856,28 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.alexkolpa/floating-action-button-toolbar/0.5.1/res/drawable-xxhdpi-v4/ic_launcher.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_normal_light.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_light.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
@@ -570,6 +890,14 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_play_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
@@ -596,6 +924,10 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_setting_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_pause.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_pause.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_light.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
     },
@@ -612,12 +944,20 @@
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_setting_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_setting_light.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
@@ -656,8 +996,20 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_light.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
@@ -676,12 +1028,24 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_normal_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_light.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_0.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_0.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -708,16 +1072,36 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_off_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_1_light.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_1_light.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_light.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_play_light.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/res/drawable-xxhdpi/powered_by_google_dark.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_normal_light.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_1_mono_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_1_mono_dark.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_on_0_light.png",
@@ -726,6 +1110,14 @@
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_dark.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/drawable-xxhdpi-v4/ic_cast_dark.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
@@ -738,6 +1130,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_2.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable-xxhdpi/cast_ic_notification_2.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_dark.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
@@ -764,6 +1160,10 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_add_white_24dp.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.alexkolpa/floating-action-button-toolbar/0.5.1/res/drawable-xxhdpi-v4/ic_add_white_24dp.png"
     },
@@ -778,6 +1178,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
@@ -798,6 +1202,10 @@
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_dark.9.png",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cab_done_mtrl_alpha.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/drawable-xxhdpi/ic_cab_done_mtrl_alpha.png"
     },
     {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_on.png",

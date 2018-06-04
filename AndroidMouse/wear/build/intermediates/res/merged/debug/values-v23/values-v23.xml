@@ -16,6 +16,9 @@
 <item name="android:textColor">?android:attr/textColorPrimary</item>
 <item name="android:fontFamily">sans-serif-condensed-light</item>
 </style>
+    <style name="WearableActionDrawerTitleText" parent="android:TextAppearance.Material.Subhead">
+<item name="android:alpha">0.7</item>
+</style>
     <style name="WearableWatchFaceSettings" parent="android:Theme.DeviceDefault.Dialog.Alert">
 </style>
 </resources>

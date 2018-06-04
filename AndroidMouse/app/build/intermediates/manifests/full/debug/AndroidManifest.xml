@@ -87,6 +87,10 @@
             </intent-filter>
         </service>
 
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2" />
+
         <activity
             android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
             android:configChanges="orientation|screenSize"
@@ -95,7 +99,11 @@
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

@@ -4,6 +4,10 @@
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/layout-land/joystick.xml"
     },
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-land/joystick.xml",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/layout-land/joystick.xml"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-land/joystick.xml",
         "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/layout-land/joystick.xml"
     }

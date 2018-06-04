@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
