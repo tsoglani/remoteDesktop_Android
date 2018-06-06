@@ -1835,7 +1835,7 @@ int id nested_icon 0x7f1301a7
 int id never 0x7f13006f
 int id none 0x7f130034
 int id normal 0x7f130030
-int id notification_background 0x7f13017f
+int id notification_background 0x7f13017e
 int id notification_main_column 0x7f130179
 int id notification_main_column_container 0x7f130178
 int id options_view 0x7f130183
@@ -1870,7 +1870,7 @@ int id restart 0x7f1300d8
 int id restart_text_view 0x7f1300d7
 int id reverse 0x7f13018e
 int id right 0x7f130048
-int id right_icon 0x7f13017e
+int id right_icon 0x7f13017f
 int id right_side 0x7f13017a
 int id right_spinner 0x7f1300eb
 int id rightbutton_relative 0x7f1300e9

@@ -96,10 +96,10 @@ public final class R {
 		public static final int line1 = 0x7f130007;
 		public static final int line3 = 0x7f130008;
 		public static final int normal = 0x7f130030;
-		public static final int notification_background = 0x7f13017f;
+		public static final int notification_background = 0x7f13017e;
 		public static final int notification_main_column = 0x7f130179;
 		public static final int notification_main_column_container = 0x7f130178;
-		public static final int right_icon = 0x7f13017e;
+		public static final int right_icon = 0x7f13017f;
 		public static final int right_side = 0x7f13017a;
 		public static final int text = 0x7f13000c;
 		public static final int text2 = 0x7f13000d;

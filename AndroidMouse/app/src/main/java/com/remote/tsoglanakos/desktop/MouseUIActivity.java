@@ -1,3 +1,4 @@
+
 package com.remote.tsoglanakos.desktop;
 
 import android.app.Activity;
@@ -24,6 +25,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -57,6 +59,8 @@ import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.Wearable;
 import com.mingle.sweetpick.CustomDelegate;
 import com.mingle.sweetpick.SweetSheet;
+
+import junit.framework.Assert;
 
 import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 
@@ -111,7 +115,7 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
     private static int qualityPad, qualityCam;
     public static final String is_zoom_radio_on_String = "isZoomRadioUsed";
     public static final String isReverseString = "isReverseScrollingUsed", show_computer_mouse_seperateString = "show_computer_mouse_seperate";
-     static String type;
+    static String type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,25 +130,30 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
         if (type != null) {
             try {
                 Toast.makeText(MouseUIActivity.this,type, Toast.LENGTH_SHORT).show();
-                if (type.equalsIgnoreCase("bluetooth")) {
-                    ps.println("bluetooth");
-                    receivedImageX = 200;
-                    receivedImageY = 200;
-                    sleepingTime = 1300;
-                } else if (type.equals("Internet")) {
-                    receivedImageX = 580;
-                    receivedImageY = 580;
-                    sleepingTime = 1000;
-                } else if (type.equals("WLAN")) {
-                    receivedImageX = 900;
-                    receivedImageY = 900;
-                    sleepingTime = 400;
-                } else if (type.equals("Wear")) {
-                    receivedImageX = 900;
-                    receivedImageY = 900;
-                    sleepingTime = 2000;
+                new Thread(){
+                    @Override
+                    public void run() {
+                        if (type.equalsIgnoreCase("bluetooth")) {
+                            ps.println("bluetooth");
+                            receivedImageX = 200;
+                            receivedImageY = 200;
+                            sleepingTime = 1300;
+                        } else if (type.equals("Internet")) {
+                            receivedImageX = 580;
+                            receivedImageY = 580;
+                            sleepingTime = 1000;
+                        } else if (type.equals("WLAN")) {
+                            receivedImageX = 900;
+                            receivedImageY = 900;
+                            sleepingTime = 400;
+                        } else if (type.equals("Wear")) {
+                            receivedImageX = 900;
+                            receivedImageY = 900;
+                            sleepingTime = 2000;
 
-                }
+                        }                    }
+                }.start();
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -229,8 +238,8 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
                         pd.dismiss();
                 } catch (Exception e) {
                 }
-                 if (!type.equals("Wear"))
-                receivedImageX = getSavedInt(MouseUIActivity.this, "Resolution", receivedImageX);
+                if (!type.equals("Wear"))
+                    receivedImageX = getSavedInt(MouseUIActivity.this, "Resolution", receivedImageX);
                 if (receivedImageX > maxResolution) {
                     receivedImageX = maxResolution;
                 }
@@ -340,16 +349,16 @@ public class MouseUIActivity extends ActionBarActivity implements SensorEventLis
         ps = null;
         MouseUIActivity.bf = null;
 
-if(type.equals("Wear")){
-    Bitmap.Config conf = Bitmap.Config.ARGB_8888;
-    Bitmap bmp = Bitmap.createBitmap(100, 100, conf);
-        Asset asset = createAssetFromBitmap(bmp);
-        PutDataMapRequest request = PutDataMapRequest.create("/close");
-        DataMap map = request.getDataMap();
-        map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
-        map.putAsset("profileImage", asset);
-    if(client!=null)
-        Wearable.DataApi.putDataItem(client, request.asPutDataRequest());}
+        if(type.equals("Wear")){
+            Bitmap.Config conf = Bitmap.Config.ARGB_8888;
+            Bitmap bmp = Bitmap.createBitmap(100, 100, conf);
+            Asset asset = createAssetFromBitmap(bmp);
+            PutDataMapRequest request = PutDataMapRequest.create("/close");
+            DataMap map = request.getDataMap();
+            map.putLong("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+            map.putAsset("profileImage", asset);
+            if(client!=null)
+                Wearable.DataApi.putDataItem(client, request.asPutDataRequest());}
 
     }
 
@@ -589,13 +598,25 @@ if(type.equals("Wear")){
     }
 
     public void rightClickFunction(View v) {
-        ps.println("RIGHT_CLICK");
-        ps.flush();
+        new Thread(){
+            @Override
+            public void run() {
+                ps.println("RIGHT_CLICK");
+                ps.flush();            }
+        }.start();
+
     }
 
     public void leftClickFunction(View v) {
-        ps.println("LEFT_CLICK");
-        ps.flush();
+
+        new Thread(){
+            @Override
+            public void run() {
+                ps.println("LEFT_CLICK");
+                ps.flush();            }
+        }.start();
+
+
     }
 
     @Override
@@ -627,12 +648,18 @@ if(type.equals("Wear")){
                 p3f.onChangeView();
                 p3f = null;
             }
-            if (ps != null) {
-                ps.println("Null");
-                ps.flush();
-                ps.close();
+
+                new Thread() {
+                    @Override
+                    public void run() {
+                        if (ps != null) {
+                        ps.println("NULL");
+                        ps.flush();
+                        ps.close();}
+                    }
+                }.start();
                 ps = null;
-            }
+
         } catch (Exception e) {
         }
         if (bf != null) {
@@ -802,7 +829,7 @@ if(type.equals("Wear")){
     private int receivedImageX = 1000, receivedImageY = 1000;
     private boolean isRunning = false;
     private int sleepintTimeForScrenShot = 700;
-
+    boolean isCorruped=false;
     public void startReceivingImages(final Activity activity, final boolean getComputerScreen) throws RuntimeException {
 
         bitmapimage = null;
@@ -864,7 +891,7 @@ if(type.equals("Wear")){
                         if (!isReceivingImages) {
                             break;
                         }
-                        synchronized (lock) {
+//                        synchronized (lock) {
                             if (ps == null) {
                                 Intent intent = new Intent(MouseUIActivity.this, MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -878,15 +905,37 @@ if(type.equals("Wear")){
 
                             int bytesRead = 0;
 
-                          final  byte[] pic = new byte[receivedImageX * receivedImageX];
+                            final  byte[] pic = new byte[receivedImageX * receivedImageX];
                             try {
 
+
+
+
                                 bytesRead = bf.read(pic, 0, pic.length);
+
+
+                                //imageInputStream.seek(imageInputStream.getStreamPosition() - 2);
+
+                final byte[] lastTwoBytes = new byte[2];
+                                lastTwoBytes[0]=pic[bytesRead-2];
+                                lastTwoBytes[1]=pic[bytesRead-1];
+                if (lastTwoBytes[0] ==-1 || lastTwoBytes[1] == -39) {
+                    isCorruped=false;
+                } else {
+                    isCorruped=true;
+//                    bf.skipBytes(receivedImageX * receivedImageX);
+                }
+
+                                Log.e("bytesRead:"+bytesRead+" pic.length"+pic.length+"::astTwoBytes[0]"+lastTwoBytes[0],"astTwoBytes[1]"+lastTwoBytes[1]);
+
+
                                 try {
 
-
                                     boolean is_show_computer_mouse_seperate = MouseUIActivity.getSavedBoolean(MouseUIActivity.this, show_computer_mouse_seperateString, true);
+
+                                   if (!isCorruped)
                                     bitmapimage = BitmapFactory.decodeByteArray(pic, 0, bytesRead);
+
 
                                     if ((!PageOneFragment.waitUntilDraw) && getComputerScreen) {//
 
@@ -956,7 +1005,7 @@ if(type.equals("Wear")){
 //                                                                client=null;
 
 
-                                                                        sendImage("/image", pic);
+                                                                sendImage("/image", pic);
 
                                                                 Thread.sleep(500);
 
@@ -968,6 +1017,7 @@ if(type.equals("Wear")){
                                                         }
 
                                                         if (iv != null) {
+                                                            if (!isCorruped)
                                                             iv.setImageBitmap(bitmapimage);
 
 
@@ -1056,7 +1106,7 @@ if(type.equals("Wear")){
                                 System.gc();
 
                             }
-                        }
+//                        }
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -1072,8 +1122,14 @@ if(type.equals("Wear")){
                 super.onPostExecute(aVoid);
                 isRunning = false;
                 if (!getComputerScreen) {
-                    if (ps != null)
-                        ps.println("STOP_CAM");
+                    if (ps != null) {
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                ps.println("STOP_CAM");
+                            }
+                        }.start();
+                    }
                 }
 
                 if (ps != null)
@@ -1092,6 +1148,7 @@ if(type.equals("Wear")){
     }
     private void sendImage(final String path, final byte[] data) {
         if (client == null) {
+
             createConnection();
         }
 
@@ -1214,15 +1271,19 @@ if(type.equals("Wear")){
     }
 
     public static void createConnection() {
-
+new Thread(){
+    @Override
+    public void run() {
         try {
 
             InternetConnection.returnSocket = new Socket(InternetConnection.lastIP, InternetConnection.port);
             MouseUIActivity.ps = new PrintWriter(new BufferedWriter(
                     new OutputStreamWriter(InternetConnection.returnSocket.getOutputStream())),
                     true);
+
             ps.println(MainActivity.typeOfConntection);
             MouseUIActivity.bf = new DataInputStream(InternetConnection.returnSocket.getInputStream());
+            InternetConnection.returnSocket.setReceiveBufferSize(40000);
             ps.println("STOP_AUDIO_RECORDING");
         } catch (IOException e) {
             try {
@@ -1232,7 +1293,9 @@ if(type.equals("Wear")){
                 e1.printStackTrace();
             }
             e.printStackTrace();
-        }
+        }    }
+}.start();
+
     }
 
 
@@ -1393,7 +1456,7 @@ if(type.equals("Wear")){
     boolean isKeyboardOnView = false;
 
     public void keyboardFunction(View v) {
-        Button b = (Button) v;
+       final Button b = (Button) v;
         if (b.getText().toString().equalsIgnoreCase("Hide")) {
             if (mSweetSheetKeyboard != null && mSweetSheetKeyboard.isShow())
                 mSweetSheetKeyboard.dismiss();
@@ -1403,16 +1466,28 @@ if(type.equals("Wear")){
         final EditText txt = (EditText) findViewById(R.id.textScreen);
 
         if (b.getText().toString().equalsIgnoreCase("send")) {
+new Thread(){
+    @Override
+    public void run() {
+        ps.println("keyboard Word:" + txt.getText().toString());
+        ps.flush();
 
-            ps.println("keyboard Word:" + txt.getText().toString());
-            ps.flush();
+    }
+}.start();
             hideKeyboard(txt);
             txt.setText("   Enter Text   ");
             txt.setTextColor(getResources().getColor(R.color.transparent_black_percent_30));
 
         } else {
-            ps.println("keyboard:" + toUperCase(b.getText().toString()));
-            ps.flush();
+            new Thread(){
+                @Override
+                public void run() {
+                    ps.println("keyboard:" + toUperCase(b.getText().toString()));
+                    ps.flush();
+
+                }
+            }.start();
+
         }
     }
 
@@ -2011,7 +2086,7 @@ if(type.equals("Wear")){
 //    }
 //
     public void pauseJoystickFunction(View v) {
-      final  String pauseString = getData("pause", "ESC");
+        final  String pauseString = getData("pause", "ESC");
         new Thread(){
             @Override
             public void run() {
@@ -2241,14 +2316,14 @@ if(type.equals("Wear")){
                     public void run() {
 
 
-                if (isChecked) {
+                        if (isChecked) {
 
-                    MouseUIActivity.ps.println("keyboard:" + "ALT_START");
-                    MouseUIActivity.ps.flush();
-                } else {
-                    MouseUIActivity.ps.println("keyboard:" + "ALT_STOP");
-                    MouseUIActivity.ps.flush();
-                }
+                            MouseUIActivity.ps.println("keyboard:" + "ALT_START");
+                            MouseUIActivity.ps.flush();
+                        } else {
+                            MouseUIActivity.ps.println("keyboard:" + "ALT_STOP");
+                            MouseUIActivity.ps.flush();
+                        }
                     }
                 }.start();
             }
@@ -2278,13 +2353,13 @@ if(type.equals("Wear")){
                 new Thread(){
                     @Override
                     public void run() {
-                if (isChecked) {
-                    MouseUIActivity.ps.println("keyboard:" + "CTRL_START");
-                    MouseUIActivity.ps.flush();
-                } else {
-                    MouseUIActivity.ps.println("keyboard:" + "CTRL_STOP");
-                    MouseUIActivity.ps.flush();
-                }}}.start();
+                        if (isChecked) {
+                            MouseUIActivity.ps.println("keyboard:" + "CTRL_START");
+                            MouseUIActivity.ps.flush();
+                        } else {
+                            MouseUIActivity.ps.println("keyboard:" + "CTRL_STOP");
+                            MouseUIActivity.ps.flush();
+                        }}}.start();
             }
         });
 

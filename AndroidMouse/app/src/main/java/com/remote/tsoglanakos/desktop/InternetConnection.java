@@ -116,6 +116,7 @@ public class InternetConnection extends Service {
                 new Thread() {
                     public void run() {
                         try {
+
                             //      System.out.println(checkIp + "  :  " + InetAddress.getByName(checkIp).isReachable(2000));
 
                             final Socket s = new Socket(checkIp, port);

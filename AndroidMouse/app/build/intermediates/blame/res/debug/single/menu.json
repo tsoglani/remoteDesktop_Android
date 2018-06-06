@@ -8,31 +8,7 @@
         "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_contextual_action_bar.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/menu/menu_contextual_action_bar.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_contextual_action_bar.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/menu/menu_contextual_action_bar.xml"
-    },
-    {
         "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_contextual_action_bar.xml",
         "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.github.darsh2/MultipleImageSelect/v0.0.3/res/menu/menu_contextual_action_bar.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/menu/menu_main.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_mouse.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/menu/menu_mouse.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/menu/menu_main.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/menu/menu_mouse.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/src/main/res/menu/menu_mouse.xml"
     }
 ]

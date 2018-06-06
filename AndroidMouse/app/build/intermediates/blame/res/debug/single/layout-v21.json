@@ -4,14 +4,6 @@
         "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.3.0/res/layout-v21/dismiss_overlay.xml"
     },
     {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/accept_deny_dialog.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/dismiss_overlay.xml"
-    },
-    {
         "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
         "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.3.0/res/layout-v21/overlay_confirmation.xml"
     },
@@ -22,14 +14,6 @@
     {
         "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
-        "source": "/media/tsoglani/tsoglani/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/overlay_confirmation.xml"
-    },
-    {
-        "merged": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
-        "source": "/media/tsoglani/tsoglani1/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha2/res/layout-v21/dismiss_overlay.xml"
     },
     {
         "merged": "/media/tsoglani/F921-DFB4/github/remoteDesktop_Android/AndroidMouse/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",

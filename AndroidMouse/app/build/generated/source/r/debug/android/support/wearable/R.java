@@ -409,12 +409,12 @@ public final class R {
 		public static final int nested_icon = 0x7f1301a7;
 		public static final int none = 0x7f130034;
 		public static final int normal = 0x7f130030;
-		public static final int notification_background = 0x7f13017f;
+		public static final int notification_background = 0x7f13017e;
 		public static final int notification_main_column = 0x7f130179;
 		public static final int notification_main_column_container = 0x7f130178;
 		public static final int parentPanel = 0x7f130090;
 		public static final int right = 0x7f130048;
-		public static final int right_icon = 0x7f13017e;
+		public static final int right_icon = 0x7f13017f;
 		public static final int right_side = 0x7f13017a;
 		public static final int round = 0x7f13004b;
 		public static final int single_page = 0x7f130084;
